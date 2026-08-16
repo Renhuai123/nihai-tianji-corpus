@@ -1,0 +1,122 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 89500,
+    "topic": "贪狼武曲权禄与父母巨门太阳",
+    "cue_range": [
+      1,
+      50
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 90000,
+    "t_end_ms": 201000,
+    "topic": "杀星化忌、落陷无解与事业停摆",
+    "cue_range": [
+      51,
+      109
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 201500,
+    "t_end_ms": 320500,
+    "topic": "夫妻天府天马与逢九买单",
+    "cue_range": [
+      110,
+      195
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 320500,
+    "t_end_ms": 495000,
+    "topic": "阳宅西北缺位与化忌冲太阳",
+    "cue_range": [
+      196,
+      283
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 504500,
+    "t_end_ms": 642000,
+    "topic": "气色黑点寿限与油即气",
+    "cue_range": [
+      284,
+      386
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 642000,
+    "t_end_ms": 876000,
+    "topic": "男命太阴化忌、婆媳与早婚",
+    "cue_range": [
+      387,
+      547
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 876000,
+    "t_end_ms": 1090000,
+    "topic": "日月反背、机月同梁、半空折翅与太阴落陷",
+    "cue_range": [
+      548,
+      710
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1091000,
+    "t_end_ms": 1356500,
+    "topic": "女命晚运、红鸾结婚与化忌对冲离婚",
+    "cue_range": [
+      711,
+      897
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 1357000,
+    "t_end_ms": 1578000,
+    "topic": "二婚命、日月化科、推宫与颧大压鼻",
+    "cue_range": [
+      898,
+      1058
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 1578000,
+    "t_end_ms": 1735000,
+    "topic": "眼袋子女位、阴骘纹与天罗纹",
+    "cue_range": [
+      1059,
+      1143
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 1736000,
+    "t_end_ms": 2027500,
+    "topic": "太阴坐命、孤鸾命与六亲权禄",
+    "cue_range": [
+      1144,
+      1289
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 2028000,
+    "t_end_ms": 2315500,
+    "topic": "官禄化科、孤鸾与望神用人",
+    "cue_range": [
+      1290,
+      1479
+    ]
+  }
+]

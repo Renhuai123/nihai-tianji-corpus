@@ -1,0 +1,132 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2500,
+    "t_end_ms": 190500,
+    "topic": "紫微在申：英星入庙与杀破狼个性",
+    "cue_range": [
+      1,
+      69
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 191000,
+    "t_end_ms": 474000,
+    "topic": "女命红鸾：批神不批形",
+    "cue_range": [
+      70,
+      198
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 474500,
+    "t_end_ms": 588000,
+    "topic": "诸事皆吉、十年为主与化忌冲夫",
+    "cue_range": [
+      199,
+      262
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 588000,
+    "t_end_ms": 759500,
+    "topic": "批子女与女身男态",
+    "cue_range": [
+      263,
+      353
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 760000,
+    "t_end_ms": 934500,
+    "topic": "仆役化忌、旺夫与西北化解",
+    "cue_range": [
+      354,
+      448
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 935000,
+    "t_end_ms": 1282000,
+    "topic": "安床与分金煞",
+    "cue_range": [
+      449,
+      590
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1282000,
+    "t_end_ms": 1570000,
+    "topic": "民国51年：迷津、身宫与科权入命",
+    "cue_range": [
+      591,
+      704
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1571000,
+    "t_end_ms": 1675000,
+    "topic": "子女阳星：紫微天相与武官星主子",
+    "cue_range": [
+      705,
+      742
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 1676500,
+    "t_end_ms": 2186500,
+    "topic": "雷天大壮、妻长与晚婚",
+    "cue_range": [
+      743,
+      981
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 2195000,
+    "t_end_ms": 2491000,
+    "topic": "疾厄、红鸾入子女与朝向",
+    "cue_range": [
+      982,
+      1104
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 2492000,
+    "t_end_ms": 2701000,
+    "topic": "官相抬眉与想不开",
+    "cue_range": [
+      1105,
+      1198
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 2701000,
+    "t_end_ms": 2944500,
+    "topic": "紫微在子、贪居子午",
+    "cue_range": [
+      1199,
+      1256
+    ]
+  },
+  {
+    "section": 13,
+    "t_start_ms": 2946000,
+    "t_end_ms": 3390500,
+    "topic": "半子送终、合八字与愚善",
+    "cue_range": [
+      1257,
+      1454
+    ]
+  }
+]

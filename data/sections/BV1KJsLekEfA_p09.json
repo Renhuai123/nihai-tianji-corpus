@@ -1,0 +1,122 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 144000,
+    "topic": "十二章总论：紫微绕十二宫",
+    "cue_range": [
+      1,
+      97
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 144000,
+    "t_end_ms": 293500,
+    "topic": "贪狼入命、正科桃花与午宫武官",
+    "cue_range": [
+      98,
+      157
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 294500,
+    "t_end_ms": 509500,
+    "topic": "五形局与南北相、命相同参",
+    "cue_range": [
+      158,
+      256
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 510000,
+    "t_end_ms": 726000,
+    "topic": "贪狼入命文武与官禄权星",
+    "cue_range": [
+      257,
+      352
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 727500,
+    "t_end_ms": 1025500,
+    "topic": "身宫后天与财帛化科破军",
+    "cue_range": [
+      353,
+      492
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1027000,
+    "t_end_ms": 1386000,
+    "topic": "紫微在子宫、日月反背与剋父母",
+    "cue_range": [
+      493,
+      671
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1386000,
+    "t_end_ms": 1561500,
+    "topic": "旺夫定义、兄弟太阴落陷",
+    "cue_range": [
+      672,
+      766
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1561500,
+    "t_end_ms": 1957500,
+    "topic": "疾厄化忌、交友天马、子女空宫与宫位相",
+    "cue_range": [
+      767,
+      954
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 1958500,
+    "t_end_ms": 2424000,
+    "topic": "夫妻廉府、田宅太阳化忌与流年逆转",
+    "cue_range": [
+      955,
+      1143
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 2425000,
+    "t_end_ms": 2791500,
+    "topic": "流年值日、死夫与面大声沙骨粗",
+    "cue_range": [
+      1144,
+      1272
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 2791500,
+    "t_end_ms": 3211500,
+    "topic": "死夫阳宅：中厕与西北厨",
+    "cue_range": [
+      1273,
+      1473
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 3212000,
+    "t_end_ms": 3424000,
+    "topic": "无子宅与东宫床位",
+    "cue_range": [
+      1474,
+      1590
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 10500,
+    "t_end_ms": 168500,
+    "topic": "巨门天刑化忌、君子事天与七杀刚强",
+    "cue_range": [1, 109]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 168500,
+    "t_end_ms": 469500,
+    "topic": "阳宅名位、牢狱鼠窃与紫微近天子",
+    "cue_range": [110, 278]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 470000,
+    "t_end_ms": 620000,
+    "topic": "父母空劫、孤星独守与祸不单行",
+    "cue_range": [279, 360]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 622000,
+    "t_end_ms": 807500,
+    "topic": "科权禄三会与女命太阳化忌",
+    "cue_range": [361, 507]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 807500,
+    "t_end_ms": 1132000,
+    "topic": "男女同盘、财官双美与太阴化忌",
+    "cue_range": [508, 732]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1133500,
+    "t_end_ms": 1555500,
+    "topic": "小六壬与气色保身",
+    "cue_range": [733, 903]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1556000,
+    "t_end_ms": 1888500,
+    "topic": "府相会命、疾厄中风与太阴陷",
+    "cue_range": [904, 1061]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1894500,
+    "t_end_ms": 2282000,
+    "topic": "杀破狼女命、红鸾化忌与慈禧格",
+    "cue_range": [1062, 1272]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 2283000,
+    "t_end_ms": 2384500,
+    "topic": "紫微在子、破军入夫妻与化忌冲夫",
+    "cue_range": [1273, 1330]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 2384500,
+    "t_end_ms": 2633000,
+    "topic": "红鸾落父母、归妹西厢与中孚科甲",
+    "cue_range": [1331, 1479]
+  }
+]

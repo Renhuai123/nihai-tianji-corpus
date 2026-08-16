@@ -1,0 +1,132 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2000,
+    "t_end_ms": 105500,
+    "topic": "开场：星座总论与四化勿飞",
+    "cue_range": [
+      1,
+      49
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 105500,
+    "t_end_ms": 813000,
+    "topic": "四化：科权禄",
+    "cue_range": [
+      50,
+      300
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 828500,
+    "t_end_ms": 1556000,
+    "topic": "化忌、气色与看神",
+    "cue_range": [
+      301,
+      577
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1556500,
+    "t_end_ms": 2061500,
+    "topic": "北斗：紫微",
+    "cue_range": [
+      578,
+      748
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2062000,
+    "t_end_ms": 2177000,
+    "topic": "北斗：天机",
+    "cue_range": [
+      749,
+      794
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2177500,
+    "t_end_ms": 2352500,
+    "topic": "北斗：太阳",
+    "cue_range": [
+      795,
+      869
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 2354500,
+    "t_end_ms": 2552000,
+    "topic": "北斗：武曲（夹太阳补相）",
+    "cue_range": [
+      870,
+      927
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 2552000,
+    "t_end_ms": 2764000,
+    "topic": "北斗：天同",
+    "cue_range": [
+      928,
+      995
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 2766000,
+    "t_end_ms": 2877000,
+    "topic": "廉贞",
+    "cue_range": [
+      996,
+      1040
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 2877500,
+    "t_end_ms": 3204500,
+    "topic": "南斗：天府",
+    "cue_range": [
+      1041,
+      1139
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 3205000,
+    "t_end_ms": 3276000,
+    "topic": "南斗：太阴",
+    "cue_range": [
+      1140,
+      1160
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 3280000,
+    "t_end_ms": 3451000,
+    "topic": "南斗：天梁",
+    "cue_range": [
+      1161,
+      1221
+    ]
+  },
+  {
+    "section": 13,
+    "t_start_ms": 3451000,
+    "t_end_ms": 3496500,
+    "topic": "南斗：天相",
+    "cue_range": [
+      1222,
+      1241
+    ]
+  }
+]

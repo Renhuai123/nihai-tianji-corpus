@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 3000,
+    "t_end_ms": 190000,
+    "topic": "发旋定时辰与子午卯酉方位",
+    "cue_range": [
+      1,
+      70
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 196500,
+    "t_end_ms": 595500,
+    "topic": "紫微在丑、廉贪落陷、半空折翅",
+    "cue_range": [
+      71,
+      250
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 596500,
+    "t_end_ms": 1450500,
+    "topic": "案例：疾厄与阳宅",
+    "cue_range": [
+      251,
+      620
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1452000,
+    "t_end_ms": 1519500,
+    "topic": "日月反背",
+    "cue_range": [
+      621,
+      650
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1520000,
+    "t_end_ms": 3487000,
+    "topic": "合八字与其余命例",
+    "cue_range": [
+      651,
+      1597
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 3487500,
+    "t_end_ms": 3578500,
+    "topic": "巨门化忌、天马、三方四正",
+    "cue_range": [
+      1598,
+      1633
+    ]
+  }
+]

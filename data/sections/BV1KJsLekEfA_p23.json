@@ -1,0 +1,132 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 101500,
+    "topic": "化忌冲命、半空折翅与巨日反背",
+    "cue_range": [
+      1,
+      55
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 101500,
+    "t_end_ms": 265000,
+    "topic": "父母离散、日角月角与偏房格",
+    "cue_range": [
+      56,
+      147
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 266000,
+    "t_end_ms": 529000,
+    "topic": "化科从商、红鸾早婚与偏房必离",
+    "cue_range": [
+      148,
+      346
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 529000,
+    "t_end_ms": 800000,
+    "topic": "太阳陷地个性、善眼凶眼与坤地厚德",
+    "cue_range": [
+      347,
+      510
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 801500,
+    "t_end_ms": 923000,
+    "topic": "仆役贪狼同居、六亲不靠与化科自由业",
+    "cue_range": [
+      511,
+      573
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 924000,
+    "t_end_ms": 1134000,
+    "topic": "兄弟夭折相、先母后父与流年读书",
+    "cue_range": [
+      574,
+      665
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1135000,
+    "t_end_ms": 1285500,
+    "topic": "红鸾对宫、过忌结婚与夫妻死别",
+    "cue_range": [
+      666,
+      746
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1285500,
+    "t_end_ms": 1436000,
+    "topic": "阳宅厨房主卧、三年成灾与一念改命",
+    "cue_range": [
+      747,
+      838
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 1436000,
+    "t_end_ms": 1567000,
+    "topic": "疾厄廉破水中作冢与长辈三卦",
+    "cue_range": [
+      839,
+      911
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 1567000,
+    "t_end_ms": 1890500,
+    "topic": "过忌订婚、父母武职与天马外地",
+    "cue_range": [
+      912,
+      1078
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 1890500,
+    "t_end_ms": 2163500,
+    "topic": "寡居变相、田宅化忌破祖与愚善舍婚",
+    "cue_range": [
+      1079,
+      1228
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 2164500,
+    "t_end_ms": 2362500,
+    "topic": "福德天喜多婚与外刚内柔",
+    "cue_range": [
+      1229,
+      1326
+    ]
+  },
+  {
+    "section": 13,
+    "t_start_ms": 2362500,
+    "t_end_ms": 2600000,
+    "topic": "刑克二妻、化科坐命与破军美妻",
+    "cue_range": [
+      1327,
+      1462
+    ]
+  }
+]

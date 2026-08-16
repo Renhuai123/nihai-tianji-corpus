@@ -1,0 +1,132 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 142500,
+    "topic": "开场：文字与真理、学而后思",
+    "cue_range": [
+      1,
+      53
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 142500,
+    "t_end_ms": 315000,
+    "topic": "诸术比较：铁板神数、子平、紫微",
+    "cue_range": [
+      54,
+      112
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 315500,
+    "t_end_ms": 708500,
+    "topic": "以果决行与谈果不谈因",
+    "cue_range": [
+      113,
+      267
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 709000,
+    "t_end_ms": 1060500,
+    "topic": "十二宫来由与命宫（兼看财官迁移）",
+    "cue_range": [
+      268,
+      409
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1060500,
+    "t_end_ms": 1319500,
+    "topic": "宫性与用神",
+    "cue_range": [
+      410,
+      501
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1319500,
+    "t_end_ms": 1379500,
+    "topic": "三方四正",
+    "cue_range": [
+      502,
+      519
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1380000,
+    "t_end_ms": 1587500,
+    "topic": "十二宫排布与宫位移动",
+    "cue_range": [
+      520,
+      598
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1588000,
+    "t_end_ms": 1939000,
+    "topic": "六亲宫与相法线索",
+    "cue_range": [
+      599,
+      728
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 1939000,
+    "t_end_ms": 2334000,
+    "topic": "命相同参",
+    "cue_range": [
+      729,
+      894
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 2334000,
+    "t_end_ms": 2461000,
+    "topic": "福德宫",
+    "cue_range": [
+      895,
+      955
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 2461000,
+    "t_end_ms": 3330500,
+    "topic": "疾厄宫与经脉流注",
+    "cue_range": [
+      956,
+      1266
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 3331000,
+    "t_end_ms": 3550000,
+    "topic": "仆役／交友宫",
+    "cue_range": [
+      1267,
+      1348
+    ]
+  },
+  {
+    "section": 13,
+    "t_start_ms": 3550500,
+    "t_end_ms": 4120500,
+    "topic": "君子小人与读图",
+    "cue_range": [
+      1349,
+      1571
+    ]
+  }
+]

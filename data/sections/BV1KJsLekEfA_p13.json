@@ -1,0 +1,122 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 331500,
+    "topic": "紫微在卯：天梁午宫与日月反背夹命",
+    "cue_range": [
+      1,
+      151
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 332000,
+    "t_end_ms": 587500,
+    "topic": "孤星独守、廉贞七杀庙旺",
+    "cue_range": [
+      152,
+      272
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 588000,
+    "t_end_ms": 850000,
+    "topic": "巨日格不成正格与将星得地",
+    "cue_range": [
+      273,
+      401
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 856500,
+    "t_end_ms": 1308000,
+    "topic": "武曲破军将星、阴盛阳与暗权",
+    "cue_range": [
+      402,
+      637
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1308500,
+    "t_end_ms": 1500500,
+    "topic": "紫微在辰：雄宿朝元",
+    "cue_range": [
+      638,
+      716
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1501000,
+    "t_end_ms": 1824000,
+    "topic": "文昌同宫、七杀在午将星",
+    "cue_range": [
+      717,
+      849
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1824000,
+    "t_end_ms": 2070500,
+    "topic": "紫微在巳：巨日成格与巨富相",
+    "cue_range": [
+      850,
+      939
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 2072000,
+    "t_end_ms": 2343000,
+    "topic": "太阴在子水澄桂萼、日月夹财与阳宅",
+    "cue_range": [
+      940,
+      1088
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 2344500,
+    "t_end_ms": 2705500,
+    "topic": "紫微在午：月朗天门、日照雷门、明珠出海",
+    "cue_range": [
+      1089,
+      1232
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 2705500,
+    "t_end_ms": 2860000,
+    "topic": "格随宫转：兄弟月朗与夜业",
+    "cue_range": [
+      1233,
+      1309
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 2867000,
+    "t_end_ms": 3220500,
+    "topic": "紫微在未：廉贪自杀格与日月并明",
+    "cue_range": [
+      1310,
+      1486
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 3222500,
+    "t_end_ms": 3456000,
+    "topic": "紫微在申：英星入庙、紫府坐垣、七杀朝斗",
+    "cue_range": [
+      1487,
+      1596
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 291500,
+    "topic": "杀破狼：七杀、破军、贪狼",
+    "cue_range": [
+      1,
+      116
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 292000,
+    "t_end_ms": 365500,
+    "topic": "六杀总论：羊陀火铃空劫",
+    "cue_range": [
+      117,
+      138
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 365500,
+    "t_end_ms": 644500,
+    "topic": "庙旺利陷与吉处藏凶",
+    "cue_range": [
+      139,
+      247
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 644500,
+    "t_end_ms": 835000,
+    "topic": "六杀分论：空劫、火铃、羊陀",
+    "cue_range": [
+      248,
+      320
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 835000,
+    "t_end_ms": 1209500,
+    "topic": "总格与羊陀夹命",
+    "cue_range": [
+      321,
+      459
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1210000,
+    "t_end_ms": 1356500,
+    "topic": "副星：文昌文曲",
+    "cue_range": [
+      460,
+      523
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1357500,
+    "t_end_ms": 1433500,
+    "topic": "副星：天魁天钺",
+    "cue_range": [
+      524,
+      549
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1435500,
+    "t_end_ms": 1635500,
+    "topic": "红鸾天喜",
+    "cue_range": [
+      550,
+      631
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 1636500,
+    "t_end_ms": 1714500,
+    "topic": "左辅右弼、三台八座",
+    "cue_range": [
+      632,
+      657
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 1723500,
+    "t_end_ms": 1879000,
+    "topic": "排盘：闰月、早晚子",
+    "cue_range": [
+      658,
+      700
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 1879500,
+    "t_end_ms": 2529000,
+    "topic": "流年宫位与男顺女逆",
+    "cue_range": [
+      701,
+      936
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 2529500,
+    "t_end_ms": 2882500,
+    "topic": "离日与绝日",
+    "cue_range": [
+      937,
+      1074
+    ]
+  },
+  {
+    "section": 13,
+    "t_start_ms": 2883000,
+    "t_end_ms": 3078500,
+    "topic": "补星：巨门、禄存、天马",
+    "cue_range": [
+      1075,
+      1148
+    ]
+  }
+]

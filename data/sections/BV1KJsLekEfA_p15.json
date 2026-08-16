@@ -1,0 +1,142 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 253500,
+    "topic": "紫微在酉：日丽中天与巨日会命",
+    "cue_range": [
+      1,
+      101
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 256500,
+    "t_end_ms": 397000,
+    "topic": "紫微在戌：雄宿朝元与孤星独守",
+    "cue_range": [
+      102,
+      151
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 401000,
+    "t_end_ms": 594000,
+    "topic": "紫微在亥：将星、水中作冢与鼻纹",
+    "cue_range": [
+      152,
+      222
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 594500,
+    "t_end_ms": 1014000,
+    "topic": "案例开讲：三方四正、天人地三分",
+    "cue_range": [
+      223,
+      393
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1014000,
+    "t_end_ms": 1192000,
+    "topic": "枯白带丧与福德化忌",
+    "cue_range": [
+      394,
+      473
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1192000,
+    "t_end_ms": 1371000,
+    "topic": "权禄相逢、日月反背、福德当夫妻",
+    "cue_range": [
+      474,
+      563
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1372500,
+    "t_end_ms": 1868500,
+    "topic": "仆役主动被动、合伙必败与谈果",
+    "cue_range": [
+      564,
+      811
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1868500,
+    "t_end_ms": 2099000,
+    "topic": "财帛悭吝、官禄正位与鼻颧掌财权",
+    "cue_range": [
+      812,
+      918
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 2099500,
+    "t_end_ms": 2342000,
+    "topic": "大限化忌本宫对宫与早年父母贵人",
+    "cue_range": [
+      919,
+      1038
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 2342500,
+    "t_end_ms": 2535500,
+    "topic": "化科对商、十年化忌与人间道",
+    "cue_range": [
+      1039,
+      1137
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 2536000,
+    "t_end_ms": 2680000,
+    "topic": "贪狼午宫化禄武官与科权职业",
+    "cue_range": [
+      1138,
+      1220
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 2680500,
+    "t_end_ms": 2858000,
+    "topic": "兄弟宫武曲天相与眉毛相",
+    "cue_range": [
+      1221,
+      1295
+    ]
+  },
+  {
+    "section": 13,
+    "t_start_ms": 2859000,
+    "t_end_ms": 3035500,
+    "topic": "夫妻生离死别与阳宅厨房客厅",
+    "cue_range": [
+      1296,
+      1367
+    ]
+  },
+  {
+    "section": 14,
+    "t_start_ms": 3036000,
+    "t_end_ms": 3319000,
+    "topic": "气色鱼尾纹、面大骨粗与望死色",
+    "cue_range": [
+      1368,
+      1514
+    ]
+  }
+]

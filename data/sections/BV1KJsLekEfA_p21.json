@@ -1,0 +1,132 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 152500,
+    "topic": "紫微在子：辅弼单星入守与廉破杀星",
+    "cue_range": [
+      1,
+      73
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 152500,
+    "t_end_ms": 431000,
+    "topic": "科权禄、曲昌入命与科忌屠夫",
+    "cue_range": [
+      74,
+      208
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 432500,
+    "t_end_ms": 742000,
+    "topic": "迁移本地外地、同行夫妻与父母右弼早婚",
+    "cue_range": [
+      209,
+      352
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 745500,
+    "t_end_ms": 881500,
+    "topic": "巨日格女命偏房与权禄相逢",
+    "cue_range": [
+      353,
+      421
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 887500,
+    "t_end_ms": 1148000,
+    "topic": "巳宫燥热、五形局与英星入庙",
+    "cue_range": [
+      422,
+      560
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1148000,
+    "t_end_ms": 1458500,
+    "topic": "女命太阳半吊子、过限离婚与雌雄同体",
+    "cue_range": [
+      561,
+      750
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1459000,
+    "t_end_ms": 1725000,
+    "topic": "西北角终身不嫁与地天泰之象",
+    "cue_range": [
+      751,
+      887
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 1725000,
+    "t_end_ms": 1895500,
+    "topic": "廉破夫妻死别、因科而禄与身宫",
+    "cue_range": [
+      888,
+      988
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 1895500,
+    "t_end_ms": 2214000,
+    "topic": "疾厄开刀、红鸾子女与尅妻命",
+    "cue_range": [
+      989,
+      1138
+    ]
+  },
+  {
+    "section": 10,
+    "t_start_ms": 2214000,
+    "t_end_ms": 2381000,
+    "topic": "天府不解厄与吉处藏凶",
+    "cue_range": [
+      1139,
+      1226
+    ]
+  },
+  {
+    "section": 11,
+    "t_start_ms": 2381000,
+    "t_end_ms": 2538500,
+    "topic": "改东宫合婚与婚后西北",
+    "cue_range": [
+      1227,
+      1329
+    ]
+  },
+  {
+    "section": 12,
+    "t_start_ms": 2539500,
+    "t_end_ms": 2741000,
+    "topic": "三停相法与廉贪横祸",
+    "cue_range": [
+      1330,
+      1416
+    ]
+  },
+  {
+    "section": 13,
+    "t_start_ms": 2741500,
+    "t_end_ms": 2993500,
+    "topic": "巨门牢狱与印堂气色",
+    "cue_range": [
+      1417,
+      1525
+    ]
+  }
+]

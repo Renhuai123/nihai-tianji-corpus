@@ -1,0 +1,92 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2500,
+    "t_end_ms": 145500,
+    "topic": "遇险而止与巨日偏房格",
+    "cue_range": [
+      1,
+      91
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 145500,
+    "t_end_ms": 616000,
+    "topic": "刑夫克子、太阳陷地与红鸾必婚",
+    "cue_range": [
+      92,
+      365
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 616000,
+    "t_end_ms": 719000,
+    "topic": "奸门死别、手相预告与面相",
+    "cue_range": [
+      366,
+      410
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 727000,
+    "t_end_ms": 994000,
+    "topic": "女命太阳陷、父母与兄弟",
+    "cue_range": [
+      411,
+      564
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 998000,
+    "t_end_ms": 1190500,
+    "topic": "厨房西北、气色与子女对会",
+    "cue_range": [
+      565,
+      675
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1191000,
+    "t_end_ms": 1644500,
+    "topic": "廉贪落陷、阴女顺逆与合八字",
+    "cue_range": [
+      676,
+      898
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1649500,
+    "t_end_ms": 2053500,
+    "topic": "六亲不靠、日月反背与偏房无子",
+    "cue_range": [
+      899,
+      1110
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 2054500,
+    "t_end_ms": 2779000,
+    "topic": "手相：后天八卦与掌纹",
+    "cue_range": [
+      1111,
+      1525
+    ]
+  },
+  {
+    "section": 9,
+    "t_start_ms": 2779000,
+    "t_end_ms": 3064000,
+    "topic": "乾兑开门与天机道",
+    "cue_range": [
+      1526,
+      1676
+    ]
+  }
+]
