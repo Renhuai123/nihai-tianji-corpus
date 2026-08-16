@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 790" font-family="PingFang SC, Noto Sans SC, sans-serif">
+<rect width="660" height="790" fill="#faf8f4"/>
+<line x1="250.0" y1="90.0" x2="410.0" y2="570.0" stroke="#b04a3e" stroke-width="2.5" stroke-dasharray="none" opacity="0.55"/>
+<line x1="250.0" y1="90.0" x2="90.0" y2="570.0" stroke="#b8935f" stroke-width="2.5" stroke-dasharray="7 5" opacity="0.55"/>
+<line x1="250.0" y1="90.0" x2="570.0" y2="410.0" stroke="#b8935f" stroke-width="2.5" stroke-dasharray="7 5" opacity="0.55"/>
+<rect x="10" y="10" width="160" height="160" fill="#ffffff" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="20" y="36" font-size="15" fill="#8a7a63">巳</text>
+<rect x="170" y="10" width="160" height="160" fill="#f3ddc4" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="180" y="36" font-size="15" fill="#8a7a63">午</text>
+<rect x="330" y="10" width="160" height="160" fill="#ffffff" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="340" y="36" font-size="15" fill="#8a7a63">未</text>
+<rect x="490" y="10" width="160" height="160" fill="#ffffff" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="500" y="36" font-size="15" fill="#8a7a63">申</text>
+<rect x="10" y="170" width="160" height="160" fill="#ffffff" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="20" y="196" font-size="15" fill="#8a7a63">辰</text>
+<rect x="490" y="170" width="160" height="160" fill="#ffffff" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="500" y="196" font-size="15" fill="#8a7a63">酉</text>
+<rect x="10" y="330" width="160" height="160" fill="#ffffff" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="20" y="356" font-size="15" fill="#8a7a63">卯</text>
+<rect x="490" y="330" width="160" height="160" fill="#efe9df" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="500" y="356" font-size="15" fill="#8a7a63">戌</text>
+<rect x="10" y="490" width="160" height="160" fill="#efe9df" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="20" y="516" font-size="15" fill="#8a7a63">寅</text>
+<rect x="170" y="490" width="160" height="160" fill="#ffffff" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="180" y="516" font-size="15" fill="#8a7a63">丑</text>
+<rect x="330" y="490" width="160" height="160" fill="#f3e9d3" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="340" y="516" font-size="15" fill="#8a7a63">子</text>
+<rect x="490" y="490" width="160" height="160" fill="#ffffff" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.92"/>
+<text x="500" y="516" font-size="15" fill="#8a7a63">亥</text>
+<rect x="170" y="170" width="320" height="320" fill="#faf8f4" stroke="#8a7a63" stroke-width="1.4" fill-opacity="0.85"/>
+<text x="330" y="300" font-size="26" text-anchor="middle" fill="#1a1d21" font-weight="bold">破军居子午</text>
+<text x="330" y="334" font-size="19" text-anchor="middle" fill="#b04a3e">英星入庙格</text>
+<text x="330" y="372" font-size="12.5" text-anchor="middle" fill="#6b7480">实线＝对宫（子）· 虚线＝三合（寅、戌）</text>
+<text x="250" y="84" font-size="27" text-anchor="middle" fill="#1a1d21" font-weight="bold">破军</text>
+<text x="250" y="112" font-size="13.5" text-anchor="middle" fill="#b04a3e">命宫 · 入庙成格</text>
+<text x="410" y="564" font-size="21" text-anchor="middle" fill="#1a1d21">破军</text>
+<text x="410" y="590" font-size="12.5" text-anchor="middle" fill="#6b7480">居子宫同格</text>
+<text x="90" y="580" font-size="12.5" text-anchor="middle" fill="#8a7a63">三合宫</text>
+<text x="570" y="420" font-size="12.5" text-anchor="middle" fill="#8a7a63">三合宫</text>
+<text x="20" y="694" font-size="13.5" fill="#1a1d21">「破军星有在午宫的时候，我们叫做英星入庙……跟破军星在子宫是一样的」</text>
+<text x="20" y="716" font-size="12" fill="#6b7480">—— 倪海厦《天纪》第6讲 §12 @00:54:05（定义）；第9讲 §1 @00:00:32 起为实战案例</text>
+<text x="20" y="744" font-size="11.5" fill="#8a94a0">本图依据判语数据重绘（非原板书复制）· nihai-tianji-corpus · MIT</text>
+</svg>
