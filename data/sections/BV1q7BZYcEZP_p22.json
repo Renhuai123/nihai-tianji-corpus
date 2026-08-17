@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 505000,
+    "topic": "地泽临",
+    "cue_range": [
+      1,
+      178
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 505000,
+    "t_end_ms": 1007500,
+    "topic": "第19卦：地泽临·续",
+    "cue_range": [
+      179,
+      396
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 507000,
+    "topic": "天山遯",
+    "cue_range": [
+      1,
+      175
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 507000,
+    "t_end_ms": 1013500,
+    "topic": "第33卦：天山遯·续",
+    "cue_range": [
+      176,
+      406
+    ]
+  }
+]

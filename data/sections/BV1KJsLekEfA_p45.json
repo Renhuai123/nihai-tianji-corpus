@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 548000,
+    "topic": "泽风大过",
+    "cue_range": [
+      1,
+      196
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 548500,
+    "t_end_ms": 1093500,
+    "topic": "坎为水",
+    "cue_range": [
+      197,
+      352
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1093500,
+    "t_end_ms": 1635500,
+    "topic": "离为火",
+    "cue_range": [
+      353,
+      518
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1636000,
+    "t_end_ms": 2180000,
+    "topic": "泽山咸",
+    "cue_range": [
+      519,
+      648
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2180000,
+    "t_end_ms": 2726000,
+    "topic": "雷风恒",
+    "cue_range": [
+      649,
+      798
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2726000,
+    "t_end_ms": 3270000,
+    "topic": "天山遯",
+    "cue_range": [
+      799,
+      1038
+    ]
+  }
+]

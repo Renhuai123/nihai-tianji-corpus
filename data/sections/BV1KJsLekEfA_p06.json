@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 488000,
+    "topic": "卦与爻：符号、乾卦取象",
+    "cue_range": [
+      1,
+      160
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 488000,
+    "t_end_ms": 904500,
+    "topic": "八纯卦之性：健顺动入丽陷止说",
+    "cue_range": [
+      161,
+      360
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 904500,
+    "t_end_ms": 1581500,
+    "topic": "八卦对应自然与人身",
+    "cue_range": [
+      361,
+      600
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1581500,
+    "t_end_ms": 2383500,
+    "topic": "巽坎艮兑与人间道进退",
+    "cue_range": [
+      601,
+      920
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2384000,
+    "t_end_ms": 2942000,
+    "topic": "金钱卦起卦与卜筮人间道",
+    "cue_range": [
+      921,
+      1161
+    ]
+  }
+]

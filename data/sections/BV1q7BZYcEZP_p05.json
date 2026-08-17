@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2000,
+    "t_end_ms": 818000,
+    "topic": "坤为地",
+    "cue_range": [
+      1,
+      326
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 818500,
+    "t_end_ms": 1630500,
+    "topic": "第2卦：坤为地·续",
+    "cue_range": [
+      327,
+      641
+    ]
+  }
+]

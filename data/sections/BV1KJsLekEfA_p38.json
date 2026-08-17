@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 783500,
+    "topic": "火风鼎：鼎新",
+    "cue_range": [
+      1,
+      296
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 783500,
+    "t_end_ms": 1539000,
+    "topic": "震为雷：动",
+    "cue_range": [
+      297,
+      569
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1542500,
+    "t_end_ms": 2150500,
+    "topic": "艮为山：止",
+    "cue_range": [
+      570,
+      775
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2151500,
+    "t_end_ms": 2660000,
+    "topic": "风山渐：渐",
+    "cue_range": [
+      776,
+      970
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2660000,
+    "t_end_ms": 3232000,
+    "topic": "雷泽归妹：归妹",
+    "cue_range": [
+      971,
+      1172
+    ]
+  }
+]

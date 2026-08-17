@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 382000,
+    "topic": "火泽睽",
+    "cue_range": [
+      1,
+      143
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 394500,
+    "t_end_ms": 762500,
+    "topic": "第38卦：火泽睽·续",
+    "cue_range": [
+      144,
+      269
+    ]
+  }
+]

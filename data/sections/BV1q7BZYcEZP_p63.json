@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 508500,
+    "topic": "水泽节",
+    "cue_range": [
+      1,
+      225
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 508500,
+    "t_end_ms": 1015000,
+    "topic": "第60卦：水泽节·续",
+    "cue_range": [
+      226,
+      445
+    ]
+  }
+]

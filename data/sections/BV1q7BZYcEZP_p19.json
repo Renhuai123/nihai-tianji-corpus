@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 486500,
+    "topic": "雷地豫",
+    "cue_range": [
+      1,
+      164
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 486500,
+    "t_end_ms": 968500,
+    "topic": "第16卦：雷地豫·续",
+    "cue_range": [
+      165,
+      358
+    ]
+  }
+]

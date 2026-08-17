@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 4000,
+    "t_end_ms": 1060500,
+    "topic": "天地否",
+    "cue_range": [
+      1,
+      374
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 1060500,
+    "t_end_ms": 2114000,
+    "topic": "第12卦：天地否·续",
+    "cue_range": [
+      375,
+      836
+    ]
+  }
+]

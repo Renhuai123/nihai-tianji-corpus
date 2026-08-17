@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 649000,
+    "topic": "地山谦",
+    "cue_range": [
+      1,
+      232
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 650500,
+    "t_end_ms": 1301000,
+    "topic": "第15卦：地山谦·续",
+    "cue_range": [
+      233,
+      460
+    ]
+  }
+]

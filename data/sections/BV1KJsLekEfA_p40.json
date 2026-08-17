@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 836000,
+    "topic": "雷火丰：致丰",
+    "cue_range": [
+      1,
+      351
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 838500,
+    "t_end_ms": 1666500,
+    "topic": "火山旅：旅",
+    "cue_range": [
+      352,
+      687
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1667500,
+    "t_end_ms": 2358000,
+    "topic": "巽为风：入顺",
+    "cue_range": [
+      688,
+      968
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2359000,
+    "t_end_ms": 3178000,
+    "topic": "兑为泽：悦",
+    "cue_range": [
+      969,
+      1270
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 3182000,
+    "t_end_ms": 3652000,
+    "topic": "风水涣：散",
+    "cue_range": [
+      1271,
+      1444
+    ]
+  }
+]

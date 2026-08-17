@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 480000,
+    "topic": "水雷屯：物始生、盘桓勿用",
+    "cue_range": [
+      1,
+      160
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 480000,
+    "t_end_ms": 1077000,
+    "topic": "屯之六爻与君子和而不同",
+    "cue_range": [
+      161,
+      400
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1078000,
+    "t_end_ms": 1883500,
+    "topic": "屯之时：用贤、难进易出",
+    "cue_range": [
+      401,
+      720
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1884000,
+    "t_end_ms": 2506000,
+    "topic": "屯之读图与卜例",
+    "cue_range": [
+      721,
+      972
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2512000,
+    "t_end_ms": 3119500,
+    "topic": "序卦入山水蒙：山下有水",
+    "cue_range": [
+      973,
+      1240
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 3120500,
+    "t_end_ms": 3523500,
+    "topic": "童蒙、渎蒙与空杯",
+    "cue_range": [
+      1241,
+      1451
+    ]
+  }
+]

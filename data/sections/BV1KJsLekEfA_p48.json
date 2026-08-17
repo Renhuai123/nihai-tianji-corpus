@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2000,
+    "t_end_ms": 560500,
+    "topic": "兑为泽",
+    "cue_range": [
+      1,
+      202
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 561000,
+    "t_end_ms": 1110500,
+    "topic": "风水涣",
+    "cue_range": [
+      203,
+      321
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1111000,
+    "t_end_ms": 1665000,
+    "topic": "风泽中孚",
+    "cue_range": [
+      322,
+      466
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1665000,
+    "t_end_ms": 2219500,
+    "topic": "雷山小过",
+    "cue_range": [
+      467,
+      611
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2219500,
+    "t_end_ms": 2773500,
+    "topic": "水火既济",
+    "cue_range": [
+      612,
+      825
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2774000,
+    "t_end_ms": 3326500,
+    "topic": "火水未济",
+    "cue_range": [
+      826,
+      1062
+    ]
+  }
+]

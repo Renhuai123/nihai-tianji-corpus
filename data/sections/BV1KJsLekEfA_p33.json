@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 621500,
+    "topic": "官鬼",
+    "cue_range": [
+      1,
+      271
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 621500,
+    "t_end_ms": 1241500,
+    "topic": "九星",
+    "cue_range": [
+      272,
+      497
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1241500,
+    "t_end_ms": 1863500,
+    "topic": "天星四贵",
+    "cue_range": [
+      498,
+      710
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1863500,
+    "t_end_ms": 2485500,
+    "topic": "内外砂",
+    "cue_range": [
+      711,
+      974
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2486000,
+    "t_end_ms": 3104000,
+    "topic": "真假龙",
+    "cue_range": [
+      975,
+      1246
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 3104000,
+    "t_end_ms": 3722500,
+    "topic": "城局",
+    "cue_range": [
+      1247,
+      1473
+    ]
+  }
+]

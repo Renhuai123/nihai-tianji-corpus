@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 646500,
+    "topic": "坤为地",
+    "cue_range": [
+      1,
+      203
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 646500,
+    "t_end_ms": 1286500,
+    "topic": "水天需",
+    "cue_range": [
+      204,
+      401
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1289500,
+    "t_end_ms": 1926500,
+    "topic": "天水讼",
+    "cue_range": [
+      402,
+      596
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1926500,
+    "t_end_ms": 2572500,
+    "topic": "地水师",
+    "cue_range": [
+      597,
+      771
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2572500,
+    "t_end_ms": 3208000,
+    "topic": "水地比",
+    "cue_range": [
+      772,
+      951
+    ]
+  }
+]

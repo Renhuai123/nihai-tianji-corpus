@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 487000,
+    "topic": "天雷无妄",
+    "cue_range": [
+      1,
+      171
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 493500,
+    "t_end_ms": 976000,
+    "topic": "第25卦：天雷无妄·续",
+    "cue_range": [
+      172,
+      371
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 499000,
+    "topic": "风天小畜",
+    "cue_range": [
+      1,
+      157
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 499000,
+    "t_end_ms": 1000500,
+    "topic": "天泽履",
+    "cue_range": [
+      158,
+      325
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1001500,
+    "t_end_ms": 1494000,
+    "topic": "地天泰",
+    "cue_range": [
+      326,
+      473
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1494000,
+    "t_end_ms": 1992500,
+    "topic": "天地否",
+    "cue_range": [
+      474,
+      623
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1992500,
+    "t_end_ms": 2499000,
+    "topic": "天火同人",
+    "cue_range": [
+      624,
+      740
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2499500,
+    "t_end_ms": 2987000,
+    "topic": "火天大有",
+    "cue_range": [
+      741,
+      854
+    ]
+  }
+]

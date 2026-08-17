@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 388000,
+    "topic": "雷天大壮",
+    "cue_range": [
+      1,
+      127
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 388500,
+    "t_end_ms": 766000,
+    "topic": "第34卦：雷天大壮·续",
+    "cue_range": [
+      128,
+      268
+    ]
+  }
+]

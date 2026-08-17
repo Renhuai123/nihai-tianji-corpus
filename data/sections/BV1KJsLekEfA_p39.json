@@ -1,0 +1,42 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 539500,
+    "topic": "铁板神数",
+    "cue_range": [
+      1,
+      197
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 539500,
+    "t_end_ms": 1078000,
+    "topic": "皇极经世",
+    "cue_range": [
+      198,
+      410
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1078000,
+    "t_end_ms": 1616000,
+    "topic": "乾为天",
+    "cue_range": [
+      411,
+      607
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1616000,
+    "t_end_ms": 2153500,
+    "topic": "坤为地",
+    "cue_range": [
+      608,
+      771
+    ]
+  }
+]

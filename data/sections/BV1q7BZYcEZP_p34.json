@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 374500,
+    "topic": "泽山咸",
+    "cue_range": [
+      1,
+      161
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 374500,
+    "t_end_ms": 747500,
+    "topic": "第31卦：泽山咸·续",
+    "cue_range": [
+      162,
+      300
+    ]
+  }
+]

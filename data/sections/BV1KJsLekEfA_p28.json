@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 857000,
+    "topic": "坎为水：处险之道",
+    "cue_range": [
+      1,
+      342
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 857000,
+    "t_end_ms": 1547000,
+    "topic": "离为火：序卦与阳宅",
+    "cue_range": [
+      343,
+      640
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1547000,
+    "t_end_ms": 2349000,
+    "topic": "泽山咸：感应",
+    "cue_range": [
+      641,
+      949
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2349000,
+    "t_end_ms": 3146000,
+    "topic": "雷风恒：恒久",
+    "cue_range": [
+      950,
+      1243
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 3146000,
+    "t_end_ms": 4092000,
+    "topic": "天山遯：遯之象与阳宅",
+    "cue_range": [
+      1244,
+      1637
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1000,
+    "t_end_ms": 394000,
+    "topic": "火风鼎",
+    "cue_range": [
+      1,
+      143
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 396500,
+    "t_end_ms": 783000,
+    "topic": "第50卦：火风鼎·续",
+    "cue_range": [
+      144,
+      284
+    ]
+  }
+]

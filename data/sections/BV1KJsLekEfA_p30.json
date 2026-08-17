@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 766500,
+    "topic": "雷天大壮：自胜为大壮",
+    "cue_range": [
+      1,
+      271
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 775000,
+    "t_end_ms": 1633500,
+    "topic": "火地晋：晋升之道",
+    "cue_range": [
+      272,
+      576
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1633500,
+    "t_end_ms": 2407500,
+    "topic": "地火明夷：用晦",
+    "cue_range": [
+      577,
+      862
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2408000,
+    "t_end_ms": 3087000,
+    "topic": "风火家人：家和",
+    "cue_range": [
+      863,
+      1116
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 3087000,
+    "t_end_ms": 3180500,
+    "topic": "火泽睽：家道穷则睽",
+    "cue_range": [
+      1117,
+      1157
+    ]
+  }
+]

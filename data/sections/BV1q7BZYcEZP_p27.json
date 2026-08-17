@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 3000,
+    "t_end_ms": 600000,
+    "topic": "地雷复",
+    "cue_range": [
+      1,
+      238
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 601000,
+    "t_end_ms": 1196500,
+    "topic": "第24卦：地雷复·续",
+    "cue_range": [
+      239,
+      447
+    ]
+  }
+]

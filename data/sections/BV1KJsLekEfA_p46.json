@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2000,
+    "t_end_ms": 524000,
+    "topic": "风火家人",
+    "cue_range": [
+      1,
+      167
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 524000,
+    "t_end_ms": 1051000,
+    "topic": "火泽睽",
+    "cue_range": [
+      168,
+      300
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1051000,
+    "t_end_ms": 1565500,
+    "topic": "水山蹇",
+    "cue_range": [
+      301,
+      400
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1566000,
+    "t_end_ms": 2087000,
+    "topic": "雷水解",
+    "cue_range": [
+      401,
+      538
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2087500,
+    "t_end_ms": 2606000,
+    "topic": "山泽损",
+    "cue_range": [
+      539,
+      661
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2609500,
+    "t_end_ms": 3128500,
+    "topic": "风雷益",
+    "cue_range": [
+      662,
+      814
+    ]
+  }
+]

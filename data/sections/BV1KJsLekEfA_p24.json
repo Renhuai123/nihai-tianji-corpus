@@ -1,0 +1,42 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 1000000,
+    "topic": "火雷噬嗑：阻隔与咬合",
+    "cue_range": [
+      1,
+      372
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 1000000,
+    "t_end_ms": 1767000,
+    "topic": "山火贲：贲之道",
+    "cue_range": [
+      373,
+      710
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1767500,
+    "t_end_ms": 3175000,
+    "topic": "山地剥：剥道与君王之剥",
+    "cue_range": [
+      711,
+      1315
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 3175000,
+    "t_end_ms": 4178500,
+    "topic": "地雷复：始复与迷复",
+    "cue_range": [
+      1316,
+      1711
+    ]
+  }
+]

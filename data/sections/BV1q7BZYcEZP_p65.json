@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 4500,
+    "t_end_ms": 376500,
+    "topic": "雷山小过",
+    "cue_range": [
+      1,
+      142
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 376500,
+    "t_end_ms": 745000,
+    "topic": "第62卦：雷山小过·续",
+    "cue_range": [
+      143,
+      298
+    ]
+  }
+]

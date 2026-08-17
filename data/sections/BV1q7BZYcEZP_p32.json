@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 407000,
+    "topic": "坎为水",
+    "cue_range": [
+      1,
+      168
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 407000,
+    "t_end_ms": 812500,
+    "topic": "第29卦：坎为水·续",
+    "cue_range": [
+      169,
+      326
+    ]
+  }
+]

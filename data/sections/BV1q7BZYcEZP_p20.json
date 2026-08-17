@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 402500,
+    "topic": "泽雷随",
+    "cue_range": [
+      1,
+      160
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 402500,
+    "t_end_ms": 804000,
+    "topic": "第17卦：泽雷随·续",
+    "cue_range": [
+      161,
+      314
+    ]
+  }
+]

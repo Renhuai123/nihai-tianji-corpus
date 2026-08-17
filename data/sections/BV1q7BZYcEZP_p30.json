@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 10000,
+    "t_end_ms": 408500,
+    "topic": "山雷颐",
+    "cue_range": [
+      1,
+      134
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 408500,
+    "t_end_ms": 806500,
+    "topic": "第27卦：山雷颐·续",
+    "cue_range": [
+      135,
+      293
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 362500,
+    "topic": "离为火",
+    "cue_range": [
+      1,
+      176
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 363000,
+    "t_end_ms": 726000,
+    "topic": "第30卦：离为火·续",
+    "cue_range": [
+      177,
+      313
+    ]
+  }
+]

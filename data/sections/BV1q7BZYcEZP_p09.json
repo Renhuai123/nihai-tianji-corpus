@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1000,
+    "t_end_ms": 485000,
+    "topic": "天水讼",
+    "cue_range": [
+      1,
+      162
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 486000,
+    "t_end_ms": 946000,
+    "topic": "第6卦：天水讼·续",
+    "cue_range": [
+      163,
+      344
+    ]
+  }
+]

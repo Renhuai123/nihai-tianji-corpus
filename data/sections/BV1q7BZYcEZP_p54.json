@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 386500,
+    "topic": "震为雷",
+    "cue_range": [
+      1,
+      134
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 387500,
+    "t_end_ms": 767000,
+    "topic": "第51卦：震为雷·续",
+    "cue_range": [
+      135,
+      265
+    ]
+  }
+]

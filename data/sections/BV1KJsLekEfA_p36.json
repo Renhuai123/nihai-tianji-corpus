@@ -1,0 +1,42 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 803000,
+    "topic": "地风升：升之道",
+    "cue_range": [
+      1,
+      316
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 807000,
+    "t_end_ms": 1558000,
+    "topic": "泽水困：困",
+    "cue_range": [
+      317,
+      608
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1558000,
+    "t_end_ms": 2234500,
+    "topic": "水风井：井养",
+    "cue_range": [
+      609,
+      880
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2234500,
+    "t_end_ms": 2965000,
+    "topic": "泽火革：革道",
+    "cue_range": [
+      881,
+      1190
+    ]
+  }
+]

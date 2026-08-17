@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 347000,
+    "topic": "巽为风",
+    "cue_range": [
+      1,
+      148
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 347000,
+    "t_end_ms": 693000,
+    "topic": "第57卦：巽为风·续",
+    "cue_range": [
+      149,
+      282
+    ]
+  }
+]

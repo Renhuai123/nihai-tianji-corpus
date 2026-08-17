@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 1420500,
+    "topic": "水雷屯",
+    "cue_range": [
+      1,
+      540
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 1421500,
+    "t_end_ms": 2838500,
+    "topic": "第3卦：水雷屯·续",
+    "cue_range": [
+      541,
+      1142
+    ]
+  }
+]

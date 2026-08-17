@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 335000,
+    "topic": "风水涣",
+    "cue_range": [
+      1,
+      127
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 335500,
+    "t_end_ms": 669000,
+    "topic": "第59卦：风水涣·续",
+    "cue_range": [
+      128,
+      280
+    ]
+  }
+]

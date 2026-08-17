@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 410000,
+    "topic": "兑为泽",
+    "cue_range": [
+      1,
+      141
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 410500,
+    "t_end_ms": 818500,
+    "topic": "第58卦：兑为泽·续",
+    "cue_range": [
+      142,
+      289
+    ]
+  }
+]

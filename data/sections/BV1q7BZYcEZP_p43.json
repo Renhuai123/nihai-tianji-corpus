@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 353500,
+    "topic": "雷水解",
+    "cue_range": [
+      1,
+      101
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 354000,
+    "t_end_ms": 698000,
+    "topic": "第40卦：雷水解·续",
+    "cue_range": [
+      102,
+      213
+    ]
+  }
+]

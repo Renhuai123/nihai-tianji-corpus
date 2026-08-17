@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 412500,
+    "topic": "泽天夬",
+    "cue_range": [
+      1,
+      154
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 412500,
+    "t_end_ms": 820500,
+    "topic": "第43卦：泽天夬·续",
+    "cue_range": [
+      155,
+      281
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 288000,
+    "topic": "雷泽归妹",
+    "cue_range": [
+      1,
+      104
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 288000,
+    "t_end_ms": 574000,
+    "topic": "第54卦：雷泽归妹·续",
+    "cue_range": [
+      105,
+      200
+    ]
+  }
+]

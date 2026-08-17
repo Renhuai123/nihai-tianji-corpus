@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 778000,
+    "topic": "火天大有：天子之道与象",
+    "cue_range": [
+      1,
+      303
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 778000,
+    "t_end_ms": 1542500,
+    "topic": "大有卜例与阳宅",
+    "cue_range": [
+      304,
+      578
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1542500,
+    "t_end_ms": 2314500,
+    "topic": "地山谦：序卦与重心",
+    "cue_range": [
+      579,
+      851
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2332500,
+    "t_end_ms": 2678500,
+    "topic": "谦之阳宅",
+    "cue_range": [
+      852,
+      978
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2680500,
+    "t_end_ms": 3648500,
+    "topic": "雷地豫：喜悦之道与阳宅",
+    "cue_range": [
+      979,
+      1346
+    ]
+  }
+]

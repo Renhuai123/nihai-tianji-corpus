@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2000,
+    "t_end_ms": 599500,
+    "topic": "龙脉",
+    "cue_range": [
+      1,
+      250
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 599500,
+    "t_end_ms": 1196000,
+    "topic": "明堂",
+    "cue_range": [
+      251,
+      501
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1196500,
+    "t_end_ms": 1790500,
+    "topic": "官鬼",
+    "cue_range": [
+      502,
+      756
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1790500,
+    "t_end_ms": 2390500,
+    "topic": "相上风水",
+    "cue_range": [
+      757,
+      1026
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2390500,
+    "t_end_ms": 2989000,
+    "topic": "罗经使用",
+    "cue_range": [
+      1027,
+      1272
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2989000,
+    "t_end_ms": 3579000,
+    "topic": "朝山取穴法",
+    "cue_range": [
+      1273,
+      1525
+    ]
+  }
+]

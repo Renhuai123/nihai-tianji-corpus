@@ -1,0 +1,42 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 804500,
+    "topic": "风雷益：益之道",
+    "cue_range": [
+      1,
+      294
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 807000,
+    "t_end_ms": 1638500,
+    "topic": "泽天夬：决",
+    "cue_range": [
+      295,
+      570
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1639500,
+    "t_end_ms": 2425000,
+    "topic": "天风姤：遇",
+    "cue_range": [
+      571,
+      838
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2425000,
+    "t_end_ms": 2870000,
+    "topic": "泽地萃：聚",
+    "cue_range": [
+      839,
+      1003
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 373500,
+    "topic": "泽水困",
+    "cue_range": [
+      1,
+      145
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 373500,
+    "t_end_ms": 747000,
+    "topic": "第47卦：泽水困·续",
+    "cue_range": [
+      146,
+      292
+    ]
+  }
+]

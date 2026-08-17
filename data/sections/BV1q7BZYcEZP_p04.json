@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1000,
+    "t_end_ms": 591000,
+    "topic": "乾为天",
+    "cue_range": [
+      1,
+      202
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 591500,
+    "t_end_ms": 1179000,
+    "topic": "第1卦：乾为天·续",
+    "cue_range": [
+      203,
+      407
+    ]
+  }
+]

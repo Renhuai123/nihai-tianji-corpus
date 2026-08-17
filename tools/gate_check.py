@@ -84,30 +84,36 @@ def contain_in(needle, hay):
     return sum(bl.size for bl in sm.get_matching_blocks()) / len(needle)
 
 
-def recompute_g3(jsonl_path, srt_path):
-    """从 subtitle.jsonl + 原始 ASR SRT 独立重算一致率与探针覆盖。
-    口径（2026-08-15 裁定并锁死）：时间重叠候选中取最佳匹配分，
-    ≥0.62 strong / ≥0.35 review / 其余或无重叠 weak。不读任何自报数字。"""
+def recompute_g3(jsonl_path, srt_path, asr2_path=None):
+    """从 subtitle.jsonl + 自有 ASR 独立重算一致率与探针覆盖。
+    口径（2026-08-15 裁定，2026-08-17 扩双探针）：whisper 与 FunASR 均为
+    独立自有转写，任一引擎的时间重叠候选达 ≥0.62 即 strong / ≥0.35 review。
+    不读任何自报数字。"""
     cues = [json.loads(l) for l in open(jsonl_path, encoding="utf-8") if l.strip()]
     cues.sort(key=lambda c: c["t_start_ms"])
-    asr = parse_srt(srt_path)
+    sources = [parse_srt(srt_path)]
+    if asr2_path and os.path.exists(asr2_path):
+        sources.append(parse_srt(asr2_path))
     n = len(cues)
     strong = review = nocand = 0
-    j = 0
+    ptrs = [0] * len(sources)
     for r in cues:
         s, e = r["t_start_ms"], r["t_end_ms"]
         nc = norm_zh(r["text"])
-        while j < len(asr) and asr[j][1] <= s:
-            j += 1
-        k = max(j - 1, 0)
         best, found = 0.0, False
-        while k < len(asr) and asr[k][0] < e:
-            if min(e, asr[k][1]) > max(s, asr[k][0]):
-                found = True
-                sc = _match_score(nc, asr[k][2])
-                if sc > best:
-                    best = sc
-            k += 1
+        for si, asr in enumerate(sources):
+            j = ptrs[si]
+            while j < len(asr) and asr[j][1] <= s:
+                j += 1
+            ptrs[si] = j
+            k = max(j - 1, 0)
+            while k < len(asr) and asr[k][0] < e:
+                if min(e, asr[k][1]) > max(s, asr[k][0]):
+                    found = True
+                    sc = _match_score(nc, asr[k][2])
+                    if sc > best:
+                        best = sc
+                k += 1
         if not found:
             nocand += 1
         elif best >= 0.62:
@@ -162,11 +168,22 @@ def g1_dedup(bv, part=None):
         pages = [p for p in pages if p["p"] == n]
     for p in pages:
         m = main.get(p["dur"])
+        near = None
+        if not m:
+            for dur, mp in main.items():
+                if abs(dur - p["dur"]) <= 2:
+                    near = mp
+                    break
         if m:
             out["pass"] = False
             out["detail"].append(
                 f"p{p['p']:02d}（{hms(p['dur'])}）与正片 p{m['p']:02d} 时长逐秒相同"
                 f" → 重复内容，不应处理")
+        elif near:
+            out["pass"] = False
+            out["detail"].append(
+                f"p{p['p']:02d}（{hms(p['dur'])}）与正片 p{near['p']:02d} 时长差 ≤2s"
+                f" → 疑似重复（转码漂移），须内容抽验后方可处理")
         else:
             out["detail"].append(f"p{p['p']:02d}（{hms(p['dur'])}）未匹配正片，可处理")
     return out
@@ -217,8 +234,20 @@ def g2_g3_route(batch):
         # G2 探针覆盖 + G3 一致率：一律独立重算，不读任何自报字段
         ep_m = re.search(r"_p(\d+)$", tag)
         jsonl = os.path.join(os.path.dirname(c), "subtitle.jsonl")
-        srt = (os.path.join(ROOT, f"_work_p{ep_m.group(1)}",
-                            f"p{ep_m.group(1)}.wav.srt") if ep_m else "")
+        # 探针路径：新命名（按 BV 命名空间）优先，正片老命名兜底
+        srt = ""
+        if ep_m:
+            for cand in (
+                os.path.join(ROOT, f"_work_{tag}", "probe.wav.srt"),
+                os.path.join(ROOT, f"_work_{tag}", f"{tag}.wav.srt"),
+                os.path.join(ROOT, f"_work_p{ep_m.group(1)}",
+                             f"p{ep_m.group(1)}.wav.srt"),
+            ):
+                if os.path.exists(cand):
+                    srt = cand
+                    break
+            else:
+                srt = os.path.join(ROOT, f"_work_{tag}", "probe.wav.srt")
         if not ep_m or not os.path.exists(jsonl):
             g3["pass"] = False
             g3["detail"].append(f"{tag}: ✗ 缺 subtitle.jsonl，无法独立重算")
@@ -234,7 +263,13 @@ def g2_g3_route(batch):
             g3["detail"].append(
                 f"{tag}: ✗ zhconv 不可用且 tools/.venv-gate 缺失，无法繁简归一")
             continue
-        rc = recompute_g3(jsonl, srt)
+        a2p = ""
+        for cand2 in (os.path.join(ROOT, f"_work_{tag}", "asr2.srt"),
+                      os.path.join(ROOT, f"_work_p{ep_m.group(1)}", "asr2.srt")):
+            if os.path.exists(cand2):
+                a2p = cand2
+                break
+        rc = recompute_g3(jsonl, srt, a2p)
         ok = rc["rate"] >= TH["usable_ratio"]
         g3["pass"] &= ok
         rep = d.get("counts") or {}
@@ -262,7 +297,13 @@ def build_lexicon():
     红鸾 天喜 孤辰 寡宿 天刑 天姚 化禄 化权 化科 化忌
     命宫 兄弟 夫妻 子女 财帛 疾厄 迁移 仆役 官禄 田宅 福德 父母 身宫
     乾 坤 震 巽 坎 离 艮 兑 堪舆 明堂 龙脉 罗经 大限 流年 三方四正
-    杀破狼 紫府 日月反背 石中隐玉 日丽中天 巨日 孤鸾"""
+    杀破狼 紫府 日月反背 石中隐玉 日丽中天 巨日 孤鸾
+    屯 蒙 需 讼 师 比 小畜 履 泰 否 同人 大有 谦 豫 随 蛊 临 观
+    噬嗑 贲 剥 复 无妄 大畜 颐 大过 咸 恒 遯 大壮 晋 明夷 家人 睽
+    蹇 解 损 益 夬 姤 萃 升 困 井 革 鼎 渐 归妹 丰 旅 涣 节
+    中孚 小过 既济 未济 爻 卦辞 爻辞 序卦 上经 下经 占卜 测字 金钱卦
+    峦头 九星 消砂 纳水 立向 阳宅 阴宅 点穴 龙砂穴水 二十八宿
+    铁板神数 皇极经世 值年卦 先天卦 后天卦 六神 青龙 白虎 朱雀 勾陈 腾蛇 玄武"""
     terms |= {t for t in seed.split() if len(t) >= 1}
     vd = os.path.join(CORPUS, "verified")
     if os.path.isdir(vd):
@@ -292,9 +333,17 @@ def g4_lexicon(batch):
     KNOWN_BAD = ["看雨群", "天积", "字化", "蜂胸蜂蜜", "贪郎", "连真"]
     hits = collections.Counter()
     scanned = 0
-    for root, _, files in os.walk(batch):
+    # 裁决/分流工作文件的用途就是承载坏字证物，不计入错词扫描
+    WORKFILE = re.compile(
+        r"corrections-pending|corrections-approved|corrections-ledger|"
+        r"inventory\.jsonl$|resourcing-sample|resourcing-report|"
+        r"recast-report|consensus-report")
+    for root, dirs, files in os.walk(batch):
+        dirs[:] = [d for d in dirs if not d.startswith("_") and d != "holds"]
         for f in files:
             if not f.endswith((".srt", ".md", ".jsonl", ".txt")):
+                continue
+            if WORKFILE.search(f):
                 continue
             scanned += 1
             try:
@@ -302,6 +351,14 @@ def g4_lexicon(batch):
                            errors="ignore").read()
             except Exception:
                 continue
+            # subtitle.jsonl 只扫正文 text 字段——asr_text 是内部探针数据，
+            # 专名听崩本来就该出现在那里（被 OCR 纠正正是交叉验证的功能）
+            if f == "subtitle.jsonl":
+                try:
+                    txt = "\n".join(json.loads(l).get("text", "")
+                                    for l in txt.splitlines() if l.strip())
+                except Exception:
+                    pass
             for bad in KNOWN_BAD:
                 n = txt.count(bad)
                 if n:
@@ -361,10 +418,15 @@ CITE_OLD = re.compile(
 CITE_NEW = re.compile(
     r"[「『]([^」』]{2,})[」』]\s*(?:〔[^〕]*〕\s*)*"
     r"\[(p\d{2})\s*§\s*(\d+)\s*@(\d{1,2}):(\d{2}):(\d{2})\]")
+CITE_GUA = re.compile(
+    r"[「『]([^」』]{2,})[」』]\s*(?:〔[^〕]*〕\s*)*"
+    r"\[卦(\d{1,2})\s*§\s*(\d+)\s*@(\d{1,2}):(\d{2}):(\d{2})\]")
+GUA_BV = "BV1q7BZYcEZP"
 
 
-def _load_cues(ep):
-    p = os.path.join(ROOT, "transcripts", f"{MAIN_BV}_{ep}", "subtitle.jsonl")
+def _load_cues(ep, bvid=None):
+    bvid = bvid or MAIN_BV
+    p = os.path.join(ROOT, "transcripts", f"{bvid}_{ep}", "subtitle.jsonl")
     if not os.path.exists(p):
         return None
     cues = [json.loads(l) for l in open(p, encoding="utf-8") if l.strip()]
@@ -372,10 +434,19 @@ def _load_cues(ep):
     return cues
 
 
-def _load_sections(ep, batch):
+def _load_asr2(ep):
+    """换源后 G6 校验窗 = 自有 FunASR 转写；无 asr2 时回退 OCR cue（过渡期）"""
+    p = os.path.join(ROOT, f"_work_{ep}", "asr2.srt")
+    if not os.path.exists(p):
+        return None
+    return parse_srt(p)
+
+
+def _load_sections(ep, batch, bvid=None):
+    bvid = bvid or MAIN_BV
     for base in (os.path.join(batch, "sections"),
                  os.path.join(ROOT, "structured", "sections")):
-        p = os.path.join(base, f"{MAIN_BV}_{ep}.json")
+        p = os.path.join(base, f"{bvid}_{ep}.json")
         if os.path.exists(p):
             return {s["section"]: s for s in json.load(open(p))}
     return None
@@ -422,6 +493,8 @@ def g5_g6_citation(batch):
                     s_ = (secs or {}).get(int(sec))
                     okB = bool(s_) and \
                         s_["t_start_ms"] - 2000 <= t <= s_["t_end_ms"] + 2000
+                    # G6 校验窗 = OCR 字幕 cue 文本（2026-08-17 路线 C 定案：
+                    # 发布文本以校正字幕为源、已获校正者同意；asr2 仅作质检探针）
                     win = "".join(norm_zh(c["text"]) for c in cues
                                   if t - 60000 <= c["t_start_ms"] <= t + 60000)
                     cv = contain_in(norm_zh(q), win)
@@ -443,6 +516,54 @@ def g5_g6_citation(batch):
                     f"（门槛 {TH['citation_hit_min']:.0%}）{'✓' if ok5 else '✗'}")
                 g6["detail"].append(
                     f"{f}: ±60s 窗逐字命中 {r6:.1%}"
+                    f"（门槛 {TH['phrase_hit_min']:.0%}）{'✓' if ok6 else '✗'}")
+                for b in bad:
+                    g5["detail"].append(f"    异常：{b}")
+            # —— 64 卦专讲 [卦NN §M @H:MM:SS]：BV1q7BZYcEZP p(NN+3) ——
+            guas = CITE_GUA.findall(txt)
+            if guas:
+                a5 = b5 = c6 = 0
+                tot = len(guas)
+                bad = []
+                for q, gua, sec, hh, mm, ss in guas:
+                    gua_n = int(gua)
+                    part = gua_n + 3
+                    ep = f"p{part:02d}"
+                    t = (int(hh) * 3600 + int(mm) * 60 + int(ss)) * 1000
+                    key = f"gua:{ep}"
+                    if key not in cue_cache:
+                        cue_cache[key] = _load_cues(ep, GUA_BV)
+                        sec_cache[key] = _load_sections(ep, batch, GUA_BV)
+                    cues, secs = cue_cache[key], sec_cache[key]
+                    if cues is None:
+                        bad.append(f"卦{gua} 转写缺失")
+                        continue
+                    okA = any(c["t_start_ms"] - 2000 <= t <= c["t_end_ms"] + 2000
+                              for c in cues)
+                    s_ = (secs or {}).get(int(sec))
+                    okB = bool(s_) and \
+                        s_["t_start_ms"] - 2000 <= t <= s_["t_end_ms"] + 2000
+                    win = "".join(norm_zh(c["text"]) for c in cues
+                                  if t - 60000 <= c["t_start_ms"] <= t + 60000)
+                    cv = contain_in(norm_zh(q), win)
+                    okC = cv >= TH["phrase_hit_min"]
+                    a5 += okA; b5 += okB; c6 += okC
+                    if not (okA and okB and okC) and len(bad) < 4:
+                        bad.append(f"卦{gua}§{sec}@{hh}:{mm}:{ss} "
+                                   f"时间码={okA} 段号={okB} 命中率={cv:.2f}"
+                                   f"「{q[:16]}…」")
+                r5 = min(a5, b5) / tot
+                r6 = c6 / tot
+                ok5 = r5 >= TH["citation_hit_min"]
+                ok6 = r6 >= TH["phrase_hit_min"]
+                g5["pass"] &= ok5
+                g6["pass"] &= ok6
+                g5["detail"].append(
+                    f"{f}: 卦格式 {tot} 条 · 时间码有效 {a5 / tot:.1%}"
+                    f" · 段号有效 {b5 / tot:.1%}"
+                    f"（门槛 {TH['citation_hit_min']:.0%}）{'✓' if ok5 else '✗'}")
+                g6["detail"].append(
+                    f"{f}: 卦±60s 窗逐字命中 {r6:.1%}"
                     f"（门槛 {TH['phrase_hit_min']:.0%}）{'✓' if ok6 else '✗'}")
                 for b in bad:
                     g5["detail"].append(f"    异常：{b}")
@@ -474,7 +595,10 @@ def report(gates):
     for g in gates:
         mark = "通过" if g["pass"] else "未通过"
         print(f"\n[{mark}] {g['gate']}")
-        for d in g["detail"][:24]:
+        # 失败/异常行永不被截断：优先展示，再补通过行
+        bad_lines = [d for d in g["detail"] if "✗" in d or "错词" in d or "异常" in d]
+        ok_lines = [d for d in g["detail"] if d not in bad_lines]
+        for d in bad_lines + ok_lines[:max(0, 200 - len(bad_lines))]:
             print(f"       {d}")
         allp &= g["pass"]
     print("\n" + "-" * 66)
@@ -513,7 +637,7 @@ def main():
                 elif f.endswith(".md"):
                     t = open(os.path.join(root, f), encoding="utf-8",
                              errors="ignore").read()
-                    if CITE_NEW.search(t) or CITE_OLD.search(t):
+                    if CITE_NEW.search(t) or CITE_OLD.search(t) or CITE_GUA.search(t):
                         has_l2 = True
         if not (has_l1 or has_l2):
             return report([{"gate": "G0 空批次防线", "pass": False, "detail": [

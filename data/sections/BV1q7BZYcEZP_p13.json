@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1000,
+    "t_end_ms": 510000,
+    "topic": "天泽履",
+    "cue_range": [
+      1,
+      235
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 510000,
+    "t_end_ms": 1016000,
+    "topic": "第10卦：天泽履·续",
+    "cue_range": [
+      236,
+      447
+    ]
+  }
+]

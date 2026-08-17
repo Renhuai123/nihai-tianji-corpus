@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1000,
+    "t_end_ms": 581000,
+    "topic": "泽雷随",
+    "cue_range": [
+      1,
+      161
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 581000,
+    "t_end_ms": 1158000,
+    "topic": "山风蛊",
+    "cue_range": [
+      162,
+      316
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1158000,
+    "t_end_ms": 1748000,
+    "topic": "地泽临",
+    "cue_range": [
+      317,
+      438
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1750500,
+    "t_end_ms": 2314500,
+    "topic": "风地观",
+    "cue_range": [
+      439,
+      603
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2314500,
+    "t_end_ms": 2892500,
+    "topic": "火雷噬嗑",
+    "cue_range": [
+      604,
+      727
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2893000,
+    "t_end_ms": 3471000,
+    "topic": "山火贲",
+    "cue_range": [
+      728,
+      871
+    ]
+  }
+]

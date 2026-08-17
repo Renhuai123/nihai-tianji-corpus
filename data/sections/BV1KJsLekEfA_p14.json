@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 542500,
+    "topic": "地水师：丈人吉、阳宅母位与险",
+    "cue_range": [
+      1,
+      240
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 542500,
+    "t_end_ms": 1429000,
+    "topic": "水地比：亲比之道与人间道",
+    "cue_range": [
+      241,
+      632
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1437500,
+    "t_end_ms": 1678000,
+    "topic": "比之阳宅与序卦",
+    "cue_range": [
+      633,
+      723
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1678500,
+    "t_end_ms": 2520000,
+    "topic": "风天小畜：密云不雨、积蓄",
+    "cue_range": [
+      724,
+      1051
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2521500,
+    "t_end_ms": 2919500,
+    "topic": "小畜排命流年与阳宅",
+    "cue_range": [
+      1052,
+      1254
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2919500,
+    "t_end_ms": 3426000,
+    "topic": "小畜家庭角色与阳宅活用",
+    "cue_range": [
+      1255,
+      1514
+    ]
+  }
+]

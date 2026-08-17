@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 689000,
+    "topic": "火天大有",
+    "cue_range": [
+      1,
+      253
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 689000,
+    "t_end_ms": 1376500,
+    "topic": "第14卦：火天大有·续",
+    "cue_range": [
+      254,
+      502
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 403000,
+    "topic": "地风升",
+    "cue_range": [
+      1,
+      157
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 403500,
+    "t_end_ms": 802000,
+    "topic": "第46卦：地风升·续",
+    "cue_range": [
+      158,
+      315
+    ]
+  }
+]

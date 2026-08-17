@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1000,
+    "t_end_ms": 526500,
+    "topic": "地水师",
+    "cue_range": [
+      1,
+      204
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 526500,
+    "t_end_ms": 1051000,
+    "topic": "第7卦：地水师·续",
+    "cue_range": [
+      205,
+      436
+    ]
+  }
+]

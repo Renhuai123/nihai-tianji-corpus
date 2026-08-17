@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 565500,
+    "topic": "天火同人",
+    "cue_range": [
+      1,
+      212
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 565500,
+    "t_end_ms": 1130000,
+    "topic": "第13卦：天火同人·续",
+    "cue_range": [
+      213,
+      422
+    ]
+  }
+]

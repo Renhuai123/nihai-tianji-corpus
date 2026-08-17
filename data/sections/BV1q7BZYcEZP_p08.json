@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 476000,
+    "topic": "水天需",
+    "cue_range": [
+      1,
+      180
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 477000,
+    "t_end_ms": 947500,
+    "topic": "第5卦：水天需·续",
+    "cue_range": [
+      181,
+      358
+    ]
+  }
+]

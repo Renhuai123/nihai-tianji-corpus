@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 3000,
+    "t_end_ms": 526000,
+    "topic": "乾为天：六爻位与传神",
+    "cue_range": [
+      1,
+      180
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 526000,
+    "t_end_ms": 720000,
+    "topic": "亢龙有悔与乾卦通义",
+    "cue_range": [
+      181,
+      254
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 720000,
+    "t_end_ms": 1181000,
+    "topic": "乾为天卜例与当官之象",
+    "cue_range": [
+      255,
+      414
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1184500,
+    "t_end_ms": 1905500,
+    "topic": "坤为地：顺、直方、用六",
+    "cue_range": [
+      415,
+      700
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1905500,
+    "t_end_ms": 2376000,
+    "topic": "乾坤对看与龙战于野",
+    "cue_range": [
+      701,
+      900
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2376000,
+    "t_end_ms": 2813500,
+    "topic": "乾坤入人事与下卦预告",
+    "cue_range": [
+      901,
+      1081
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2000,
+    "t_end_ms": 347500,
+    "topic": "变易之道与读图",
+    "cue_range": [
+      1,
+      116
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 347500,
+    "t_end_ms": 753500,
+    "topic": "铁板点名与君子观象",
+    "cue_range": [
+      117,
+      287
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 755500,
+    "t_end_ms": 1082000,
+    "topic": "先天八卦与后天八卦为用",
+    "cue_range": [
+      288,
+      423
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1083500,
+    "t_end_ms": 1460000,
+    "topic": "后天八卦入阳宅风水",
+    "cue_range": [
+      424,
+      560
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1460500,
+    "t_end_ms": 1888000,
+    "topic": "九宫方位与家庭角色",
+    "cue_range": [
+      561,
+      720
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1888000,
+    "t_end_ms": 2282000,
+    "topic": "天机道人间道地脉道与乾为天",
+    "cue_range": [
+      721,
+      906
+    ]
+  }
+]

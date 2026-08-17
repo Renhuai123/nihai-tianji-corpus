@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 944500,
+    "topic": "山水蒙收束：去蒙、渎蒙、阳宅立位",
+    "cue_range": [
+      1,
+      364
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 945000,
+    "t_end_ms": 1440000,
+    "topic": "序卦入水天需：需待饮食",
+    "cue_range": [
+      365,
+      549
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1440000,
+    "t_end_ms": 2068000,
+    "topic": "水天需卜例、测字与阳宅",
+    "cue_range": [
+      550,
+      799
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2073000,
+    "t_end_ms": 2726000,
+    "topic": "天水讼：饮食之争与序卦",
+    "cue_range": [
+      800,
+      1040
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2742000,
+    "t_end_ms": 3275500,
+    "topic": "讼之阳宅：西北父、地水师母",
+    "cue_range": [
+      1041,
+      1246
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 3276500,
+    "t_end_ms": 3550000,
+    "topic": "师之道预告与正名出师",
+    "cue_range": [
+      1247,
+      1358
+    ]
+  }
+]

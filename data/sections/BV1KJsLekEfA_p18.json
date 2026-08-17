@@ -1,0 +1,42 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 987500,
+    "topic": "天地否：象与不交",
+    "cue_range": [
+      1,
+      353
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 987500,
+    "t_end_ms": 2124500,
+    "topic": "否之人间道与用例",
+    "cue_range": [
+      354,
+      832
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 2126000,
+    "t_end_ms": 2719500,
+    "topic": "天火同人：序卦与象",
+    "cue_range": [
+      833,
+      1038
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2720000,
+    "t_end_ms": 3255500,
+    "topic": "同人之卜例与阳宅",
+    "cue_range": [
+      1039,
+      1230
+    ]
+  }
+]

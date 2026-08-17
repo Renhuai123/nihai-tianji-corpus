@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 394500,
+    "topic": "地火明夷",
+    "cue_range": [
+      1,
+      135
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 395000,
+    "t_end_ms": 784000,
+    "topic": "第36卦：地火明夷·续",
+    "cue_range": [
+      136,
+      289
+    ]
+  }
+]

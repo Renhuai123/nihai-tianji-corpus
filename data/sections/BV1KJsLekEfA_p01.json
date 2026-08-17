@@ -1,0 +1,72 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 186000,
+    "topic": "天纪正名：人纪地纪与真理",
+    "cue_range": [
+      1,
+      59
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 186000,
+    "t_end_ms": 522000,
+    "topic": "学而不思、文字是障、空杯",
+    "cue_range": [
+      60,
+      178
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 522000,
+    "t_end_ms": 762500,
+    "topic": "姓名学：形神与假设验证",
+    "cue_range": [
+      179,
+      260
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 762500,
+    "t_end_ms": 1083000,
+    "topic": "盗亦有道与权力正名",
+    "cue_range": [
+      261,
+      372
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1083000,
+    "t_end_ms": 1571000,
+    "topic": "君子小人与望神",
+    "cue_range": [
+      373,
+      528
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1571000,
+    "t_end_ms": 1882000,
+    "topic": "读图、八卦入门与人间道",
+    "cue_range": [
+      529,
+      645
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 1882000,
+    "t_end_ms": 2341000,
+    "topic": "诸术比较、以果决行与童蒙",
+    "cue_range": [
+      646,
+      848
+    ]
+  }
+]

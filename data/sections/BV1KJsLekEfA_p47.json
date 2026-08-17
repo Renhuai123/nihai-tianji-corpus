@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 479000,
+    "topic": "水风井",
+    "cue_range": [
+      1,
+      134
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 479500,
+    "t_end_ms": 950000,
+    "topic": "泽火革",
+    "cue_range": [
+      135,
+      262
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 950000,
+    "t_end_ms": 1421000,
+    "topic": "火风鼎",
+    "cue_range": [
+      263,
+      406
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1422000,
+    "t_end_ms": 1899000,
+    "topic": "震为雷",
+    "cue_range": [
+      407,
+      553
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1899000,
+    "t_end_ms": 2371000,
+    "topic": "艮为山",
+    "cue_range": [
+      554,
+      688
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2371000,
+    "t_end_ms": 2842500,
+    "topic": "风山渐",
+    "cue_range": [
+      689,
+      824
+    ]
+  }
+]

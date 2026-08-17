@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 419500,
+    "topic": "雷火丰",
+    "cue_range": [
+      1,
+      169
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 419500,
+    "t_end_ms": 835000,
+    "topic": "第55卦：雷火丰·续",
+    "cue_range": [
+      170,
+      332
+    ]
+  }
+]

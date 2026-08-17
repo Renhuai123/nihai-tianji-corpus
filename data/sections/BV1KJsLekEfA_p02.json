@@ -1,0 +1,82 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 277000,
+    "topic": "姜太公与形神：学会看象抓神",
+    "cue_range": [
+      1,
+      109
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 277000,
+    "t_end_ms": 684000,
+    "topic": "金钱卦、天水讼与水天需待时",
+    "cue_range": [
+      110,
+      272
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 684000,
+    "t_end_ms": 1069000,
+    "topic": "天机道人间道地脉道与君子观象",
+    "cue_range": [
+      273,
+      400
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1069000,
+    "t_end_ms": 1328000,
+    "topic": "教育代沟与假设验证",
+    "cue_range": [
+      401,
+      493
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 1328000,
+    "t_end_ms": 1942000,
+    "topic": "九宫八卦入阳宅",
+    "cue_range": [
+      494,
+      760
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 1942000,
+    "t_end_ms": 2422000,
+    "topic": "人间道长幼有序与阳宅用神",
+    "cue_range": [
+      761,
+      960
+    ]
+  },
+  {
+    "section": 7,
+    "t_start_ms": 2422000,
+    "t_end_ms": 3128500,
+    "topic": "阳宅看神：客厅与乾坤父母位",
+    "cue_range": [
+      961,
+      1250
+    ]
+  },
+  {
+    "section": 8,
+    "t_start_ms": 3128500,
+    "t_end_ms": 3997500,
+    "topic": "测字人相与六十四卦即六十四动作",
+    "cue_range": [
+      1251,
+      1626
+    ]
+  }
+]

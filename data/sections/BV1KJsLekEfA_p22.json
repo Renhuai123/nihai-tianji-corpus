@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 847000,
+    "topic": "泽雷随：随来源与象",
+    "cue_range": [
+      1,
+      331
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 847500,
+    "t_end_ms": 1581500,
+    "topic": "山风蛊：序卦与蛊之义",
+    "cue_range": [
+      332,
+      593
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1588000,
+    "t_end_ms": 1721000,
+    "topic": "蛊之阳宅",
+    "cue_range": [
+      594,
+      640
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1724500,
+    "t_end_ms": 2599000,
+    "topic": "地泽临：临之道",
+    "cue_range": [
+      641,
+      981
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2600000,
+    "t_end_ms": 2781000,
+    "topic": "临之阳宅",
+    "cue_range": [
+      982,
+      1028
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 2781000,
+    "t_end_ms": 3542000,
+    "topic": "风地观：观民察己与阳宅",
+    "cue_range": [
+      1029,
+      1307
+    ]
+  }
+]

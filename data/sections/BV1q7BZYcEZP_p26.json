@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 611000,
+    "topic": "山地剥",
+    "cue_range": [
+      1,
+      263
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 611000,
+    "t_end_ms": 1220500,
+    "topic": "第23卦：山地剥·续",
+    "cue_range": [
+      264,
+      513
+    ]
+  }
+]

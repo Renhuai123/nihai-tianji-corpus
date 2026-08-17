@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 619500,
+    "topic": "六神占断法",
+    "cue_range": [
+      1,
+      233
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 620000,
+    "t_end_ms": 1234000,
+    "topic": "紫微堪舆应用",
+    "cue_range": [
+      234,
+      458
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1234000,
+    "t_end_ms": 1852500,
+    "topic": "斗君",
+    "cue_range": [
+      459,
+      706
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1853000,
+    "t_end_ms": 2469000,
+    "topic": "流月流日",
+    "cue_range": [
+      707,
+      941
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2469500,
+    "t_end_ms": 3083000,
+    "topic": "六神灵机运用",
+    "cue_range": [
+      942,
+      1203
+    ]
+  }
+]

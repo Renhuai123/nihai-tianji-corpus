@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 365000,
+    "topic": "泽火革",
+    "cue_range": [
+      1,
+      144
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 365500,
+    "t_end_ms": 730500,
+    "topic": "第49卦：泽火革·续",
+    "cue_range": [
+      145,
+      291
+    ]
+  }
+]

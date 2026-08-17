@@ -1,0 +1,42 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 1018500,
+    "topic": "天雷无妄：至诚",
+    "cue_range": [
+      1,
+      387
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 1018500,
+    "t_end_ms": 1580500,
+    "topic": "山天大畜：大积",
+    "cue_range": [
+      388,
+      588
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1581000,
+    "t_end_ms": 2328500,
+    "topic": "山雷颐：养之道",
+    "cue_range": [
+      589,
+      857
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2334500,
+    "t_end_ms": 2906500,
+    "topic": "泽风大过：大过之象",
+    "cue_range": [
+      858,
+      1073
+    ]
+  }
+]

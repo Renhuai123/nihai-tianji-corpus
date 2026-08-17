@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 500,
+    "t_end_ms": 572000,
+    "topic": "水山蹇",
+    "cue_range": [
+      1,
+      176
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 575500,
+    "t_end_ms": 1139500,
+    "topic": "第39卦：水山蹇·续",
+    "cue_range": [
+      177,
+      404
+    ]
+  }
+]

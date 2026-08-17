@@ -1,0 +1,42 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 647000,
+    "topic": "火泽睽收束：乖违与序卦入蹇",
+    "cue_range": [
+      1,
+      259
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 647000,
+    "t_end_ms": 1791500,
+    "topic": "水山蹇：难",
+    "cue_range": [
+      260,
+      729
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1792000,
+    "t_end_ms": 2504000,
+    "topic": "雷水解：散与解缓",
+    "cue_range": [
+      730,
+      989
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2504000,
+    "t_end_ms": 3328500,
+    "topic": "山泽损：损下益上",
+    "cue_range": [
+      990,
+      1396
+    ]
+  }
+]

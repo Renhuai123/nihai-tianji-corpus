@@ -1,0 +1,52 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 2500,
+    "t_end_ms": 818000,
+    "topic": "天泽履：象、序卦与履虎尾",
+    "cue_range": [
+      1,
+      371
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 822500,
+    "t_end_ms": 1017500,
+    "topic": "履卦用例与人间道",
+    "cue_range": [
+      372,
+      459
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1018500,
+    "t_end_ms": 2108000,
+    "topic": "地天泰：序卦、象与改念",
+    "cue_range": [
+      460,
+      911
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 2108000,
+    "t_end_ms": 2511000,
+    "topic": "泰否一念对照",
+    "cue_range": [
+      912,
+      1058
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2511000,
+    "t_end_ms": 3310500,
+    "topic": "泰之卜例与阳宅",
+    "cue_range": [
+      1059,
+      1443
+    ]
+  }
+]

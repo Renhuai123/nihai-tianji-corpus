@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 1146500,
+    "topic": "地天泰",
+    "cue_range": [
+      1,
+      475
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 1147500,
+    "t_end_ms": 2292500,
+    "topic": "第11卦：地天泰·续",
+    "cue_range": [
+      476,
+      994
+    ]
+  }
+]

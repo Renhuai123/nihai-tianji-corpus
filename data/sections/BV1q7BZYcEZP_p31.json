@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 3500,
+    "t_end_ms": 272000,
+    "topic": "泽风大过",
+    "cue_range": [
+      1,
+      95
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 272000,
+    "t_end_ms": 538000,
+    "topic": "第28卦：泽风大过·续",
+    "cue_range": [
+      96,
+      206
+    ]
+  }
+]

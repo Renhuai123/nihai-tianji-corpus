@@ -1,0 +1,22 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 0,
+    "t_end_ms": 562500,
+    "topic": "水地比",
+    "cue_range": [
+      1,
+      308
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 562500,
+    "t_end_ms": 1117500,
+    "topic": "第8卦：水地比·续",
+    "cue_range": [
+      309,
+      545
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "section": 1,
+    "t_start_ms": 1500,
+    "t_end_ms": 619500,
+    "topic": "三吉六秀",
+    "cue_range": [
+      1,
+      251
+    ]
+  },
+  {
+    "section": 2,
+    "t_start_ms": 619500,
+    "t_end_ms": 1238500,
+    "topic": "穿山72龙",
+    "cue_range": [
+      252,
+      519
+    ]
+  },
+  {
+    "section": 3,
+    "t_start_ms": 1238500,
+    "t_end_ms": 1857000,
+    "topic": "天罡28宿",
+    "cue_range": [
+      520,
+      787
+    ]
+  },
+  {
+    "section": 4,
+    "t_start_ms": 1857000,
+    "t_end_ms": 2475500,
+    "topic": "罗盘使用",
+    "cue_range": [
+      788,
+      1024
+    ]
+  },
+  {
+    "section": 5,
+    "t_start_ms": 2475500,
+    "t_end_ms": 3093000,
+    "topic": "分房宫位法",
+    "cue_range": [
+      1025,
+      1284
+    ]
+  },
+  {
+    "section": 6,
+    "t_start_ms": 3093500,
+    "t_end_ms": 3709000,
+    "topic": "透地60龙",
+    "cue_range": [
+      1285,
+      1576
+    ]
+  }
+]
