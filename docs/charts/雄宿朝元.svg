@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624 756" font-family="PingFang SC, Noto Sans SC, sans-serif">
+<rect width="624" height="756" fill="#faf8f4"/>
+<line x1="87.0" y1="537.0" x2="537.0" y2="87.0" stroke="#b04a3e" stroke-width="2.4" stroke-dasharray="none" opacity="0.5"/>
+<line x1="87.0" y1="537.0" x2="537.0" y2="387.0" stroke="#8a7a63" stroke-width="2.0" stroke-dasharray="7 5" opacity="0.5"/>
+<rect x="12" y="12" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="21" y="34" font-size="14" fill="#8a7a63">巳</text>
+<rect x="162" y="12" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="171" y="34" font-size="14" fill="#8a7a63">午</text>
+<rect x="312" y="12" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="321" y="34" font-size="14" fill="#8a7a63">未</text>
+<rect x="462" y="12" width="150" height="150" fill="#f3ddc4" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="471" y="34" font-size="14" fill="#8a7a63">申</text>
+<text x="537.0" y="68" font-size="25" text-anchor="middle" fill="#1a1d21" font-weight="bold">贪狼</text>
+<text x="537.0" y="146" font-size="13" text-anchor="middle" fill="#b04a3e">迁移</text>
+<rect x="12" y="162" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="21" y="184" font-size="14" fill="#8a7a63">辰</text>
+<rect x="462" y="162" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="471" y="184" font-size="14" fill="#8a7a63">酉</text>
+<rect x="12" y="312" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="21" y="334" font-size="14" fill="#8a7a63">卯</text>
+<rect x="462" y="312" width="150" height="150" fill="#f7f2e8" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="471" y="334" font-size="14" fill="#8a7a63">戌</text>
+<text x="537.0" y="446" font-size="13" text-anchor="middle" fill="#b04a3e">财帛</text>
+<rect x="12" y="462" width="150" height="150" fill="#f3ddc4" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="21" y="484" font-size="14" fill="#8a7a63">寅</text>
+<text x="87.0" y="518" font-size="25" text-anchor="middle" fill="#1a1d21" font-weight="bold">廉贞</text>
+<text x="87.0" y="596" font-size="13" text-anchor="middle" fill="#b04a3e">命宫</text>
+<rect x="162" y="462" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="171" y="484" font-size="14" fill="#8a7a63">丑</text>
+<rect x="312" y="462" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="321" y="484" font-size="14" fill="#8a7a63">子</text>
+<rect x="462" y="462" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="471" y="484" font-size="14" fill="#8a7a63">亥</text>
+<rect x="162" y="162" width="300" height="300" fill="#faf8f4" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.9"/>
+<text x="312.0" y="290.0" font-size="27" text-anchor="middle" fill="#1a1d21" font-weight="bold">雄宿朝元</text>
+<text x="312.0" y="322.0" font-size="17" text-anchor="middle" fill="#2e7d5b">吉格</text>
+<text x="312.0" y="354.0" font-size="12" text-anchor="middle" fill="#6b7480">连线：对宫 · 三合</text>
+<text x="14" y="648" font-size="13.5" fill="#1a1d21">廉贞孤星独守命宫，须在寅或申方合格，对宫贪狼；主武官出将入相或经商为</text>
+<text x="14" y="670" font-size="13.5" fill="#1a1d21">老板（须财帛有禄），后期易毁于桃花。</text>
+<text x="14" y="700" font-size="11.5" fill="#6b7480">—— 倪海厦《天纪》p13 §5 @00:22:43</text>
+<text x="14" y="720" font-size="11" fill="#a8b0ba">本图依判语数据重绘（非原板书复制）· nihai-tianji-corpus · MIT</text>
+</svg>

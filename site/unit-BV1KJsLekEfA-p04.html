@@ -1,0 +1,156 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>七、卦与爻 · 天纪</title><style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1a1d21;--muted:#6b7480;--line:#e3ded3;
+--accent:#b04a3e;--accent2:#2e7d5b;--gold:#8a7a63;--chip:#f0ece3}
+@media(prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1c1f23;--ink:#e8e6e1;
+--muted:#9aa3ad;--line:#2c3037;--chip:#24282e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;gap:18px;height:58px}
+.logo{font-weight:700;font-size:17px;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:16px;font-size:14px;color:var(--muted);margin-left:auto;flex-wrap:wrap}
+nav a:hover{color:var(--accent)}
+h1{font-size:26px;margin:28px 0 6px;letter-spacing:.5px}
+h2{font-size:19px;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:22px 0 10px;color:var(--gold);font-weight:600}
+.sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+transition:.15s;display:block}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile .n{font-size:12px;color:var(--muted);letter-spacing:1px}
+.tile .t{font-size:16px;font-weight:600;margin:3px 0 5px}
+.tile .d{font-size:12.5px;color:var(--muted);line-height:1.5}
+.tile .c{font-size:12px;color:var(--accent);margin-top:8px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+border-radius:8px;padding:14px 16px;margin:10px 0}
+.card .q{font-size:15.5px;line-height:1.95;letter-spacing:.2px}
+.card .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:12px}
+.badge{background:var(--chip);color:var(--muted);border-radius:5px;padding:3px 8px}
+.play{background:var(--accent);color:#fff!important;border-radius:5px;padding:3px 10px;font-weight:600}
+.play:hover{opacity:.85}
+.crumb{color:var(--muted);font-size:12px}
+.note{color:var(--accent2);font-size:11.5px;background:var(--chip);border-radius:5px;padding:3px 8px}
+.chip{display:inline-block;background:var(--chip);border-radius:4px;padding:1px 5px;
+font-size:13px;color:var(--accent);cursor:pointer;margin:0 1px}
+.chip:hover{background:var(--accent);color:#fff}
+.seg{border-left:2px solid var(--line);padding:2px 0 2px 16px;margin:22px 0}
+.seg .st{font-size:14px;font-weight:600;margin-bottom:2px}
+.seg .stime{font-size:12px;color:var(--muted)}
+#q{width:100%;padding:11px 14px;font-size:15px;border:1px solid var(--line);border-radius:8px;
+background:var(--card);color:var(--ink);font-family:inherit}
+#q:focus{outline:none;border-color:var(--accent)}
+.stat{display:flex;gap:26px;flex-wrap:wrap;margin:14px 0 6px;font-size:13px;color:var(--muted)}
+.stat b{color:var(--ink);font-size:19px;font-weight:700;display:block}
+footer{margin:60px 0 30px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--muted);font-size:12.5px;line-height:1.9}
+mark{background:#ffe9a8;color:#1a1d21;border-radius:2px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">天<span>纪</span>·倪海厦讲课judgment库</a>
+<nav><a href="index.html">总览</a><a href="index.html#books">十一册</a>
+<a href="index.html#units">课程</a>
+<a href="https://github.com/Renhuai123/nihai-tianji-corpus" target="_blank" rel="noopener">GitHub</a></nav>
+</div></header><div class="wrap"><h1>七、卦与爻</h1><p class="sub">p04 · 40 条判语 · 6 个语义段 · <a href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4" target="_blank" rel="noopener" style="color:var(--accent)">B 站原片 ↗</a></p><div class="seg"><div class="st">§1 变易之道与读图</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=2" target="_blank" rel="noopener">▶ 00:00:02</a></div></div><div class="card"><div class="q">前贤思其义，你看而子传其言，只有易经的言语文辞在那边，没有它的意义，后学诵读者都没有忘了去体会，从秦朝以后哈就真正的精神就失传了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=314" target="_blank" rel="noopener">▶ 00:05:14</a>
+<span class="badge">p04 §1</span><span class="crumb">08 易理总纲 › 一、正名与形神 › 文字是障、书是形、所传是神</span></div></div><div class="card"><div class="q">完全是由易经的象来讲，这个象大到可以看整体，小到可以看一件事情，所以我们从象上面来读图，来把易经的原文呢，它的精神从图上面解释出来给你看，这个时候诸位以后看到图就领悟了，心领神悟才真正是你的，我们不会去介绍易经的辞，哇这个爻辞还是什么，卦辞一大堆那个那个书，世界上现在很多人研究易经，都得到它的辞，易经的文辞呢背得起来很多，然后他没有神，没有真正的体悟到神的位置这个象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=158" target="_blank" rel="noopener">▶ 00:02:38</a>
+<span class="badge">p04 §1</span><span class="crumb">08 易理总纲 › 二、读图（象） › 图先于辞</span></div></div><div class="card"><div class="q">韩国国旗是不是这样子，先生小姐我们有八个卦，你怎么只剩四个部，四个卦少掉一半了，少掉一半嘛讲完了北朝南韩，象就出现了，已经讲完它的历史了，一句话就讲完了，韩国的国旗是这样子，日本的国旗呢日丽中天，我告诉你全世界有原子弹的，就它被丢了两个，现在最戕的就是它，象就很好嘛讲完了再看下面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=278" target="_blank" rel="noopener">▶ 00:04:38</a>
+<span class="badge">p04 §1</span><span class="crumb">08 易理总纲 › 二、读图（象） › 图先于辞</span></div></div><div class="card"><div class="q">诸位看这个易易经呐，本身呢它讲求的道理呢，就是一个变易不易呢，还有什么简易，这个话非常多的人都会说，可是了解它的神的人不多，我们教诸位传诸位呢用神</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=32" target="_blank" rel="noopener">▶ 00:00:32</a>
+<span class="badge">p04 §1</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 变易 / 不易 / 简易</span></div></div><div class="card"><div class="q">变易之道啊，看你看上面写的随时在变，它不见得这个象，因为象常常改变，事情不会发生的同样的，但是你看到外象里面的神是一样的，那你如果读了易经以后，就不会让你混淆不清，什么叫做不易，所有的事情呐它都会变，但是它的真理，它的道理永远不会变这不易的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=61" target="_blank" rel="noopener">▶ 00:01:01</a>
+<span class="badge">p04 §1</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 变易 / 不易 / 简易</span></div></div><div class="card"><div class="q">什么叫简易简单，把所有最复杂的事把它简化，如果你读了易经以后，你把易经越弄越复杂，弄得自己也搞不懂，然后教了人家也没弄懂，就是你没有读通易经，易经这个字两个字呢，易就是易经这两个字的意思呢，简单的介绍就是，如果你读通了这个经书的话，会把天地之间的所有的道理全部简化一通百通</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=106" target="_blank" rel="noopener">▶ 00:01:46</a>
+<span class="badge">p04 §1</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 变易 / 不易 / 简易</span></div></div><div class="card"><div class="q">到了宋朝的时候邵康节，邵康节也是个易学大师，但是邵康节比较注重在数上面做，所以外面的铁板神数，实际上是根据邵康节的，那后面还有一程，到了北宋的时候有五子，程颢程颐程颢这个人呢，还有程颐程颐呢你看读易的，他研易他写了一个《易程传》，这些呢我上面介绍的都是写的很好，其他的著作都是在辞上面解释，所以诸位如果读到外面很多著作，都在辞上面做修饰做解释而已</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=340" target="_blank" rel="noopener">▶ 00:05:40</a>
+<span class="badge">p04 §1</span><span class="crumb">12 铁板神数 › 铁板与诸术比较</span></div></div><div class="seg"><div class="st">§2 铁板点名与君子观象</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=347" target="_blank" rel="noopener">▶ 00:05:47</a></div></div><div class="card"><div class="q">声沙声音是沙哑的骨粗面紧，女孩子声音沙哑的，骨头变得很粗糙，面孔绷得紧紧的，像皮像鼓一样拉的很紧的，主孤单一世</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=641" target="_blank" rel="noopener">▶ 00:10:41</a>
+<span class="badge">p04 §2</span><span class="crumb">07 方法论 › 气色与相法 › 面大骨粗与声沙</span></div></div><div class="card"><div class="q">它代表的意义就是先成后破，已经讲完了，我们讲易经就是讲机锋，这个机锋哦非常难介绍机锋，你刚好来找我说倪海厦，你看我合伙会不会赚钱，我再考虑一下，你手一动啪旁边杯子摔破了，会赚钱先成后破已经讲完了，这就不需要卜卦了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=595" target="_blank" rel="noopener">▶ 00:09:55</a>
+<span class="badge">p04 §2</span><span class="crumb">08 易理总纲 › 二、读图（象） › 君子静而观象</span></div></div><div class="card"><div class="q">后面就是君子静则以观象以悟其辞，动则观变以玩其占，上次我介绍过，现在的今世人大都得其辞而未达其意，我们这个著作呢以物象而达其意</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=724" target="_blank" rel="noopener">▶ 00:12:04</a>
+<span class="badge">p04 §2</span><span class="crumb">08 易理总纲 › 二、读图（象） › 君子静而观象</span></div></div><div class="card"><div class="q">看到外面知道里面藏什么，这个人有反骨一看就知道他有反骨，要背叛你你不能用他，将来会引起藩镇之乱，事先都知道</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=448" target="_blank" rel="noopener">▶ 00:07:28</a>
+<span class="badge">p04 §2</span><span class="crumb">08 易理总纲 › 二、读图（象） › 图先于辞</span></div></div><div class="card"><div class="q">其中蕴含吉凶消长之理进退存亡之道，所以很多机（机锋），很多事情在发生之前呢就预兆了，所以诸位常常会，家里面如果很多人或朋友，有严重事情发生以后，等到发生事情过后，大家处理完就坐下来，聊天的时候就讲了，哎发生之前会怎么样怎么样，可以看到什么样的事情，这都是一般人都是事后去讨论，我要教诸位的怎样，事之前就看到了，马上就可以看到</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=696" target="_blank" rel="noopener">▶ 00:11:36</a>
+<span class="badge">p04 §2</span><span class="crumb">08 易理总纲 › 三、假设验证与以果决行 › 以果决其行</span></div></div><div class="card"><div class="q">这个人呢上知天文下知地理，中知医学人事</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=399" target="_blank" rel="noopener">▶ 00:06:39</a>
+<span class="badge">p04 §2</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">易中圣人有四道以言者尚其辞，就用言语文字来表达易经，以动者尚其变看它的变化，诸位慢慢都会学到，制器者尚其尚其象，这个卜筮者尚其占</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=560" target="_blank" rel="noopener">▶ 00:09:20</a>
+<span class="badge">p04 §2</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 卦主事、爻主时</span></div></div><div class="seg"><div class="st">§3 先天八卦与后天八卦为用</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=755" target="_blank" rel="noopener">▶ 00:12:35</a></div></div><div class="card"><div class="q">它的精神是风什么叫风，无孔不入嘛，坎是水你不要去管那个坎，坎偶尔写错一下无所谓，但是你要知道它水的性，水为什么摆下面，水性就向下，你有没有看到水浮在这边，没有水气上去而已，水都在下面走，地越低的时候，水走的越低，你人类都不愿意去的地方水通通去了，水的性你要去了解它的性</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=899" target="_blank" rel="noopener">▶ 00:14:59</a>
+<span class="badge">p04 §3</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 八纯卦之性</span></div></div><div class="card"><div class="q">伏羲氏呢他制了八卦出来可是伏羲的卦，我们叫做先天卦，先天八卦他把乾坤定位，乾在上坤在下，艮坤当时他制定八卦的时候也是法象（效法）天在上面地在下面，没错对不对，他就物象啊，自然界这样子，然后兑是泽离是火，震呢是雷，巽是风坎是水艮是山，那这些怎么来的，我待会介绍，待会我介绍，我先讲文王跟伏羲氏的，当初伏羲定的先天八卦是这样子，可是呢这个没有办法用，它没有相生</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=755" target="_blank" rel="noopener">▶ 00:12:35</a>
+<span class="badge">p04 §3</span><span class="crumb">11 堪舆 › 先后天八卦</span></div></div><div class="card"><div class="q">先天八卦呢，是为体只是一个体而已，真正我们在用的时候是后天卦，到了文王的时候，文王很聪明，后天八卦呢为用，我们正在使用的时候，全部是用后天八卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=826" target="_blank" rel="noopener">▶ 00:13:46</a>
+<span class="badge">p04 §3</span><span class="crumb">11 堪舆 › 先后天八卦</span></div></div><div class="card"><div class="q">阴阳五行的学说呢木生火火生士土生金，金生水水生木，这是相生的，你说老师你怎么记很简单嘛，木头把它拿起来放火里头，木头可以燃火啊，火生了以后把木头烧光了变成灰了，土里面的金，所有的金属都从土里面生出来的，所有的金化分解出来以后后面就剩下，剩下的物质都是水，然后我们树木要长得大，就加水下去就好了，是相生的关系，这两个（震巽）是木，这（离）是火顾名思义是火这两个山，山和地（艮坤）呢这两个是土，所以木生火火生土土再生金，这两个是金，这个是水也是按照相生你看看，走的是相生的相生的路子，这阴阳五行来解释八卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=956" target="_blank" rel="noopener">▶ 00:15:56</a>
+<span class="badge">p04 §3</span><span class="crumb">11 堪舆 › 先后天八卦</span></div></div><div class="card"><div class="q">因为中国以前是坐北朝南南面而王，了解我意思吧，所以我地图我们整个把它反过来看，所以西偏西偏北这一天正好，中国大陆以地理位置来说，西北高原是全世界最高最大的高原，那为什么东方是震，<span class="chip">太阳</span>从东震卦，<span class="chip">太阳</span>从东边出来，东边出来这是初阳的地方雷的位置</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1034" target="_blank" rel="noopener">▶ 00:17:14</a>
+<span class="badge">p04 §3</span><span class="crumb">11 堪舆 › 九宫方位</span></div></div><div class="seg"><div class="st">§4 后天八卦入阳宅风水</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1083" target="_blank" rel="noopener">▶ 00:18:03</a></div></div><div class="card"><div class="q">尽量不要用易经的原辞，我怕诸位读辞了就忘了味道，结果就跑到船上面了抱了船了，永远看不到真理了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1106" target="_blank" rel="noopener">▶ 00:18:26</a>
+<span class="badge">p04 §4</span><span class="crumb">08 易理总纲 › 一、正名与形神 › 文字是障、书是形、所传是神</span></div></div><div class="card"><div class="q">易经呢有所谓的爻，爻变的时候它从，那这次我们分两个，易经的所有每一个卦，代表事情我们看它的爻变的时候，爻变是断时啊时机，这个时机在什么时候，我一开始在第一堂课就跟诸位讲，时机很重要，过了它不会等你的，不会说我考虑看看，时机已经走了，我们看它的爻变是望时，决定它的时机在什么时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1155" target="_blank" rel="noopener">▶ 00:19:15</a>
+<span class="badge">p04 §4</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 卦主事、爻主时</span></div></div><div class="card"><div class="q">我们卦都是从下面开始往上算，累积嘛事情都是累积起来的，都从下面开始，爻从下面开始算，第一个爻也叫做初爻</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1235" target="_blank" rel="noopener">▶ 00:20:35</a>
+<span class="badge">p04 §4</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 卦主事、爻主时</span></div></div><div class="card"><div class="q">所以一旦我们把后天八卦弄出来的时候，我们真正的所有使用后面批八字，包括四柱推命，包括阳宅学包括风水，全部是按照后天八卦来的，因为后天八卦才能用，它有关联的嘛因为它有相生的关系</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1083" target="_blank" rel="noopener">▶ 00:18:03</a>
+<span class="badge">p04 §4</span><span class="crumb">11 堪舆 › 先后天八卦</span></div></div><div class="seg"><div class="st">§5 九宫方位与家庭角色</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1460" target="_blank" rel="noopener">▶ 00:24:20</a></div></div><div class="card"><div class="q">所以我们下面排的易经是按照时间，一路一路这样排下来，你在哪个点，你现在在这个点上，你就是已经知道未来的果了，你就知道你在哪个地方，你已经知道未来的果的话，你自己的行为就会修正，你已经不要去尝那个果了嘛</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1580" target="_blank" rel="noopener">▶ 00:26:20</a>
+<span class="badge">p04 §5</span><span class="crumb">08 易理总纲 › 三、假设验证与以果决行 › 以果决其行</span></div></div><div class="card"><div class="q">嗯这小子会不会签过一卜山泽损损卦再告吉，就第二次去才会成功啊，就第一次去不过了，第二次同样资料去就过了，所以卜筮呢，是我们在办事情的时候用的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1529" target="_blank" rel="noopener">▶ 00:25:29</a>
+<span class="badge">p04 §5</span><span class="crumb">09 六十四卦 › 山泽损（p32） › 卜筮用例</span></div></div><div class="card"><div class="q">他那个图不但可以用在占，诸位呢卜筮呢一件事情，所以卜筮有时机，诸位学了易经以后，什么事都要讲时机的，什么时候要用占卜要卜筮，叫做卜以決疑不疑何卜，当你有疑虑的时候，再去卜卦你不疑你不要随便乱卜啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1477" target="_blank" rel="noopener">▶ 00:24:37</a>
+<span class="badge">p04 §5</span><span class="crumb">10 占断 › 卜筮原则</span></div></div><div class="card"><div class="q">中国人呢我们在九宫八卦，这看起来好像俄罗斯方块一样，俄罗斯的方块，我们以中宫为主，这里是东这是南，这是西这是北，刚刚文王的后天八卦把它放进去，如果这是后天八卦把它摆在中间，如果我们把人摆进去的时候，乾天父，乾为天父，乾天为父，坤內地为母</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1640" target="_blank" rel="noopener">▶ 00:27:20</a>
+<span class="badge">p04 §5</span><span class="crumb">11 堪舆 › 九宫方位</span></div></div><div class="card"><div class="q">震为雷为长男，这个巽为风为长女，离为火在易经上面叫做次女，也叫做中女第二个女儿，兑为泽，是少女也就是所谓的三女，坎中连坎卦呢是中男，就是水卦，二儿子也代表次男，也代表二子，艮卦呢艮为山，代表少男，易经上写的是少男，实际上就是什么三子三儿子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1694" target="_blank" rel="noopener">▶ 00:28:14</a>
+<span class="badge">p04 §5</span><span class="note">cleaned</span><span class="crumb">11 堪舆 › 家庭角色入宅</span></div></div><div class="card"><div class="q">我们在阳宅上面使用的时候，也是把八卦套进去，摆好位置，这个后天八卦摆在里面的时候，决定在人怎么进去住它，你住的时候，这叫做名位相等名等于位</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1737" target="_blank" rel="noopener">▶ 00:28:57</a>
+<span class="badge">p04 §5</span><span class="note">cleaned</span><span class="crumb">11 堪舆 › 家庭角色入宅</span></div></div><div class="card"><div class="q">女孩子的这个位置（坤位）可以住，那女孩子太太从先生佳先生的位置（乾位），也可以两个位置可以住，那其他的位置呢，都是每一个位置有一个人在，一般来说我们呢都是让他各安其位，这是最正常的方法，那安其位的时候要看时机，这实际上动的时候我们人也跟着动，所以要变易，比如说你是大儿子，你家有两个儿子大儿子次子，那有一天大儿子结了婚，大儿子一结婚的话，大儿子的名字就叫什么叫丈夫，就不叫儿子了是当年是长子，那三儿子就要补位，补成长子位续东宫</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1796" target="_blank" rel="noopener">▶ 00:29:56</a>
+<span class="badge">p04 §5</span><span class="crumb">11 堪舆 › 家庭角色入宅</span></div></div><div class="card"><div class="q">叫作易经就是因时而动要变，然后二女儿再结婚的，三女儿马上要补位进去，懂不懂我意思，这叫做顺天承运了，继承她的运的，你们现在呢成家以后，就是名存实亡，什么叫名存实亡，你们家里面名字上都有长幼有序，就是名存嘛名就是形嘛，实亡实就是神，懂不懂我意思</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1852" target="_blank" rel="noopener">▶ 00:30:52</a>
+<span class="badge">p04 §5</span><span class="crumb">11 堪舆 › 家庭角色入宅</span></div></div><div class="seg"><div class="st">§6 天机道人间道地脉道与乾为天</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1888" target="_blank" rel="noopener">▶ 00:31:28</a></div></div><div class="card"><div class="q">我刚才给你机会了假设你是对的，那你现在给我机会假设我是对的这公平嘛，你没有了解我你在否定我，你这叫无知啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1917" target="_blank" rel="noopener">▶ 00:31:57</a>
+<span class="badge">p04 §6</span><span class="crumb">07 方法论 › 学习方法 › 假设验证 = 科学精神</span></div></div><div class="card"><div class="q">所以呢命是天注定的，运掌握在我们手上，所以算命它只是个工具，变化在我们身上，事先提醒我们，如何做操之在我</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=2129" target="_blank" rel="noopener">▶ 00:35:29</a>
+<span class="badge">p04 §6</span><span class="crumb">07 方法论 › 关键命理观 › 改命观:命+地+人 &gt; 天命</span></div></div><div class="card"><div class="q">可以断一件事情可以断一个家，可以断一个十年的大运，通通在这64个图里面，诸位以后记64个图不要去记辞</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=2166" target="_blank" rel="noopener">▶ 00:36:06</a>
+<span class="badge">p04 §6</span><span class="crumb">08 易理总纲 › 二、读图（象） › 图先于辞</span></div></div><div class="card"><div class="q">位置一开始动的时候哈，就有了内卦，还有外卦这个区分，123爻呢，这个叫做内，456爻呢叫做外，所以易经呢加起来一个卦有六个爻，因为一个是外一个是内</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1971" target="_blank" rel="noopener">▶ 00:32:51</a>
+<span class="badge">p04 §6</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 卦主事、爻主时</span></div></div><div class="card"><div class="q">举例本来你的名字叫爸爸，你就是爸爸乾卦你住到外面，你去住到雷的位置，天去住到雷的位置，易经呢就叫你天雷卦，懂不懂我意思，天住到雷的位置叫天雷卦，如果天住到巽的位置叫做天风卦，易经的名字呢，诸位先不要了解天雷是什么哈，就叫做天风卦，如果天住到火的位置就是天火卦，天住到地的位置就天地卦，天地合在一起的，那我们一个人有八个位置可以住，换句话说八个人有什么，八八六十四个卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=2001" target="_blank" rel="noopener">▶ 00:33:21</a>
+<span class="badge">p04 §6</span><span class="crumb">08 易理总纲 › 七、卦与爻 › 六十四卦即六十四动作</span></div></div><div class="card"><div class="q">比如说我们讲乾为天，乾为天卦的时候就是，肉卦也是乾外卦也是乾，就是明知道爸爸住爸爸的位置，它叫做天卦那象是什么，那个住在那里人会变成什么样子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=2102" target="_blank" rel="noopener">▶ 00:35:02</a>
+<span class="badge">p04 §6</span><span class="crumb">09 六十四卦 › 乾为天（p08） › 卦象 / 卦德</span></div></div><div class="card"><div class="q">他如果天住在妈妈的位置，比如天地卦天地否卦否塞不通，那否卦是什么样子我讲给你听</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=2113" target="_blank" rel="noopener">▶ 00:35:13</a>
+<span class="badge">p04 §6</span><span class="crumb">09 六十四卦 › 天地否（p18） › 人间道</span></div></div><div class="card"><div class="q">我们利用阳宅地理位置，来把天命来做加减，同时间生的人，不同时发生事情就是这样子为什么，因你住在不同的位置上想法不一样</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=2054" target="_blank" rel="noopener">▶ 00:34:14</a>
+<span class="badge">p04 §6</span><span class="note">cleaned</span><span class="crumb">11 堪舆 › 家庭角色入宅</span></div></div><div class="card"><div class="q">它说人各安其位各得其位长幼有序，这样就会兄友弟恭父慈子孝，夫妻相敬如宾了，那你都读过了，你都知道长幼有序，你都知道了你的家庭管理对，那你怎么没有安其位呢，什么叫各安其位各得其位，我不知道啊，不知道就代表今天以前，你的老师没有把你教好，老师教你古文也是读到形没有读到神，我就告诉你什么叫做各安其位各得其位</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=2227" target="_blank" rel="noopener">▶ 00:37:07</a>
+<span class="badge">p04 §6</span><span class="crumb">11 堪舆 › 家庭角色入宅</span></div></div>
+<footer>本站内容为倪海厦先生《天纪》课程判语的结构化整理，每条均可回放原视频核对。<br>
+课程内容著作权归倪海厦先生及其权利继承人所有；字幕整理致谢 B 站 UP 主程心学。<br>
+内容属文化研究与学习资料，不构成医疗、投资或人生决策建议。语料 CC BY-NC-SA 4.0。</footer>
+</div><script>
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('chip')){
+    location.href='index.html#s='+encodeURIComponent(e.target.textContent);
+  }
+});
+if(location.hash.startsWith('#s=')){
+  const k=decodeURIComponent(location.hash.slice(3));
+  const q=document.getElementById('q');
+  if(q){const t=setInterval(()=>{if(!q.disabled){q.value=k;q.dispatchEvent(new Event('input'));
+    clearInterval(t);q.scrollIntoView({behavior:'smooth'})}},100)}
+}
+</script></body></html>

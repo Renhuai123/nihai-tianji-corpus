@@ -1,0 +1,180 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>流年卦 · 天纪</title><style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1a1d21;--muted:#6b7480;--line:#e3ded3;
+--accent:#b04a3e;--accent2:#2e7d5b;--gold:#8a7a63;--chip:#f0ece3}
+@media(prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1c1f23;--ink:#e8e6e1;
+--muted:#9aa3ad;--line:#2c3037;--chip:#24282e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;gap:18px;height:58px}
+.logo{font-weight:700;font-size:17px;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:16px;font-size:14px;color:var(--muted);margin-left:auto;flex-wrap:wrap}
+nav a:hover{color:var(--accent)}
+h1{font-size:26px;margin:28px 0 6px;letter-spacing:.5px}
+h2{font-size:19px;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:22px 0 10px;color:var(--gold);font-weight:600}
+.sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+transition:.15s;display:block}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile .n{font-size:12px;color:var(--muted);letter-spacing:1px}
+.tile .t{font-size:16px;font-weight:600;margin:3px 0 5px}
+.tile .d{font-size:12.5px;color:var(--muted);line-height:1.5}
+.tile .c{font-size:12px;color:var(--accent);margin-top:8px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+border-radius:8px;padding:14px 16px;margin:10px 0}
+.card .q{font-size:15.5px;line-height:1.95;letter-spacing:.2px}
+.card .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:12px}
+.badge{background:var(--chip);color:var(--muted);border-radius:5px;padding:3px 8px}
+.play{background:var(--accent);color:#fff!important;border-radius:5px;padding:3px 10px;font-weight:600}
+.play:hover{opacity:.85}
+.crumb{color:var(--muted);font-size:12px}
+.note{color:var(--accent2);font-size:11.5px;background:var(--chip);border-radius:5px;padding:3px 8px}
+.chip{display:inline-block;background:var(--chip);border-radius:4px;padding:1px 5px;
+font-size:13px;color:var(--accent);cursor:pointer;margin:0 1px}
+.chip:hover{background:var(--accent);color:#fff}
+.seg{border-left:2px solid var(--line);padding:2px 0 2px 16px;margin:22px 0}
+.seg .st{font-size:14px;font-weight:600;margin-bottom:2px}
+.seg .stime{font-size:12px;color:var(--muted)}
+#q{width:100%;padding:11px 14px;font-size:15px;border:1px solid var(--line);border-radius:8px;
+background:var(--card);color:var(--ink);font-family:inherit}
+#q:focus{outline:none;border-color:var(--accent)}
+.stat{display:flex;gap:26px;flex-wrap:wrap;margin:14px 0 6px;font-size:13px;color:var(--muted)}
+.stat b{color:var(--ink);font-size:19px;font-weight:700;display:block}
+footer{margin:60px 0 30px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--muted);font-size:12.5px;line-height:1.9}
+mark{background:#ffe9a8;color:#1a1d21;border-radius:2px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">天<span>纪</span>·倪海厦讲课judgment库</a>
+<nav><a href="index.html">总览</a><a href="index.html#books">十一册</a>
+<a href="index.html#units">课程</a>
+<a href="https://github.com/Renhuai123/nihai-tianji-corpus" target="_blank" rel="noopener">GitHub</a></nav>
+</div></header><div class="wrap"><h1>流年卦</h1><p class="sub">p43 · 52 条判语 · 6 个语义段 · <a href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43" target="_blank" rel="noopener" style="color:var(--accent)">B 站原片 ↗</a></p><div class="seg"><div class="st">§1 风天小畜</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=0" target="_blank" rel="noopener">▶ 00:00:00</a></div></div><div class="card"><div class="q">这个水呢代表年也代表人也代表事，都是指水到时候你看就晓得了，比如贸易也是水，漂洋过海的都属于水，后天卦如果你算到这个，结果呢夫妻变成夫妻啊，你的婚姻就会就要注意咯，两地相隔夫妻反目，<span class="chip">天机</span>道马羊之人呢独子不亡，肖马的人肖羊的人，如果是独生子不会亡，那换句话说不是属马属羊的人，就会有儿子夭折的现象<span class="chip">流年</span>卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=174" target="_blank" rel="noopener">▶ 00:02:54</a>
+<span class="badge">p43 §1</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q"><span class="chip">流年</span>卦呢你那一年，哎老师我36岁刚好风天小畜卦，小畜卦进来的时候就会遇到这种情形，孤立无援孤立呀，前险后阻前有危险呢后面有阻碍，下面一句话左支春绌左支看绌，左支右细这是这是<span class="chip">天机</span>道了，支右草头人出力大，草头人是你的贵人，友右我们黄草头人草头黄嘛，是不是大家都常常草头黄，苗草头人反正草头都算</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=230" target="_blank" rel="noopener">▶ 00:03:50</a>
+<span class="badge">p43 §1</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">犹待水来会，舟呢你可以把它当成周杨羊等，草头人草头人，我是黄信介草头你那是什么黄，草头黄有没有，很多的草头苗也是草头黄也是草头，马领羊过险，马在前面马带领着羊过险，度过险灾这是先天卦，所以羊马是羊的贵人，山顶独行呐，这种先天卦是风天小畜的特立独行哈特立人间，他不太不太跟群聚在一起，他一个人独来独往的个性使然</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=58" target="_blank" rel="noopener">▶ 00:00:58</a>
+<span class="badge">p43 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 风天小畜（p14） › 人间道</span></div></div><div class="card"><div class="q">先天卦的风天小畜，诸位看这个，上次我们讲到介绍到什么，风天小畜卦对不对，从风天小畜卦的后天卦开始看，小畜卦呢后天卦，如果你排八字的时候，排到你的后天卦是小畜，外乡发迹命中定，到外乡为什么跨过水有没有跨水过去跨水过法，跨水过法跨水过去，万事俱备东风为水</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=115" target="_blank" rel="noopener">▶ 00:01:55</a>
+<span class="badge">p43 §1</span><span class="crumb">09 六十四卦 › 风天小畜（p14） › 人间道</span></div></div><div class="card"><div class="q">风天小畜卦，如果你的先天卦是风天小畜，小畜卦的时候诸位看中间那个图呢，它下面写两重山一人山顶舟横岸上，望竿在草里上有马羊羊马头，所以如果你的先天卦，如果是风天小畜的时候，就是两重山阻，两重山有阻碍外乡发迹，这种人呢风天小畜卦的，一定要到他乡去，舟舟扬这个是<span class="chip">天机</span>道</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1" target="_blank" rel="noopener">▶ 00:00:01</a>
+<span class="badge">p43 §1</span><span class="crumb">09 六十四卦 › 风天小畜（p14） › 人间道</span></div></div><div class="card"><div class="q">那科甲叉不兴，那科甲又不兴，科甲不兴又不读书又跑去找女人，黃池桃花多，这都是从图上读出来的哈，以后有机会我再解释为什么这样子，都在图上都待，都在图上都有，如果你卜到你你排到啊你的八字，后天卦是天泽履，九个字你听看看，妾有伞妾妾有伞，这个人偏离近军令，这个军令除了当兵的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=455" target="_blank" rel="noopener">▶ 00:07:35</a>
+<span class="badge">p43 §1</span><span class="crumb">09 六十四卦 › 天泽履（p16） › 卜筮用例</span></div></div><div class="card"><div class="q">退伍专招也是它包含在内，法院的传票也在包含在内，这个重楼之侧，你们以后读到就知道，重楼之侧呢，无名呢无名有险，这是专门讲婚姻无名有险，后天卦卜到的后天卦算哦夫妻相隔，夫妻分开呢总为情，官司失财钱生横事横祸会发生，还有还有别的破坏</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=499" target="_blank" rel="noopener">▶ 00:08:19</a>
+<span class="badge">p43 §1</span><span class="crumb">09 六十四卦 › 天泽履（p16） › 卜筮用例</span></div></div><div class="card"><div class="q">如果呢<span class="chip">流年</span>卦逢到有招困的时候，逢马羊可脱困，这个是马属属马属羊的，或者姓马有的人就姓羊哦都算，不要要涵盖，不要要涵語，你不要给它局限那个范围里面，就有一个人来脸很长，根本就是个马脸，讲话声音还讲话还有尾音，啊还在那学马在那边叫，那明明就是马另人，看起来动作也像马，你还在你还在这个马在哪里，马就在你前面，有的人动物相嘛动物相嘛，像那个有的人出来像山羊，你看龚振武坐那边像一个山羊，逢羊马然后二次努力，第二次努力可得，那第一次如果不成，不要急第二次努力，如果你的<span class="chip">流年</span>卦逢到，刚好你要谈婚事，婚事逢之分两地</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=288" target="_blank" rel="noopener">▶ 00:04:48</a>
+<span class="badge">p43 §1</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§2 天泽履</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=499" target="_blank" rel="noopener">▶ 00:08:19</a></div></div><div class="card"><div class="q">如果你的<span class="chip">流年</span>卦，<span class="chip">流年</span>卦算到你的今年25岁天泽履，天泽履卦呢，男外有妾所以这种事，你要讲话稍微要注意点哦，然后这个在妾在哪里在重楼之内，这就是那个以前<span class="chip">天机</span>道啊，就是铁板一百一百一万两千个条变里面，武官外调财不利，契约成空婚事凶，如果你婚姻卜到婚姻<span class="chip">流年</span>逢了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=569" target="_blank" rel="noopener">▶ 00:09:29</a>
+<span class="badge">p43 §2</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">这个卦非常的不好，这个<span class="chip">天机</span>道再给你，这个竹子立下文书破文书破，遇猴遇到猴的时候哦，乃有千里行一定是主调的很远，或者是迁搬迁到外地去</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=628" target="_blank" rel="noopener">▶ 00:10:28</a>
+<span class="badge">p43 §2</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">诸位呢在<span class="chip">天机</span>道的时候有一个，千里的里有没有，里诸位注意看有，是个这日一个士啊是个这旦，是个这日一个士啊，代表代表里代表什么，里就代表日出什么地上，日从地上跑出来，所以说有灾的时候，灾从内生灾都从内生，诸位记得一个法则，天纪天的纪律就是恒古不变的，最坚强的堡垒一定是从內部，开始被破坏，你们家父母亲兄弟姐妹大家都很和睦，结果去好好心找了一个人进来，到你家来住或者怎么样，好了开始家庭纠纷很多，开始制造混乱制造是非，或者是你们家兄弟姐妹都很好，其他出了一个败家子，整个堡垒被弄坏掉</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=673" target="_blank" rel="noopener">▶ 00:11:13</a>
+<span class="badge">p43 §2</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">所以我们一家之主一定要有继明之能，那继明之能诸位历史上，有个故事听过没有萧规曹随，开国的时候萧何开国把功业打下来，后来传到第三代，那萧何跟曹参两个人感情不好啊，那萧何在当宰相的时候，就曹参就犯了当个参知事啊，一个乡的小的知事，然后萧何有一天死掉了，参参那个曹参就跟他太太讲，你赶快帮我打打打包行李，我要上京了我要我要当当宰相了，太太说你全世界人都知道你跟他不合，他死了你去当宰相，啊没有他在死之前，萧丞相一定会提提名我，提希望我去做宰相只有我可以，哎过几天命令就到了他就去了，去了以后一到宰相任朝三，一开始当宰相他都不上朝的，每天把文武百官召集起来，大家在那边喝酒作乐，然后连续一个礼拜，那个惠帝啊汉惠帝啊，太鲁莽了这个小子怎么</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=729" target="_blank" rel="noopener">▶ 00:12:09</a>
+<span class="badge">p43 §2</span><span class="crumb">09 六十四卦 › 天泽履（p16） › 人间道</span></div></div><div class="card"><div class="q">怎么搞的怎么萧萧丞相，怎么会找这个人来呢对不对，那么有功萧萧他的脑筋那么好，怎么找个这个咖来，生气了就把他叫来，哎这个这个曹丞相啊，我们萧丞相介绍你，就他提携你来做我们的做我们的宰相，为什么今天你什么事都不做他就问了，他说你啊汊，他说你啊汉，他说你是那个高祖的孙子，请问你你比高祖如何，那我怎么能跟高祖比，我比萧丞相如何，你怎么能比得过萧丞相，萧丞相是开国的宰相，你怎么能比得过他，对我们两个都比不过他，他们两个立下来的规规矩法规，我们守成就好了嘛，管它干什么呢，萧丞相要我就是要维持原状嘛，我们两个都比不过他，还去改比你强的人的东西，这是萧规曹随</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=785" target="_blank" rel="noopener">▶ 00:13:05</a>
+<span class="badge">p43 §2</span><span class="crumb">09 六十四卦 › 天泽履（p16） › 人间道</span></div></div><div class="card"><div class="q">所以要有继明之能，一般呢古代的圣贤贤相，乃通通有继明之能，这就是继明，你千万不要把你辛苦建立的基业，交给一个败家子，你生个儿子那鼻子歪歪的，那或者你女儿嫁来的先生，你的女婿鼻子歪歪的眼睛在那边闪，哎你看这对不对，然后地库都没有对不对，手伸出来都是洞，然后走路呢雀步像麻雀在那边跳，雀步和鸭步要分清楚啊，雀步是脚尖在走懂不懂我意思，一边这样的跳那是在跑路嘛，鸭步不是鸭步是大阔步摇摆走哦，鸭步跟雀步哎不要弄错了哈，不然你弄错就就看差很多，所以这种灾啊天泽履这种灾，通通是由灾都是由肉生，所以诸位你家里有事情发生的时候，你要开始看看你太太或者怎么样有，有没有谁瞒你什么事情或怎样</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=843" target="_blank" rel="noopener">▶ 00:14:03</a>
+<span class="badge">p43 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 天泽履（p16） › 人间道</span></div></div><div class="card"><div class="q">桂是讲的是丹桂代表这个，我们收到很高的任命令，就是所谓的丹桂，中年以后这个八字，经过中年以后呢，40岁以后呢禄命呢自九重来，中年以后你所有的人事命令，通通从九重来从总统府来，需要总统来帮你任命，都是很大的官的了，你去公务员考试到外交部办或者当个职员，还要总统任命不太可能的哈，你不要给他写九重根啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=958" target="_blank" rel="noopener">▶ 00:15:58</a>
+<span class="badge">p43 §2</span><span class="crumb">09 六十四卦 › 天泽履（p16） › 人间道</span></div></div><div class="card"><div class="q">如果你先天卦排到是地天泰，这个父登呐青云位，爸爸呢一定是高官，生在清贵家，生在清贵的家庭里面禄命来，比如说像陈诚就很像，陈陈履安就很像这个，禄命来少年得志，不要把它弄成痔疮了，遇羊回阳从阴间回到阳间，那这里有个<span class="chip">天机</span>要告诉你羊杨有桂</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=900" target="_blank" rel="noopener">▶ 00:15:00</a>
+<span class="badge">p43 §2</span><span class="crumb">09 六十四卦 › 地天泰（p16） › 人间道</span></div></div><div class="seg"><div class="st">§3 地天泰</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1001" target="_blank" rel="noopener">▶ 00:16:41</a></div></div><div class="card"><div class="q">第四个呢男人逢到这个男带桃花，男带桃花婚事必成，你刚好28岁那年有了很好的对象，<span class="chip">流年</span>是地天泰一定成了，但是地天泰哪那么容易出现了，&#x27;一生可能出现一次，你为什么出现在，在婚姻的婚事很多卦都会成了对不对，那就地天泰就比较可惜了，要找啊四十几岁，或者是最好那个<span class="chip">流年</span>的时候，‘一步升上去就好了，诸位看天地否，诸位看天地香，诸位看天地否，我们在阳宅上面的时候，有部分也讲了人间道遇到否的时候，它的序它的反卦就是地天泰是表里卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1187" target="_blank" rel="noopener">▶ 00:19:47</a>
+<span class="badge">p43 §3</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">所以去否之道就是地天泰，外外顺内健，外外顺肉健，有的人先天卦一生下来天地否，哇好累啊这个乾这天地否，如如何算出的很简单啊，天是阳阳阳阴阴阴，一个阴要管六年三六18年，一个阳要管九年三九27年，18+27多小45，45岁以前都是否啊都当否子呀天地否，这样了解我意思吧，中年前运多阻挠，没有关系啊你那个后天卦，一定不可能是天地否啊，因为天旋地转，更革的时候他就不会变成还是否，哪有是先天就后天是否啊，那就不干了，多阻挠中年前运多阻挠</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1244" target="_blank" rel="noopener">▶ 00:20:44</a>
+<span class="badge">p43 §3</span><span class="crumb">09 六十四卦 › 地天泰（p16） › 卦象 / 卦德</span></div></div><div class="card"><div class="q">后天卦以前我们讲大内就是讲九重嘛九重，我是把以前古文写给你看啊，古文写给你看的，后天卦呢如果你的后天卦，我们排出来有个先天卦有个后天卦，后天卦是地天泰，桃李满天下，清誉贵人香，官人受禄命，官人受禄節，当官的人一定，后天卦受到地天泰更好，平登青云志，所以地天泰这个，这个非常的好，那遇到这种后天卦的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1001" target="_blank" rel="noopener">▶ 00:16:41</a>
+<span class="badge">p43 §3</span><span class="crumb">09 六十四卦 › 地天泰（p16） › 人间道</span></div></div><div class="card"><div class="q">第二个老师我38岁生一场大病，再重了疾厄回阳，你再重的病出了车祸大家都死掉，飞机掉下来大家都死掉，就是你回来疾厄回阳，这一定不会死的他摔都摔不死啊，这个不会死人的，如果你掛到那个人<span class="chip">大限</span>，他刚好那年是地天泰死掉了，你根本你排错了懂不懂，你自己不要怀疑你排错了，怎么再把他重新排一下所以不要去想，老师我怎么怎么他他38岁死，我看他38岁地天泰，我说那你该死啊你去看看哈，你看农历和国历搞半天没搞错，如果是求财的做生意的人，人七禄财财跟禄啊非常的丰盛，求财得财求禄的非常的多，有个<span class="chip">天机</span>进二春吉，春天的时候会进二</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1114" target="_blank" rel="noopener">▶ 00:18:34</a>
+<span class="badge">p43 §3</span><span class="crumb">09 六十四卦 › 地天泰（p16） › 人间道</span></div></div><div class="card"><div class="q">不从生意人肉中心虚无人知，机内诬陷总不成，一天到晚在动心机呀在动，唯有青灯伴到老，到老呢没有人愿意理他啦，大家都看清楚他的本质啦，就青灯伴到老啊，你知不知道什么叫青灯伴到老，就是当出家的了，你绿灯伴到老还得了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1471" target="_blank" rel="noopener">▶ 00:24:31</a>
+<span class="badge">p43 §3</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地天泰（p16） › 人间道</span></div></div><div class="card"><div class="q">少年的家运呢财禄破财禄不好，还有父母相刑不往来，爸爸妈妈相沖突不来往了，长弓发而为中，长马发而为中，长弓发而为中，长弓呢也是张啊，落第那落第呢，这个如果落第呢，不要不要不要气馁哈落第不须叹，你要给他算到天地否啊要鼓励鼓励人家，这个卦呢明中有损，每我算过这天地否的很好玩</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1304" target="_blank" rel="noopener">▶ 00:21:44</a>
+<span class="badge">p43 §3</span><span class="crumb">09 六十四卦 › 天地否（p18） › 人间道</span></div></div><div class="card"><div class="q">他每逢最重要的时机的时候，就就不行了那不重要的时候他就很顺，你知道吧重要的时候他就不行，这种人在铁板铁板数里面的时候算，说他什么样的，说他这个肚有满腹的这个，博古通令的经纶呐，可是科甲都不会中的懂不懂我意思就这样，这个明中有损不入衙门，不入不当衙门的人，就是在市面上拿一个卖卜人，以前那个铁口直断，然后在路上一直跑，我看看你小伙子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1360" target="_blank" rel="noopener">▶ 00:22:40</a>
+<span class="badge">p43 §3</span><span class="crumb">12 铁板神数 › 铁板与诸术比较</span></div></div><div class="card"><div class="q">那个人呐当时算命，被你算的那个人呢，一定是有子在远方，儿子在远方，这个儿子呢要逢到羊，或者是杨木易杨逢羊杨方回，那可能他的妻儿子呢，他的太太他的女朋友她家姓杨，或者儿子女儿刚好，他的女朋友刚好是属羊子大贵，所以地天泰是后天卦是地天泰的人，儿子大贵儿子大贵，如果<span class="chip">流年</span>卦逢到，哎老师我38岁是地天泰，我们看看你38岁在冲下你看哈闽南语在干什么，第一个官运亨通，官运非常的好平步青云嘛</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1057" target="_blank" rel="noopener">▶ 00:17:37</a>
+<span class="badge">p43 §3</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">后天卦我以前算一个人呢，他刚好是什么警察，不是衙门吗对不对，他说我要干到多久我说你干到45岁，不要急啊46岁以后不一样，先天卦不好跑到后天卦去，困扰你后半生，后半生的读后天卦是天地否，财破人呐佯病，诸位呢世界上很多的小人，男人女人都有每天在那边装病，博取大家的同情实际他什么病都没有，气色比我还好，每天动都不敢动然后还生病的样子，如果<span class="chip">流年</span>逢到连续口香来，所以每年都有口香为什么，家里面就给他</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1416" target="_blank" rel="noopener">▶ 00:23:36</a>
+<span class="badge">p43 §3</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">伴三天就买单了青灯伴到老，诸位呢想到这个，诸位有没有看到过电视台里面，有个和尚在讲经呢，讲的时候眼睛这样有没有看到，这种人人在讲道理在那儿你不用听，然后他我今天去刚好刚好听到，他旁边一个人好像现在有人在听，有个小孩子在哭，然后他眼睛斜看一下，知道不能哭叫小孩子就不要带小孩来嘛，然后他这样子瞪人家一眼的，眼睛这样翻自眼，这种人（竟）在那边讲道，拿着书再跟你讲经，小人，要修理他很简单，<span class="chip">流年</span>卦<span class="chip">流年</span>逢到天地香，老师我38岁天地否那你就要小心喽，你看看主人官司官讼</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1494" target="_blank" rel="noopener">▶ 00:24:54</a>
+<span class="badge">p43 §3</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§4 天地否</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1494" target="_blank" rel="noopener">▶ 00:24:54</a></div></div><div class="card"><div class="q">所以我一再教诸位很多本领，那二戈一贝自寻烦恼，自己在那边自寻烦恼，这都是寸言立身逢张落地，那你比如说你刚好姓谢，你去考试刚好那个主考官姓张，你就买单了可以回家了这<span class="chip">天机</span>道，我们这上面有一个，有个人在拍掌有没有，有个人拍掌，有一家东西掉，哎呀这个这个东西在哪里啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1645" target="_blank" rel="noopener">▶ 00:27:25</a>
+<span class="badge">p43 §4</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">这个暗中生害暗害呀，能够害得到你而且你没有预防的，才是叫暗害，暗害口舌背后再诬陷你，然后做生意的人呢财破破财，然后合伙关系呢还会拆伙破财拆伙，婚姻呢也是破裂婚姻</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1551" target="_blank" rel="noopener">▶ 00:25:51</a>
+<span class="badge">p43 §4</span><span class="crumb">09 六十四卦 › 天地否（p18） › 人间道</span></div></div><div class="card"><div class="q">你是排名第三个成格，不排名第三的时候，余减一半其它扣掉一半，就是发一半了，如果你是第三个儿，你可以顺利干到行政院乐，可是你不是第三儿对不起科添，处长你只干到处长可能是这样子扣他一半抑他一半，你把他官职等呢看成一半，刚好是检察院命，那同样是天火同人，我们要卦气的深浅，如果你是后天卦，后天卦下到，后天卦卜到，文从武武以文，文从武武从文，那以前写这个大家看不懂了，现在人看懂了校长的干到部长，他部长回头干什么什么，什么行为乱来都没关系哈，文以武武以文，文从武武以文，是啊有人文武双全啊出将入相，这个那天我不是跟你讲过村吗</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1818" target="_blank" rel="noopener">▶ 00:30:18</a>
+<span class="badge">p43 §4</span><span class="crumb">09 六十四卦 › 天火同人（p18） › 卜筮用例</span></div></div><div class="card"><div class="q">我们如何去找，那你写个字来好了掌掌啊，你看哦掌是不是这样子写，堂上拿是不是手，堂上拿人呐，就在你旁边赶快抓了，诸位都要会运用哈，随机来应变的，你不要乱测啊，等下堂上人刚好是你妈妈，你给她抓起来，那个东西还是你妈给你的，结果她老人痴呆她忘了抓对了，她忘了给你的叉收回去，其实果然没抓错是不是，还算你你蒙对了哈，天火同人如果你的先天卦，先天卦是天火同人卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1701" target="_blank" rel="noopener">▶ 00:28:21</a>
+<span class="badge">p43 §4</span><span class="crumb">09 六十四卦 › 天火同人（p18） › 人间道</span></div></div><div class="card"><div class="q">生时啊您生下来呢，就带了一大笔财来人间，生时带财人称羡，大家都称羨你，尤其这个现在这个社会呢，有钱人就是对的，大家都去羡慕他，那先天这种武天火同人呢，是个文武双全的人，文武双全呢受封谐，名登金榜金榜题名呐，长马宁上面一个心字繁体寧，然后先天天火同人卦出现的时候，第三儿成格</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1760" target="_blank" rel="noopener">▶ 00:29:20</a>
+<span class="badge">p43 §4</span><span class="crumb">09 六十四卦 › 天火同人（p18） › 人间道</span></div></div><div class="card"><div class="q">天火同人那一-年，但是呢要一定要专心而且坚持了，专心坚持到终到底呢到终必成，遇到天火同人卦的时候，后面留个尾巴给你，冬天加一喜冬加一喜，那一年的年尾的时候，加要加个喜事进来，那只有算到那个人他一看，嗯对啊他自己心里有数哈，有些我还是不要跟你们讲，有一个人呢，她先生两天不跟她讲话，就来问这个算命的啊奇，我先生为什么两天不跟我讲话</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1992" target="_blank" rel="noopener">▶ 00:33:12</a>
+<span class="badge">p43 §4</span><span class="crumb">09 六十四卦 › 天火同人（p18） › 人间道</span></div></div><div class="card"><div class="q">如果是长弓竞金啊，竞金啊镜子破掉去争争争财禄，如果这个人姓张，想去争钱就是去做生意，想去抢钱想去赚钱不中，不但抢不到还要大破财，所以姓张的特别要注意，这个天地否了不欢迎你，一定要防人暗害，所以你的<span class="chip">流年</span>上有天地否的时候哦，切记这个防人暗害勿听谣言，当你听了谣言听进去以后，你就已经被害了，绝对不要听谣言要做听明的人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1589" target="_blank" rel="noopener">▶ 00:26:29</a>
+<span class="badge">p43 §4</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">也是一样哈，说了没有办法我怎么办呢，所以哈有的时候要问问人家了，都问清楚不要找张老师要找倪老师啊，看看懂没有，文从武武从武从文名利双收，这种人心想事成，所以天火同人卦非常好，心想事成的卦，发于黄甲黄甲就是也是这个，就过去黄甲黄袍啊黄甲袍啊怎么样哦发于黄甲，天火同人呢数里面有四子，有四个儿子，结果结果呢三子送终少一个，如果你的<span class="chip">流年</span>卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1899" target="_blank" rel="noopener">▶ 00:31:39</a>
+<span class="badge">p43 §4</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">我们写这个字啊都是青龙，所以你那个勾陈的腾蛇的不要乱告我，对不对讲话有声无音，这个是勾陈，勾陈怎么抵得过青龙嘛<span class="chip">流年</span>卦呢<span class="chip">流年</span>卦呃，你那一年刚好天火同人上金榜登科，一定是高中，一朝扬名啊四海同心，这个会这个做的非常的大</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1959" target="_blank" rel="noopener">▶ 00:32:39</a>
+<span class="badge">p43 §4</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§5 天火同人</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=1992" target="_blank" rel="noopener">▶ 00:33:12</a></div></div><div class="card"><div class="q">这是<span class="chip">天机</span>道众人心乱无所适/从，先天先天卦啊那谦卦呢，谦受益满招损出则凶</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2470" target="_blank" rel="noopener">▶ 00:41:10</a>
+<span class="badge">p43 §5</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">他呢药能够周济药济众生，双人一儿看哦，两个天上两个小儿双人一儿，犬在侧狗在下面有没有狗在侧，比如说双人徐啊都是双人，两个空中两个诸事顺遂</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2220" target="_blank" rel="noopener">▶ 00:37:00</a>
+<span class="badge">p43 §5</span><span class="crumb">09 六十四卦 › 天火同人（p18） › 人间道</span></div></div><div class="card"><div class="q">数中呢兄弟二人谋略过人呐，谋略过人生即富，生下来就是有钱人家，狗人呢这个狗人是那年，犬人都可以哈，狗人逢之必加吉，一定可以加吉，男招贵妻女招贵夫，所以男女相同，名狄肖犬是真形呐，真正的火天大有，如果那个人又姓狄又肖犬</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2105" target="_blank" rel="noopener">▶ 00:35:05</a>
+<span class="badge">p43 §5</span><span class="crumb">09 六十四卦 › 火天大有（p20） › 人间道</span></div></div><div class="card"><div class="q">会建立不世之功啊，再加上命卦止有，再加上上时运到的时候，这种都会有机会做到天子或者做到什么，都会有机会的，当然要看时运了，有的人命很好时运不如人，时运不如人你刚好出生在蒙古了，那个那种时代对不对，那打都打不过他，如果是后天卦，后天卦你算到他，医星高照这能当医生了，火天大有悬壶得名，你看那个药王在那边有没有，哎这个是不是酒壶啊，悬壶得名啊这个药药做的很有名，医发医生</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2162" target="_blank" rel="noopener">▶ 00:36:02</a>
+<span class="badge">p43 §5</span><span class="crumb">09 六十四卦 › 火天大有（p20） › 人间道</span></div></div><div class="card"><div class="q">有喜且是双喜生子，有人生了孩子而且是双喜，如果呢你看哈我们卦气的，就好像庙旺利陷我们那个星辰，庙旺庙旺的来做加減，如果那一年你值年卦是火天大有，又刚刚好又逢刚好那年是什么，狗年今年是狗年他又逢大年，那年刚好是属狗年，你又是火天大有更加吉，再加就不是声名远播的名扬四海了，搞不好整个宇内都都晓得，宇宙都晓得你更加吉，如果逢了这个的话，真的是问鼎问鼎天下这不得了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2341" target="_blank" rel="noopener">▶ 00:39:01</a>
+<span class="badge">p43 §5</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 火天大有（p20） › 人间道</span></div></div><div class="card"><div class="q">一定要刚好逢了这个，那如果没有逢了这个，没有关系：养两条狗啊，那这个逢犬年的话，还有找属狗的合作的，都都是啊都入象懂不懂，都入象一定要找，地山谦智智明如月才德兼备</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2401" target="_blank" rel="noopener">▶ 00:40:01</a>
+<span class="badge">p43 §5</span><span class="crumb">09 六十四卦 › 地山谦（p20） › 人间道</span></div></div><div class="card"><div class="q">那测字的说，那你拿个字来好了心脏的心，测字的一看哦，心呐你老公呢，忽然有没有必变，都是心忽然必变，你先生变心了，所以测字我们不能测啊，测的是我们都是录像的，我们只能帮人家自己没有办法测，诸位看火天大有，诸位不要急，我这个对你们有好处的，这个没抄完你买买买录影带就好了，因为我后面有想如果有空的话，我还跟诸位多讲点六神占，六神占很妤很棒，火天大有卦，如果你的先天卦是火天大有</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2048" target="_blank" rel="noopener">▶ 00:34:08</a>
+<span class="badge">p43 §5</span><span class="crumb">10 占断 › 测字</span></div></div><div class="card"><div class="q">然后当得半子，然局当得半子，然后当得半子，然局当得半子，然后当得半子，乾数对这个是数上面是单得半子，遇到后天卦这样子的时候诸位呢，叫做良马逢伯乐，良马逢伯乐宝玉有光彩，宝玉呀有光彩，所以<span class="chip">流年</span>卦后天卦是个，后天卦是火天大有是非常好的，那如果你是<span class="chip">流年</span>的卦逢到呢，哎呀老师我今年是大有卦，大有卦的人呢药王在侧医星入命，入今年的<span class="chip">流年</span>代表声名远播</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2265" target="_blank" rel="noopener">▶ 00:37:45</a>
+<span class="badge">p43 §5</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§6 火天大有</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2499" target="_blank" rel="noopener">▶ 00:41:39</a></div></div><div class="card"><div class="q">出仕的话出山的话招凶，会受世人呢诬乱诬陷，如果是潜藏，所以要帮人家算的时候要告诉他，先生呐您不要出仕，潜藏静修进德修业，潜藏吉潜藏吉的话，反而能看尽人间百态，反而能够进步很多，那这个卦逢的人呢一定是，你看一个人在路上面独来独往，三个人躲在山后面有没有，招乱丝一条，这个人呢独来独往，这个马最奇</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2499" target="_blank" rel="noopener">▶ 00:41:39</a>
+<span class="badge">p43 §6</span><span class="crumb">09 六十四卦 › 火天大有（p20） › 人间道</span></div></div><div class="card"><div class="q">马人大利肖马人，或者长得像马的人，姓马的人马人大利，凶为吉看着都是凶事都是吉事，有的事情看到凶其实是吉呀，不为官人为富商，这是天天道里面注定的，五阴一阳呢数中定，到时候你就晓得了，我们叫做孤子承母三千宠爱在一身</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2784" target="_blank" rel="noopener">▶ 00:46:24</a>
+<span class="badge">p43 §6</span><span class="crumb">09 六十四卦 › 火天大有（p20） › 人间道</span></div></div><div class="card"><div class="q">出得外地呢分东西，其实东西南北在那个写丧的时候，他东南西北不分呐没有关系，两个天道草原千里呢为险阻，动得干戈有官司，会打官司的，最好的方法就是弃官不要干了，这个弃官从商南北走，是在天道天文里面的，算命里面的给客户的建议弃官从商</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2906" target="_blank" rel="noopener">▶ 00:48:26</a>
+<span class="badge">p43 §6</span><span class="crumb">09 六十四卦 › 火天大有（p20） › 人间道</span></div></div><div class="card"><div class="q">这个草原千里是天道，什么叫草原千里，这是个草字头千里，是不是这样子啊董，你要以此类推啊，还有很多写在里面的四个字，中国人的文字噢，文字是很好的学间，常常在变换的变动的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2966" target="_blank" rel="noopener">▶ 00:49:26</a>
+<span class="badge">p43 §6</span><span class="crumb">09 六十四卦 › 火天大有（p20） › 人间道</span></div></div><div class="card"><div class="q">因为独来独往一个人行，你要是属马的十二生肖里面属马的，逢到这个最好，后天卦后天卦，后天卦如果你的后天卦是，地山谦的时候鸠为齐邠，地山谦的时候九内齐幼，九为齐的鸠齐的加好衣的，加好衣的九好不外，这个人呢君子临朝会当出来当官咯，后天卦是地山谦君子临朝，九内不小人退隐小人退后，那这种人一定是为官公正，上面有个公字吧文字上有公字，九古为官公正，贤人呢都会跟着入朝九好衣们，所以这种人当官最好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2557" target="_blank" rel="noopener">▶ 00:42:37</a>
+<span class="badge">p43 §6</span><span class="crumb">09 六十四卦 › 地山谦（p20） › 人间道</span></div></div><div class="card"><div class="q">豫卦的时候一匹马一个鹿，一个串钱在地上一个官人站在门口，先天卦怎么读呢，肉忧外阻父有凶，爸爸会有灾，禄马禄逢到马是最好，禄马交驰呢人豪门，进入很有钱的人家，本来你生在平平的，可是可是先天卦是这个，爸爸会有凶事然后进入豪门世家，那不管是做承接的，或者是继祖或者是承续的都没有关系</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2729" target="_blank" rel="noopener">▶ 00:45:29</a>
+<span class="badge">p43 §6</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 雷地豫（p20） › 人间道</span></div></div><div class="card"><div class="q">也一样后天卦如果你逢马，逢到马年的时候最奇，不但有禄而且是明，当官要当明清官还不重要要明官，能够明了才是，九汐不要不要光清不明的没有用，所以历史上很多清官误国<span class="chip">流年</span>卦，如果你<span class="chip">流年</span>卦碰到这个，哎我老师我今年是地山谦，好你看看哦勾陈，勾陈呢主的是窃灾，三人成行那三个人脚下乱丝，三人成行呐，那你这一年的贵人呢，一定是当官的贵人为官明月当天</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2613" target="_blank" rel="noopener">▶ 00:43:33</a>
+<span class="badge">p43 §6</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">明月当天在我们<span class="chip">天机</span>图里面来讲的话，还代表妈妈在侧明月嘛，<span class="chip">太阳</span>就代表爸爸妈妈看不到明月当天，那这一年呢<span class="chip">流年</span>卦有禄至，有财禄进来，但是不会守钱进钱出，那批<span class="chip">流年</span>卦结尾一句话，结尾的卦呢事情之后事后官司，但是终有菓，地上乱丝一堆就是这个字嘛缫，把这个绞丝边拿出来加个冬，结果怎么样有菓穴，结果还是有房屋可以住终有菓，官司可以打打了还会有房子住嘛很好，诸位看雷地豫</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2668" target="_blank" rel="noopener">▶ 00:44:28</a>
+<span class="badge">p43 §6</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">这个这个卦非常的好，因为雷嘛还有地，雷出地上地是母，如果你后天卦这个，主的是什么生意兴隆，财禄多财禄非常多，出山出山呢得金叉得官，<span class="chip">流年</span>逢到记得，冬有丧服冬天的话要戴孝，为谁死了阴人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2841" target="_blank" rel="noopener">▶ 00:47:21</a>
+<span class="badge">p43 §6</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div>
+<footer>本站内容为倪海厦先生《天纪》课程判语的结构化整理，每条均可回放原视频核对。<br>
+课程内容著作权归倪海厦先生及其权利继承人所有；字幕整理致谢 B 站 UP 主程心学。<br>
+内容属文化研究与学习资料，不构成医疗、投资或人生决策建议。语料 CC BY-NC-SA 4.0。</footer>
+</div><script>
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('chip')){
+    location.href='index.html#s='+encodeURIComponent(e.target.textContent);
+  }
+});
+if(location.hash.startsWith('#s=')){
+  const k=decodeURIComponent(location.hash.slice(3));
+  const q=document.getElementById('q');
+  if(q){const t=setInterval(()=>{if(!q.disabled){q.value=k;q.dispatchEvent(new Event('input'));
+    clearInterval(t);q.scrollIntoView({behavior:'smooth'})}},100)}
+}
+</script></body></html>

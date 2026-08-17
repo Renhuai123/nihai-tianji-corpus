@@ -1,0 +1,600 @@
+[
+ {
+  "idx": 0,
+  "name": "日月反背",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "巳",
+    "stars": [
+     "太阴"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "酉",
+    "stars": [
+     "太阳"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "辰",
+    "stars": [
+     "太阴"
+    ],
+    "role": null,
+    "emphasis": false
+   }
+  ],
+  "links": [
+   {
+    "from": "巳",
+    "to": "酉",
+    "type": "三合"
+   }
+  ],
+  "gist": "日月俱落陷、出没颠倒：太阳酉时下山、太阴巳时出，主披星戴月、六亲不靠、离祖。",
+  "cite": "p15 §6 @00:20:22"
+ },
+ {
+  "idx": 1,
+  "name": "总格取舍",
+  "kind": "其他",
+  "drawable": false,
+  "cells": [],
+  "links": [],
+  "gist": "论批盘方法：先定总格再批，删繁就简不被书上诸格所缚，只留特例。",
+  "cite": "p07 §5 @00:16:19"
+ },
+ {
+  "idx": 2,
+  "name": "日月夹财",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "子",
+    "stars": [
+     "太阴"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "丑",
+    "stars": [],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "寅",
+    "stars": [
+     "太阳"
+    ],
+    "role": null,
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "子",
+    "to": "丑",
+    "type": "夹"
+   },
+   {
+    "from": "寅",
+    "to": "丑",
+    "type": "夹"
+   }
+  ],
+  "gist": "命居丑，太阴在子、太阳在寅左右夹命，虽命无主星亦一世财禄大，兼得祖业。",
+  "cite": "p07 §5 @00:16:51"
+ },
+ {
+  "idx": 3,
+  "name": "紫府夹权",
+  "kind": "吉格",
+  "drawable": false,
+  "cells": [
+   {
+    "branch": "丑",
+    "stars": [
+     "紫微"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "寅",
+    "stars": [],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "卯",
+    "stars": [
+     "天府"
+    ],
+    "role": null,
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "丑",
+    "to": "寅",
+    "type": "夹"
+   },
+   {
+    "from": "卯",
+    "to": "寅",
+    "type": "夹"
+   }
+  ],
+  "gist": "命宫两邻宫为紫微、天府来夹，主掌权。判语未言地支，宫位为推补。",
+  "cite": "p07 §5 @00:17:49"
+ },
+ {
+  "idx": 4,
+  "name": "魁钺夹贵",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "亥",
+    "stars": [
+     "天魁"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "戌",
+    "stars": [],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "酉",
+    "stars": [
+     "天钺"
+    ],
+    "role": null,
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "亥",
+    "to": "酉",
+    "type": "夹"
+   }
+  ],
+  "gist": "天魁天钺两科甲星分居命宫左右两邻夹命，主贵。判语未指地支，图示取丙丁年魁亥钺酉夹戌命。",
+  "cite": "p07 §5 @00:18:34"
+ },
+ {
+  "idx": 5,
+  "name": "禄马交驰",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "寅",
+    "stars": [
+     "禄存",
+     "天马"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "申",
+    "stars": [],
+    "role": null,
+    "emphasis": false
+   }
+  ],
+  "links": [
+   {
+    "from": "寅",
+    "to": "申",
+    "type": "对宫"
+   }
+  ],
+  "gist": "化禄或禄存逢天马，同宫为巨富，对宫会照亦成，主大财、自营事业。地支判语未明，天马只落四马地。",
+  "cite": "p07 §13 @00:50:17"
+ },
+ {
+  "idx": 6,
+  "name": "紫府作垣",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "寅",
+    "stars": [
+     "紫微",
+     "天府"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "申",
+    "stars": [
+     "七杀"
+    ],
+    "role": null,
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "寅",
+    "to": "申",
+    "type": "对宫"
+   }
+  ],
+  "gist": "紫微天府同宫于寅或申，七杀必在对宫，成紫府坐垣，主位列三台、近天子身侧。",
+  "cite": "p11 §5 @00:42:47"
+ },
+ {
+  "idx": 7,
+  "name": "七杀朝斗",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "申",
+    "stars": [
+     "七杀"
+    ],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "寅",
+    "stars": [
+     "紫微",
+     "天府"
+    ],
+    "role": "迁移",
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "申",
+    "to": "寅",
+    "type": "对宫"
+   }
+  ],
+  "gist": "七杀坐命寅或申、对宫迁移为紫微天府，将星入命，威震边疆，一世爵禄荣昌。",
+  "cite": "p11 §5 @00:45:23"
+ },
+ {
+  "idx": 8,
+  "name": "巨日格",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "寅",
+    "stars": [
+     "巨门"
+    ],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "午",
+    "stars": [
+     "太阳"
+    ],
+    "role": null,
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "寅",
+    "to": "午",
+    "type": "三合"
+   }
+  ],
+  "gist": "巨门太阳俱庙旺，同宫或三方会命即成正格；男主大富大贵能言善道，女主偏房。落陷则不成正格。",
+  "cite": "p15 §1 @00:02:30"
+ },
+ {
+  "idx": 9,
+  "name": "将星得地",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "巳",
+    "stars": [
+     "武曲",
+     "破军"
+    ],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "亥",
+    "stars": [],
+    "role": "迁移",
+    "emphasis": false
+   }
+  ],
+  "links": [
+   {
+    "from": "巳",
+    "to": "亥",
+    "type": "对宫"
+   }
+  ],
+  "gist": "武曲破军两武官星同会命宫，将星入命，又名英星入庙；大运走到主升将掌兵权。",
+  "cite": "p13 §4 @00:14:20"
+ },
+ {
+  "idx": 10,
+  "name": "雄宿朝元",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "寅",
+    "stars": [
+     "廉贞"
+    ],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "申",
+    "stars": [
+     "贪狼"
+    ],
+    "role": "迁移",
+    "emphasis": true
+   },
+   {
+    "branch": "戌",
+    "stars": [],
+    "role": "财帛",
+    "emphasis": false
+   }
+  ],
+  "links": [
+   {
+    "from": "寅",
+    "to": "申",
+    "type": "对宫"
+   },
+   {
+    "from": "寅",
+    "to": "戌",
+    "type": "三合"
+   }
+  ],
+  "gist": "廉贞孤星独守命宫，须在寅或申方合格，对宫贪狼；主武官出将入相或经商为老板（须财帛有禄），后期易毁于桃花。",
+  "cite": "p13 §5 @00:22:43"
+ },
+ {
+  "idx": 11,
+  "name": "明珠出海格",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "未",
+    "stars": [],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "亥",
+    "stars": [
+     "太阴"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "卯",
+    "stars": [
+     "太阳"
+    ],
+    "role": null,
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "亥",
+    "to": "未",
+    "type": "三合"
+   },
+   {
+    "from": "卯",
+    "to": "未",
+    "type": "三合"
+   },
+   {
+    "from": "亥",
+    "to": "卯",
+    "type": "三合"
+   }
+  ],
+  "gist": "命宫在未（不论有无主星），左会亥宫月朗天门、右会卯宫日照雷门，日月并明三方齐照，主父母双全、公正廉明、一世荣华。",
+  "cite": "p13 §9 @00:39:53"
+ },
+ {
+  "idx": 12,
+  "name": "日丽中天",
+  "kind": "吉格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "午",
+    "stars": [
+     "太阳"
+    ],
+    "role": "命宫",
+    "emphasis": true
+   }
+  ],
+  "links": [],
+  "gist": "太阳居午宫（正午最旺）坐命为正格，主武职大利、位极人臣；行运逢之则限内荣发。",
+  "cite": "p15 §1 @00:00:42"
+ },
+ {
+  "idx": 13,
+  "name": "机月同梁",
+  "kind": "吉格",
+  "drawable": false,
+  "cells": [],
+  "links": [],
+  "gist": "天机、太阴、天同、天梁四星会命，定为吏人：任公职或学校，吃固定薪水，性最温厚。",
+  "cite": "p27 §7 @00:15:41"
+ },
+ {
+  "idx": 14,
+  "name": "半空折翅",
+  "kind": "凶格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "巳",
+    "stars": [
+     "廉贞",
+     "贪狼"
+    ],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "亥",
+    "stars": [],
+    "role": "迁移",
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "巳",
+    "to": "亥",
+    "type": "对宫"
+   }
+  ],
+  "gist": "廉贞贪狼落陷同宫，坐命或在对宫冲命，属天罗地网；限在中年（约三十至四十）主夭折、意外或自杀。",
+  "cite": "p11 §2 @00:04:09"
+ },
+ {
+  "idx": 15,
+  "name": "杀夹杀（羊陀夹命）",
+  "kind": "凶格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "丑",
+    "stars": [
+     "陀罗"
+    ],
+    "role": null,
+    "emphasis": true
+   },
+   {
+    "branch": "寅",
+    "stars": [],
+    "role": "命宫",
+    "emphasis": true
+   },
+   {
+    "branch": "卯",
+    "stars": [
+     "擎羊"
+    ],
+    "role": null,
+    "emphasis": true
+   }
+  ],
+  "links": [
+   {
+    "from": "丑",
+    "to": "卯",
+    "type": "夹"
+   }
+  ],
+  "gist": "擎羊陀罗夹命宫，先天小人环伺、在劫难逃；本质是耳根软易受人影响，点破个性可解其灾。",
+  "cite": "p07 §5 @00:18:58"
+ },
+ {
+  "idx": 16,
+  "name": "天罗地网",
+  "kind": "凶格",
+  "drawable": false,
+  "cells": [],
+  "links": [],
+  "gist": "判语只言天罗地网主自杀夭亡、廉贪落陷限内应验，未点明所落地支与星曜布局",
+  "cite": "p07 §12 @00:44:54"
+ },
+ {
+  "idx": 17,
+  "name": "水中作冢",
+  "kind": "凶格",
+  "drawable": true,
+  "cells": [
+   {
+    "branch": "卯",
+    "stars": [
+     "廉贞",
+     "破军"
+    ],
+    "role": "福德",
+    "emphasis": true
+   },
+   {
+    "branch": "酉",
+    "stars": [],
+    "role": null,
+    "emphasis": false
+   }
+  ],
+  "links": [
+   {
+    "from": "卯",
+    "to": "酉",
+    "type": "对宫"
+   }
+  ],
+  "gist": "廉贞破军同宫（判语举于福德宫），主水里作坟墓、意外身亡",
+  "cite": "p17 §1 @00:00:37"
+ },
+ {
+  "idx": 18,
+  "name": "孤鸾命",
+  "kind": "凶格",
+  "drawable": false,
+  "cells": [],
+  "links": [],
+  "gist": "只论女命孤独不婚、宜出家念经、逢限加凶，判语全无星曜与宫位结构",
+  "cite": "p27 §11 @00:30:51"
+ },
+ {
+  "idx": 19,
+  "name": "刑夫克子",
+  "kind": "凶格",
+  "drawable": false,
+  "cells": [],
+  "links": [],
+  "gist": "女命夫子皆凶（夫妻无靠、子女宫与财帛化忌），判语未给具体星曜与地支",
+  "cite": "p29 §2 @00:03:31"
+ }
+]

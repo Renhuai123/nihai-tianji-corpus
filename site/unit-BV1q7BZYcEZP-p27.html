@@ -1,0 +1,120 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>地雷复（p24） · 天纪</title><style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1a1d21;--muted:#6b7480;--line:#e3ded3;
+--accent:#b04a3e;--accent2:#2e7d5b;--gold:#8a7a63;--chip:#f0ece3}
+@media(prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1c1f23;--ink:#e8e6e1;
+--muted:#9aa3ad;--line:#2c3037;--chip:#24282e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;gap:18px;height:58px}
+.logo{font-weight:700;font-size:17px;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:16px;font-size:14px;color:var(--muted);margin-left:auto;flex-wrap:wrap}
+nav a:hover{color:var(--accent)}
+h1{font-size:26px;margin:28px 0 6px;letter-spacing:.5px}
+h2{font-size:19px;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:22px 0 10px;color:var(--gold);font-weight:600}
+.sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+transition:.15s;display:block}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile .n{font-size:12px;color:var(--muted);letter-spacing:1px}
+.tile .t{font-size:16px;font-weight:600;margin:3px 0 5px}
+.tile .d{font-size:12.5px;color:var(--muted);line-height:1.5}
+.tile .c{font-size:12px;color:var(--accent);margin-top:8px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+border-radius:8px;padding:14px 16px;margin:10px 0}
+.card .q{font-size:15.5px;line-height:1.95;letter-spacing:.2px}
+.card .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:12px}
+.badge{background:var(--chip);color:var(--muted);border-radius:5px;padding:3px 8px}
+.play{background:var(--accent);color:#fff!important;border-radius:5px;padding:3px 10px;font-weight:600}
+.play:hover{opacity:.85}
+.crumb{color:var(--muted);font-size:12px}
+.note{color:var(--accent2);font-size:11.5px;background:var(--chip);border-radius:5px;padding:3px 8px}
+.chip{display:inline-block;background:var(--chip);border-radius:4px;padding:1px 5px;
+font-size:13px;color:var(--accent);cursor:pointer;margin:0 1px}
+.chip:hover{background:var(--accent);color:#fff}
+.seg{border-left:2px solid var(--line);padding:2px 0 2px 16px;margin:22px 0}
+.seg .st{font-size:14px;font-weight:600;margin-bottom:2px}
+.seg .stime{font-size:12px;color:var(--muted)}
+#q{width:100%;padding:11px 14px;font-size:15px;border:1px solid var(--line);border-radius:8px;
+background:var(--card);color:var(--ink);font-family:inherit}
+#q:focus{outline:none;border-color:var(--accent)}
+.stat{display:flex;gap:26px;flex-wrap:wrap;margin:14px 0 6px;font-size:13px;color:var(--muted)}
+.stat b{color:var(--ink);font-size:19px;font-weight:700;display:block}
+footer{margin:60px 0 30px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--muted);font-size:12.5px;line-height:1.9}
+mark{background:#ffe9a8;color:#1a1d21;border-radius:2px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">天<span>纪</span>·倪海厦讲课judgment库</a>
+<nav><a href="index.html">总览</a><a href="index.html#books">十一册</a>
+<a href="index.html#units">课程</a>
+<a href="https://github.com/Renhuai123/nihai-tianji-corpus" target="_blank" rel="noopener">GitHub</a></nav>
+</div></header><div class="wrap"><h1>地雷复（p24）</h1><p class="sub">卦24 · 22 条判语 · 2 个语义段 · <a href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27" target="_blank" rel="noopener" style="color:var(--accent)">B 站原片 ↗</a></p><div class="seg"><div class="st">§1 地雷复</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=3" target="_blank" rel="noopener">▶ 00:00:03</a></div></div><div class="card"><div class="q">那进入人间道，第一个易经讲是协力可胜，就是我刚刚解释的，要君子要同心协力才行，第一个第二个呢，复之始刚开始开开恢复的时候要不失复，所以易经道是贞，易经上面你只要看到贞，都代表坚心，我们要坚定我们的信心，坚定我们的心要始终如一啊，刚开始恢复的时候，那个念头很薄弱，不能失再失掉懂不懂，不能去失掉，要小心心戒之初啊，复之始要戒，就不能再失掉，不能再失去它，这是第一个第二个呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=136" target="_blank" rel="noopener">▶ 00:02:16</a>
+<span class="badge">卦24 §1</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">可是君子要始复，要一定要有众力协力才能够成这个卦呢外顺内动动的象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=59" target="_blank" rel="noopener">▶ 00:00:59</a>
+<span class="badge">卦24 §1</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 卦象 / 卦德</span></div></div><div class="card"><div class="q">一二三第三个，易经上面提到这个复里面了，什么叫做休复之美，第一爻的人，如果你的下位，你是下位的人，结果你下位的人是什么君子，那你在他上位，啊你是职员我是主任，哎发现这个这个我的职员，是不是君子能下，能够追从于下位的君子之道的人呢，这叫做体仁，我们常常说哎呀你要体仁呐，体仁仁爱的人啊，什么叫体仁，就是要能下，你的下面的人有君子之道，你要能下能够随从于他，这叫做休复之美啊，现在谁听下面了，我是我在上面我怎么会错，我是博士我怎么会错，你把我当成番薯啊，我叫登辉啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=192" target="_blank" rel="noopener">▶ 00:03:12</a>
+<span class="badge">卦24 §1</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 爻辞断诀（初爻→上爻）</span></div></div><div class="card"><div class="q">地雷复地（剥）卦和复卦呢，刚好是反的，剥到极限了以后，人民会思变思治治世会来临，君子之道始复，刚开始恢复的时候，所以阳生在下面，还有重阴还在上面懂不懂，复之道就在这里，刚开始始复，那刚开始始复的时候，有人发现哎这个君子这很好啊，你光是一个人独立难成大局，因为一个人力量太弱了，一定要众心协力就成了哦，如果人人敢讲话，明天台北市的人，跟台北县人加起来六七百万人，通通在中正厅上说，李登辉你不能竞选总统，不赞成你他就下台了，对啊就下台吧</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=3" target="_blank" rel="noopener">▶ 00:00:03</a>
+<span class="badge">卦24 §1</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">如果你没有动止的话，就是剥了要动，雷在地下面，在易经上面讲阴阳，易经也很厉害啊，他星然没有机会学过电学，但是他知道，阴和阳两个碰在一起的就会生雷阴阳相聚，那地雷刚生雷刚开始生在，最初生的时候，初阳的时候雷在地下面，就好像冬天，冬天的时候再过来冬到很冷的时候，就开始冬至，冬至到后来冬至的时候，同时间阳就开始出生了，所以阴极会到，阴到极限会变成阳，那比如说我们现在解释，你说老师这很难很难很难领悟啊，我讲的很简单的，我们最热的药人参呐，人参很热啊，实际上人生产在最冷的地方，那像硫磺很凉啊很寒涼的药，藏在火山口，这都是物的性，所以雷在地下面的时候，这是君子道始复之时</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=75" target="_blank" rel="noopener">▶ 00:01:15</a>
+<span class="badge">卦24 §1</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">这代表怎么会错呢，啊我信的是基督教，我从来不会骗人的啊，都不可以的哦，这没有休复之美再来呢，第四个呢易经就提出来要频复之戒，不是富有的人和贫穷的人，这个频啊频复，为什么叫频复，就频频恢复的意思，就是复而又失，那失呢而又复，就每天的往来往来往于啊，每天那个人的想法，就往来于和复和失中间对和不对，每天在那边把来往这边不够坚心呀，这叫做频复之戒，我们要去警戒</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=248" target="_blank" rel="noopener">▶ 00:04:08</a>
+<span class="badge">卦24 §1</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">这个就是迷途不改，这个就是后来问题呀，出的会很大为什么，因为太花了太多的时间，在这个失和复中间在取舍，没有花很多的时间去修身进德，这个时候迷途不改，凶易经上面写的是招凶，易经上面谈到了，学问之道无他，求学啊没有什么好特特别的，知过至复而已，知道不对了马上修正自己，这是求学问的道，就是四个字而已</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=306" target="_blank" rel="noopener">▶ 00:05:06</a>
+<span class="badge">卦24 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">很多人呢去学一门学问，学到后来他学到最高顶的时候，拿了博士以后，他都开始教学教一辈子咯，有一天他发觉到突然他的东西不对，我现在告诉你，他就不是君子嘛，君子马上就知道他不对了，诸位要做发明家，一定要经过我们的假设，再经过验证，还要看结果，比如说你是会计师，你是统计学博士，你是什么什么博士，现在外面的博士啊一大票，他们去研究的东西的时候，在他们在发前的事前的时候，都谈了很多几率，130%啊70%啊30%，哎我是医生你来找我，哎陈先生这个医生呐，你看看我这个这个开刀下去会怎么样</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=362" target="_blank" rel="noopener">▶ 00:06:02</a>
+<span class="badge">卦24 §1</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">医生就讲话了没关系，根据我们专家我们的判断我们的统计，这一刀下去会好30％不会好，你们听到都很好像很好，你们以为你们聪明，我看你们是笨蛋，我听的不对哦，听明是什么呀，哎医生对不起啊，对你来说是，对不起对我来说，不是1就是0哦，哪有什么的，这就是现在的专家懂不懂我意思啊，哪有什么几率啊，所以很多人呐，念了读了书以后回来了，就比如研究了很多资料，一个做做政治决策者，他需要经过各方面的统计资料给他，来增加他的判断来做决策，结果真的会判断的，他根本就不依依据这些专家的资料没有用的，真的会做决胜者，易经啊在事情开始的时候，就已经知道成败了，我就讲过四个人下棋啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=419" target="_blank" rel="noopener">▶ 00:06:59</a>
+<span class="badge">卦24 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">你懂易经就知道，就是哦开始下两步棋，我输了我们重新来过，那吃一定要剩下个帅，还还死不认输还在下，你看这两个哪个是高手啊，懂不懂易经都在所，所以我们君子是法天事天呐，事情开始就有机锋了知不知道，履霜坚冰至一开始就要晓得了，你还在那边不相信，还在那边什么机率，然后等下错了，错了再回头，事人事人事已非啊懂不懂，啊你一个政策做觉悟做错，这个教务政教育政策做错了，下面的受害的学莘莘学子有多少通通受害，因为你一念之错，然后错了没关系，我们再给它改过来，改过来三年以后先去错误的，再去换另外一个，又错了再去改这个，每天就花时间在那边改，失而复复而失有没有，现在就是这样子啊，小人就这样子啊他不懂啊，会做事的人不会哦，不会这样子，这是最后一个呢，是频复之戒</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=476" target="_blank" rel="noopener">▶ 00:07:56</a>
+<span class="badge">卦24 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">第五个是迷复迷复呢，这叫做执迷不悟了，这是易经上大凶，会做学问的人始复啊，一开始就回回头了，懂不懂我意思，不会做学问的人呢笨蛋呢，到了后来还执迷不悟啊，还在大凶啊，这是叫大凶招凶之道，那到了执迷不悟阶段的时候，动则必有过，必有过一定会有过失的，在这个时机上面，在这个迷复的时机之上的时候，如果出师出兵打仗必败</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=532" target="_blank" rel="noopener">▶ 00:08:52</a>
+<span class="badge">卦24 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">那如果易经上面来谈到，如果君王啊，君入迷复之道的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=590" target="_blank" rel="noopener">▶ 00:09:50</a>
+<span class="badge">卦24 §1</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="seg"><div class="st">§2 第24卦：地雷复·续</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=601" target="_blank" rel="noopener">▶ 00:10:01</a></div></div><div class="card"><div class="q">或者是或者是呢，司法的执行人，比如说那个刀斧手，在那边的司法的执行人，法警啊都是一个兔子，兔子呢代表属兔的人，或者是刘姓的人姓劉（刘）啊，那老师这劉（刘）跟兔有什么关系，上面不是个卯吗，卯是不是兔子啊，子五寅卯鼠牛虎兔卯是兔子，金刀插在地上面，刀插在地上面是兔子，讲的就是劉（刘），所以汉朝开国的刘邦，就是金刀插在地上，地上有个兔子，后面会读图读到，所以劉（刘）是我们的大姓啊，劉（刘）是我们大姓，当然李也是我们大姓呐，唐朝李家天下，所以先读到朵朵李花飞嘛推背图第八象，到处都是姓李的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=950" target="_blank" rel="noopener">▶ 00:15:50</a>
+<span class="badge">卦24 §2</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 二、读图（象） › 图先于辞</span></div></div><div class="card"><div class="q">如果是卜到升迁，所以这个东字字很讨厌，字比较难读啊，那个图比较好读啊，字比较难读，有个人升迁，说哎我怎么这个升迁命令，还没有发布，命令怎么都没有发布到地雷复，啊先生呐十日有没有来人，这是个来十天会来人应职的，十日来人封侯数是十日数是十回，这个是升官的时机，一个将持刀立再来个，有个将将有个武官呢，拿介刀在旁边，拿个刀在旁边武威之人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=889" target="_blank" rel="noopener">▶ 00:14:49</a>
+<span class="badge">卦24 §2</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 卜筮用例</span></div></div><div class="card"><div class="q">国之凶啊国家会招凶，所以君子呢我刚刚一直在讲，刚开始发觉不对的时候，马上就修正了知不知道，修正有什么关系，到最后一爻迷复的时候，这个当你又要执迷不悟，比如说你的小孩子，刚开始的时候他吸毒，一次回来就被你狠狠的毒打一顿，每次抓他就毒打，从此就不相信他不会吸毒，如果你从此不相信，不给他不给他吸毒，给他没有给他鼓励，他以后真的吸毒了，反正你不相信我，那太过了懂不懂，要刚柔并济，狠狠的毒打一遍，夫妻两个一起打，那打完以后第二天还是给他准备面，准备便当上课啊，都不要讲了，他以后就不敢了，那等到他后来积重难返的时候，到了执迷不悟的时候，已经无救了，这种国君到这里的话，国家就很危险，这种你再说在这个时候再出兵</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=601" target="_blank" rel="noopener">▶ 00:10:01</a>
+<span class="badge">卦24 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">这种你再说在这个时候再出兵，出师那更凶，所以说到了执迷不悟动，他只要做任何事情，动则必有过失，所以诸位发现到外面很多啊，制造问题的人，都是执迷不悟的人，执迷不悟啊，那你知不知道执迷不悟的眼睛，长什么样子，我画给你看，看太多了，那个眼睛啊，那眼睛就告诉你，我就是执迷不悟的，那眼睛长成这样子，鼻子在中间，眼睛形状变成这样子，这样子长的眼睛呢，两眼啊无神呐，似睁不睁的样子，我们叶又媚就是这样子，很多人眼睛就这样子，好累啊，所以你发现你的周围的那个两</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=657" target="_blank" rel="noopener">▶ 00:10:57</a>
+<span class="badge">卦24 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">有调职的象，上面有两支旗，好第二个两支旗在上面呢鬥（斗），诸位看两个旗两个王有没有，两个棋杆呐，两个王鬥（斗）也相斗的象，也代表将帅的象将帅之象，一方之主的象，第三个堠子东字，诸位呢看到猴啊，猴发木形猴子要瘦干干的发木型的人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=770" target="_blank" rel="noopener">▶ 00:12:50</a>
+<span class="badge">卦24 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">你如果是属猴的人，这个胖嘟嘟的就不发哈，要要很瘦要像我们王永庆，王兄你看他的样子，瘦瘦干干的哈，这猴发木型的人，对猴子的木型大利，还有一个呢，这个东字，诸位看东怎么写哈，东这个字哈，这个字怎么念束，加一个中心是不是东，所以说有家的中心以后就会有约束，有心约束的象，看哈十八天至，所以十八日至也是东，哎奇怪我这个朋友，怎么都没来看我啊，会发生什么事十八日到，十八日至</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=829" target="_blank" rel="noopener">▶ 00:13:49</a>
+<span class="badge">卦24 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">如果你当官的可以，做生意的你给她住在地雷复上面，没有用啊，有没有用啊，你不要乱改知不知道，不可以乱改，在这种呢抱歉夫妻呢，婚姻凶夫妻婚凶，婚夫妻婚凶的原因，夫招什么官讼官司啊夫招官司，然后妻壮壮就是女孩子太强了，这个易经说太太太强了先生不顺，结果因为这样子原因的，离婚的原因就是这样子就地雷复，对婚姻非常的不好，所以如果你住在这复卦上面，赶快去搬搬哦，要武职大利，但是利发武职</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=1125" target="_blank" rel="noopener">▶ 00:18:45</a>
+<span class="badge">卦24 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 人间道</span></div></div><div class="card"><div class="q">李宗奎啊李远哲嘛李元簇啊，亲戚用完了就用同姓的嘛，拉一下关系就很抱歉，山东人呢里面就一个孔子，其他都其他只会吃馒头，所以李姓的人不见得能够办事，不能够把事情做好，一只老虎这里讲的什么肖虎的人，属老虎的人，还有指的是王姓王姓的人，阳宅部分，母居长子位成格，这个看的最多，妈妈住到大儿子的位置地雷复</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=1007" target="_blank" rel="noopener">▶ 00:16:47</a>
+<span class="badge">卦24 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 阳宅</span></div></div><div class="card"><div class="q">这个东宫南宫西宫北宫，东宫上面呢，结果父母住在东宫上面，对父亲来说是天雷，对妈妈来说是什么就是地雷，地下有雷地雷，第一个呢女身男性，你看那个夫妻两个人结婚，太太出来像男孩子像男人，先生像先生都看不到，都躲在家里面，这都是地雷复哦第二个，武职大利如果你是太太，结了婚你是女儿，又是女儿又是太太，然后你又从武官那军人警察法官，那你去住地雷复，哇那很厉害，第三个呢代夫出征，第四个呢发官不发财</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=1063" target="_blank" rel="noopener">▶ 00:17:43</a>
+<span class="badge">卦24 §2</span><span class="crumb">09 六十四卦 › 地雷复（p24） › 阳宅</span></div></div><div class="card"><div class="q">有没有什么疑问，所以诸位看我们解图上面卦，易经上面图的字的时候，测字也是一样的哦，了解我意思吧测字抓机锋，懂不懂我意思抓机锋啊抓杌锋啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=1181" target="_blank" rel="noopener">▶ 00:19:41</a>
+<span class="badge">卦24 §2</span><span class="crumb">10 占断 › 测字</span></div></div>
+<footer>本站内容为倪海厦先生《天纪》课程判语的结构化整理，每条均可回放原视频核对。<br>
+课程内容著作权归倪海厦先生及其权利继承人所有；字幕整理致谢 B 站 UP 主程心学。<br>
+内容属文化研究与学习资料，不构成医疗、投资或人生决策建议。语料 CC BY-NC-SA 4.0。</footer>
+</div><script>
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('chip')){
+    location.href='index.html#s='+encodeURIComponent(e.target.textContent);
+  }
+});
+if(location.hash.startsWith('#s=')){
+  const k=decodeURIComponent(location.hash.slice(3));
+  const q=document.getElementById('q');
+  if(q){const t=setInterval(()=>{if(!q.disabled){q.value=k;q.dispatchEvent(new Event('input'));
+    clearInterval(t);q.scrollIntoView({behavior:'smooth'})}},100)}
+}
+</script></body></html>

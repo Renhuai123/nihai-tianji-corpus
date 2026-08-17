@@ -1,0 +1,832 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>01 主星 · 天纪</title><style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1a1d21;--muted:#6b7480;--line:#e3ded3;
+--accent:#b04a3e;--accent2:#2e7d5b;--gold:#8a7a63;--chip:#f0ece3}
+@media(prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1c1f23;--ink:#e8e6e1;
+--muted:#9aa3ad;--line:#2c3037;--chip:#24282e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;gap:18px;height:58px}
+.logo{font-weight:700;font-size:17px;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:16px;font-size:14px;color:var(--muted);margin-left:auto;flex-wrap:wrap}
+nav a:hover{color:var(--accent)}
+h1{font-size:26px;margin:28px 0 6px;letter-spacing:.5px}
+h2{font-size:19px;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:22px 0 10px;color:var(--gold);font-weight:600}
+.sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+transition:.15s;display:block}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile .n{font-size:12px;color:var(--muted);letter-spacing:1px}
+.tile .t{font-size:16px;font-weight:600;margin:3px 0 5px}
+.tile .d{font-size:12.5px;color:var(--muted);line-height:1.5}
+.tile .c{font-size:12px;color:var(--accent);margin-top:8px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+border-radius:8px;padding:14px 16px;margin:10px 0}
+.card .q{font-size:15.5px;line-height:1.95;letter-spacing:.2px}
+.card .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:12px}
+.badge{background:var(--chip);color:var(--muted);border-radius:5px;padding:3px 8px}
+.play{background:var(--accent);color:#fff!important;border-radius:5px;padding:3px 10px;font-weight:600}
+.play:hover{opacity:.85}
+.crumb{color:var(--muted);font-size:12px}
+.note{color:var(--accent2);font-size:11.5px;background:var(--chip);border-radius:5px;padding:3px 8px}
+.chip{display:inline-block;background:var(--chip);border-radius:4px;padding:1px 5px;
+font-size:13px;color:var(--accent);cursor:pointer;margin:0 1px}
+.chip:hover{background:var(--accent);color:#fff}
+.seg{border-left:2px solid var(--line);padding:2px 0 2px 16px;margin:22px 0}
+.seg .st{font-size:14px;font-weight:600;margin-bottom:2px}
+.seg .stime{font-size:12px;color:var(--muted)}
+#q{width:100%;padding:11px 14px;font-size:15px;border:1px solid var(--line);border-radius:8px;
+background:var(--card);color:var(--ink);font-family:inherit}
+#q:focus{outline:none;border-color:var(--accent)}
+.stat{display:flex;gap:26px;flex-wrap:wrap;margin:14px 0 6px;font-size:13px;color:var(--muted)}
+.stat b{color:var(--ink);font-size:19px;font-weight:700;display:block}
+footer{margin:60px 0 30px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--muted);font-size:12.5px;line-height:1.9}
+mark{background:#ffe9a8;color:#1a1d21;border-radius:2px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">天<span>纪</span>·倪海厦讲课judgment库</a>
+<nav><a href="index.html">总览</a><a href="index.html#books">十一册</a>
+<a href="index.html#units">课程</a>
+<a href="https://github.com/Renhuai123/nihai-tianji-corpus" target="_blank" rel="noopener">GitHub</a></nav>
+</div></header><div class="wrap"><h1>01 主星</h1><p class="sub">十四主星与辅煞星的定性、性情、格局 · 共 378 条</p><h2>紫微（北斗 · 帝星）</h2><h3>定性</h3><div class="card"><div class="q">我们分南斗还有北斗。北斗星系第一颗星我们叫做<span class="chip">紫微</span>星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=1562" target="_blank" rel="noopener">▶ 00:26:02</a>
+<span class="badge">p05 §4</span></div></div><div class="card"><div class="q">那这颗星它是帝星，黄帝的星。它是北斗星君，它是个帝星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=1599" target="_blank" rel="noopener">▶ 00:26:39</a>
+<span class="badge">p05 §4</span></div></div><div class="card"><div class="q"><span class="chip">紫微</span>星主的是官，官带。所以有<span class="chip">紫微</span>星出现的时候，它代表的是官印，官的命。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=1862" target="_blank" rel="noopener">▶ 00:31:02</a>
+<span class="badge">p05 §4</span></div></div><div class="card"><div class="q">通通是按照北斗星君，我们在排八字，诸位如果有去排的时候就知道，是以北斗星君为主，其他星都是按照北斗星君在转，所以我们以<span class="chip">紫微</span>星为主</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=13" target="_blank" rel="noopener">▶ 00:00:13</a>
+<span class="badge">p09 §1</span><span class="note">已按裁决改正：沩主→为主</span></div></div><div class="card"><div class="q">那星都会聚在一起，都会因为这个<span class="chip">紫微</span>星，而通通聚在一起，排起来都是一样的，这样子我们从这个角度来教比较简单</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=54" target="_blank" rel="noopener">▶ 00:00:54</a>
+<span class="badge">p09 §1</span></div></div><div class="card"><div class="q">你看她命上面先生是<span class="chip">紫微</span><span class="chip">七杀</span>，不但代表先生是独子或长子以外，而且代表先生头顶上面没有人，做事业当老板，那她先生走掉以后，她应该当公司负责人她去继承</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=1631" target="_blank" rel="noopener">▶ 00:27:11</a>
+<span class="badge">p17 §7</span><span class="note">cleaned</span></div></div><h3>长相</h3><div class="card"><div class="q">耳朵不在大，但是要正面不见耳最好。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=1630" target="_blank" rel="noopener">▶ 00:27:10</a>
+<span class="badge">p05 §4</span></div></div><div class="card"><div class="q">这个是标准的帝星<span class="chip">紫微</span>星。当然每个人都有眼睛鼻子嘴巴都有，但他的比较很开。整个脸宽宽大大的厚重。厚重人非常的厚重。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=1646" target="_blank" rel="noopener">▶ 00:27:26</a>
+<span class="badge">p05 §4</span></div></div><h3>性情</h3><div class="card"><div class="q">然后他不苟言笑。不随便开口。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=1673" target="_blank" rel="noopener">▶ 00:27:53</a>
+<span class="badge">p05 §4</span></div></div><h3>解厄制化</h3><div class="card"><div class="q"><span class="chip">紫微</span>星还有一个功能，它有解厄制化的功能。就是我们命中逢凶星的时候，一凶星出现的时候，它遇到<span class="chip">紫微</span>星都可以解掉。煞星逢到<span class="chip">紫微</span>星的时候，这个煞星要去掉。只有<span class="chip">紫微</span>星可以解这个事情，能够逢凶化吉。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2016" target="_blank" rel="noopener">▶ 00:33:36</a>
+<span class="badge">p05 §4</span></div></div><div class="card"><div class="q">我们朝<span class="chip">紫微</span><span class="chip">天府</span>也可以啊，如果是房子在斜向的话，你给他朝<span class="chip">紫微</span><span class="chip">天府</span>，南北斗星君本来就是解厄制化</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=2829" target="_blank" rel="noopener">▶ 00:47:09</a>
+<span class="badge">p17 §12</span></div></div><div class="card"><div class="q">因为她22生意太好了，太好了以后，包括所有的事情通通来了，懂不懂通通会发生的，了解我意思要这样子看，所以我们写诸事皆吉，你要想没错，她也要这样子写，可是应该说是在这个时间，所有的心里想的事情，她都会很顺心的能够达成</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=512" target="_blank" rel="noopener">▶ 00:08:32</a>
+<span class="badge">p19 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">因为为什么贵星太多了，都能够解厄制化，出了什么问题都有人能给你，帮你逢凶化吉</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=529" target="_blank" rel="noopener">▶ 00:08:49</a>
+<span class="badge">p19 §3</span><span class="note">cleaned</span></div></div><h3>必需辅弼</h3><div class="card"><div class="q">所以我们有两颗星是配合<span class="chip">紫微</span>星的。一个叫<span class="chip">左辅</span>。一个叫<span class="chip">右弼</span>。同样是命坐<span class="chip">紫微</span>的人，如果没有<span class="chip">左辅</span><span class="chip">右弼</span>在他两边的时候，<span class="chip">紫微</span>星也是皇帝，但是<span class="chip">紫微</span>星是孤星。孤帝，孤独的皇帝。所以是僧道。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=1768" target="_blank" rel="noopener">▶ 00:29:28</a>
+<span class="badge">p05 §4</span></div></div><div class="card"><div class="q">所以<span class="chip">紫微</span>星一颗星在那边的时候，它代表的是什么，孤单。如果你的命<span class="chip">紫微</span>星在命周围辅弼星没有，代表你这个人很厚重人很厚道性本孤。喜欢一个人，不太喜欢去跟别人来往。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=1819" target="_blank" rel="noopener">▶ 00:30:19</a>
+<span class="badge">p05 §4</span></div></div><div class="card"><div class="q">那如果是<span class="chip">紫微</span><span class="chip">破军</span>在这边呢，如果是<span class="chip">命宫</span>在这边，像<span class="chip">紫微</span>星我有没有一再跟诸位讲过，<span class="chip">紫微</span>星要逢到<span class="chip">左辅</span><span class="chip">右弼</span>，这个人就有<span class="chip">左辅</span><span class="chip">右弼</span>在命的看到没有，如果<span class="chip">命宫</span>在这边，我们不要管什么<span class="chip">命宫</span>，光管这个宫是<span class="chip">紫微</span><span class="chip">破军</span>还是<span class="chip">左辅</span><span class="chip">右弼</span>，对不对<span class="chip">左辅</span>还是<span class="chip">右弼</span>都在这边，诸位想诸君用想的推理的，我们知道<span class="chip">紫微</span>星碰到辅弼星，非常好非常的贵</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=428" target="_blank" rel="noopener">▶ 00:07:08</a>
+<span class="badge">p11 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那请问你那如果我们知道，这个是北斗星君遇到辅弼星非常好，如果这个落<span class="chip">夫妻宫</span>呢，哇代表她的对象她的另一半，如果是女的话男的先生很好，如果是男孩子的话，太太非常的优秀，你了解我意思吧，这是非常好的现象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=482" target="_blank" rel="noopener">▶ 00:08:02</a>
+<span class="badge">p11 §2</span></div></div><div class="card"><div class="q"><span class="chip">紫微</span>星一定要有什么呀，<span class="chip">左辅</span><span class="chip">右弼</span>来会它，结果她的<span class="chip">紫微</span>星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1034" target="_blank" rel="noopener">▶ 00:17:14</a>
+<span class="badge">p09 §6</span></div></div><div class="card"><div class="q"><span class="chip">紫微</span><span class="chip">天府</span>在里面，对她来说也是孤军奋战，只是孤军奋战得很好而已</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=300" target="_blank" rel="noopener">▶ 00:05:00</a>
+<span class="badge">p29 §2</span><span class="note">cleaned</span></div></div><h3>紫微在丑宫</h3><div class="card"><div class="q"><span class="chip">紫微</span>星在什么丑宫，丑<span class="chip">紫微</span>星在这里，那<span class="chip">紫微</span>星在丑宫出现的时候，丑其他诸星都一样，当然科权禄忌，科权禄忌呢，完全是要看八字，不一定都在都在，永远都在一起，但是如果<span class="chip">紫微</span>星在这边的话，一定是跟到<span class="chip">破军</span>，<span class="chip">紫微</span>星在这个宫的话，旁边一定是跟到<span class="chip">破军</span>。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=202" target="_blank" rel="noopener">▶ 00:03:22</a>
+<span class="badge">p11 §2</span></div></div><div class="card"><div class="q">旁边这边<span class="chip">陀罗</span>啊，<span class="chip">天府</span>啊<span class="chip">太阴</span>啊，其他都一样的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=224" target="_blank" rel="noopener">▶ 00:03:44</a>
+<span class="badge">p11 §2</span></div></div><div class="card"><div class="q">所以<span class="chip">紫微</span>星在丑宫的话，会有日月反背的现象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=833" target="_blank" rel="noopener">▶ 00:13:53</a>
+<span class="badge">p11 §3</span></div></div><div class="card"><div class="q"><span class="chip">武曲</span>和<span class="chip">七杀</span>在这边是不是，是不是所以你看<span class="chip">紫微</span>星在丑宫的时候，一定<span class="chip">武曲</span><span class="chip">七杀</span>一定会会到这边来，日月一定会反背懂不懂</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=1520" target="_blank" rel="noopener">▶ 00:25:20</a>
+<span class="badge">p11 §5</span></div></div><h3>紫微在寅宫</h3><div class="card"><div class="q">第三个<span class="chip">紫微</span>星在寅宫，<span class="chip">紫微</span>星在寅宫，我们现在还没有批<span class="chip">流年</span>呢，不要急先看格先会批，我们那个真正开始批<span class="chip">流年</span>的时候，我们找案例啊，找那个很好的案例，我们按照一年年批给诸位看，诸位看这个，第三章<span class="chip">紫微</span>星在寅宫</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=2535" target="_blank" rel="noopener">▶ 00:42:15</a>
+<span class="badge">p11 §5</span></div></div><h3>紫微在子宫</h3><div class="card"><div class="q">所以第1章到第12章，12章刚刚好<span class="chip">紫微</span>星在子宫，<span class="chip">紫微</span>星在丑宫在寅在卯在辰在巳，刚好绕一圈回来，所以12章刚好<span class="chip">紫微</span>星在12个位置</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=24" target="_blank" rel="noopener">▶ 00:00:24</a>
+<span class="badge">p09 §1</span></div></div><div class="card"><div class="q">如果以<span class="chip">紫微</span>星来看的话，我们不要看它其它什么，光以<span class="chip">紫微</span>星来看的话，八字就是这12种啊，了解我意思吧12个，那其它的变化呢只是宫的变化，还有还有宫啊，我们<span class="chip">命宫</span>啊会转啊，还有些科权禄忌会转动变化，但是基本上就这样12种形式</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=35" target="_blank" rel="noopener">▶ 00:00:35</a>
+<span class="badge">p09 §1</span></div></div><div class="card"><div class="q">诸位看迁移，迁移她是<span class="chip">紫微</span>星，现在<span class="chip">紫微</span>星在子宫，我一再跟诸位，在前面我已经讲过</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1027" target="_blank" rel="noopener">▶ 00:17:07</a>
+<span class="badge">p09 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">第一个你<span class="chip">紫微</span>星在外，代表你在外地去会逢到贵人，<span class="chip">紫微</span>星是大贵皇帝星啊，这第一个第二个，<span class="chip">紫微</span>星对你自己本身来说也是<span class="chip">紫微</span>星，你一个人在外地，到头来会孤军孤独的皇帝</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1053" target="_blank" rel="noopener">▶ 00:17:33</a>
+<span class="badge">p09 §6</span></div></div><div class="card"><div class="q">诸位看第一章，那个50年（1961），50年出世的有没有，<span class="chip">紫微</span>星在子有没有</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=2716" target="_blank" rel="noopener">▶ 00:45:16</a>
+<span class="badge">p19 §12</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">就是<span class="chip">紫微</span>星在子的那张有没有，民国50年（1961）出生那张</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=0" target="_blank" rel="noopener">▶ 00:00:00</a>
+<span class="badge">p21 §1</span><span class="note">cleaned</span></div></div><h3>紫微在卯宫</h3><div class="card"><div class="q">诸位看我们看第四章，<span class="chip">紫微</span>星在卯宫，首先呢这个宫这个格啊有，这里有几个特殊的格，要注意一下，当你<span class="chip">紫微</span>星在卯宫的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2" target="_blank" rel="noopener">▶ 00:00:02</a>
+<span class="badge">p13 §1</span></div></div><h3>紫微在辰宫</h3><div class="card"><div class="q"><span class="chip">紫微</span>星在辰，这个宫呢我们一个一个介绍</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1308" target="_blank" rel="noopener">▶ 00:21:48</a>
+<span class="badge">p13 §5</span><span class="note">cleaned</span></div></div><h3>紫微在巳宫</h3><div class="card"><div class="q">诸位看这个巳宫，下一章<span class="chip">紫微</span>星在巳</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1821" target="_blank" rel="noopener">▶ 00:30:21</a>
+<span class="badge">p13 §6</span><span class="note">已按裁决改正：已宫→巳宫</span></div></div><h3>紫微在午宫</h3><div class="card"><div class="q">诸位看这个<span class="chip">紫微</span>星在午宫，<span class="chip">紫微</span>星在午宫的时候，<span class="chip">太阴</span>星一定在这里，<span class="chip">太阳</span>星一定在这里看到没有，<span class="chip">太阳</span>星这是不是卯宫，卯时是点，<span class="chip">太阴</span>星在亥宫，是晚上点</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2344" target="_blank" rel="noopener">▶ 00:39:04</a>
+<span class="badge">p13 §9</span><span class="note">已按裁决改正：午官→午宫</span></div></div><div class="card"><div class="q">所以<span class="chip">贪狼</span>在这里，跟这里完全不一样，一到这里来它就落陷了，一到这里马上旺起来，所以<span class="chip">紫微</span>星在午宫的时候，会有这种现象，明珠出海格</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2691" target="_blank" rel="noopener">▶ 00:44:51</a>
+<span class="badge">p13 §9</span></div></div><div class="card"><div class="q">生个儿子可以做天子啊，这个是<span class="chip">紫微</span>星在午宫，一些格局我基本上粗粗略的，跟诸位介绍一下</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2825" target="_blank" rel="noopener">▶ 00:47:05</a>
+<span class="badge">p13 §10</span></div></div><h3>紫微在未宫</h3><div class="card"><div class="q">现在呢如果<span class="chip">紫微</span>星在未宫，<span class="chip">紫微</span>星在未宫，第一个诸位看右下角</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2867" target="_blank" rel="noopener">▶ 00:47:47</a>
+<span class="badge">p13 §11</span></div></div><h3>紫微在申宫</h3><div class="card"><div class="q">诸位看一颗<span class="chip">破军</span>星在这里看到没有，如果是<span class="chip">紫微</span>星，<span class="chip">紫微</span>呢在申宫，<span class="chip">天府</span>在这里，<span class="chip">七杀</span>在这里，我让你看这个八字就是说，最主要看这几颗星，<span class="chip">七杀</span>在这里开始哈，<span class="chip">紫微</span>星在申的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=3222" target="_blank" rel="noopener">▶ 00:53:42</a>
+<span class="badge">p13 §12</span></div></div><div class="card"><div class="q">这是我要跟诸位提出来几个，那我们下次再开始介绍，<span class="chip">紫微</span>星在这个酉宫的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=3448" target="_blank" rel="noopener">▶ 00:57:28</a>
+<span class="badge">p13 §12</span></div></div><div class="card"><div class="q">这个诸位看民国46年这个（1957），这个案例哦，我们拿到这个命格的时候诸位看哈，这是<span class="chip">紫微</span>星在这个申宫</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=2" target="_blank" rel="noopener">▶ 00:00:02</a>
+<span class="badge">p19 §1</span></div></div><h3>紫微在酉宫</h3><div class="card"><div class="q">诸位我们继续看<span class="chip">紫微</span>星在酉，<span class="chip">紫微</span>在这个地方的时候迁移酉</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=0" target="_blank" rel="noopener">▶ 00:00:00</a>
+<span class="badge">p15 §1</span><span class="note">cleaned</span></div></div><h3>紫微在戌宫</h3><div class="card"><div class="q">这个<span class="chip">紫微</span>星在戌宫看到没有，下一章<span class="chip">紫微</span>星在戌，诸位看到<span class="chip">紫微</span>星在戌的时候，这张八这个格的重点在哪里，如果<span class="chip">紫微</span>星跑到戌宫第一个，<span class="chip">太阳</span>又移过来了一点，<span class="chip">太阳</span>和<span class="chip">太阴</span>同时会在这里面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=258" target="_blank" rel="noopener">▶ 00:04:18</a>
+<span class="badge">p15 §2</span><span class="note">字幕疑误：成宫→戌宫</span></div></div><h3>紫微在亥宫</h3><div class="card"><div class="q">诸位看<span class="chip">紫微</span>星在亥，再把<span class="chip">紫微</span>星下降一下，<span class="chip">紫微</span>星最后一个的时候，亥宫这个地方</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=401" target="_blank" rel="noopener">▶ 00:06:41</a>
+<span class="badge">p15 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">是<span class="chip">武曲</span>还有这个<span class="chip">贪狼</span>，这个时候<span class="chip">贪狼</span><span class="chip">化权</span><span class="chip">武曲</span><span class="chip">化禄</span>，诸位看这两颗星，同会在这边，<span class="chip">紫微</span>星如果在巳宫的时候，<span class="chip">紫微</span>星如果在巳宫的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=434" target="_blank" rel="noopener">▶ 00:07:14</a>
+<span class="badge">p15 §3</span><span class="note">字幕疑误：巳官→巳宫；已宫→巳宫</span></div></div><h2>天机（北斗 · 文官代）</h2><h3>定性</h3><div class="card"><div class="q">这个<span class="chip">天机</span>星也是属于一个官带星。<span class="chip">天机</span>星是属于阴星。<span class="chip">紫微</span>星是属于阳星。星分阴阳就好了。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2062" target="_blank" rel="noopener">▶ 00:34:22</a>
+<span class="badge">p05 §5</span></div></div><div class="card"><div class="q"><span class="chip">天机</span>星也是个官带星，但是<span class="chip">天机</span>星是文官带。<span class="chip">紫微</span>星武官文官都是<span class="chip">紫微</span>星。文官带讲的干公务人员。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2081" target="_blank" rel="noopener">▶ 00:34:41</a>
+<span class="badge">p05 §5</span></div></div><div class="card"><div class="q"><span class="chip">天机</span>星有人当老师。一般的公家单位，银行的做事，那些小姐都是属于文官带。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2106" target="_blank" rel="noopener">▶ 00:35:06</a>
+<span class="badge">p05 §5</span></div></div><div class="card"><div class="q"><span class="chip">天机</span><span class="chip">巨门</span>当然<span class="chip">巨门</span>星，就是这个唠叨比较唠叨了，那个男人受不了，<span class="chip">天机</span>星心眼比较多一点，比较多点</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=1368" target="_blank" rel="noopener">▶ 00:22:48</a>
+<span class="badge">p27 §9</span><span class="note">cleaned</span></div></div><h3>长相</h3><div class="card"><div class="q">如果这个<span class="chip">天机</span>星如果坐在<span class="chip">命宫</span>才有所谓的相出现。<span class="chip">天机</span>星长得黑黑的。不是染色也没有去非洲她晒<span class="chip">太阳</span>回来，天生的皮肤比较黑暗一点。第二个个矮。个小然后体格是很精壮。男女都一样。壮短小精干。他反应很快。随机而动这种很聪明。智慧很高的人。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2118" target="_blank" rel="noopener">▶ 00:35:18</a>
+<span class="badge">p05 §5</span></div></div><h3>解厄</h3><div class="card"><div class="q"><span class="chip">天机</span>星本身没有解厄制化的功能。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2164" target="_blank" rel="noopener">▶ 00:36:04</a>
+<span class="badge">p05 §5</span></div></div><h2>太阳（中天 · 主贵星）</h2><h3>定性</h3><div class="card"><div class="q">第三颗星是<span class="chip">太阳</span>。<span class="chip">太阳</span>星是武官，武官带。那现在的武官来说的话就是所谓的军人。军人、警察、法官、外交官，都是属于武官带。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2177" target="_blank" rel="noopener">▶ 00:36:17</a>
+<span class="badge">p05 §6</span></div></div><div class="card"><div class="q">第二个<span class="chip">太阳</span>的意义也代表财禄。所以如果<span class="chip">太阳</span>星在<span class="chip">财帛宫</span>它就主财。<span class="chip">官禄宫</span>它就主官。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2214" target="_blank" rel="noopener">▶ 00:36:54</a>
+<span class="badge">p05 §6</span></div></div><div class="card"><div class="q">不要说有的人命是<span class="chip">太阳</span>，有的<span class="chip">太阴</span>，<span class="chip">太阳</span>就是完全受到父亲的影响</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=665" target="_blank" rel="noopener">▶ 00:11:05</a>
+<span class="badge">p27 §6</span><span class="note">cleaned</span></div></div><h3>长相</h3><div class="card"><div class="q"><span class="chip">太阳</span>星长了人的相红光满面。双目圆大然后又是个圆脸。这<span class="chip">太阳</span>星坐命肤白。脸圆圆的像个圆几乎接近圆形。然后脸色很红。很红润。那<span class="chip">太阳</span>星的人个子中等身材，并不是很高。中等身材也是很壮很壮的人。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2366" target="_blank" rel="noopener">▶ 00:39:26</a>
+<span class="badge">p05 §7</span></div></div><h3>入庙落陷</h3><div class="card"><div class="q">我们<span class="chip">太阳</span>在白天出来最好。那晚上出来就比较差。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2316" target="_blank" rel="noopener">▶ 00:38:36</a>
+<span class="badge">p05 §6</span></div></div><div class="card"><div class="q">那这里呢如果<span class="chip">紫微</span><span class="chip">天府</span>在这里，<span class="chip">太阳</span>星一定便在这里（亥宫），<span class="chip">太阴</span>星在这里（卯宫），<span class="chip">太阴</span>了，诸位想在这里的时候，这个在戌宫的时候，<span class="chip">太阳</span>已经很惨了，这亥宫呢晚9-11点，卯宫呢5-7点，那一定是更暗对不对，不一定是更暗，就是比刚刚的还要加凶</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=2822" target="_blank" rel="noopener">▶ 00:47:02</a>
+<span class="badge">p11 §5</span><span class="note">cleaned〕〔已按裁决改正：卵宫→卯宫</span></div></div><div class="card"><div class="q">那如果我们看十年看十年，他这个八字十年刚好在这里，<span class="chip">太阳</span>在这里，这个是34-43这是它是<span class="chip">田宅宫</span>，结果34-43<span class="chip">太阳</span>星陷地不亮，对面是什么<span class="chip">巨门</span><span class="chip">化忌</span>，代表他34-43看不到<span class="chip">太阳</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=3536" target="_blank" rel="noopener">▶ 00:58:56</a>
+<span class="badge">p11 §6</span></div></div><div class="card"><div class="q">那你看这边的时候有没有，是不是<span class="chip">太阳</span>星在这边，刚好也陷也是陷地，也是陷地那这里呢我要提醒诸位一下</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1142" target="_blank" rel="noopener">▶ 00:19:02</a>
+<span class="badge">p09 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">他这个<span class="chip">太阳</span>在这里，<span class="chip">太阴</span>在这里对不对，是不是这样子，<span class="chip">太阳</span>在子时出来，子时是晚上点，<span class="chip">太阳</span>所以落陷，晚上怎么看得到<span class="chip">太阳</span>呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=103" target="_blank" rel="noopener">▶ 00:01:43</a>
+<span class="badge">p13 §1</span></div></div><div class="card"><div class="q">第一个<span class="chip">太阳</span>一定在这里，为什么我要特别提这个出来，这叫<span class="chip">太阳</span>在午宫，我们一天呢中午点，那中午的时间呢，是<span class="chip">太阳</span>最当头的时候，刚刚好叫做德桓就是说，<span class="chip">太阳</span>出的最好的时机</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=21" target="_blank" rel="noopener">▶ 00:00:21</a>
+<span class="badge">p15 §1</span></div></div><div class="card"><div class="q">像<span class="chip">太阳</span>在<span class="chip">命宫</span>，如果是<span class="chip">命宫</span>正好是官，命就是<span class="chip">太阳</span>出来的话，就不是商了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=196" target="_blank" rel="noopener">▶ 00:03:16</a>
+<span class="badge">p15 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">一般来说女孩子的命啊，只要<span class="chip">太阳</span>是反背的，就是说晚上出<span class="chip">太阳</span>，白天出月亮刚好反背的话，<span class="chip">太阳</span>星的以它的亮度来谈，<span class="chip">太阳</span>星如果太太旺的时，太陷地的时候，代表的是生离，代表的是生离，而<span class="chip">太阳</span>星又旺这个廉破，<span class="chip">福德宫</span>廉破，代表夫妻感情没有问题，而代表的是死别</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=656" target="_blank" rel="noopener">▶ 00:10:56</a>
+<span class="badge">p17 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">然后他41岁尾的时候，刚好是不是<span class="chip">太阳</span>星在这边了，陷地有没有，我讲过用象来读，用象来读八读八字象是什么，<span class="chip">太阳</span>星陷地眼睛看不到啊，天上的日月不念，看不到日月的话，一种是昏迷的状态，还有一种就是死掉了，眼睛看不到了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=2369" target="_blank" rel="noopener">▶ 00:39:29</a>
+<span class="badge">p17 §10</span></div></div><div class="card"><div class="q">他就是脚朝着<span class="chip">太阳</span>星陷，你刚好那个房子斜的脚朝西北，我说先生你不要脚朝西北，脚朝西北眼睛会受伤啊那个不好，结果他没有听，隔了两个月以后，带一票人来算，然后眼睛包了包了左眼，那不会右眼包了左眼，当然我们不会跟客户讲那么多，我还教他算命没办法，他刚好在这边<span class="chip">太阳</span>，如果是<span class="chip">太阴</span>的话，脚朝到这边的话是右眼</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=2880" target="_blank" rel="noopener">▶ 00:48:00</a>
+<span class="badge">p17 §12</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">按照相书这样批起来，哎呀老师她<span class="chip">红鸾</span>星坐命，这个女孩子<span class="chip">太阳</span>星又入庙，<span class="chip">太阳</span>星在这个是巳宫，然后<span class="chip">福德宫</span>是南北<span class="chip">紫微</span>星啊<span class="chip">天府</span>，南斗北斗星君都很好啊，她婚姻应该很好啊对不对</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=197" target="_blank" rel="noopener">▶ 00:03:17</a>
+<span class="badge">p19 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">她这个<span class="chip">太阳</span>星陷地离散父母</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=110" target="_blank" rel="noopener">▶ 00:01:50</a>
+<span class="badge">p23 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那<span class="chip">太阳</span>星不亮</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=271" target="_blank" rel="noopener">▶ 00:04:31</a>
+<span class="badge">p29 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">光看<span class="chip">巨门</span>和<span class="chip">太阳</span>，这<span class="chip">太阳</span>星落陷就够了，<span class="chip">太阳</span>星要入庙啊，要庙旺才行，那落陷完全不一样啊，两个刚好极端的相反</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=400" target="_blank" rel="noopener">▶ 00:06:40</a>
+<span class="badge">p29 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">但是这个<span class="chip">红鸾</span>星动的时候，<span class="chip">太阳</span>星陷地象要出现一次，在我们知道易经呢，象和数最难懂，这个象象只有一次，<span class="chip">太阳</span>星落陷的话</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=434" target="_blank" rel="noopener">▶ 00:07:14</a>
+<span class="badge">p29 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">如果是<span class="chip">太阳</span>在对面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=857" target="_blank" rel="noopener">▶ 00:14:17</a>
+<span class="badge">p29 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">太阳</span>星落陷在对门对冲的话，第一个大运</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=859" target="_blank" rel="noopener">▶ 00:14:19</a>
+<span class="badge">p29 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">财帛宫</span>呢<span class="chip">太阳</span>星陷地</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=1691" target="_blank" rel="noopener">▶ 00:28:11</a>
+<span class="badge">p29 §7</span></div></div><h3>横财 vs 正财</h3><div class="card"><div class="q">有一个叫做横财。像<span class="chip">太阳</span>星就是属于横财。像刚刚讲的<span class="chip">紫微</span>星<span class="chip">天机</span>星，它都属于正财。就是你帮人家做领固定的薪水叫正财。横财你做生意当老板。全世界的大生意的老板，不管是做大了做小的，你家门口的杂货店的老板，他都不知道下个月赚多少钱，那叫做横财。你知道下个月要领1万块，那个是正财。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2238" target="_blank" rel="noopener">▶ 00:37:18</a>
+<span class="badge">p05 §6</span></div></div><h3>太阳与女命</h3><div class="card"><div class="q"><span class="chip">太阳</span>星指的是父亲，指的是丈夫，指的是儿子。<span class="chip">太阳</span>代表的意义她爸爸，代表她先生，代表她儿子，三个意义都有。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2283" target="_blank" rel="noopener">▶ 00:38:03</a>
+<span class="badge">p05 §6</span></div></div><div class="card"><div class="q">如果这是个女孩子的命，34岁以后就已经没有<span class="chip">太阳</span>了，发生事情在33岁之前，懂不懂我意思，因为什么<span class="chip">太阳</span>是代表说夫妻不在，先生就聚少散多，可能会做海员做什么，可是对面是<span class="chip">化忌</span>就完了一定是散，所以要因时因地制宜</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=3560" target="_blank" rel="noopener">▶ 00:59:20</a>
+<span class="badge">p11 §6</span></div></div><div class="card"><div class="q">我们看女孩子的命的<span class="chip">太阳</span>和<span class="chip">太阴</span>，一个人的命月亮<span class="chip">太阳</span>就代表爸爸妈妈，所以天和地，<span class="chip">太阳</span>和<span class="chip">太阴</span>在养众生，就好像父母亲在养子女是一样的象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1153" target="_blank" rel="noopener">▶ 00:19:13</a>
+<span class="badge">p09 §6</span></div></div><div class="card"><div class="q">女孩子的命呢，<span class="chip">太阳</span>就代表先生（父亲）代表丈夫代表儿子，所以第一个她，我们看看这十年中叫上不见父，下不见子，中不见夫，这个一出来就很杀</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=2169" target="_blank" rel="noopener">▶ 00:36:09</a>
+<span class="badge">p09 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这边有个<span class="chip">太阴</span>星落陷，或<span class="chip">太阳</span>星落陷看不到，就是在这段时间当中，你的父亲或者你的母亲会有问题，以此类推推到这边来的时候看到它，这<span class="chip">太阳</span>代表什么先生</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=2230" target="_blank" rel="noopener">▶ 00:37:10</a>
+<span class="badge">p09 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那如果一个女孩子的命，<span class="chip">太阳</span>在卯宫，早上旭日东升，那这个女孩子一跑出来就像<span class="chip">太阳</span>，什么是<span class="chip">太阳</span>热情如火，两个眼睛眼圆圆的脸圆圆的，然后脸上红光满面，然后人长得非常的丰腴</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2557" target="_blank" rel="noopener">▶ 00:42:37</a>
+<span class="badge">p13 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">太阳</span>代表爸爸以外，<span class="chip">太阳</span>还代表丈夫丈夫</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=615" target="_blank" rel="noopener">▶ 00:10:15</a>
+<span class="badge">p17 §4</span><span class="note">cleaned〕〔已按裁决改正：文夫→丈夫</span></div></div><div class="card"><div class="q">一个女人的命居然拿到<span class="chip">太阳</span>啊，一个女人的命居然拿到<span class="chip">太阳</span>啊，那她先生是不是比她差，在命上面你看她先生太差了，那就会变成半吊子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=1155" target="_blank" rel="noopener">▶ 00:19:15</a>
+<span class="badge">p21 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">一个女孩子的命里面，<span class="chip">太阳</span>代表三个人代表爸爸代表儿子代表丈夫</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1337" target="_blank" rel="noopener">▶ 00:22:17</a>
+<span class="badge">p23 §8</span></div></div><div class="card"><div class="q">你看看<span class="chip">太阳</span><span class="chip">化忌</span>，你看看<span class="chip">太阳</span><span class="chip">化忌</span>，我这里提出来跟你讲你不要看，只要女孩子这个<span class="chip">太阳</span>一陷地</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=721" target="_blank" rel="noopener">▶ 00:12:01</a>
+<span class="badge">p25 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">变成<span class="chip">太阳</span>入庙的，妻兼夫职啊，这个<span class="chip">太阳</span>就变成孤星独守</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=2023" target="_blank" rel="noopener">▶ 00:33:43</a>
+<span class="badge">p25 §8</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">中间指的是先生，下面指的是儿子，所以她从45岁都看不到了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=274" target="_blank" rel="noopener">▶ 00:04:34</a>
+<span class="badge">p29 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">应婚的对象要两个条件，第一个7岁以上，差7岁以上，第二个二婚夫，先生要年龄大她7岁以上，或者是离过婚的人，让她第一次<span class="chip">太阳</span>不亮，为什么，因为我们刚好走到对面是六个时辰，<span class="chip">太阳</span>刚好六个时辰，12个小时走完，所以一般要差6岁以上7岁，所以有的人婚姻有问题，我们跟她说你大7岁以上就好了，这个那二婚夫呢，就是先生有离过婚的，嫁这种人就可以结，那你如果嫁个先生年龄跟你差不多，又没有结过婚的话凶了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=447" target="_blank" rel="noopener">▶ 00:07:27</a>
+<span class="badge">p29 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以49岁以后，<span class="chip">太阳</span>就落陷了看不到</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=1111" target="_blank" rel="noopener">▶ 00:18:31</a>
+<span class="badge">p29 §5</span><span class="note">cleaned</span></div></div><h2>武曲（北斗 · 财星/武官星）</h2><h3>定性</h3><div class="card"><div class="q"><span class="chip">武曲</span>星这颗星第一个它代表的是武官。第二个它也代表财星。而且它是财星的王。<span class="chip">武曲</span>星的人个性跟<span class="chip">太阳</span>一样很火爆。但是这种一发就过去了，随发随走。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2419" target="_blank" rel="noopener">▶ 00:40:19</a>
+<span class="badge">p05 §7</span></div></div><div class="card"><div class="q">它<span class="chip">武曲</span>星也代表贵人。像<span class="chip">紫微</span><span class="chip">太阳</span><span class="chip">武曲</span>这种通通是贵人星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2535" target="_blank" rel="noopener">▶ 00:42:15</a>
+<span class="badge">p05 §7</span></div></div><div class="card"><div class="q">还有一个<span class="chip">武曲</span>星在这边，诸位看<span class="chip">武曲</span>在这边入庙，<span class="chip">贪狼</span>啊也是入庙，那个<span class="chip">贪狼</span>隔壁一个宫就，一个庙旺一个庙，完全不一样，<span class="chip">贪狼</span>在这边也是庙，在这边也是庙有没有，意思就是告诉诸位，杀星武官星入庙是最好大吉，武官星要入庙</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=3050" target="_blank" rel="noopener">▶ 00:50:50</a>
+<span class="badge">p11 §5</span><span class="note">cleaned</span></div></div><h3>长相</h3><div class="card"><div class="q">那<span class="chip">武曲</span>星的人也是一样个子比较矮比较壮。真正干到将领的都是里面最矮的跑出来。武官发在五短。我们相上五短的主贵亦主富。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2448" target="_blank" rel="noopener">▶ 00:40:48</a>
+<span class="badge">p05 §7</span></div></div><h3>武曲在职业</h3><div class="card"><div class="q">但是<span class="chip">武曲</span>星的人一定是应该拿到五短。那我们为什么要配合看相。这个人如果<span class="chip">武曲</span>星坐命一来五短成格。<span class="chip">武曲</span>星一拿来看这个人瘦瘦高高的不成格。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2495" target="_blank" rel="noopener">▶ 00:41:35</a>
+<span class="badge">p05 §7</span></div></div><div class="card"><div class="q">你干今天是干军人警察法官外交官</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=1654" target="_blank" rel="noopener">▶ 00:27:34</a>
+<span class="badge">p11 §5</span></div></div><div class="card"><div class="q">但是<span class="chip">武曲</span><span class="chip">天钺</span>，我们回归正传，<span class="chip">武曲</span><span class="chip">贪狼</span>来会，这种是武官带，那如果是逢到<span class="chip">疾厄宫</span>，这种在这种星就没有，不是杀因为都入庙，如果一定要这武官星，一定要逢到官星他会有，还有要逢到好的<span class="chip">流年</span>，什么叫做好的<span class="chip">流年</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=3292" target="_blank" rel="noopener">▶ 00:54:52</a>
+<span class="badge">p11 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">我说这个是将星，这两颗星是将星，不单单是命，命如果出来的话，男人最好的男人呐，男人拿武官星最好出来就化将</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=884" target="_blank" rel="noopener">▶ 00:14:44</a>
+<span class="badge">p13 §4</span></div></div><div class="card"><div class="q">这记住那一般原则上我们算命的时候，都是将星的入男命最好，如果将星入女命，有种最忌讳的，这个诸位一定要要注意，因为为什么这里要提出来呢，这个<span class="chip">武曲</span><span class="chip">破军</span>在这里的话，本身就是权权非常，权力欲望啊非常重的人，权力啊这个欲望啊，非常重的一种人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=932" target="_blank" rel="noopener">▶ 00:15:32</a>
+<span class="badge">p13 §4</span></div></div><div class="card"><div class="q"><span class="chip">武曲</span><span class="chip">贪狼</span>是武官星，在丑时出来武官星的时候，很奇怪丑时出武官星的时候，发阴因为阴冷啊，晚上晚夜丑时是夜半嘛，所以你如果算到男人这个，和女人这个不一样，女人呢晚上出的武官星的时候，是正科正将星，这女孩子即使没有当军人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2210" target="_blank" rel="noopener">▶ 00:36:50</a>
+<span class="badge">p13 §8</span></div></div><div class="card"><div class="q">她也是女中的豪杰，像那个四行仓库那个人，对一定是这种咖了，不然那么彪悍对不对，我都不敢去，她一定敢去呀对不对，诸位如果男人武贪在这里成格，男人最好的白天嘛，女人所以我们要分日月，懂不懂我意思女人成格，女中豪杰那你如果呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2233" target="_blank" rel="noopener">▶ 00:37:13</a>
+<span class="badge">p13 §8</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">你娶了个老婆是这样子的，那你要看好一点哦，没事呢游行她就去了，懂不懂游行就去了，示威游行抗议去了，然后打最前线，戴着“必死”的就她</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2253" target="_blank" rel="noopener">▶ 00:37:33</a>
+<span class="badge">p13 §8</span></div></div><div class="card"><div class="q">她刚刚讲<span class="chip">武曲</span><span class="chip">贪狼</span>就是她的命，她是个女孩子，师大毕业以后，大家说有没有人要自愿到，到金门去当老师的，哇举手一定是这种人的，懂不懂我意思哦绝对不会有别人，一定是这种人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2327" target="_blank" rel="noopener">▶ 00:38:47</a>
+<span class="badge">p13 §8</span></div></div><div class="card"><div class="q">诸位有没有看到<span class="chip">武曲</span>和<span class="chip">七杀</span>，这<span class="chip">武曲</span><span class="chip">七杀</span>中间的啊，过去我们都是说的兵阵啊死亡，兵阵中间死掉，就是我们部队，在打仗的时候出去哎，80个人去，怎么剩60个人回来，另外20个人，就是这样子懂不懂，兵阵死亡死在兵祸兵灾上面，死在兵器上面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=3154" target="_blank" rel="noopener">▶ 00:52:34</a>
+<span class="badge">p13 §11</span></div></div><div class="card"><div class="q">谁那个人给他枪打掉，也是这样子，给人家刀子杀死，也是这样子，死在兵兵灾上面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=3181" target="_blank" rel="noopener">▶ 00:53:01</a>
+<span class="badge">p13 §11</span></div></div><div class="card"><div class="q">迁移凤是女命啊女命凡遇己，凤是遇到这个武官的星呢迁移丑己兵迁移，迁移都主的是什么呀，伏兵迁移主的是孤单，冠带己丑主的是孤单，所以女孩子很怕遇到武官的星，像这些入武官的星，<span class="chip">武曲</span><span class="chip">贪狼</span>啊<span class="chip">破军</span><span class="chip">七杀</span>啊，这都是武官的星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=307" target="_blank" rel="noopener">▶ 00:05:07</a>
+<span class="badge">p17 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">诸位看<span class="chip">武曲</span>星在本宫，<span class="chip">武曲</span>星在本宫他是36岁以后开始的，到45岁进入田宅，<span class="chip">田宅宫</span>财星<span class="chip">武曲</span>星是财星，进来田宅的时候代表说，产业会慢慢禄禄会慢慢增加起来，房地产田宅会慢慢多起来</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=3132" target="_blank" rel="noopener">▶ 00:52:12</a>
+<span class="badge">p17 §12</span><span class="note">cleaned〕〔已按裁决改正：田宅官→田宅宫</span></div></div><h3>性情</h3><div class="card"><div class="q">这种人非常的刚强，诸位呢，中国人讲刚强，在我们八字里面讲这个人很固执，在孔子不是这样讲，孔子说这个人择善固执，对的事情坚持到底，诸位我们在易经上面说，阳刚之人有没有讲的就是这个</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=3077" target="_blank" rel="noopener">▶ 00:51:17</a>
+<span class="badge">p11 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以我们看是什么星，那要看什么人遇到那男人呢，遇到比较阴柔的星也不好，女人呢遇到比较阳刚的星也不好，会变成这样，会比较孤单一点</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=336" target="_blank" rel="noopener">▶ 00:05:36</a>
+<span class="badge">p17 §2</span><span class="note">cleaned</span></div></div><h2>天同（南斗 · 福星）</h2><h3>定性</h3><div class="card"><div class="q">北斗星系再来是<span class="chip">天同</span>星。<span class="chip">天同</span>星是个人和的星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2552" target="_blank" rel="noopener">▶ 00:42:32</a>
+<span class="badge">p05 §8</span></div></div><div class="card"><div class="q">一看今年正好<span class="chip">天同</span>，合伙吉。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2570" target="_blank" rel="noopener">▶ 00:42:50</a>
+<span class="badge">p05 §8</span></div></div><div class="card"><div class="q">有的事情一定要人和才能成事。有的事情要天时才能成事。<span class="chip">流年</span>要到<span class="chip">化禄</span>才能成事。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2578" target="_blank" rel="noopener">▶ 00:42:58</a>
+<span class="badge">p05 §8</span></div></div><div class="card"><div class="q">所以在历史上我们在治天下的时候和平天下的时候不一样。在治天下的时候天时大于然后地利大于人和。我们在平天下的时候刚好反过来。所谓平天下就是说天下大乱的时候我们要去把天下犁平一定要人和。没有人和什么都不要谈。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2586" target="_blank" rel="noopener">▶ 00:43:06</a>
+<span class="badge">p05 §8</span></div></div><div class="card"><div class="q">所以<span class="chip">天同</span>星代表人和。所以说如果你算一个人的命他今年要开始自己做事业当老板了。十年是<span class="chip">天同</span>星代表他外面人和做大赚。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2722" target="_blank" rel="noopener">▶ 00:45:22</a>
+<span class="badge">p05 §8</span></div></div><div class="card"><div class="q">那<span class="chip">天同</span>呢这个人和，还是不会有问题</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=1350" target="_blank" rel="noopener">▶ 00:22:30</a>
+<span class="badge">p15 §6</span><span class="note">cleaned</span></div></div><h2>廉贞（北斗 · 桃花/官符）</h2><h3>定性</h3><div class="card"><div class="q">桃花星第一个指的是桃花。但是这个还是次桃花还不是主桃花。这个也是桃花星。也代表武官带，武官星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2777" target="_blank" rel="noopener">▶ 00:46:17</a>
+<span class="badge">p05 §9</span></div></div><div class="card"><div class="q"><span class="chip">廉贞</span>星在武官带主武官的带兵打仗。那<span class="chip">廉贞</span>星进来武官带的时候一般来说他是到边疆去打仗。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2832" target="_blank" rel="noopener">▶ 00:47:12</a>
+<span class="badge">p05 §9</span></div></div><div class="card"><div class="q">第一个呢<span class="chip">廉贞</span>星在这里看到没有，有没有看到<span class="chip">廉贞</span>星在这里，一颗星独守，<span class="chip">贪狼</span>在这里，我们以<span class="chip">廉贞</span>星为主</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1336" target="_blank" rel="noopener">▶ 00:22:16</a>
+<span class="badge">p13 §5</span></div></div><div class="card"><div class="q">再一看是<span class="chip">廉贞</span><span class="chip">化忌</span>，晓得是她逢了桃花星<span class="chip">化忌</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1647" target="_blank" rel="noopener">▶ 00:27:27</a>
+<span class="badge">p23 §10</span></div></div><h3>长相</h3><div class="card"><div class="q">那<span class="chip">廉贞</span>星的人咪咪眼。眼睛看过去一条线那就是<span class="chip">廉贞</span>星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2799" target="_blank" rel="noopener">▶ 00:46:39</a>
+<span class="badge">p05 §9</span></div></div><div class="card"><div class="q">所以这个<span class="chip">廉贞</span>星除了指桃花星，那<span class="chip">廉贞</span>星的人长相长得就很清秀。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2842" target="_blank" rel="noopener">▶ 00:47:22</a>
+<span class="badge">p05 §9</span></div></div><div class="card"><div class="q">这就是<span class="chip">廉贞</span>星，你看那个眯眯眼这样，笑起来眼睛这样眯眯的就他，比如说我们五个男的里面，别人一看一票男孩子对不对，你儿子交了朋友回到家里面来，好几个男孩子在那里，我们学的东西就是，站在外面看到里面藏什么，这男孩子在一起的时候，都没有什么大家一起哈拉哈拉，只要有一个女的一进来你看，另外四个都没有变脸的时候，一个已经变了，就是他懂不懂就是这个雄宿朝元</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1447" target="_blank" rel="noopener">▶ 00:24:07</a>
+<span class="badge">p13 §5</span></div></div><h3>性情</h3><div class="card"><div class="q">他还没跟女的讲话先笑。你就知道他想什么，未言先笑。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2819" target="_blank" rel="noopener">▶ 00:46:59</a>
+<span class="badge">p05 §9</span></div></div><div class="card"><div class="q">哎女的也会一样对我讲过嘛，诸位不要不承认，有的女孩子比男孩子还色，真的你不会看那个那个男人，男的那个歌星一出来，女孩子上去就亲，又去送送什么，你有没有看男孩子去亲女的，这个女的抓过去去亲男的，抓了还不放你看很可怕</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1477" target="_blank" rel="noopener">▶ 00:24:37</a>
+<span class="badge">p13 §5</span></div></div><h3>与杀破狼</h3><div class="card"><div class="q"><span class="chip">廉贞</span><span class="chip">廉贞</span><span class="chip">七杀</span><span class="chip">廉贞</span><span class="chip">破军</span><span class="chip">廉贞</span><span class="chip">贪狼</span>，<span class="chip">廉贞</span><span class="chip">贪狼</span>这个<span class="chip">廉贞</span><span class="chip">七杀</span>呢半路死亡，就是半路啊埋尸啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=569" target="_blank" rel="noopener">▶ 00:09:29</a>
+<span class="badge">p11 §2</span></div></div><div class="card"><div class="q"><span class="chip">廉贞</span><span class="chip">破军</span>呢水中作冢，水里面做坟墓</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=596" target="_blank" rel="noopener">▶ 00:09:56</a>
+<span class="badge">p11 §3</span></div></div><div class="card"><div class="q"><span class="chip">廉贞</span><span class="chip">贪狼</span>呢夭折横夭啊，叫做横夭啊横夭</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=603" target="_blank" rel="noopener">▶ 00:10:03</a>
+<span class="badge">p11 §3</span><span class="note">已按裁决改正：横天→横夭</span></div></div><div class="card"><div class="q">这<span class="chip">廉贞</span><span class="chip">贪狼</span>比较着重于先天的疾病，比如说生下来就得到一种治不好的病，还有一种自杀自杀的倾向</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=612" target="_blank" rel="noopener">▶ 00:10:12</a>
+<span class="badge">p11 §3</span></div></div><div class="card"><div class="q">所以我们这个杀星啊，杀破狼<span class="chip">七杀</span><span class="chip">破军</span><span class="chip">贪狼</span>本身是杀星，再遇到<span class="chip">廉贞</span>星的话，杀会加杀知不知道加杀</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=624" target="_blank" rel="noopener">▶ 00:10:24</a>
+<span class="badge">p11 §3</span></div></div><div class="card"><div class="q">还有一个这个上面呢未宫，诸位看到未宫，他<span class="chip">廉贞</span><span class="chip">七杀</span>，<span class="chip">廉贞</span><span class="chip">七杀</span>在未宫的时候，你看是不是庙旺，有没有看到庙和旺，这个<span class="chip">廉贞</span><span class="chip">七杀</span>落陷，两个要落陷地，在同宫的时候就是凶星，那个人会横死</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=468" target="_blank" rel="noopener">▶ 00:07:48</a>
+<span class="badge">p13 §2</span><span class="note">cleaned〕〔已按裁决改正：未官→未宫</span></div></div><div class="card"><div class="q">如果两个是庙旺的时候，加起来变成什么样，富人积富累积的财富很多</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=494" target="_blank" rel="noopener">▶ 00:08:14</a>
+<span class="badge">p13 §2</span></div></div><div class="card"><div class="q"><span class="chip">廉贞</span><span class="chip">破军</span>在这里看到没有，<span class="chip">廉贞</span><span class="chip">破军</span>呢水中作冢，<span class="chip">廉贞</span><span class="chip">破军</span>出现在两个地方，一个在这里（酉宫），<span class="chip">廉贞</span><span class="chip">破军</span>一个在这里面（卯宫），一个在这里会同时会到，就是死在水里面了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=494" target="_blank" rel="noopener">▶ 00:08:14</a>
+<span class="badge">p15 §3</span></div></div><div class="card"><div class="q"><span class="chip">廉贞</span><span class="chip">七杀</span>半路埋尸，这两个倒是无所谓，最重要的是什么呀，廉破就是一种横祸，一种是意外灾一种横祸</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=50" target="_blank" rel="noopener">▶ 00:00:50</a>
+<span class="badge">p17 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">还有主的呢，一般来说廉破的话，会主的比较什么，比较孤单孤单</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=58" target="_blank" rel="noopener">▶ 00:00:58</a>
+<span class="badge">p17 §1</span></div></div><div class="card"><div class="q">带来这种灾星的时候，这种是<span class="chip">廉贞</span><span class="chip">破军</span>是杀星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=116" target="_blank" rel="noopener">▶ 00:01:56</a>
+<span class="badge">p21 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">像这种她<span class="chip">命宫</span>有这种廉破，像这种她<span class="chip">命宫</span>有这种廉破，这种武官星啊，廉破<span class="chip">紫微</span><span class="chip">七杀</span><span class="chip">武曲</span><span class="chip">贪狼</span>，都是武官星，像这个女孩子的命中有这种灾星，这种杀武官星的时候，那就代表个性都很刚很硬</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=170" target="_blank" rel="noopener">▶ 00:02:50</a>
+<span class="badge">p21 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">你娶个老婆<span class="chip">廉贞</span><span class="chip">贪狼</span>看看落陷，入庙没关系你落陷看看，把你家财万贯给你赌光</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=225" target="_blank" rel="noopener">▶ 00:03:45</a>
+<span class="badge">p27 §3</span></div></div><div class="card"><div class="q">这种杀破狼都是属于男人的命</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1921" target="_blank" rel="noopener">▶ 00:32:01</a>
+<span class="badge">p25 §8</span></div></div><div class="card"><div class="q">然后<span class="chip">廉贞</span><span class="chip">七杀</span>，<span class="chip">廉贞</span><span class="chip">七杀</span>（庙旺）是代表什么，一方之主，武官的话化将，武官的话化将</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=2194" target="_blank" rel="noopener">▶ 00:36:34</a>
+<span class="badge">p25 §8</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">诸位看这个<span class="chip">兄弟宫</span>，她是不是<span class="chip">廉贞</span>落陷，<span class="chip">贪狼</span>落陷逢地劫地空</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=1191" target="_blank" rel="noopener">▶ 00:19:51</a>
+<span class="badge">p29 §6</span></div></div><div class="card"><div class="q">就是因为她后未来十年，这边是刚刚讲的，右下角是廉贪有没有，廉贪落陷是不是空劫，有没有通通是杀星啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=1424" target="_blank" rel="noopener">▶ 00:23:44</a>
+<span class="badge">p29 §6</span></div></div><div class="card"><div class="q">对面是不是廉贪落陷<span class="chip">化权</span>，廉贪是杀星有没有</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=1890" target="_blank" rel="noopener">▶ 00:31:30</a>
+<span class="badge">p29 §7</span><span class="note">cleaned</span></div></div><h2>天府（南斗 · 帝星）</h2><h3>定性</h3><div class="card"><div class="q">南斗星系第一颗星叫做<span class="chip">天府</span>星。<span class="chip">天府</span>星是南斗星君。它统帅南方的南方的诸星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2882" target="_blank" rel="noopener">▶ 00:48:02</a>
+<span class="badge">p05 §10</span></div></div><div class="card"><div class="q"><span class="chip">天府</span>星的人它是个文官星。也是一个教星。所以很多<span class="chip">天府</span>坐命的人去当公务人员当教员，甚至于两个职业兼顾在内。南斗星君因为它是属于文官带。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3077" target="_blank" rel="noopener">▶ 00:51:17</a>
+<span class="badge">p05 §10</span></div></div><div class="card"><div class="q"><span class="chip">天马</span>星是吃苦耐劳你奔波啊，<span class="chip">天府</span>星是很善于理财，又很厚道又拼命做事情，人又很善良的一种人，又非常善于理财的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=217" target="_blank" rel="noopener">▶ 00:03:37</a>
+<span class="badge">p27 §3</span></div></div><h3>性情</h3><div class="card"><div class="q">南斗星君是一个很温和的星。温和代表这个人个性温和而已。不见得代表他是好人。在书上面记载<span class="chip">天府</span>星是良臣贤臣其实不对。真正的是良臣贤臣的人是知道如何怎么样举荐人才。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2941" target="_blank" rel="noopener">▶ 00:49:01</a>
+<span class="badge">p05 §10</span></div></div><div class="card"><div class="q">但<span class="chip">天府</span>星的人这个心眼比较多。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3129" target="_blank" rel="noopener">▶ 00:52:09</a>
+<span class="badge">p05 §10</span></div></div><div class="card"><div class="q">你看看她的先生，南斗星君<span class="chip">天府</span>星，<span class="chip">天府</span>星是种温和很厚道的星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1947" target="_blank" rel="noopener">▶ 00:32:27</a>
+<span class="badge">p25 §8</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以南斗星君比较温和，温柔的星啊，跑掉，然后搞到现在她夫妻两个有名无实</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=2013" target="_blank" rel="noopener">▶ 00:33:33</a>
+<span class="badge">p25 §8</span><span class="note">cleaned</span></div></div><h3>解厄</h3><div class="card"><div class="q">但这个<span class="chip">天府</span>星没有解厄制化的功能。我们命里面所有解厄制化的功能除非是大贵大贵星。大贵的星才会有解灾的功能。比如说<span class="chip">太阳</span><span class="chip">武曲</span>这种星<span class="chip">天同</span>。那这个<span class="chip">天府</span>星君根本就不能解厄制化。看到很多<span class="chip">流年</span>走到<span class="chip">天府</span>星照样买单走人了。这南斗星君本身解厄制化力量不够。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=2901" target="_blank" rel="noopener">▶ 00:48:21</a>
+<span class="badge">p05 §10</span></div></div><div class="card"><div class="q">那如果你看到煞星跟<span class="chip">天府</span>星在一起的时候，书上说<span class="chip">天府</span>星可以解厄制化，实际上是一点用都没有，照样发生。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3186" target="_blank" rel="noopener">▶ 00:53:06</a>
+<span class="badge">p05 §10</span></div></div><div class="card"><div class="q">唯有唯有一颗星，你诸位要注意，这个<span class="chip">天府</span>星很很特异哈，<span class="chip">天府</span>星，这个所有的吉星里面，就<span class="chip">天府</span>星不能解厄制化，所以很多人的<span class="chip">流年</span>，逢到<span class="chip">天府</span>星就被就死掉了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=2279" target="_blank" rel="noopener">▶ 00:37:59</a>
+<span class="badge">p21 §10</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以即使<span class="chip">天府</span>星落在这里面，这个<span class="chip">陀罗</span>还照杀还是照杀，反而杀一定反而一定会杀</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=2313" target="_blank" rel="noopener">▶ 00:38:33</a>
+<span class="badge">p21 §10</span></div></div><div class="card"><div class="q"><span class="chip">天府</span>南斗星君这颗星，不能够解厄制化，南斗星君往往它发生的事情，就是吉处藏凶，就是吉处藏凶，逃都逃不掉，我们的尹清枫就是这样子啊，吉处藏凶逃都逃不掉这是<span class="chip">天府</span>星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1668" target="_blank" rel="noopener">▶ 00:27:48</a>
+<span class="badge">p25 §7</span><span class="note">cleaned</span></div></div><h3>天府入武</h3><div class="card"><div class="q">那如果你看到一个人他的命是<span class="chip">天府</span>星跑去当武官就叫做圆的放到方的里面。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3102" target="_blank" rel="noopener">▶ 00:51:42</a>
+<span class="badge">p05 §10</span></div></div><div class="card"><div class="q">你当武官的话前途黯淡无光。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3117" target="_blank" rel="noopener">▶ 00:51:57</a>
+<span class="badge">p05 §10</span></div></div><h3>三台八座</h3><div class="card"><div class="q">三台八座呢是辅助<span class="chip">天府</span>星来会的，如果<span class="chip">天府</span>星有三台八座，这个是南斗星君的文武两官，如果南斗星君，<span class="chip">紫微</span><span class="chip">天府</span>星，有碰到三台八座来辅弼的时候，这南府星君，南斗星君解厄制化的力量就有了，北斗星君比南斗星君强，因为北斗星君即使不碰到<span class="chip">左辅</span><span class="chip">右弼</span>，它都可以解厄制化这个三台，这个<span class="chip">天府</span>星一定要逢到三台八座，才有解厄制化的功能，否则光是一个<span class="chip">天府</span>星，解厄制化的功能没有。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1676" target="_blank" rel="noopener">▶ 00:27:56</a>
+<span class="badge">p07 §9</span></div></div><h2>太阴（中天 · 主富星）</h2><h3>长相</h3><div class="card"><div class="q">如果女命女孩子坐<span class="chip">太阴</span>星很漂亮。美的像月里嫦娥一样。那不管是白天晚上出来，只要是月亮坐命的女孩子都很长得很漂亮。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3234" target="_blank" rel="noopener">▶ 00:53:54</a>
+<span class="badge">p05 §11</span></div></div><div class="card"><div class="q">那<span class="chip">太阴</span>在子，那女孩子尤其拿到月亮，太月亮星的，哇你想想看，你的女儿像月亮多漂亮啊，像嫦娥—样，要以此类推嘛，所以有的女孩子很妖艳，很妖艳那你想妖艳是什么，<span class="chip">贪狼</span>嘛<span class="chip">廉贞</span>嘛都妖艳嘛，对不对你看那个眯眯眼嘛，那个桃花那不<span class="chip">贪狼</span><span class="chip">廉贞</span>嘛，那你看看这个<span class="chip">太阴</span>星，哇长得非常的清纯，非常漂亮皮肤白细细，因为长得像月亮，两只眼睛呀像月亮一样那么大，<span class="chip">太阴</span>了都非常的漂亮，这叫做水澄桂萼</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2143" target="_blank" rel="noopener">▶ 00:35:43</a>
+<span class="badge">p13 §8</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那你反过来看，<span class="chip">太阴</span>出来的一定是月亮嘛，瘦瘦的有没有，白白皙皙的，人非常的清秀，但是两个骨碌眼睛大大的，这是月朗天门这是重点</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2574" target="_blank" rel="noopener">▶ 00:42:54</a>
+<span class="badge">p13 §9</span></div></div><div class="card"><div class="q">阴<span class="chip">太阴</span>坐命的人，<span class="chip">太阴</span>坐命的人本来就是性比较阴，像<span class="chip">文曲</span>星<span class="chip">太阴</span>星这种，会到命格来</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=1747" target="_blank" rel="noopener">▶ 00:29:07</a>
+<span class="badge">p27 §11</span></div></div><div class="card"><div class="q">像这种命的人，她这个当然这个心眼比较多，结果造成她害她自己，为什么要提这个个性，因为她害了她自己</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=1797" target="_blank" rel="noopener">▶ 00:29:57</a>
+<span class="badge">p27 §11</span><span class="note">cleaned</span></div></div><h3>入庙落陷</h3><div class="card"><div class="q"><span class="chip">太阴</span>星顾名思义就是天上的月亮。所以<span class="chip">太阴</span>星在晚上出来比较好。月亮在子时、丑时、亥时的时候最好。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3210" target="_blank" rel="noopener">▶ 00:53:30</a>
+<span class="badge">p05 §11</span></div></div><div class="card"><div class="q">诸位再看这个<span class="chip">太阴</span>星在这里，<span class="chip">太阴</span>星在这个这个是辰宫，辰宫是上午7点到7点到9点，我们叫辰时，它刚好在<span class="chip">子女宫</span>，这<span class="chip">太阳</span>星在这里，诸位看这个八字，这个<span class="chip">化忌</span>在这里，诸位注意看，<span class="chip">太阴</span>在这里是白天，它等于白天出月亮，<span class="chip">太阳</span>在夜间呢，出<span class="chip">太阳</span>刚好是反，这叫做日月反背</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=718" target="_blank" rel="noopener">▶ 00:11:58</a>
+<span class="badge">p11 §3</span></div></div><div class="card"><div class="q"><span class="chip">太阴</span>星<span class="chip">化忌</span>，实在是太凶了，我就认为把他当例子举给你听，旁边小小星啊，还有官府还有死这小星，这<span class="chip">擎羊</span>都不必去看它了，已经没有什么用了，这个官我们要看对宫，对面是不是<span class="chip">太阳</span>，这是不是<span class="chip">太阳</span>陷地有没有</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=1820" target="_blank" rel="noopener">▶ 00:30:20</a>
+<span class="badge">p11 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">太阴</span>星陷，诸位看到那个陷，我用那个耳朵来代表陷地，为什么<span class="chip">太阴</span>星在这里陷因为这是巳宫，已官在这里巳时代表上午9点到11点，叫做巳时结果月亮出来，了解我意思吧，应该巳时应该出<span class="chip">太阳</span>结果月亮跑出来</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1123" target="_blank" rel="noopener">▶ 00:18:43</a>
+<span class="badge">p09 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那寅时的时候，月亮在旁边，寅时是月亮最弱的时候月亮出来</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=117" target="_blank" rel="noopener">▶ 00:01:57</a>
+<span class="badge">p13 §1</span></div></div><div class="card"><div class="q">那这里呢<span class="chip">太阴</span>星在这个地方呢，<span class="chip">太阴</span>星在子宫，在子时的时候是晚上点，月亮正当头的时候，这个我们叫做水澄桂萼，水澄桂萼的意思就是说，这个<span class="chip">太阴</span>星在子时的时候，非常的清明非常的亮</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2072" target="_blank" rel="noopener">▶ 00:34:32</a>
+<span class="badge">p13 §8</span></div></div><div class="card"><div class="q"><span class="chip">太阴</span>就完全受到母亲的影响</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=670" target="_blank" rel="noopener">▶ 00:11:10</a>
+<span class="badge">p27 §6</span></div></div><div class="card"><div class="q">你看他就对他妈妈产生恨，可是这个人的个性不会爆发力，如果是落陷，杀星啊落陷<span class="chip">太阴</span>星在命落陷啊，抗力很强还好，反而没有抗力，我就消极的抵抗，我就做反而闷在肚子里面去做</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=1048" target="_blank" rel="noopener">▶ 00:17:28</a>
+<span class="badge">p27 §7</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">太阴</span>星在午时出，<span class="chip">太阴</span>星在午时，<span class="chip">太阴</span>星在午时出，出月亮中午出月亮，反正太月亮不亮了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1731" target="_blank" rel="noopener">▶ 00:28:51</a>
+<span class="badge">p25 §7</span><span class="note">cleaned</span></div></div><h3>太阴在职业</h3><div class="card"><div class="q">那<span class="chip">太阴</span>星这个人文官带。带的财禄都是正禄。正财当公务人员来帮人家做领固定的薪水。都是属于这个文官带正财不会去干武官。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3247" target="_blank" rel="noopener">▶ 00:54:07</a>
+<span class="badge">p05 §11</span></div></div><div class="card"><div class="q">当官的人如果有这个官（格），就是清非常清的清官，清官不一定是好官呐，你要清要明呐，你都清官误国知不知道，清要要清而且明哦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2094" target="_blank" rel="noopener">▶ 00:34:54</a>
+<span class="badge">p13 §8</span></div></div><div class="card"><div class="q">那女孩子如果是坐<span class="chip">太阴</span>星在<span class="chip">命宫</span>，在月朗天门是最好，懂不懂我意思，男人应该要<span class="chip">太阳</span>星，在这里才是最好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2543" target="_blank" rel="noopener">▶ 00:42:23</a>
+<span class="badge">p13 §9</span></div></div><div class="card"><div class="q">那如果反过来，她的<span class="chip">命宫</span>在这里呢，走走走走走走到这里来有没有，刚好月亮出来，哇那那太好了，如果刚好是，是刚好旺到夜生活的人，娱乐业的人，了解我意思吧</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2778" target="_blank" rel="noopener">▶ 00:46:18</a>
+<span class="badge">p13 §10</span></div></div><div class="card"><div class="q">你不能老师我清官懂不懂，像我们王建煊他是清官了，你叫他拿2000万人投票，台湾哪个人不贪污的，你把王建煊拉起来，人家说打棉被还有灰尘的哎，他打的没有灰尘的了，你懂不懂我意思，他是这样的人，他部长15万薪水，不要十万块就好了，给了我那么多干嘛够用，然后他家每天24小时，插个国旗在门口他说爱国，我跟你讲他是清官，但不一定明，明就是让你适时而作，你的理想很好可能要100年，五年以后再做或者十年以后再做，不要动太快知不知道</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2105" target="_blank" rel="noopener">▶ 00:35:05</a>
+<span class="badge">p13 §8</span></div></div><h2>贪狼（北斗 · 桃花/财气）</h2><h3>定性</h3><div class="card"><div class="q">那<span class="chip">贪狼</span>星呢，在人事上面呢，这个是属于桃花星，这是主桃花星，像<span class="chip">廉贞</span>星呢是次桃花，<span class="chip">贪狼</span>是主桃花，那这个主桃花<span class="chip">贪狼</span>除了指桃花以外，也指的是酒、财、气，通通在这个酒、色、财、气、赌，通通在<span class="chip">贪狼</span>的里面。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=128" target="_blank" rel="noopener">▶ 00:02:08</a>
+<span class="badge">p07 §1</span></div></div><div class="card"><div class="q">所以我们在批的时候同时在讲呢<span class="chip">贪狼</span>星<span class="chip">贪狼</span>星呢，它是一个桃花星，但是<span class="chip">贪狼</span>星要有个大原则</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=163" target="_blank" rel="noopener">▶ 00:02:43</a>
+<span class="badge">p09 §2</span></div></div><div class="card"><div class="q">那诸位看到这个<span class="chip">贪狼</span>入命的人，一般呢<span class="chip">贪狼</span>入命的人他有生杀之权，然后你下面看到还有个<span class="chip">天魁</span>星有没有，有没有看到<span class="chip">天魁</span>星，<span class="chip">天魁</span>星是什么主发科甲，科甲代表这个人是有武<span class="chip">贪狼</span>是武，<span class="chip">天魁</span>星是什么文，是不是文武双全</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=510" target="_blank" rel="noopener">▶ 00:08:30</a>
+<span class="badge">p09 §4</span></div></div><div class="card"><div class="q">那如果文武双全，如果这个文武双全给一个男的，那太好了那就成格</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=531" target="_blank" rel="noopener">▶ 00:08:51</a>
+<span class="badge">p09 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那<span class="chip">贪狼</span>星呢比较狠，比较狠呐个性比较拗比较犟，会有这种现象，<span class="chip">贪狼</span>星的人比较容易意气用事，不顾一切这样，会会有这种现象产生</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=96" target="_blank" rel="noopener">▶ 00:01:36</a>
+<span class="badge">p19 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以相书上面写的时候，这个<span class="chip">贪狼</span>在<span class="chip">夫妻宫</span>，主妻长太太年龄要比先生大很多，当然我提这个并不是说，大很多就是犯罪的没有啊，只是一个状况哦，只是个状況，但是你不能以偏概全说，永远肯定是这样子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=1782" target="_blank" rel="noopener">▶ 00:29:42</a>
+<span class="badge">p19 §9</span></div></div><div class="card"><div class="q">那她连续30年，这个<span class="chip">贪狼</span>也是横财，这30年如果从商了，运道会很好，做生意</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=338" target="_blank" rel="noopener">▶ 00:05:38</a>
+<span class="badge">p23 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这个<span class="chip">贪狼</span>就变成桃花星了，结果对面是<span class="chip">化忌</span>，婚事都不会成</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1804" target="_blank" rel="noopener">▶ 00:30:04</a>
+<span class="badge">p23 §10</span></div></div><div class="card"><div class="q">小的时候是<span class="chip">贪狼</span><span class="chip">武曲</span>啊，<span class="chip">化权</span><span class="chip">化禄</span>，这<span class="chip">贪狼</span><span class="chip">武曲</span>啊，我们除了主武官星以外，还可以主财星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=16" target="_blank" rel="noopener">▶ 00:00:16</a>
+<span class="badge">p27 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">开始进入这种<span class="chip">贪狼</span><span class="chip">文昌</span>，代表说很辛苦啊孤单呐，他没有办法，他没有办法，因为他有前科，因为他有前科，也会有记录啊对不对</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=324" target="_blank" rel="noopener">▶ 00:05:24</a>
+<span class="badge">p25 §2</span><span class="note">cleaned</span></div></div><h3>长相</h3><div class="card"><div class="q"><span class="chip">贪狼</span>的形貌呢，比较魁梧比较大，或者毛发比较多，身上汗毛啊什么比较多，那这三颗星常常会在一起，常常三颗星常常会在一起，那武官拿到这种星最好了，学你看那个张飞那个毛发多不多，那胡子还很多对不对。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=155" target="_blank" rel="noopener">▶ 00:02:35</a>
+<span class="badge">p07 §1</span></div></div><h3>亥子宫为正科桃花</h3><div class="card"><div class="q">它以在亥子宫，亥宫是晚上9点到11点，子时呢是晚上11点到1点，这两个宫我们又叫做水宫，在水宫里面，如果<span class="chip">贪狼</span>星在亥宫，或是在子宫才叫做正科桃花星，才是桃花星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=174" target="_blank" rel="noopener">▶ 00:02:54</a>
+<span class="badge">p09 §2</span></div></div><div class="card"><div class="q">这个人的<span class="chip">命宫</span><span class="chip">贪狼</span>在这里，<span class="chip">贪狼</span><span class="chip">贪狼</span>，命学上有一句话贪居子午，贪居子午啊，这个在子和午不一样，一般来说在子的话桃花命，如果在午的话是火贵</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=2764" target="_blank" rel="noopener">▶ 00:46:04</a>
+<span class="badge">p19 §12</span></div></div><h3>午宫为武官星</h3><div class="card"><div class="q">如果<span class="chip">贪狼</span>星在午宫，你不要给他随便乱批桃花星哦，不是桃花星呐，它是武官星呐，武官星那<span class="chip">贪狼</span>星的时候这种武官</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=194" target="_blank" rel="noopener">▶ 00:03:14</a>
+<span class="badge">p09 §2</span></div></div><div class="card"><div class="q"><span class="chip">贪狼</span><span class="chip">破军</span><span class="chip">七杀</span>，这些武官星呢，最好逢的是，最希望碰到的是火和铃</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=205" target="_blank" rel="noopener">▶ 00:03:25</a>
+<span class="badge">p09 §2</span></div></div><div class="card"><div class="q">午时的<span class="chip">贪狼</span>凡是这些，<span class="chip">武曲</span><span class="chip">七杀</span><span class="chip">破军</span>，在中午出来<span class="chip">贪狼</span>反而人会变成瘦小，越小越瘦越小越好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=249" target="_blank" rel="noopener">▶ 00:04:09</a>
+<span class="badge">p09 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">子女宫</span>像这个<span class="chip">贪狼</span>星，你不要管它其他星，像这种星啊<span class="chip">贪狼</span>星呢，<span class="chip">贪狼</span>星有的时候，我们在看命的时候是阴星阳星，诸位不要去管阴阳星，<span class="chip">贪狼</span>星这种武官星出现的时候，<span class="chip">贪狼</span>星这种武官星出现的时候，杀破狼<span class="chip">七杀</span><span class="chip">破军</span><span class="chip">贪狼</span>都是限星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=2537" target="_blank" rel="noopener">▶ 00:42:17</a>
+<span class="badge">p15 §11</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">你看他是<span class="chip">贪狼</span>在午宫<span class="chip">化禄</span>，贪居子午有没有最旺，又<span class="chip">化禄</span>他这个儿子将来干什么的，做生意当大老板，如果没有<span class="chip">化禄</span>武官你讲对了，<span class="chip">化禄</span>懂不懂我意思，你叫他当武官，不是去军机采购泄密啊，你懂不懂我意思啊也会当武官，但是可能会出这个事情</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=2577" target="_blank" rel="noopener">▶ 00:42:57</a>
+<span class="badge">p15 §11</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">午是中午最热的时候，最正热的时候，出<span class="chip">贪狼</span>是生杀之权威震边疆，<span class="chip">贪狼</span>星在子时出来的时候，不太好子时这个这个子时啊，贪<span class="chip">贪狼</span>如果在这里的话，就叫做贪在子，就四做贪在子，这不是很好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=2795" target="_blank" rel="noopener">▶ 00:46:35</a>
+<span class="badge">p19 §12</span></div></div><div class="card"><div class="q"><span class="chip">贪狼</span>逢<span class="chip">天马</span>，像这种武官星逢了<span class="chip">天马</span>是很贵，非常好你别跟她就说不好，在事业上很好啊，这种<span class="chip">天马</span>星逢了武官星要逢调，有调动有换动都会升迁第一个</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1780" target="_blank" rel="noopener">▶ 00:29:40</a>
+<span class="badge">p23 §10</span></div></div><h3>泛水桃花</h3><div class="card"><div class="q">还有呢<span class="chip">贪狼</span>星是不是在这里，有没有问题，<span class="chip">贪狼</span>在这里看到没有，如果<span class="chip">贪狼</span>在这个地方，是<span class="chip">命宫</span>的时候，这个我们有一句话，叫做贪居亥子，<span class="chip">贪狼</span>星在亥宫或子宫，叫做泛水桃花，泛水桃花桃花命</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2593" target="_blank" rel="noopener">▶ 00:43:13</a>
+<span class="badge">p13 §9</span></div></div><div class="card"><div class="q">天性如此那如果拿到个女孩子的命，<span class="chip">太阴</span>星在<span class="chip">命宫</span>在亥时子时，这种这种时间晚上这种哎，为什么在这个老师你说，为什么在亥时子时沾桃花，你干这个事情都是，晚上点点嘛，你不然你在白天干嘛，那晚上的时候才会有桃花，这种现象那就叫做睡觉泛水桃花</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2640" target="_blank" rel="noopener">▶ 00:44:00</a>
+<span class="badge">p13 §9</span></div></div><div class="card"><div class="q">那如果女孩子只要是演艺圈的，如果居这种命的，哇声名远播名气很大，大家大家都喜欢啊，所以桃花命坐命不见得不好，我不喜欢你你喜欢我，被喜欢你怎么办对不对，这个说走这行业的人非常好，也是出武将，要妙旺才是出武将，落陷都能主杀</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2663" target="_blank" rel="noopener">▶ 00:44:23</a>
+<span class="badge">p13 §9</span></div></div><h2>巨门（北斗 · 暗星）</h2><h3>定性</h3><div class="card"><div class="q">第一个叫<span class="chip">巨门</span>星，这是主力星<span class="chip">巨门</span>星呢，本身是一个凶星并不是吉星，<span class="chip">巨门</span>星代表的意义呢代表口舌，是非官司牢狱之灾，牢狱之灾如果<span class="chip">巨门</span>星是庙旺，就是我们刚才讲的如果是很亮，星辰亮度是很亮的话，这个灾要去掉大半，这个变成能言善道口才非常好，那如果是<span class="chip">巨门</span>星落陷陷地不亮的话，问题就来了，这个<span class="chip">巨门</span>星诸位看这<span class="chip">巨门</span>就是门很大，你看这个学校的门也很大，如果是庙旺的话，他就是当学校的校长了，如果是落陷的话门是关到了，我们监狱的门也还是大但是是关到的，落陷要坐在牢里，所以同样一颗星它代表意义不一样，那<span class="chip">巨门</span>星是主牢狱之灾，也主官司纠纷口舌。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2887" target="_blank" rel="noopener">▶ 00:48:07</a>
+<span class="badge">p07 §13</span></div></div><div class="card"><div class="q">那巨富的人再逢到<span class="chip">巨门</span>星入庙的时候，代表他豪门宅地有没有，那如果生下来就是<span class="chip">巨门</span>星入庙，那个双禄禄马交驰在命，生下来就在豪门世家里面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3057" target="_blank" rel="noopener">▶ 00:50:57</a>
+<span class="badge">p07 §13</span></div></div><div class="card"><div class="q">你千万不要给他批出来，生下来就在牢里，不要批错了哈那入庙嘛，千万不要批错了，所以同一颗星它代表的意义不一样</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3069" target="_blank" rel="noopener">▶ 00:51:09</a>
+<span class="badge">p07 §13</span></div></div><div class="card"><div class="q">男孩子拿到的话，就变成这个个性啊喜怒无常，表里不一致</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=665" target="_blank" rel="noopener">▶ 00:11:05</a>
+<span class="badge">p13 §3</span></div></div><div class="card"><div class="q">那他的夫妻本身<span class="chip">巨门</span>，这个这如果没有这些，<span class="chip">天同</span><span class="chip">天钺</span><span class="chip">文昌</span><span class="chip">文曲</span>，<span class="chip">天同</span><span class="chip">天钺</span><span class="chip">文昌</span><span class="chip">文曲</span>，光是个<span class="chip">巨门</span>那夫妻吵架打架，那你如果有个<span class="chip">巨门</span>，就是吵架难免的啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=1337" target="_blank" rel="noopener">▶ 00:22:17</a>
+<span class="badge">p15 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那娶个太太是<span class="chip">巨门</span>星这很累，哇很呱噪每天要吵不停，娶一个小小鸟回来，在家里面一直在吵，然后他赚的钱全部要给太太，太太<span class="chip">禄存</span>你要统统给我哦都得给她，然后不给我她干嘛，马上给他翻脸<span class="chip">巨门</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=2970" target="_blank" rel="noopener">▶ 00:49:30</a>
+<span class="badge">p17 §12</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">巨门</span>星进来的时候，在读书这段时间中间呢逢到<span class="chip">巨门</span>，不管<span class="chip">巨门</span>星是入庙还是落陷，都代表是非很多，所以他在读国中高中的这段时间，交友一定不慎常常进出警察局，如果落陷的话就是常常进出牢狱</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=2741" target="_blank" rel="noopener">▶ 00:45:41</a>
+<span class="badge">p21 §13</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以我们算命看到<span class="chip">巨门</span>的时候，落陷是在牢里面，入庙的话是是非纠纷</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=2762" target="_blank" rel="noopener">▶ 00:46:02</a>
+<span class="badge">p21 §13</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">化科</span><span class="chip">化禄</span>进来到田宅的时候，除了代表说他的祖业业<span class="chip">巨门</span>星，父母亲坐<span class="chip">巨门</span>星也会有祖业，<span class="chip">巨门</span>是豪门大宅院哦，祖业分到以外</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=2174" target="_blank" rel="noopener">▶ 00:36:14</a>
+<span class="badge">p25 §8</span><span class="note">cleaned</span></div></div><h3>长相</h3><div class="card"><div class="q">那<span class="chip">巨门</span>星的人呢，有一种形小个子很小，声音音量很高声音音量声量很大，形小声高量大这种人呢，这个这个是<span class="chip">巨门</span>星，还有一种呢，有的时候看到长绒肥胖，也是<span class="chip">巨门</span>星两种形象，长就毛茸茸的，身体很长身体毛发很多，然后比较肥胖。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2952" target="_blank" rel="noopener">▶ 00:49:12</a>
+<span class="badge">p07 §13</span></div></div><div class="card"><div class="q">哎<span class="chip">巨门</span>星呢，哎<span class="chip">巨门</span>星呢，代表太太形小声高量大，所以女孩子有时候个子很小，反正凶悍就是她了我跟你讲，你看那个，真的是母老虎的时候，个子哦又白又细，小小哇很凶很彪悍</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=3102" target="_blank" rel="noopener">▶ 00:51:42</a>
+<span class="badge">p17 §12</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那女孩子<span class="chip">太阳</span><span class="chip">巨门</span><span class="chip">太阳</span>的人呢，有两种，有两种，<span class="chip">巨门</span><span class="chip">太阳</span>如果是同宫的时候，人会长得比较娇小玲珑，对宫的时候比较长绒肥胖</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=1094" target="_blank" rel="noopener">▶ 00:18:14</a>
+<span class="badge">p21 §5</span><span class="note">cleaned</span></div></div><h3>与化忌</h3><div class="card"><div class="q">诸位看左上角是不是<span class="chip">巨门</span>星在这边，这个<span class="chip">巨门</span>星已经是是非口舌星了，碰到<span class="chip">巨门</span>的话，已经在吵架已经在打官司了，已经很凶了再一个<span class="chip">化忌</span>有没有，就会加重这个<span class="chip">巨门</span>星的杀，光个<span class="chip">巨门</span>星就已经会打官司了，再个<span class="chip">化忌</span>这是100%要打官司的，那根本在劫难逃。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=3497" target="_blank" rel="noopener">▶ 00:58:17</a>
+<span class="badge">p11 §6</span></div></div><div class="card"><div class="q">这个<span class="chip">巨门</span>星就已经是是非口舌官司了，旁边又个天刑，这个天刑也是打官司，然后<span class="chip">化忌</span>又在这边</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=16" target="_blank" rel="noopener">▶ 00:00:16</a>
+<span class="badge">p25 §1</span></div></div><h3>与天马</h3><div class="card"><div class="q">那如果这<span class="chip">巨门</span>星逢到<span class="chip">天马</span>星呢，逢到这个<span class="chip">天马</span>在这边，诸位要以此类推，他骑着马打官司，一定车祸嘛，真的想不开对不对车祸。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=3518" target="_blank" rel="noopener">▶ 00:58:38</a>
+<span class="badge">p11 §6</span></div></div><div class="card"><div class="q">你看他<span class="chip">七杀</span><span class="chip">天马</span>星有没有，他就离开父母，包括<span class="chip">天马</span>星动，代表读书的时候他都会到外地，不会待在本地，有<span class="chip">天马</span>星一考就比如人在台北，一考考到台中台南高雄啊，跑了很远而且离开父母亲，<span class="chip">天马</span>带<span class="chip">七杀</span>这种是代表，你看就晓得代表什么孤单嘛，孤军奋战是不是</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=3048" target="_blank" rel="noopener">▶ 00:50:48</a>
+<span class="badge">p17 §12</span><span class="note">cleaned</span></div></div><h2>天相（南斗 · 印星）</h2><h3>定性</h3><div class="card"><div class="q"><span class="chip">天相</span>星是顾名思义就要看<span class="chip">天相</span>，天上的宰相。所以<span class="chip">天相</span>星是一个佐才星。你如果是<span class="chip">天相</span>入命的人你适合去当人家的助理当人家的秘书去当师爷。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3415" target="_blank" rel="noopener">▶ 00:56:55</a>
+<span class="badge">p05 §12</span></div></div><div class="card"><div class="q">那如果按照他的命来看的话，你看他的<span class="chip">命宫</span>，他的<span class="chip">兄弟宫</span>在这边，像女孩这个<span class="chip">命宫</span>呢她是<span class="chip">天相</span>，首先诸位看这个人的<span class="chip">命宫</span>，如果<span class="chip">命宫</span>在这里她是<span class="chip">天相</span>，那一般来说的话，我们算命的时候女孩子是<span class="chip">天相</span>星最好，<span class="chip">天相</span>是什么，天上的宰相，是非常好的良佐，辅佐的人才，所以<span class="chip">天相</span>呢，一定是位高无权</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=340" target="_blank" rel="noopener">▶ 00:05:40</a>
+<span class="badge">p11 §2</span></div></div><div class="card"><div class="q">这个是落在<span class="chip">命宫</span>的人呢，<span class="chip">命宫</span>坐<span class="chip">天相</span>的人，她从来不去想权位，她只是很好，她是很好的辅佐的人才，这是<span class="chip">命宫</span><span class="chip">天相</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=369" target="_blank" rel="noopener">▶ 00:06:09</a>
+<span class="badge">p11 §2</span></div></div><div class="card"><div class="q">诸位呢唯一一个四个字给你<span class="chip">天相</span>以后，代表<span class="chip">天相</span>了以后，如果你算命的时候，有一个人的呢，<span class="chip">天相</span>星在这边，结果是45-54岁，她的本宫就是<span class="chip">天相</span>，意思就是说45-54她十年中间，她就是这种位高无权的形象，比如说她干了人事部副总监，都干不到正总监，人家干经理，她干副经理，老是干老是干副的，所以这不单单是这样</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=386" target="_blank" rel="noopener">▶ 00:06:26</a>
+<span class="badge">p11 §2</span></div></div><div class="card"><div class="q">所以她本身她是府相，这叫做府相会<span class="chip">命宫</span>，府啊相府相会命看到没有</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=247" target="_blank" rel="noopener">▶ 00:04:07</a>
+<span class="badge">p17 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">天府</span><span class="chip">天相</span>直接会到命叫府相会命，那府相会命的人呢，天生的是佐才，天生佐才，天生下来啊，就辅佐人家的人才，比如说当总经理董事长的秘书助理，当副将这种最好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=257" target="_blank" rel="noopener">▶ 00:04:17</a>
+<span class="badge">p17 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">像<span class="chip">天相</span>入命的人很好啊，那<span class="chip">化科</span>可以读书的，怎么会不好呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=2160" target="_blank" rel="noopener">▶ 00:36:00</a>
+<span class="badge">p21 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这种是府相会命，府相会命不是不好做佐才啊，就是我去帮你做领薪水就好了，我就当你的助手好了助理，像他命都没有会到科权禄，知不知道什么叫府相，有没有<span class="chip">天相</span>和<span class="chip">天府</span>来会</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1579" target="_blank" rel="noopener">▶ 00:26:19</a>
+<span class="badge">p25 §7</span></div></div><h3>长相</h3><div class="card"><div class="q">那<span class="chip">天相</span>星的人男女都一样瘦瘦高高的没有肉。女孩子也是高挑型的。那你如果是<span class="chip">天相</span>星坐命结果你矮矮肥肥的你那个八字有问题。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3430" target="_blank" rel="noopener">▶ 00:57:10</a>
+<span class="badge">p05 §12</span></div></div><div class="card"><div class="q">然后<span class="chip">天相</span>的人呢，一定比较瘦高型，瘦瘦高高型高挑型</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=381" target="_blank" rel="noopener">▶ 00:06:21</a>
+<span class="badge">p11 §2</span></div></div><h3>性情</h3><div class="card"><div class="q"><span class="chip">天相</span>星的本身就非常好的。也是这个非常厚道。对人很谦和。脾气也是很温和的。你如果嫁了先生或者娶个太太<span class="chip">天相</span>星那最好了。尤其娶老婆娶个<span class="chip">天相</span>那太好了。天天做你的佐才。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3451" target="_blank" rel="noopener">▶ 00:57:31</a>
+<span class="badge">p05 §13</span></div></div><h2>天梁（南斗 · 阴贵星）</h2><h3>定性</h3><div class="card"><div class="q"><span class="chip">天梁</span>星是文武双全。我们星斗里面就这颗星是允文允武的星。所以很多人武官<span class="chip">天梁</span>星。文官也有<span class="chip">天梁</span>星。所以一般来说<span class="chip">天梁</span>星坐命的人文官也干干武官也干干。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3334" target="_blank" rel="noopener">▶ 00:55:34</a>
+<span class="badge">p05 §12</span></div></div><div class="card"><div class="q">这个命上面的子女啊，<span class="chip">天梁</span>注意看这<span class="chip">天梁</span>，<span class="chip">天梁</span>星是阳星代表男人，<span class="chip">天机</span>星是女的代表阴的，代表这个阴星啊，所以一个阳星在这里，所以她会有一个男的在里面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=513" target="_blank" rel="noopener">▶ 00:08:33</a>
+<span class="badge">p17 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">像他妈妈这男人呢<span class="chip">化权</span>，<span class="chip">天梁</span>星<span class="chip">化权</span>进来的时候，这个<span class="chip">天梁</span>啊是武官权，武官权像司法官外交官，大部分人的司法官，<span class="chip">天梁</span>星<span class="chip">化权</span>的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=543" target="_blank" rel="noopener">▶ 00:09:03</a>
+<span class="badge">p17 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">天梁</span>星坐命的人，<span class="chip">天梁</span>星坐命的人来一般来说，比较正派比较厚道个性是很强</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=2952" target="_blank" rel="noopener">▶ 00:49:12</a>
+<span class="badge">p17 §12</span><span class="note">cleaned</span></div></div><h3>长相</h3><div class="card"><div class="q">那<span class="chip">天梁</span>星坐命的男孩子长得英俊潇洒。眉毛斜飞尖尾两边斜上去。但是个子不高。比较粗壮。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3371" target="_blank" rel="noopener">▶ 00:56:11</a>
+<span class="badge">p05 §12</span></div></div><h3>食神</h3><div class="card"><div class="q">我们算命又把它叫做食神。比如说我的<span class="chip">天梁</span>星在<span class="chip">官禄宫</span>本人当官的一天到晚应酬交际很多。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3290" target="_blank" rel="noopener">▶ 00:54:50</a>
+<span class="badge">p05 §12</span></div></div><div class="card"><div class="q">如果你的八字<span class="chip">大限</span>到了，结果这个食神星非常的亮，代表你吃的好得很。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=5&t=3318" target="_blank" rel="noopener">▶ 00:55:18</a>
+<span class="badge">p05 §12</span></div></div><h3>天梁在午宫</h3><div class="card"><div class="q"><span class="chip">紫微</span>星在卯宫的时候，你们注意看，<span class="chip">天梁</span>星在午宫有没有，这个<span class="chip">天梁</span>星在午宫的时候，一定是入庙，<span class="chip">天梁</span>星在午宫我们有特别一个格，这个干武官的话，一品一品官，一品官呢近天子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=35" target="_blank" rel="noopener">▶ 00:00:35</a>
+<span class="badge">p13 §1</span></div></div><div class="card"><div class="q">武官有四种人，军人警察法官外交官这4种人，所以如果一个外交官拿到这种八字，刚好<span class="chip">天梁</span>星在命，这是在命哦命在午宫，这个<span class="chip">天梁</span>在午宫哦，手有生杀之权</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=62" target="_blank" rel="noopener">▶ 00:01:02</a>
+<span class="badge">p13 §1</span></div></div><div class="card"><div class="q">所以我算过很多人当司法官的话，他会干到地方法院院长，或者一直在往上去干，然后警察的话干局长，外交官的话要干大使，都是一方之主这个</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=88" target="_blank" rel="noopener">▶ 00:01:28</a>
+<span class="badge">p13 §1</span></div></div><div class="card"><div class="q">像你看她的<span class="chip">夫妻宫</span>是<span class="chip">化科</span>，<span class="chip">天梁</span>在午宫啊，是这个有官威官权很大，那她先生的官权又带禄，所以很可能是走财经界，不然你这个权是掌掌财禄的嘛，所以她先生在银行界，是一个很高的一个主管</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=766" target="_blank" rel="noopener">▶ 00:12:46</a>
+<span class="badge">p29 §4</span><span class="note">cleaned</span></div></div><h2>七杀（南斗 · 杀星）</h2><h3>定性</h3><div class="card"><div class="q">都是南斗星系，<span class="chip">七杀</span><span class="chip">破军</span>跟<span class="chip">贪狼</span>，这个这三个，一定会会到，那这三颗呢，全部主的是武官，武官星个性上面会有区别有分别，<span class="chip">七杀</span>入命的人呢，<span class="chip">七杀</span>入命的人，目大做事情性子很急。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=7" target="_blank" rel="noopener">▶ 00:00:07</a>
+<span class="badge">p07 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那如果在事业上面来说的话，这三颗星呢，这两颗星（<span class="chip">七杀</span><span class="chip">破军</span>），主的是耗主的是劳，这颗星呢（<span class="chip">贪狼</span>），主的是财所以它不但有刚刚讲的酒、色财，它主的是财，也就是说如果你的<span class="chip">流年</span>逢到<span class="chip">贪狼</span>很旺，换句话说如果财禄事业很赚钱喽，那很多赚钱的同时，就逃不了这个桃花星，那这两颗星如果遇到<span class="chip">流年</span>，遇到这两颗星的话，主劳辛苦的奔波劳碌，孤单要一个人拼命去做事情，然后呢又耗，有财钱财进来钱财出去又不容易聚财，这是它的星义。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=225" target="_blank" rel="noopener">▶ 00:03:45</a>
+<span class="badge">p07 §1</span></div></div><div class="card"><div class="q">这个如果在<span class="chip">命宫</span>有<span class="chip">七杀</span>在午，这也称为将星，所以我们将星很多将星入命，<span class="chip">七杀</span>在午也是居将星，也是将星来会，这也是<span class="chip">化权</span>化将干将军呐</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1756" target="_blank" rel="noopener">▶ 00:29:16</a>
+<span class="badge">p13 §6</span></div></div><div class="card"><div class="q">所以如果你批个武官的命，如果一看都没有什么将星来会，就不要干了啊，那如果你的命中没有没关系，你的<span class="chip">流年</span>上有一样成格，如果你比如说你会<span class="chip">七杀</span>军（星），在宫里面<span class="chip">化权</span>怎么样，哇那个很大哦，那个那个我到外岛当司令官了，你是大陆的话就是军区司令了，台湾人的话，澎湖部司令马防部司令就升了哈</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1777" target="_blank" rel="noopener">▶ 00:29:37</a>
+<span class="badge">p13 §6</span></div></div><h3>性情</h3><div class="card"><div class="q">如果你娶个太太，<span class="chip">七杀</span>你就差不多毁了一半了，多疑很累啊，草木皆兵<span class="chip">七杀</span>你看这个个性就知道，他性子很急而且很刚，这三个星都很刚，都是很阳刚性的，所以你看有个人个性很刚强，谁的话都不接受，然后一天到晚在自以为是，那都是<span class="chip">七杀</span>、<span class="chip">破军</span>、<span class="chip">贪狼</span>的人。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=48" target="_blank" rel="noopener">▶ 00:00:48</a>
+<span class="badge">p07 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那这几个就是个性会比较刚强比较固执，那遇到这种人批八字的时候，诸位就要记得，我们人物志里面告诉诸位，前面我放在讲义里面，刚愎自用的人呢最容易被人家利用</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=180" target="_blank" rel="noopener">▶ 00:03:00</a>
+<span class="badge">p07 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">他有如果有中庸之德，你们如果很懂了以后，你们的相会内敛进去，批八字是看不准的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=203" target="_blank" rel="noopener">▶ 00:03:23</a>
+<span class="badge">p07 §1</span></div></div><div class="card"><div class="q"><span class="chip">七杀</span>临身终不美，这个啊身宫上面啊最怕逢<span class="chip">七杀</span>，比如说有一个人，他的<span class="chip">福德宫</span>在这边，结果<span class="chip">七杀</span>星在福德，我们先不要管<span class="chip">福德宫</span>，而身宫它跟<span class="chip">福德宫</span>在一起，身宫也在这里，<span class="chip">七杀</span>在身宫里面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=833" target="_blank" rel="noopener">▶ 00:13:53</a>
+<span class="badge">p09 §5</span></div></div><div class="card"><div class="q">你不要管它是什么宫光是<span class="chip">七杀</span>临身啊，叫做<span class="chip">七杀</span>临身，<span class="chip">七杀</span>临在身宫，一辈子啊多败少成，这种命很累</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=859" target="_blank" rel="noopener">▶ 00:14:19</a>
+<span class="badge">p09 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">诸位看十年大运岁是不是<span class="chip">七杀</span>星，<span class="chip">七杀</span>星在本宫执令，执令星是<span class="chip">七杀</span>星，也就是说44岁以后她一个人孤军奋战，一个人在那边做事很辛苦做事</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=2247" target="_blank" rel="noopener">▶ 00:37:27</a>
+<span class="badge">p09 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那<span class="chip">七杀</span>星呢比较性子很急，个性很刚烈</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=92" target="_blank" rel="noopener">▶ 00:01:32</a>
+<span class="badge">p19 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">读图那读事业的时候，你看他因为他，永远是在这个<span class="chip">化忌</span>，感情的纠纷的话弄来弄去，他就没有办法专心定下来，所以<span class="chip">七杀</span>在这边，对面是<span class="chip">化忌</span>来冲的时候，遇到这种<span class="chip">流年</span>都是事倍功半，事倍功半不会有成</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=1832" target="_blank" rel="noopener">▶ 00:30:32</a>
+<span class="badge">p19 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">会有官司是非牢狱之灾，再一看这个人<span class="chip">七杀</span><span class="chip">铃星</span>，代表这个人很刚强，个性很强，可能会在大怒之下，犯下不可弥补的过失</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=54" target="_blank" rel="noopener">▶ 00:00:54</a>
+<span class="badge">p25 §1</span><span class="note">cleaned</span></div></div><h2>破军（北斗 · 杀星）</h2><h3>性情</h3><div class="card"><div class="q">像<span class="chip">破军</span>呢跟<span class="chip">七杀</span>唯一的差别在这，<span class="chip">破军</span>星比较孤僻，你看我们天文地理，我们讲这个比心理学还有用，他个性很孤僻，非常的孤这个一个人啊，也就是孤芳自赏，人呢瘦瘦的，很瘦怎么养都不胖，吃五谷杂粮吃肉啊怎么吃都不胖，那<span class="chip">破军</span>星的人不重利。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=73" target="_blank" rel="noopener">▶ 00:01:13</a>
+<span class="badge">p07 §1</span></div></div><div class="card"><div class="q"><span class="chip">破军</span>星是要流浪在外要走天下，技术专长她要捧着饭碗走天下，像我们现在林峰就是这样的，那你说老师怎么看他的相，对你看后脑瓜他秃头最好看，不要看到录影带以后不要把，不要面对我们给大家看看你后面秃头，后面的脑壳是这样子的脖子啊，两个他的骨头是这样子的，这种人一辈子到处四海为家</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=977" target="_blank" rel="noopener">▶ 00:16:17</a>
+<span class="badge">p09 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那如果是给女人呢，就反过来了，变成瘦瘦干干的，瘦瘦的娇瘦小型的，瘦小型的体格，然后呢会比较孤僻，个性啊会比较孤僻，不容易相处，然后呢不重利，<span class="chip">破军</span>星本来就是这个，对钱财不管是男人女人都一样，他对钱财不重利看不重，然后一般来说，这种人男人女人都会怎么样，婚姻都很晚都会晚婚，这是英星入庙</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=3324" target="_blank" rel="noopener">▶ 00:55:24</a>
+<span class="badge">p13 §12</span></div></div><div class="card"><div class="q"><span class="chip">破军</span>代表也代表征战打仗，我不讲过军人都要有这个命</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=1417" target="_blank" rel="noopener">▶ 00:23:37</a>
+<span class="badge">p15 §7</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这个<span class="chip">破军</span><span class="chip">七杀</span>和<span class="chip">贪狼</span>，三个人个性不太一样</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=69" target="_blank" rel="noopener">▶ 00:01:09</a>
+<span class="badge">p19 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">破军</span>星坐命的人个性呢比较孤僻，然后自守所谓自守，并不是去杀了杀了人去自首，而是好像闭关自守一样，闭关自守啊，你跟他讲了半天他都听到了，回家他还是他，明白吧这个<span class="chip">破军</span>就这样子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=73" target="_blank" rel="noopener">▶ 00:01:13</a>
+<span class="badge">p19 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那像这种这种杀星，这种武将的星，武将的星的话，一般给男人比较好嫌太过</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=111" target="_blank" rel="noopener">▶ 00:01:51</a>
+<span class="badge">p19 §1</span></div></div><div class="card"><div class="q">那<span class="chip">破军</span>星坐命的男人呢，不见得长得漂亮，所以你常常看到有的女孩子很漂亮啊，嫁的先生很丑，你知道为什么，我告诉你为什么好了，漂亮的女孩子，她常常被人家追，她心里想嗯，如果我先生长得很帅也是这样的，她会第一个想法，她要嫁宁可嫁个先生比较安分，比较老实的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=2532" target="_blank" rel="noopener">▶ 00:42:12</a>
+<span class="badge">p23 §13</span><span class="note">cleaned</span></div></div><h3>在夫妻</h3><div class="card"><div class="q">你遇到一个女朋友，结果她的妈妈是一个<span class="chip">破军</span>星，你每天在送你女朋友金银珠宝，她妈妈一定反对的，所以招子放亮点人要看清楚，那你如果你女朋友是<span class="chip">破军</span>星，这种人最好了她不重利，她完全重感觉，嗯感觉不好，钱多不重要，感觉不好这<span class="chip">破军</span>星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=105" target="_blank" rel="noopener">▶ 00:01:45</a>
+<span class="badge">p07 §1</span></div></div><div class="card"><div class="q"><span class="chip">破军</span>星呢这一颗星，如果落到<span class="chip">夫妻宫</span>里面去，又或者落到<span class="chip">福德宫</span>里面去，都代表婚姻不好，都代表婚姻不好，都代表婚姻不好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=2311" target="_blank" rel="noopener">▶ 00:38:31</a>
+<span class="badge">p25 §9</span><span class="note">cleaned</span></div></div><h3>英星入庙</h3><div class="card"><div class="q">第一个<span class="chip">破军</span>星在午宫看到没有，<span class="chip">破军</span>星有在午宫的时候，我们叫做英星入庙，入庙这个格呢，跟<span class="chip">破军</span>星在子宫是一样的，<span class="chip">破军</span>星在子宫，这两个是相对的，子和午是相对的，这也叫做英星入庙</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=3245" target="_blank" rel="noopener">▶ 00:54:05</a>
+<span class="badge">p13 §12</span></div></div><div class="card"><div class="q">那这午时的时候，在中午的时候<span class="chip">破军</span>在午，和子时的时候成格，叫英星入庙，英星入庙的人呢，是也是发武官，非常的英挺，而且威震边疆，威震边疆这种人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=3300" target="_blank" rel="noopener">▶ 00:55:00</a>
+<span class="badge">p13 §12</span></div></div><div class="card"><div class="q">这个英星入庙发武官，武官的军人警察法官外交官这种人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=46" target="_blank" rel="noopener">▶ 00:00:46</a>
+<span class="badge">p19 §1</span></div></div><div class="card"><div class="q">那女人呢拿到这个<span class="chip">破军</span>在午宫这种，或者<span class="chip">破军</span>在子宫的英星入庙呢，主的是会比较孤单，还有呢比较孤僻，个性上来说会非常的孤僻</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=52" target="_blank" rel="noopener">▶ 00:00:52</a>
+<span class="badge">p19 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">可是<span class="chip">破军</span>星是在午时看到没有，午时是英星入庙加吉，所以她<span class="chip">太阳</span>身，能够承受她父亲的祖业业下来</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=1052" target="_blank" rel="noopener">▶ 00:17:32</a>
+<span class="badge">p21 §5</span><span class="note">cleaned</span></div></div><h2>文昌、文曲（六吉星 · 文星）</h2><h3>定性</h3><div class="card"><div class="q">什么叫副星呢，一对一对的，第一个呢曲昌，叫做<span class="chip">文曲</span><span class="chip">文昌</span>星，这些我们都会在你们以后都会看到，我给你们例子很多你们都会看到，何为曲昌呢，<span class="chip">文曲</span><span class="chip">文昌</span>这两颗星呢，<span class="chip">文曲</span>星呢主的是才艺博学，博学多能的人，那<span class="chip">文曲</span>星呢，顾名思义看起来就是比较会比较斯文文绉绉的，<span class="chip">文昌</span>星呢代表的是科甲读书考试。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1216" target="_blank" rel="noopener">▶ 00:20:16</a>
+<span class="badge">p07 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那<span class="chip">文昌</span><span class="chip">文曲</span>呢，完全着重在读书文笔才华，才华才华还有这个专业业的这个，比如说这个作家画家<span class="chip">天钺</span>星呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1696" target="_blank" rel="noopener">▶ 00:28:16</a>
+<span class="badge">p13 §6</span></div></div><div class="card"><div class="q">那反过来没有会到，就不是金榜题名了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1690" target="_blank" rel="noopener">▶ 00:28:10</a>
+<span class="badge">p13 §6</span></div></div><div class="card"><div class="q">第一个意义，他的太太多才多艺，多才多艺</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=1330" target="_blank" rel="noopener">▶ 00:22:10</a>
+<span class="badge">p15 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那这种先生是<span class="chip">武曲</span><span class="chip">文曲</span>来会，文武双全的人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=541" target="_blank" rel="noopener">▶ 00:09:01</a>
+<span class="badge">p19 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那像这个<span class="chip">文曲</span><span class="chip">文昌</span>会来会到<span class="chip">财帛宫</span>，如果她做事业的话，一定是专业技术特长，所以像我们理论上看这种八字，很多人呀医师律师会计师工程师建筑师呀，都有这种类似的人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=384" target="_blank" rel="noopener">▶ 00:06:24</a>
+<span class="badge">p21 §2</span><span class="note">字幕疑误：财宗→财帛；专业技术太长→专业技术特长</span></div></div><div class="card"><div class="q"><span class="chip">文曲</span>星进来，对面是<span class="chip">化科</span>，代表说她的科甲升迁，考高中考大学都不会有问题，这是读书星出的是时候，因她命中没有官带所以说她，她会到私人公司去做事情，然后掌权去做主管，受到人家重用啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1735" target="_blank" rel="noopener">▶ 00:28:55</a>
+<span class="badge">p23 §10</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">然后他是<span class="chip">文昌</span><span class="chip">文曲</span><span class="chip">化科</span>有没有艺又很好，比如画画弹琴啊这个作曲呀，那女孩子就很喜欢，他刚好得到女孩子喜欢的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=2300" target="_blank" rel="noopener">▶ 00:38:20</a>
+<span class="badge">p23 §12</span><span class="note">cleaned</span></div></div><h3>同宫</h3><div class="card"><div class="q">所以<span class="chip">流年</span>如果，但你的<span class="chip">流年</span>刚好那一个，今年逢到<span class="chip">化科</span>，或者是逢了<span class="chip">文昌</span>星，这就是金榜题名，当然后面还有两个科甲星，我先介绍这个，那这是<span class="chip">文昌</span>星，那如果<span class="chip">文昌</span>星坐命，没有<span class="chip">文曲</span>星来会的话，没有<span class="chip">文曲</span>星来会的话，这个变成书呆子，你知道什么叫书呆子，通通都学了学而不思，学而没有思则罔，孟子说这种人迷惘了一下给人骗走了，学而不思，那如果这两颗星同时会到，那就变得文采风流了，很多或者风流才子，写的诗写的很好，就是文采风流。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1263" target="_blank" rel="noopener">▶ 00:21:03</a>
+<span class="badge">p07 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">文曲</span><span class="chip">文昌</span>在这里，<span class="chip">文曲</span><span class="chip">文昌</span>同宫，这两个叫曲昌同宫，<span class="chip">文曲</span><span class="chip">文昌</span>在这里也会同宫，在丑宫也会同宫，<span class="chip">文曲</span><span class="chip">文昌</span>同宫，<span class="chip">文曲</span><span class="chip">文昌</span>同宫的时候，不但在这里在这里，<span class="chip">文曲</span><span class="chip">文昌</span>一旦同宫的时候，一定会同时会到<span class="chip">太阴</span>和<span class="chip">太阳</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1501" target="_blank" rel="noopener">▶ 00:25:01</a>
+<span class="badge">p13 §6</span></div></div><div class="card"><div class="q">那这种人这个智慧很高，智慧很高就大部分人都有，你看<span class="chip">文昌</span><span class="chip">文曲</span>来会，都有专科技术专长，那这个给男命最好，给男命最好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1599" target="_blank" rel="noopener">▶ 00:26:39</a>
+<span class="badge">p13 §6</span></div></div><div class="card"><div class="q">她<span class="chip">文昌</span><span class="chip">文曲</span>像曲昌入命的人呢，这个反正不管男女，这个反正不管男女，曲昌入命<span class="chip">文曲</span><span class="chip">文昌</span>入命的人呢，都是代表科甲文章这个盖世，就是文笔非常好，就像金庸写的这个，这文章盖世都是曲昌入命的，那梵高画的画贝多芬写的，这都是曲昌入命，就是文才方面他会声名远播</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=269" target="_blank" rel="noopener">▶ 00:04:29</a>
+<span class="badge">p21 §2</span><span class="note">cleaned</span></div></div><h3>女命</h3><div class="card"><div class="q">给女孩子不好了，给女孩子会到这两颗星的话，变成女孩子是桃花，在帮女孩子算命的时候，千万不要跟她说哎，小姐你有桃花，你这个你这个桃花命，千万不要这样子讲，就是说你可以用很多方法，哎男孩子可以看到你很喜欢你，或者怎么样子，那诸位听众如果听到这，你找我算过命，我没有很含蓄啊我讲的是实话这个是科。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1306" target="_blank" rel="noopener">▶ 00:21:46</a>
+<span class="badge">p07 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">女孩子命刚好稍微有一个，女孩子命跟男孩子命，稍微有点例外就是女孩子命，如果有月亮星进来又带<span class="chip">文昌</span><span class="chip">文曲</span>，这就叫做女孩子也有桃花，我们杨贵妃就是这样子，<span class="chip">文昌</span><span class="chip">文曲</span>又会到月亮，三颗星同时会到，对女人来说是桃花</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1610" target="_blank" rel="noopener">▶ 00:26:50</a>
+<span class="badge">p13 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这个曲昌入命只有一个例外，什么例外如果这两颗星逢到<span class="chip">太阴</span>星的话，<span class="chip">太阴</span>星的<span class="chip">太阴</span>逢到<span class="chip">太阴</span>星，<span class="chip">文曲</span><span class="chip">文昌</span>逢到<span class="chip">太阴</span>星的话，就不是所谓的文章盖世，而是文才艺盖世，才华才艺啊才艺惊人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=305" target="_blank" rel="noopener">▶ 00:05:05</a>
+<span class="badge">p21 §2</span></div></div><div class="card"><div class="q">过去历史上有一个人，杨贵妃，杨贵妃呢，<span class="chip">太阴</span>星入命在<span class="chip">文曲</span><span class="chip">文昌</span>，这种是桃花命，这种是桃花命</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=1757" target="_blank" rel="noopener">▶ 00:29:17</a>
+<span class="badge">p27 §11</span><span class="note">cleaned</span></div></div><h3>与化忌</h3><div class="card"><div class="q">如果一个人的<span class="chip">流年</span>，他34岁刚好逢了<span class="chip">文昌</span>星，结果<span class="chip">文昌</span>星是遇到<span class="chip">化忌</span>，是不是说代表他有考试，可是呢不中，这样以此类推加减就出来了。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1336" target="_blank" rel="noopener">▶ 00:22:16</a>
+<span class="badge">p07 §6</span></div></div><div class="card"><div class="q">按照这个我给你的资料例子<span class="chip">化忌</span>，<span class="chip">文昌</span>星啊<span class="chip">化忌</span>，为什么要你看这一段，这中间呢，这十年中间<span class="chip">化忌</span>，而刚刚好跟<span class="chip">太阳</span>是同宫</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=2143" target="_blank" rel="noopener">▶ 00:35:43</a>
+<span class="badge">p09 §9</span></div></div><div class="card"><div class="q">还有<span class="chip">文昌</span><span class="chip">化忌</span>有没有在这边忌在这</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=2850" target="_blank" rel="noopener">▶ 00:47:30</a>
+<span class="badge">p19 §12</span></div></div><h2>左辅、右弼（六吉星 · 辅星）</h2><h3>紫微需辅弼</h3><div class="card"><div class="q">没有没有没有<span class="chip">左辅</span>和<span class="chip">右弼</span>还没介绍<span class="chip">左辅</span>呢还有<span class="chip">右弼</span>，学第五个呢是三台八座，这个<span class="chip">左辅</span><span class="chip">右弼</span>是辅助<span class="chip">紫微</span>星的，只要是只要看到<span class="chip">紫微</span>星出现的时候，如果有辅弼来会，这<span class="chip">紫微</span>星就变成，君王诸侯君王之相。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1647" target="_blank" rel="noopener">▶ 00:27:27</a>
+<span class="badge">p07 §9</span></div></div><div class="card"><div class="q">诸位看<span class="chip">右弼</span>星有没有，诸位现在看到这张八字，一个一个<span class="chip">右弼</span>星在酉宫，这个<span class="chip">右弼</span>啊，我们叫<span class="chip">左辅</span><span class="chip">右弼</span>，或者是八座三台这四颗星啊独守，你看单独一颗星在那有没有，反过来<span class="chip">紫微</span>星呢，应该有辅弼星来会，同样辅弼星也有<span class="chip">紫微</span>星来会</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=332" target="_blank" rel="noopener">▶ 00:05:32</a>
+<span class="badge">p13 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">我生下来就是辅弼之才，懂不懂我意思，我生下来我当你的助手，我当你的秘书，我当你的什么助教啊他很好，我当老板的助理也很好，那是<span class="chip">右弼</span>星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=438" target="_blank" rel="noopener">▶ 00:07:18</a>
+<span class="badge">p13 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以当你要用老板，你是老板要用用手下，旁边你一看<span class="chip">右弼</span><span class="chip">左辅</span>，这个人用最好，他孤单对你有利啊，你懂不懂我意思对你有利啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=450" target="_blank" rel="noopener">▶ 00:07:30</a>
+<span class="badge">p13 §2</span><span class="note">cleaned</span></div></div><h3>孤星独守</h3><div class="card"><div class="q">哎他现在什么星都没有，一颗星在里面，这就叫做这四颗星孤星独守，孤星独守哎变成孤星类了，一辈子孤单，主的是孤单，那如果是<span class="chip">命宫</span>在这里<span class="chip">命宫</span>，那主他一辈子孤单<span class="chip">命宫</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=361" target="_blank" rel="noopener">▶ 00:06:01</a>
+<span class="badge">p13 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">廉破还有个有个<span class="chip">右弼</span>星，在下面一样跟<span class="chip">右弼</span>星孤星在这里，是一样的意思有没有，<span class="chip">右弼</span>星在<span class="chip">父母宫</span>，那你如果同时的<span class="chip">右弼</span>，你如果说我们不要管它什么宫，如果这个人是<span class="chip">右弼</span>怎么办，那就是主孤单，了解我意思吧，那你孤单你的婚姻到哪里去了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=2284" target="_blank" rel="noopener">▶ 00:38:04</a>
+<span class="badge">p13 §8</span><span class="note">已按裁决改正：父母官→父母宫</span></div></div><div class="card"><div class="q">那如果命就是<span class="chip">右弼</span>，就是告诉你你看他八字，命就在这里就是<span class="chip">右弼</span>就是，他就那个八字就是告诉，就已经在告诉你了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=430" target="_blank" rel="noopener">▶ 00:07:10</a>
+<span class="badge">p13 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">诸位看到下面的地劫看到没有地劫，上次也介绍过，孤星独守的时候，这是大凶非常的凶，孤星独守之不但本宫凶对宫也凶，什么叫对宫也凶，比如说你的<span class="chip">流年</span>刚好走到这里面，就对面是一颗孤孤的地劫来会，就代表那一年是凶</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=319" target="_blank" rel="noopener">▶ 00:05:19</a>
+<span class="badge">p15 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">左辅</span><span class="chip">右弼</span>在这面，这种单星本来是一颗星的话没有，两颗星加起来，反正带有一个儿子，这个儿子呢<span class="chip">化科</span>读书会读的很好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=2471" target="_blank" rel="noopener">▶ 00:41:11</a>
+<span class="badge">p25 §10</span><span class="note">cleaned〕〔已按裁决改正：左辅有弼→左辅右弼</span></div></div><h3>单星入守</h3><div class="card"><div class="q"><span class="chip">右弼</span>星或者是<span class="chip">左辅</span>星，单星入守的宫的时候，通常主的是孤单</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=31" target="_blank" rel="noopener">▶ 00:00:31</a>
+<span class="badge">p21 §1</span><span class="note">cleaned〕〔已按裁决改正：有弼星→右弼星</span></div></div><h2>六杀（羊陀火铃空劫）</h2><h3>总论</h3><div class="card"><div class="q">这三颗星完了后面有一组，我们叫六杀，什么叫六杀，叫做羊、陀、火、铃、空、劫这叫六杀，羊呢叫做<span class="chip">擎羊</span>，陀呢叫做<span class="chip">陀罗</span>，<span class="chip">火星</span><span class="chip">铃星</span>，天空地劫，这是我们在算命的时候这个叫做六杀。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=289" target="_blank" rel="noopener">▶ 00:04:49</a>
+<span class="badge">p07 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这个六杀出现的时候，它在你的<span class="chip">命宫</span>在有人的宫，或者在事业宫无人的宫，什么叫有人的宫，比如说<span class="chip">父母宫</span><span class="chip">命宫</span><span class="chip">兄弟宫</span>，<span class="chip">夫妻宫</span><span class="chip">子女宫</span>朋友宫，都是属于有人的宫，那还它的解释都不一样，你如果在没有人的宫，比如财帛官禄啊迁移啊，这些没有人的宫它解释也不一样，但是基本上脱离不了通通是杀星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=327" target="_blank" rel="noopener">▶ 00:05:27</a>
+<span class="badge">p07 §2</span></div></div><div class="card"><div class="q">所以我们一个宫里面有个原则，就是说你有杀星在里面，有吉星来的话杀星就杀的力量很差，什么吉星都没有，一颗小杀星，哪怕一个地劫或一个天空星，可能都会要你的命</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1543" target="_blank" rel="noopener">▶ 00:25:43</a>
+<span class="badge">p09 §7</span></div></div><div class="card"><div class="q">我们命格上面单星独守，羊陀火铃空劫，单星独守那个大运的时候，十年大运的时候，你不要管未来十年，那只是一种算大算死限的方法，你一颗星独在那边，守在命里面的时候，那颗星就很凶了，我讲过杀星，一定要有吉星来化解才行，这个本宫没有吉星，对面你不用看它了，本宫都没有吉星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=2185" target="_blank" rel="noopener">▶ 00:36:25</a>
+<span class="badge">p21 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">诸位记得啊一颗单星独守，不管你单星是<span class="chip">陀罗</span>或<span class="chip">擎羊</span>，羊陀火铃空劫六杀星，一星独守的时候这是凶灾，所以这个人祸不单行</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=542" target="_blank" rel="noopener">▶ 00:09:02</a>
+<span class="badge">p25 §3</span></div></div><h3>天空地劫</h3><div class="card"><div class="q">你想想看刚刚讲的天空还有地劫，诸位看这两个字，你不用去管它书上怎么写，望文生义嘛，如果一个人做生意的<span class="chip">流年</span>，做生意的老板，<span class="chip">流年</span>逢到天空地劫你说他会不会赚钱，肯定赔钱了你还要给他赚钱，诸位这是算命。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=646" target="_blank" rel="noopener">▶ 00:10:46</a>
+<span class="badge">p07 §4</span></div></div><div class="card"><div class="q">因为你如果<span class="chip">武曲</span>星在这里，你逢个地劫，这个就没有什么影响影响不大，大不了破点财而已懂不懂，一颗星在那里，那就要很严重，要谨慎小特别要小心这个</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=383" target="_blank" rel="noopener">▶ 00:06:23</a>
+<span class="badge">p15 §2</span></div></div><div class="card"><div class="q">不然后地劫坐命的，地劫在<span class="chip">命宫</span>啊，一颗星先不要管她命，光是一颗地劫星，如果没有吉星在同宫的时候，这地劫星就，我就算过有人会致命的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=77" target="_blank" rel="noopener">▶ 00:01:17</a>
+<span class="badge">p17 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">但这个好好在哪里，她是早年难杀，早年地劫，如果是这个地劫，对面有<span class="chip">化忌</span>来冲，那就早年也完了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=91" target="_blank" rel="noopener">▶ 00:01:31</a>
+<span class="badge">p17 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这个是杀星，对面还是<span class="chip">天相</span>星落陷地劫，这个是杀星在对面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=94" target="_blank" rel="noopener">▶ 00:01:34</a>
+<span class="badge">p27 §2</span><span class="note">cleaned</span></div></div><h3>火星铃星</h3><div class="card"><div class="q">那如果<span class="chip">流年</span>流到<span class="chip">火星</span><span class="chip">铃星</span>，像火铃进来的时候，除了外面有火厄，代表个性上有冲突，跟朋友合伙代表吵架分手吵架拆伙冲突很大，那这个<span class="chip">火星</span><span class="chip">铃星</span>就刚好会在你<span class="chip">夫妻宫</span>呢，那就夫妻两个人大打出手，还可能如果再逢到刚好逢到<span class="chip">巨门</span>星，<span class="chip">巨门</span>星讲的官司是非对不对，是不是讲过，那逢了还不是大打出手，结果呢跑到法院去互告。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=669" target="_blank" rel="noopener">▶ 00:11:09</a>
+<span class="badge">p07 §4</span></div></div><div class="card"><div class="q">像这个<span class="chip">兄弟宫</span>，像这个弟宫，注意看啊，<span class="chip">铃星</span>对面是<span class="chip">化忌</span>来沖，这个<span class="chip">铃星</span>是杀星，也就是说她有兄弟，但是<span class="chip">铃星</span>本身是杀星，一颗凶杀星坐命，羊陀火铃空劫都是一些灾星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=470" target="_blank" rel="noopener">▶ 00:07:50</a>
+<span class="badge">p17 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">因为<span class="chip">火星</span>嘛，所以处的不和，所以很火大，我老子不干，「我自己出来做啊，都会有这种现象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=620" target="_blank" rel="noopener">▶ 00:10:20</a>
+<span class="badge">p21 §3</span></div></div><div class="card"><div class="q">犯了牢狱，犯了牢狱之灾，牢狱之灾杀带<span class="chip">铃星</span>，一定是有这个严重的受伤伤害，或者这样子，如果是窃灾鼠窃的，鼠窃的话不是这样子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=288" target="_blank" rel="noopener">▶ 00:04:48</a>
+<span class="badge">p25 §2</span><span class="note">cleaned</span></div></div><h3>擎羊陀罗</h3><div class="card"><div class="q"><span class="chip">铃星</span><span class="chip">火星</span>那如果是<span class="chip">陀罗</span><span class="chip">擎羊</span>呢，就是看不到的小人我们有，我们人间有两种看不到的小人，一种是实际上实际上他对你很好，是你的父母亲可能是你的太太，可能是你的兄弟姐妹，可是实际上他因为太关心你了，反而会出事，这就好像我如果拿一块玉给你，我说这个10块钱台币，你放那边十年都不会摔破，我说先生这个玉1000万，我靠近眼睛那么小20秒就摔破了，这是你的念不对，要目所无视看不到，那遇到<span class="chip">擎羊</span><span class="chip">陀罗</span>星进来的时候，往往你的小人就在你身边，如果我不认识你我根本害不到你，越了解你的人才能越才能害得到你，这是一个还有第二个呢，看不到的小人就是你看到外面很健康，里面有癌症，就开刀见血光，都是这两颗星，所以<span class="chip">流年</span>逢到这两颗星，身体病灾就来了，病灾就来了。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=698" target="_blank" rel="noopener">▶ 00:11:38</a>
+<span class="badge">p07 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那这种人也很可怜为什么，因为<span class="chip">陀罗</span>星进来，杀星进来的时候，<span class="chip">大限</span>就进来了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=2176" target="_blank" rel="noopener">▶ 00:36:16</a>
+<span class="badge">p21 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">第二年她<span class="chip">陀罗</span>星进来，<span class="chip">陀罗</span>我这里写<span class="chip">陀罗</span>就告诉你，这个<span class="chip">巨门</span><span class="chip">化忌</span>，<span class="chip">巨门</span>代表是非官司啊，她在27岁的时候逢到官符，被受到<span class="chip">陀罗</span>受到别人的拖累，受到官司是非纠纷</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=530" target="_blank" rel="noopener">▶ 00:08:50</a>
+<span class="badge">p23 §4</span><span class="note">cleaned〕〔字幕疑误：巨内→巨门；化息→化忌</span></div></div><h3>擎羊为刃</h3><div class="card"><div class="q">那同样的如果是举例，如果<span class="chip">擎羊</span>代表是刃开血光，结果呢它是庙，庙旺庙或旺，代表说这个刀下去平安无事没有事啊，可能是小刀可能没有事，但是没有事还是要警戒啊，有没有什么问题，所以如果你们遇到人事的问题时候，遇到这两个人（星）的问题，遇到它落陷的时候最可怕来阴的。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=761" target="_blank" rel="noopener">▶ 00:12:41</a>
+<span class="badge">p07 §4</span></div></div><h2>庙旺利陷</h2><h3>亮度</h3><div class="card"><div class="q">我们呢排出来的八字以后哈，都会有庙、旺、利、陷，庙旺利陷我们所有的星辰呢，告诉诸位有这个，这个就是所谓的星辰的亮度，亮度会影响，当然会影响，比如说我们今天白天，<span class="chip">太阳</span>出来应该出来很大，白天的时候<span class="chip">太阳</span>也很亮结果呢，天上乌云密布<span class="chip">太阳</span>光没办法透射，它代表的亮度不太一样，如果是吉星像我们前面有吉星吉星入庙，反正所有的星在庙旺的时候都是最好，在利的时候是平平在陷的时候是最差，那如果你遇到杀星在陷地的话，哇那是差中更差，懂不懂我意思凶中之凶。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=365" target="_blank" rel="noopener">▶ 00:06:05</a>
+<span class="badge">p07 §2</span></div></div><div class="card"><div class="q">小偷给你看到了，那就不叫小偷，那叫强盗了，对不对这强盗比较重啊，所以他就跑掉了，给你看到他就跑掉了，给你看到他要拿的话叫抢了，抢了就强盗了，对不对所以他就不敢了，这是入庙旺就是庙旺，它的星辰亮度跟落陷的关系</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=698" target="_blank" rel="noopener">▶ 00:11:38</a>
+<span class="badge">p11 §3</span></div></div><div class="card"><div class="q">一个星在里面如果不亮的时候，它没有其他吉星来会，你看只有一个<span class="chip">太阴</span>星有没有，没它没有其他主星来会，这个杀星就很强了，如果有其他的主星，比如说你有<span class="chip">天同</span><span class="chip">太阴</span>啊，这种吉星会在里面的话，杀星力量就不强了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1528" target="_blank" rel="noopener">▶ 00:25:28</a>
+<span class="badge">p09 §7</span><span class="note">cleaned</span></div></div><h3>杀星入庙反吉</h3><div class="card"><div class="q">那你如果遇到<span class="chip">陀罗</span>星，结果<span class="chip">火星</span>呢是入庙入庙，而庙旺的话这个杀星呢，反而会变成吉星，杀星会变成吉星怎么解释，杀星会变吉星，我们有两句话，叫做吉处藏凶，还有呢凶处藏吉，凶处藏吉呢，平安避凶，看到都是吉星的时候，里面有一个杀星暗在里面，落陷在里面，叫做吉处藏凶，看到都是杀星可是里面杀星都入庙，有一处有一个是吉星，就是入庙在里面的时候，叫做吉凶处藏吉。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=419" target="_blank" rel="noopener">▶ 00:06:59</a>
+<span class="badge">p07 §3</span></div></div><div class="card"><div class="q">杀星入庙还好对不对，庙还比较好，那个落陷通通是杀</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2690" target="_blank" rel="noopener">▶ 00:44:50</a>
+<span class="badge">p07 §12</span></div></div><div class="card"><div class="q">所以你看到杀星落陷，这是你看不到的杀，你无法预测的杀，了解我意思吧，看起来外面是好事，实际上是杀凶事在里面，所以杀星进来的时候，如果亮的没有关系，大家都安心都会度过去，那落陷的看不到的那最可怕</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=684" target="_blank" rel="noopener">▶ 00:11:24</a>
+<span class="badge">p11 §3</span></div></div><div class="card"><div class="q">他是十年中间，他的<span class="chip">流年</span>是<span class="chip">廉贞</span><span class="chip">七杀</span>都庙旺，是不是他这段时间最好，财禄来的是时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=505" target="_blank" rel="noopener">▶ 00:08:25</a>
+<span class="badge">p13 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">然后杀星落陷，杀星落陷代表代表是无解，这是很凶的，哎45岁就该买单了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=132" target="_blank" rel="noopener">▶ 00:02:12</a>
+<span class="badge">p27 §2</span></div></div><h2>天魁、天钺</h2><h3>定性</h3><div class="card"><div class="q">第二个呢<span class="chip">天魁</span><span class="chip">天钺</span>，<span class="chip">天钺</span>这两颗星呢也是主科甲读书星，读书星如果有个人的命里面<span class="chip">文昌</span><span class="chip">文曲</span>也来会，<span class="chip">天魁</span><span class="chip">天钺</span>也来会。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1357" target="_blank" rel="noopener">▶ 00:22:37</a>
+<span class="badge">p07 §7</span></div></div><div class="card"><div class="q"><span class="chip">天魁</span>还有<span class="chip">天钺</span>，这两个是科甲星，科甲星夹到命，<span class="chip">命宫</span>旁边的<span class="chip">天魁</span><span class="chip">天钺</span>夹的时候夹贵</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1114" target="_blank" rel="noopener">▶ 00:18:34</a>
+<span class="badge">p07 §5</span></div></div><div class="card"><div class="q">他长得再粗鲁再壮，考试就很厉害了，你不要看他根本就不像个读书的，看着像读书的一点都不像了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1379" target="_blank" rel="noopener">▶ 00:22:59</a>
+<span class="badge">p07 §7</span></div></div><div class="card"><div class="q">你们不要先去设定，看着这个人斯文文的就一定会读书，小姐你错了真的错了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1391" target="_blank" rel="noopener">▶ 00:23:11</a>
+<span class="badge">p07 §7</span></div></div><div class="card"><div class="q">有的人长得很粗鲁讲话很洪亮，讲话很粗鲁，三字经都还不能讲，而考试都是最棒的，都是这样子的哈，千万不要被外形所惑</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1397" target="_blank" rel="noopener">▶ 00:23:17</a>
+<span class="badge">p07 §7</span></div></div><div class="card"><div class="q"><span class="chip">天魁</span><span class="chip">天钺</span>，<span class="chip">化科</span>星进来这是她的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=9&t=1095" target="_blank" rel="noopener">▶ 00:18:15</a>
+<span class="badge">p09 §6</span></div></div><div class="card"><div class="q">这里有个<span class="chip">天钺</span>星看到没有，这个<span class="chip">天钺</span>星呢独守在这边，同样的有如果有个人的命里面是<span class="chip">天钺</span>，或者有个人的命里面是<span class="chip">文昌</span><span class="chip">文曲</span>，这些星都代表什么科甲星，除了代表这个人，读书读得很棒以外，如果你的<span class="chip">流年</span>逢到这颗星，刚刚好那年要去考试，都代表金榜题名</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1663" target="_blank" rel="noopener">▶ 00:27:43</a>
+<span class="badge">p13 §6</span></div></div><div class="card"><div class="q">比较着重于贵人，除了你的科甲以外，你<span class="chip">流年</span>逢到<span class="chip">天钺</span>星，你刚好来哎倪海厦，你看我今年会不会升官，看<span class="chip">流年</span>正好逢到<span class="chip">天钺</span>，命里面没有权，但是逢到<span class="chip">天钺</span>星你会升，因为有贵人在里面，自然而然受到得到上位的赏识，然后提拔你上去，你是被提拔上去的，所以我们有的升官有两种情形，一种是送了红包，或者是去巴结，还有一种呢就是这个逢到贵人，受到贵人提携上去的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=13&t=1707" target="_blank" rel="noopener">▶ 00:28:27</a>
+<span class="badge">p13 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">迁移坐贵向贵这种人呢必有科甲，读书读得很棒，也就是说有专科技术专长，靠专业知识专长，在私人公司做事情上班，而且会掌权做主管</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=2720" target="_blank" rel="noopener">▶ 00:45:20</a>
+<span class="badge">p17 §11</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">然后上了以后如果去当官，<span class="chip">天钺</span>星就会受到重用，重用到第二个十年，34岁以后到43岁</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=614" target="_blank" rel="noopener">▶ 00:10:14</a>
+<span class="badge">p21 §3</span></div></div><h2>禄存</h2><h3>定性</h3><div class="card"><div class="q">还有一颗星呢，我们叫<span class="chip">禄存</span>，<span class="chip">禄存</span>呢同于<span class="chip">化禄</span>，那<span class="chip">禄存</span>最重要的是指的是财星，像<span class="chip">禄存</span>星在命，这种人就是标准的小气，如果你的儿子或女儿他命中有<span class="chip">禄存</span>，我告诉你啊你给他压岁钱给他零钱，他通通藏起来。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2979" target="_blank" rel="noopener">▶ 00:49:39</a>
+<span class="badge">p07 §13</span></div></div><div class="card"><div class="q">然后哪天跑出去的时候，他会这个用你的钱，他的钱还是放在袋子里面很小气那<span class="chip">禄存</span>呢本身呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3003" target="_blank" rel="noopener">▶ 00:50:03</a>
+<span class="badge">p07 §13</span></div></div><div class="card"><div class="q">如果在财帛<span class="chip">流年</span>逢到<span class="chip">禄存</span>的时候，财星都很旺事业上都会大赚钱</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3012" target="_blank" rel="noopener">▶ 00:50:12</a>
+<span class="badge">p07 §13</span></div></div><div class="card"><div class="q">你看他<span class="chip">财帛宫</span>都没有破财的星，<span class="chip">禄存</span>你看他小不小气呀，一看就知道他很小气嘛，一看就知道他很小气嘛，然后坐到你面前一看，鼻孔都看不到，这是小气鬼，那这边怎么破大财了解下，这叫做悭吝的人呐</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=15&t=1868" target="_blank" rel="noopener">▶ 00:31:08</a>
+<span class="badge">p15 §7</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">如果我们给他批八字的时候，你看他财帛跟官禄，像这个财帛是<span class="chip">禄存</span>，我们有刚刚前面介绍过，<span class="chip">禄存</span><span class="chip">化禄</span>啊<span class="chip">武曲</span><span class="chip">贪狼</span>，这都是属于大的财星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=199" target="_blank" rel="noopener">▶ 00:03:19</a>
+<span class="badge">p17 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">我们的<span class="chip">禄存</span>也是禄，是<span class="chip">化禄</span>也是禄，懂不懂我<span class="chip">化禄</span>也是禄，<span class="chip">禄存</span>也是禄</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=857" target="_blank" rel="noopener">▶ 00:14:17</a>
+<span class="badge">p21 §4</span><span class="note">cleaned</span></div></div><h3>禄马交驰</h3><div class="card"><div class="q">所以天下没有白吃的午餐，我们在算命的道理也是一样，这个财禄来的时候一定要逢到<span class="chip">天马</span>，一定是很辛苦赚来的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3031" target="_blank" rel="noopener">▶ 00:50:31</a>
+<span class="badge">p07 §13</span></div></div><h2>红鸾、天喜</h2><h3>定性</h3><div class="card"><div class="q"><span class="chip">红鸾</span><span class="chip">天喜</span>星，看到这个星呢，顾名思义就是这样<span class="chip">红鸾</span>心动嘛，所以中国人说哎呀，你<span class="chip">红鸾</span>心动这个成语是从斗数里面来的，斗数里面<span class="chip">红鸾</span>星<span class="chip">天喜</span>星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1435" target="_blank" rel="noopener">▶ 00:23:55</a>
+<span class="badge">p07 §8</span></div></div><div class="card"><div class="q">一般的<span class="chip">红鸾</span><span class="chip">天喜</span>星啊，代表喜庆的星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1449" target="_blank" rel="noopener">▶ 00:24:09</a>
+<span class="badge">p07 §8</span></div></div><div class="card"><div class="q">因为他<span class="chip">天喜</span>星是不是在旁边，诸位看右边右上角，那边是不是有天官解神<span class="chip">天喜</span>，<span class="chip">天喜</span>在这边<span class="chip">红鸾</span>星一定在对面，对吧<span class="chip">天喜</span><span class="chip">红鸾</span>星一定相对，你看<span class="chip">红鸾</span>星在这边有没有看到，那<span class="chip">红鸾</span><span class="chip">天喜</span>星牛郎织女星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=1876" target="_blank" rel="noopener">▶ 00:31:16</a>
+<span class="badge">p11 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">第一个她<span class="chip">天喜</span><span class="chip">红鸾</span>星进来，所以她第一次的婚姻是受父母之言，<span class="chip">红鸾</span>星落<span class="chip">父母宫</span>，受父母之言去结婚，所以结婚比较早，22岁以前，22岁以前</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=944" target="_blank" rel="noopener">▶ 00:15:44</a>
+<span class="badge">p17 §6</span><span class="note">cleaned〕〔已按裁决改正：父母之盲→父母之言</span></div></div><div class="card"><div class="q">如果<span class="chip">红鸾</span>星有的<span class="chip">红鸾</span>星在<span class="chip">子女宫</span>，是因为子女之命而结婚，是因为子女之命而结婚，听懂没有，有的<span class="chip">红鸾</span>星在朋友宫，那是被怂朋友怂恿的推上去就结婚了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=958" target="_blank" rel="noopener">▶ 00:15:58</a>
+<span class="badge">p17 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那<span class="chip">红鸾</span>星在<span class="chip">命宫</span>的人呢，主见比较强，我自己决定我的婚姻，那好歹不管是离婚死别还是一世夫妻，都自己可以决定</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=979" target="_blank" rel="noopener">▶ 00:16:19</a>
+<span class="badge">p17 §6</span></div></div><div class="card"><div class="q">所以<span class="chip">红鸾</span>星你如果看这个人命，一看她<span class="chip">红鸾</span>星落在哪里，你就知道这个人的婚姻，十足受到谁的左右</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=990" target="_blank" rel="noopener">▶ 00:16:30</a>
+<span class="badge">p17 §6</span><span class="note">cleaned〕〔已按裁决改正：左有→左右</span></div></div><div class="card"><div class="q">进入<span class="chip">福德宫</span>他就会结婚，结婚那你戊戌年，你看他戌年戌年这边，男孩子的话顺转，他进入第一个<span class="chip">流年</span>进入<span class="chip">大限</span>，26岁的时候就进入<span class="chip">福德宫</span>，就逢到<span class="chip">巨门</span>星带<span class="chip">红鸾</span>走了<span class="chip">夫妻宫</span>，这就叫做大小二限逢<span class="chip">红鸾</span>星，是不是走<span class="chip">福德宫</span>，然后26岁是不是刚好，逢<span class="chip">红鸾</span><span class="chip">天喜</span>又入夫妻，所以26岁的婚姻是在劫难逃</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=3074" target="_blank" rel="noopener">▶ 00:51:14</a>
+<span class="badge">p17 §12</span><span class="note">cleaned〕〔已按裁决改正：巨问星→巨门星</span></div></div><div class="card"><div class="q">这是喜神坐命的时候，这是喜神坐命的时候，会有这种现象，那<span class="chip">红鸾</span><span class="chip">天喜</span>星是永远是面对面的，永远面对面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=175" target="_blank" rel="noopener">▶ 00:02:55</a>
+<span class="badge">p19 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那第二次<span class="chip">红鸾</span>星是那个2526岁，这里隔壁是不是26岁，我这样子有没有问题吧，不会太快吧，她26岁那年刚好是不是遇到<span class="chip">红鸾</span>星，所以她第一次<span class="chip">红鸾</span>星26岁</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=377" target="_blank" rel="noopener">▶ 00:06:17</a>
+<span class="badge">p19 §2</span></div></div><div class="card"><div class="q">所以一般<span class="chip">红鸾</span><span class="chip">天喜</span>入<span class="chip">子女宫</span>的时候，大部分的都是这个先有孩子，先有孩子这个这个，没什么吧很正常，我只是讲我没有说他不好很好啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=2348" target="_blank" rel="noopener">▶ 00:39:08</a>
+<span class="badge">p19 §10</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这个<span class="chip">红鸾</span>星啊，还有<span class="chip">天喜</span>星，正常我们交会的时候，<span class="chip">红鸾</span><span class="chip">天喜</span>星在<span class="chip">命宫</span>，或者在<span class="chip">夫妻宫</span>都很好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=1952" target="_blank" rel="noopener">▶ 00:32:32</a>
+<span class="badge">p21 §9</span></div></div><div class="card"><div class="q">这个<span class="chip">红鸾</span><span class="chip">天喜</span>星在这边，<span class="chip">天喜</span>星在这里，<span class="chip">红鸾</span>星就在这里，这<span class="chip">红鸾</span><span class="chip">天喜</span>星一定是对面哈，一定在对宫啊，你如果排的不是对宫，是你排错了啊这乱排</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1142" target="_blank" rel="noopener">▶ 00:19:02</a>
+<span class="badge">p23 §7</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这<span class="chip">红鸾</span><span class="chip">天喜</span>星都没有会到，所以<span class="chip">红鸾</span><span class="chip">天喜</span>星很重要，是決定一个人喜庆的星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=2235" target="_blank" rel="noopener">▶ 00:37:15</a>
+<span class="badge">p27 §12</span><span class="note">cleaned</span></div></div><div class="card"><div class="q"><span class="chip">红鸾</span><span class="chip">天喜</span>星<span class="chip">化忌</span>，<span class="chip">红鸾</span><span class="chip">天喜</span>星<span class="chip">化忌</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=748" target="_blank" rel="noopener">▶ 00:12:28</a>
+<span class="badge">p25 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">如果她的<span class="chip">红鸾</span><span class="chip">天喜</span>星没有<span class="chip">化忌</span>，没有<span class="chip">化忌</span>哈没事哦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1958" target="_blank" rel="noopener">▶ 00:32:38</a>
+<span class="badge">p25 §8</span></div></div><div class="card"><div class="q">第一个30岁<span class="chip">天喜</span><span class="chip">红鸾</span>星来会，她30岁会结婚，她30岁会结婚，<span class="chip">天喜</span><span class="chip">红鸾</span>星落<span class="chip">父母宫</span>，所以姻缘是怎样，所以姻缘是怎样，父母亲在掌握我帮她挑的，父母亲在掌握我帮她挑的，那<span class="chip">太阴</span>跟她最近，所以她的姻缘的妈妈影响她最大</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=2389" target="_blank" rel="noopener">▶ 00:39:49</a>
+<span class="badge">p25 §10</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">到了<span class="chip">红鸾</span>星还有再进来，这个<span class="chip">红鸾</span>星进来就怎么样，太慢了，太慢了，那时候肯定说<span class="chip">红鸾</span>了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=2459" target="_blank" rel="noopener">▶ 00:40:59</a>
+<span class="badge">p25 §10</span><span class="note">cleaned</span></div></div><h3>男命</h3><div class="card"><div class="q">男人呐命带<span class="chip">红鸾</span>，你的<span class="chip">命宫</span>里面就有<span class="chip">红鸾</span>星，必招美妻女命<span class="chip">红鸾</span>呢，必有贵夫如果你替一个小孩子算命</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1462" target="_blank" rel="noopener">▶ 00:24:22</a>
+<span class="badge">p07 §8</span></div></div><div class="card"><div class="q">那命带<span class="chip">红鸾</span>的男孩子很奇怪，他是看到那个漂亮女孩子，他无法忍耐兽性大发，他不追他不行的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1504" target="_blank" rel="noopener">▶ 00:25:04</a>
+<span class="badge">p07 §8</span></div></div><div class="card"><div class="q">这个喜神逢到<span class="chip">化忌</span>，他又是男命他又不是<span class="chip">太阴</span>有没有，所以夫妻一定冲不是生离就是死别，一定完蛋</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=11&t=1890" target="_blank" rel="noopener">▶ 00:31:30</a>
+<span class="badge">p11 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那偏偏<span class="chip">红鸾</span>星在<span class="chip">夫妻宫</span>看到没有，也就是说他自己爱，他觉得这样很爽，懂不懂我意思了，爱听没听懂，那如果是命坐<span class="chip">红鸾</span>他就说，他马上想办法跟她离婚，那<span class="chip">红鸾</span>星在<span class="chip">夫妻宫</span>他认了，这就是在劫难逃了，所以主动被动的关系在这里，他<span class="chip">红鸾</span>星在这里有没有，就是他天生就喜欢，这个你就不要去管他，这是算命</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=17&t=2990" target="_blank" rel="noopener">▶ 00:49:50</a>
+<span class="badge">p17 §12</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">男人的命如果是男人的命，有红弯<span class="chip">天喜</span>星入命的人，男命的<span class="chip">命宫</span>中有红弯星或<span class="chip">天喜</span>星的，男人招美妻就是娶的太太都很漂亮</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=142" target="_blank" rel="noopener">▶ 00:02:22</a>
+<span class="badge">p19 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以如果你发现你儿子一看哎呀，我儿子的命里面有<span class="chip">红鸾</span>，你就你就发现你儿子他去追女朋友，她不漂亮的他不追，他都要看漂亮的，啊什么明星啊，他最最喜欢就跑去追了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=157" target="_blank" rel="noopener">▶ 00:02:37</a>
+<span class="badge">p19 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">34岁那年呢怎么样，<span class="chip">红鸾</span>星又进来了，因为34岁那年，刚好入这个<span class="chip">红鸾</span>星入<span class="chip">子女宫</span>，还是会再结婚，所以你逢了<span class="chip">化忌</span>，只是在结婚的对象，太太也是怎么样二婚的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=2047" target="_blank" rel="noopener">▶ 00:34:07</a>
+<span class="badge">p21 §9</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那好命的人呢，<span class="chip">红鸾</span>星到这里还动，然后还在动<span class="chip">红鸾</span>知不知道，下面那一个就是啊，娶了3个老婆真厉書</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1867" target="_blank" rel="noopener">▶ 00:31:07</a>
+<span class="badge">p23 §10</span></div></div><div class="card"><div class="q"><span class="chip">天喜</span>星在<span class="chip">福德宫</span>，一个人的福德啊，有<span class="chip">天喜</span>星或者<span class="chip">红鸾</span>星呐都是多婚，这个这个男人很羡慕他的命，这是多婚的命，所以先不用管他一看，啊<span class="chip">天喜</span>在福德，这就是主的一定主的是多婚啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=2188" target="_blank" rel="noopener">▶ 00:36:28</a>
+<span class="badge">p23 §12</span><span class="note">cleaned〕〔已按裁决改正：參婚→多婚</span></div></div><div class="card"><div class="q">他的<span class="chip">红鸾</span>星就进来，这个时候你不用看他十年，你不需要看他十年，那个<span class="chip">福德宫</span>呢，一进来的时候，逢到<span class="chip">红鸾</span>星<span class="chip">天喜</span>星他就去结婚了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=2231" target="_blank" rel="noopener">▶ 00:37:11</a>
+<span class="badge">p23 §12</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">可是你看他的妈妈第一个呢，<span class="chip">父母宫</span>，<span class="chip">天喜</span>星就进来<span class="chip">红鸾</span>，<span class="chip">天喜</span>在<span class="chip">红鸾</span>星在对面哈，<span class="chip">红鸾</span>星在这里</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=716" target="_blank" rel="noopener">▶ 00:11:56</a>
+<span class="badge">p27 §6</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">命又带<span class="chip">天喜</span><span class="chip">红鸾</span>星，太太娶得很好，太太再好还是不能解他这个灾，不能解这个灾</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=457" target="_blank" rel="noopener">▶ 00:07:37</a>
+<span class="badge">p25 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那当年<span class="chip">天喜</span><span class="chip">红鸾</span>星来会到，像这一年，男男孩子刚好反过来哈</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1085" target="_blank" rel="noopener">▶ 00:18:05</a>
+<span class="badge">p25 §5</span><span class="note">cleaned</span></div></div><h3>女命</h3><div class="card"><div class="q">那女孩子呢，命带<span class="chip">红鸾</span><span class="chip">天喜</span>星的人，一般来说长得很漂亮，长得很漂亮</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1512" target="_blank" rel="noopener">▶ 00:25:12</a>
+<span class="badge">p07 §8</span></div></div><div class="card"><div class="q"><span class="chip">红鸾</span><span class="chip">天喜</span>星坐命的女孩子她脑筋很清楚，她看得很清楚，那自然而然知道嫁谁是贵夫啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1519" target="_blank" rel="noopener">▶ 00:25:19</a>
+<span class="badge">p07 §8</span></div></div><div class="card"><div class="q">可是她眼睛不但清楚，而且还可以看到，她嫁他的时候可能现在还没什么，然后嫁给他以后，可能几年以后渐渐才好起来，她都可以看得到</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1524" target="_blank" rel="noopener">▶ 00:25:24</a>
+<span class="badge">p07 §8</span></div></div><div class="card"><div class="q">女的命啊带<span class="chip">红鸾</span><span class="chip">命宫</span>带<span class="chip">红鸾</span>，女在相书上面怎么写的，它说女招贵夫</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=19&t=130" target="_blank" rel="noopener">▶ 00:02:10</a>
+<span class="badge">p19 §1</span></div></div><div class="card"><div class="q">那你看24岁，24岁在这边，第一个就<span class="chip">红鸾</span>星就会进来，<span class="chip">红鸾</span>星就会进来，所以这个会比较早婚</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=653" target="_blank" rel="noopener">▶ 00:10:53</a>
+<span class="badge">p21 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">像她第一个<span class="chip">红鸾</span>星动的时候，25岁开始走<span class="chip">红鸾</span>星的运道，那第一个限就是26岁，她26岁那一年逢到<span class="chip">天喜</span>星，对面是<span class="chip">红鸾</span>星动，衰乙卯那<span class="chip">天喜</span><span class="chip">红鸾</span>星来会，她从26岁就会结婚，因为没有杀星知不知道，没有杀星就会结婚</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=21&t=1227" target="_blank" rel="noopener">▶ 00:20:27</a>
+<span class="badge">p21 §6</span></div></div><div class="card"><div class="q">她说她<span class="chip">天喜</span><span class="chip">天喜</span><span class="chip">红鸾</span>星还有来会啊，这是会有来会，这是第二次而不是第一次啊，不会第一次，第二次婚姻喽</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1174" target="_blank" rel="noopener">▶ 00:19:34</a>
+<span class="badge">p23 §7</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">42岁是不是还有<span class="chip">天喜</span><span class="chip">红鸾</span>星来会，可是她就住在这个位置上了之后，就就不会了懂不懂，就不会结婚的了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1394" target="_blank" rel="noopener">▶ 00:23:14</a>
+<span class="badge">p23 §8</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">她的<span class="chip">红鸾</span>星一直不会动啊，为什么因她一直住西北角啊，如果没有改的话，她就是喜欢这样子，然后都不会有，都不会有成就，所以说<span class="chip">红鸾</span>星如果过了32岁，我们没有让她<span class="chip">红鸾</span>星动的话，她<span class="chip">红鸾</span>星就不会动了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1847" target="_blank" rel="noopener">▶ 00:30:47</a>
+<span class="badge">p23 §10</span></div></div><div class="card"><div class="q">那像这个<span class="chip">红鸾</span>星，女孩子的话要比较辛背，过了3233那个<span class="chip">化忌</span>，不可能有<span class="chip">红鸾</span>星，你十年<span class="chip">化忌</span>嘛对不对，<span class="chip">化忌</span>就<span class="chip">红鸾</span>星就没有了，所以婚姻非常不好，事业很好的一个人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=23&t=1876" target="_blank" rel="noopener">▶ 00:31:16</a>
+<span class="badge">p23 §10</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">25岁26岁在<span class="chip">天喜</span><span class="chip">红鸾</span>星来会，因为她正好进入什么<span class="chip">夫妻宫</span>，因为她正好进入什么<span class="chip">夫妻宫</span>，<span class="chip">太阳</span>星在里面对不对，她的26岁那年，是不是刚好<span class="chip">天喜</span><span class="chip">红鸾</span>星来会，这<span class="chip">天喜</span>在<span class="chip">红鸾</span>星在这个地方，<span class="chip">红鸾</span>星在这里，诸位看看那个八字的格，诸位看看那个八字的格，是不是在这里，是不是在这里，在这<span class="chip">夫妻宫</span>在这里对不对，因为刚好十年大运进入夫妻，因为刚好十年大运进入夫妻，她<span class="chip">红鸾</span><span class="chip">天喜</span>星来会，所以她26会结婚</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=1217" target="_blank" rel="noopener">▶ 00:20:17</a>
+<span class="badge">p27 §8</span><span class="note">cleaned〕〔已按裁决改正：夫妻官→夫妻宫</span></div></div><div class="card"><div class="q">诸位注意看她的<span class="chip">红鸾</span><span class="chip">天喜</span>星，落的位置非常的不好对不对，你看她的<span class="chip">流年</span>是往下走，结果<span class="chip">红鸾</span><span class="chip">天喜</span>星走在那边，第一次会到的时候是，那更不用结婚嘛，那我们在看到哎奇怪</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=27&t=1807" target="_blank" rel="noopener">▶ 00:30:07</a>
+<span class="badge">p27 §11</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">诸位看到她<span class="chip">红鸾</span><span class="chip">天喜</span>星在哪里，这就麻烦就在这里，<span class="chip">天喜</span><span class="chip">红鸾</span>星刚好在这里，命带<span class="chip">天喜</span><span class="chip">红鸾</span>，如果女孩子她的命没有<span class="chip">天喜</span><span class="chip">红鸾</span>，她的<span class="chip">天喜</span><span class="chip">红鸾</span>星在夫妻，不对不对在父母，或者在兄弟，或者在别的朋友啊，问题是她的命带<span class="chip">红鸾</span><span class="chip">天喜</span>星，一定会结婚</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=29&t=363" target="_blank" rel="noopener">▶ 00:06:03</a>
+<span class="badge">p29 §2</span><span class="note">cleaned</span></div></div>
+<footer>本站内容为倪海厦先生《天纪》课程判语的结构化整理，每条均可回放原视频核对。<br>
+课程内容著作权归倪海厦先生及其权利继承人所有；字幕整理致谢 B 站 UP 主程心学。<br>
+内容属文化研究与学习资料，不构成医疗、投资或人生决策建议。语料 CC BY-NC-SA 4.0。</footer>
+</div><script>
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('chip')){
+    location.href='index.html#s='+encodeURIComponent(e.target.textContent);
+  }
+});
+if(location.hash.startsWith('#s=')){
+  const k=decodeURIComponent(location.hash.slice(3));
+  const q=document.getElementById('q');
+  if(q){const t=setInterval(()=>{if(!q.disabled){q.value=k;q.dispatchEvent(new Event('input'));
+    clearInterval(t);q.scrollIntoView({behavior:'smooth'})}},100)}
+}
+</script></body></html>

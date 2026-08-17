@@ -1,0 +1,276 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>10 占断 · 天纪</title><style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1a1d21;--muted:#6b7480;--line:#e3ded3;
+--accent:#b04a3e;--accent2:#2e7d5b;--gold:#8a7a63;--chip:#f0ece3}
+@media(prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1c1f23;--ink:#e8e6e1;
+--muted:#9aa3ad;--line:#2c3037;--chip:#24282e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;gap:18px;height:58px}
+.logo{font-weight:700;font-size:17px;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:16px;font-size:14px;color:var(--muted);margin-left:auto;flex-wrap:wrap}
+nav a:hover{color:var(--accent)}
+h1{font-size:26px;margin:28px 0 6px;letter-spacing:.5px}
+h2{font-size:19px;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:22px 0 10px;color:var(--gold);font-weight:600}
+.sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+transition:.15s;display:block}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile .n{font-size:12px;color:var(--muted);letter-spacing:1px}
+.tile .t{font-size:16px;font-weight:600;margin:3px 0 5px}
+.tile .d{font-size:12.5px;color:var(--muted);line-height:1.5}
+.tile .c{font-size:12px;color:var(--accent);margin-top:8px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+border-radius:8px;padding:14px 16px;margin:10px 0}
+.card .q{font-size:15.5px;line-height:1.95;letter-spacing:.2px}
+.card .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:12px}
+.badge{background:var(--chip);color:var(--muted);border-radius:5px;padding:3px 8px}
+.play{background:var(--accent);color:#fff!important;border-radius:5px;padding:3px 10px;font-weight:600}
+.play:hover{opacity:.85}
+.crumb{color:var(--muted);font-size:12px}
+.note{color:var(--accent2);font-size:11.5px;background:var(--chip);border-radius:5px;padding:3px 8px}
+.chip{display:inline-block;background:var(--chip);border-radius:4px;padding:1px 5px;
+font-size:13px;color:var(--accent);cursor:pointer;margin:0 1px}
+.chip:hover{background:var(--accent);color:#fff}
+.seg{border-left:2px solid var(--line);padding:2px 0 2px 16px;margin:22px 0}
+.seg .st{font-size:14px;font-weight:600;margin-bottom:2px}
+.seg .stime{font-size:12px;color:var(--muted)}
+#q{width:100%;padding:11px 14px;font-size:15px;border:1px solid var(--line);border-radius:8px;
+background:var(--card);color:var(--ink);font-family:inherit}
+#q:focus{outline:none;border-color:var(--accent)}
+.stat{display:flex;gap:26px;flex-wrap:wrap;margin:14px 0 6px;font-size:13px;color:var(--muted)}
+.stat b{color:var(--ink);font-size:19px;font-weight:700;display:block}
+footer{margin:60px 0 30px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--muted);font-size:12.5px;line-height:1.9}
+mark{background:#ffe9a8;color:#1a1d21;border-radius:2px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">天<span>纪</span>·倪海厦讲课judgment库</a>
+<nav><a href="index.html">总览</a><a href="index.html#books">十一册</a>
+<a href="index.html#units">课程</a>
+<a href="https://github.com/Renhuai123/nihai-tianji-corpus" target="_blank" rel="noopener">GitHub</a></nav>
+</div></header><div class="wrap"><h1>10 占断</h1><p class="sub">金钱卦 / 测字 / 六神 / 小六壬 · 共 100 条</p><h2>金钱卦</h2><div class="card"><div class="q">我们课里面会教金钱卦，那准准确到什么程度，诸位以后自己拿去假设我是对的，诸位去验证，那验证了满头大汗吓死人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=2&t=277" target="_blank" rel="noopener">▶ 00:04:37</a>
+<span class="badge">p02 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">我们大部分我们是用的是金钱卦，那外面呢米卦，或者是这个用叶子啊或者什么样，反正不管他用什么方法，基本上的目的就是希望说，从一些外面的一些机锋，外面的一些事情来提醒我们，然后我们看他是用哪个卦，然后可以事先知道很多的事情，那易经如果你只是把它用到占卜，就太小看它了，它占卜只是它一个部门小部门而已</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2530" target="_blank" rel="noopener">▶ 00:42:10</a>
+<span class="badge">p06 §5</span></div></div><div class="card"><div class="q">诸位第一个心要诚，第二个诸位准备一个竹筒，这个自己去弄个竹筒也可以，到外面去买一个也可以，里面呢一般来说我用铜板放在里面，那过去有人用古钱，那种制钱啊什么的都没有关系就用铜板，因为我用了它用了多少年，那几乎是非常的非常的精准，那我们来设定的时候，一般人头面的部分是阳，这个5块钱的后面是阴，数字的部分是阴，所以一个铜板就分阴阳，那我们准备六个铜板，六个铜板在这六个铜板</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2719" target="_blank" rel="noopener">▶ 00:45:19</a>
+<span class="badge">p06 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那在摇的时候呢，我们放到桶子里面摇，上下这样摇，那千万不要这样摇，你这样摇钱都飞出去了，那有的女孩子比较粗鲁，一撒钱也这样飞出去，都有各种状况我们都看过，摇的话差不多平均要摇5下6下以上，因为我们要撒成六个课在动，六个铜板在动</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2762" target="_blank" rel="noopener">▶ 00:46:02</a>
+<span class="badge">p06 §5</span></div></div><div class="card"><div class="q">卜完撒完以后诸位用顺序，比如说这样子，它顺序不好，这个卦就作废，你不要去看它，根本不要去管它重来过，我们卜出来的卦哈，最好是这样一排，有没有一排，看到一排一排读的时候，我们是上面是上这个是下，由下往上看，就是排出来就是你的卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2784" target="_blank" rel="noopener">▶ 00:46:24</a>
+<span class="badge">p06 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">从下往上直接走，然后你看到第一个是，比如现在第一个是人头，人头的话就是阳，后面五块钱就是阴，叫阳阴阴有没有阳阳阴，看到没有六个爻就出来了，这是分开两边用铜板这样子这样子撒，诸位看懂了哈，这种卜筮起课的时候，我们这有个专有名词，它叫做起课起一个课</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2829" target="_blank" rel="noopener">▶ 00:47:09</a>
+<span class="badge">p06 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">诸位看这个占啊，卜卦的时候，如果你的金钱卦一到山火贲，一看哎呀有一个这个雨在这边下，左边雨左左上角雨在那边下，然后车在路上行，舟张帆在江中，官人着公服在登梯，仙女云中执桂，整个是一个图，读图图在里边，第一个雨下呢，雨在下代表满，满潮了嘛满也，代表成也成功了代表润下，润泽受到滋润的意思，第二个呢舟张帆在江中，这个船呢会拉开帆的话，一定是顺风而行，顺风而行代表说此行的大利</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=24&t=1470" target="_blank" rel="noopener">▶ 00:24:30</a>
+<span class="badge">p24 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">如果真要真不要骗你的，两三句话就讲完了，那君王之剥的时候处剥如何用，易经叫做贯鱼贯鱼，那什么叫贯鱼，你自己看我写的天纪，不教看书不然花钱买啊，大家买的话我给你编个号，编个号我等会我可以跟你说明嘛，第一个，啊这边丢个铜板，看看我今年做生意好不好，第一个妇人床上坐，妇人床上坐代表阴人得势，如果你是太太一，一定是你婆婆在那边作怪阴人得势，如果你是当官的，一定代表上面有阴人在作择</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=24&t=2448" target="_blank" rel="noopener">▶ 00:40:48</a>
+<span class="badge">p24 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">如果得不到一些好处的话，就要去打回家去打他老婆啊，无缘禿故就打，但他每一个老婆都安安静静，标准的贤妻良母，然后她也不晓得为什么打，为什么打她，就没事在那边打没事在那边打，要离婚离婚可以啊，你绐我三亿呀，你就知道这是他的显现出来了，好来找我怎么办，拿铜板一丟雷山小过你看哦明月当空</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=42&t=2249" target="_blank" rel="noopener">▶ 00:37:29</a>
+<span class="badge">p42 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">还有读什么经我不知道啊，一个人在岸山，一个人在岸上，人立在水边呢泣哭泣呀，泣也等待也，在那边等待等待时杌等待时机，无目的没有目的，你看那个像不像我在那里，第二个一个船来，有接引接引，第三个呢一雄钱，代表财禄无用，那可能是都是铜板了，偷也太重了财禄无用，当然前面我们也常常介绍了忧心忡忡，忧心忡忡忧心的样样子，那财禄在地上呢也有窃象招窃的象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=42&t=3100" target="_blank" rel="noopener">▶ 00:51:40</a>
+<span class="badge">p42 §5</span></div></div><div class="card"><div class="q">我们这次在美国的医学院，医学中心呢，盖起来是中国的四合院，就是求贲之道，让别人站在外面，就看到里面我们在干什么，我们就知道我们会干什么了，我们宁可拿这个广告费拿去盖房子，求贲道而不必去打广告，因为这种东西要嘴巴去宣扬的，你自己去讲是有什么用，这是贲之道，占卜，诸位看这个占卜啊，卜卦的时候，如果你的金钱卦一，卜到山火贲，一看哎呀有一个这个雨在这边下，左边雨左左上角雨在那边下，然后车在路上行，舟张帆在江中，官人着公服在登梯，仙女云中执桂，整个是一个图，读图图在里边，第一个雨下呢，雨在下代表满</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=25&t=442" target="_blank" rel="noopener">▶ 00:07:22</a>
+<span class="badge">卦22 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那猪眼最会骗人的，就是眼珠子这样子哈，黑黑珠子旁边都是血丝黄黄血，这是大骗子嘛，真的你就睁着眼给骗，像我看到不用谈了走了，给你听多了就给骗了，所以君子要自简刚中啊，山水蒙啊跟你讲，就是讲话两三句话就讲完了，你为什么要讲很多名词讲了半天，我讲很多就是这样想我要骗你懂不懂，如果真要真不要骗你的，两兰句话就讲完了，那君王之剥的时候处剥如何用，易经叫做贯鱼贯鱼，那什么叫贯鱼，你自己看我写的天纪，不教看书不然花钱买啊，大家买的话我给你编个号，编个号我等会我可以跟你说明嘛，占卜第一个，占卜啊这卜卦，啊这边丢个铜板</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=26&t=666" target="_blank" rel="noopener">▶ 00:11:06</a>
+<span class="badge">卦23 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">他一旦在他他岳父的公司里面，如果得不到一些好处的话，就要去打回家去打他老婆啊，无缘无故就打，但他每一个老婆都安安静静，标准的贤妻良母，然后她也不晓得为什么打，什么打她，就没事在那边打没事在那边打，要离婚离婚可以啊，你给我三亿呀，你就知道这是他的显现出来了，好来找我怎么办，拿铜板一丢，雷山小过你看哦，明月当空，包青天头上的月亮代表司法公正第二个呢，林下一人看到没有，一个女的不是掉到网里面嘛</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=65&t=292" target="_blank" rel="noopener">▶ 00:04:52</a>
+<span class="badge">卦62 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">还有读什么经我不知道啊，占卜一个人在岸上，人立在水边呢泣哭泣呀泣也等待也，在那边等待等待时机，无目的没有目的，你看那个像不像我在那里，第二个一个船来，有接引接引，第三个呢一堆钱，代表财禄无用，那可能是都是铜板了，偷也太重了财禄无用，当然前面我们也常常介绍了忧心忡忡，忧心仲忡忧心的样样子，那财禄在地上呢也有窃象招窃的象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=66&t=399" target="_blank" rel="noopener">▶ 00:06:39</a>
+<span class="badge">卦63 §2</span><span class="note">cleaned</span></div></div><h2>卜筮原则</h2><div class="card"><div class="q">他那个图不但可以用在占，诸位呢卜筮呢一件事情，所以卜筮有时机，诸位学了易经以后，什么事都要讲时机的，什么时候要用占卜要卜筮，叫做卜以決疑不疑何卜，当你有疑虑的时候，再去卜卦你不疑你不要随便乱卜啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=4&t=1477" target="_blank" rel="noopener">▶ 00:24:37</a>
+<span class="badge">p04 §5</span></div></div><div class="card"><div class="q">那文王就在地上画个圈，我就让你站在里面，他叫画地为牢，等我打猎回来我再来审，那武吉就站在里面不敢动啊，为什么不敢动你知道当时文王，他为什么不需要设牢房，因为文王会卜卦你要跑了，你如果真的要跑掉没关系，我卜个卦就知道你躲到那里，把你抓回来抓回来就不要问了，斩结果就是斩，那你不跑说不定还有一条生路对呀，所以他不需要牢因为根本跑不掉，他不需要牢所以历史上说文王多多强，其实文王会卜卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=2&t=239" target="_blank" rel="noopener">▶ 00:03:59</a>
+<span class="badge">p02 §1</span></div></div><div class="card"><div class="q">这个占呢是断事断一件事情</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=2&t=829" target="_blank" rel="noopener">▶ 00:13:49</a>
+<span class="badge">p02 §3</span></div></div><div class="card"><div class="q">那卜卦测字都可以知道，就我们需要很多工具，算命的时候我会跟诸位介绍很多工具，测字啊卜筮很多东西为什么，就是帮助我们算命不足的地方，所以我们需要很多的工具，其他的工具来辅助它</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=2&t=3727" target="_blank" rel="noopener">▶ 01:02:07</a>
+<span class="badge">p02 §8</span></div></div><div class="card"><div class="q">那包括在我们这里相门啊，我一再跟诸位讲，所以有的客户上来的时候，或者你的朋友你要帮他之前，先观色观他的气色到底是什么样子，然后再卜卦再来做加减</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2586" target="_blank" rel="noopener">▶ 00:43:06</a>
+<span class="badge">p06 §5</span></div></div><div class="card"><div class="q">家里面辟一个静室，这个房间完全没有就是一个书房，很安静的没有人住在里面的，然后里面点香，然后沐浴更衣以后，然后坐在那边打坐以后再卜卦，诸位呢我们个人呢认为形不重要，我们重在心，心要怎么样诚，心诚你甩出来的卦非常的准</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2628" target="_blank" rel="noopener">▶ 00:43:48</a>
+<span class="badge">p06 §5</span></div></div><div class="card"><div class="q">卜卦的时候是问鬼神，不要随便弄它我个人呢，一天卜卦的时候我不超过三个，不超过三个，那看決定重大的事情的时候，我们才会用到卜筮，卜筮的时机呢它的时机，卜筮在什么时候需要卜，卜呢只是一个功能，決定这件事情断事用的，所以我们是卜以决疑不疑呢何，如果没有疑虑的时候不用去卜它</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2656" target="_blank" rel="noopener">▶ 00:44:16</a>
+<span class="badge">p06 §5</span></div></div><div class="card"><div class="q">那过去我们古人起课的时候，非常的慎重，非常的慎重不会乱起课，第一个是有必要的时机，第二个是一定是心无杂念的起课，千万不要玩哦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2856" target="_blank" rel="noopener">▶ 00:47:36</a>
+<span class="badge">p06 §5</span></div></div><div class="card"><div class="q">不知进退那晚上呢，晚上深更半夜在那边卜啊，他来我这边喝茶，就在下卜的结果都很准啊，就在卜卜的结果都很准啊，然后他还要卜到第三个，我说不要卜了，晚上拿这个不要玩嘛，他说不行他说晚上没关系的，哎这个我们玩啊，那个晚上两点多，你知道他问什么他问说，我们周围还有什么人，卦就一丢6个铜板是反面的阴--的，然后他赶快夹尾巴逃走了那我呢，我一个人在这边了看看这个混蛋，对不对然后到下次从此以后我不要他卜，我也不给他卜，你在玩搞什么嘛，不可以哦这是尊重它，要尊重它不可以这样做</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=6&t=2873" target="_blank" rel="noopener">▶ 00:47:53</a>
+<span class="badge">p06 §5</span><span class="note">已按裁决改正：都很淮→都很准</span></div></div><div class="card"><div class="q">这个卦如果遇到卜筮的时候，这个我们要给客人这样解释，你看我们在卜筮讲这个占的时候哈，它都很分散，一个象有很多种解释，決定在看你卜什么事情，那客人在问你的时候你卜，各方面都可以到，但你如果比如说卜婚姻呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=8&t=1036" target="_blank" rel="noopener">▶ 00:17:16</a>
+<span class="badge">p08 §3</span></div></div><div class="card"><div class="q">所以如果卜筮的时候，我们要看他卜什么事情</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=8&t=2752" target="_blank" rel="noopener">▶ 00:45:52</a>
+<span class="badge">p08 §6</span></div></div><div class="card"><div class="q">卜卦可以断事也可以帮助人家，否则你是光是卜卦你又不会解，讲完他还是没有，那你怎么办呢，他来找你事情是很准的，问题是于我无补啊，对不对我们要有很好的化解的方法</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=8&t=2795" target="_blank" rel="noopener">▶ 00:46:35</a>
+<span class="badge">p08 §6</span></div></div><div class="card"><div class="q">初筮告他来问你，你告诉他了讲完了，什么叫再三渎，他一再反复的重复问你同样的问题，就是他就是蒙懂不懂他没有懂，你讲了他没有收到，有个小姐来问我倪海厦，你看我今天考试可不可以上，上我就讲完了，是不是讲完了，她没有收到，她说为什么会上，分还问还为什么上，你了解我意思吧，凶你今天说的赔钱，讲完了那为什么会赔钱，你讲再三渎，一件事情重复的在那边问你，就是没有弄懂，那渎了遇到这种情形的时候渎则不告，他如果反渎的时候，你不要告诉他，利贞而且要坚心的不告诉他，所以我常常跟客人讲，我回答你一次哦，讲完了第二次你再问同样问题反渎，我前面讲你没收到，这是易经发蒙之道，而且要坚心</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=10&t=3167" target="_blank" rel="noopener">▶ 00:52:47</a>
+<span class="badge">p10 §6</span></div></div><div class="card"><div class="q">易经告诉我们去蒙要刚中，我说小姐没关系不搬，今年先生你先生还要死，啊我先生要死对，她就话题就展开来了，你懂不懂我意思，这没有办法，但是跟她讲，她还是选择原地踏步啊，所以诸位要去蒙之道要学会，易经在告诉我们，要以刚中也讲一次讲完了，不要讲第二次，我是好心讲了第二次，她就开始打转你看看，叫做就变成渎蒙了，所以初筮告刚中也吉，再告不中也懂不懂，再告她就不收没收到了，就开始蒙了，我所以你看我平常每次诸君，很多人来找我算过命，我每次在讲你去住西北去住西北，我跟你每个人都讲地天泰乾为天了，然后还要解释易经给你听我欠你的，批你个八字要三个月，我才不批嘞对不对，那多累啊对不对</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=16&t=2860" target="_blank" rel="noopener">▶ 00:47:40</a>
+<span class="badge">p16 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">结果一去的时候，他人出门我在后面下个卦，哎呀山泽损，目前无指望所求不成，哎他出门去签，我才哎卜以决疑哈，你不要让他在出门前就下，他出门前卜完他就去就没心情了，象就没有出现了，懂不懂我意思，你让他走了以后他去签了，山泽损我说他不成，哎回来没过啊，我说他没过他很难过，我说没有关系再去，再次求必一定会胜，好了隔了15天再去啊，一签就过了，同样的资料同样的东西，一签就拿两五年的，也不知道为什么，只是因为山泽损，像我们要第二次去，所以目前事不成，真的有道理，当当然这个是目前事不成，因为这个事情本来事们就，就有这个解释在里面，阳宅部分呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=32&t=3165" target="_blank" rel="noopener">▶ 00:52:45</a>
+<span class="badge">p32 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这是发蒙之道，诸位这个怎么解释啊，小孩子的蒙叫做童蒙，你会发现你的儿子女儿，你看他他如果他可以问你，他会他现在心里想，我要一杯牛奶，我他就来找你，然后你跟他扯了半天，把他心引到引到旁边来，他回来还是我要牛奶，童蒙这句话叫他坚心坚心呐，匪我求童蒙，童蒙来求我，不是我要去找这个小孩子啊，而是小孩子他童蒙，这是最好的蒙，最好启蒙的就是童蒙，后面还有很多种蒙哦，它把笨蛋分很多种，小孩子是张白纸嘛，童蒙来求我小孩子来找你，他心无城府心里面平常心，他觉得他不懂他就要问你，他就一直在问一直在问，童蒙这个最好启蒙，你就告诉他启蒙，那有一种呢，初筮告他来问你</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=7&t=273" target="_blank" rel="noopener">▶ 00:04:33</a>
+<span class="badge">卦04 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">你告诉他了讲完了，什么叫再三渎，他一再反复的重复问你同样的问题，就是他就是蒙懂不懂他没有懂，你讲了他没有收到，有个小姐来问我倪海厦，你看我今天考试可不可以上，上我就讲完了，是不是讲完了，她没有收到，她说什么会上，还问还为什么上，你了解我意思吧，你今天说的赔钱，讲完了那为什么会赔钱，你讲再三渎，一件事情重复的在那边问你，就是没有弄懂，那渎了遇到这种情形的时候渎则不告，他如果反渎的时候，你不要告诉他，利贞而且要坚心的不告诉他，所以我常常跟客人讲，我回答你一次哦，讲完了第二次你再问同样问题反渎，我前面讲你没收到，这是易经发蒙之道，而且要坚心</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=7&t=328" target="_blank" rel="noopener">▶ 00:05:28</a>
+<span class="badge">卦04 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">不要讲第二次，我是好心讲了第二次，她就开始打转你看看，叫做就变成渎蒙了，所以初筮告刚中也吉，再告不中也懂不懂，再告她就不收没收到了，就开始蒙了，我所以你看我平常每次诸君，很多人来找我算过命，我每次在讲你去住西北去住西北，我跟你每个人都讲地天泰乾为天了，然后还要解释易经给你听我欠你的，批你个八字要三个月，我才不批嘞对不对，那多累啊对不对，有没有去住，有没有福气嘛，这就是我们为难的地方，所以我常常会跟她说哎，先生运掌握在你手上，运嘛你看我你知道我脑筋还算是，总是算命的还算不错了，国文还是是56分还可以了，我就讲运嘛命运的运嘛，《礼记》里面的礼运大同篇有没有，我常常跟人家讲，长幼有序嘛，运在这里嘛，所以才要人各安其位各得其位就是礼啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=14&t=1867" target="_blank" rel="noopener">▶ 00:31:07</a>
+<span class="badge">卦11 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">空左边上面有文书，有再告两个字对不对，再告就是再次去求，第二次求才好，当然后面时间比较短暂，剩下一两分钟我们举个例，有一次我们一个学生呢，要到美国去办美国签证，结果一去的时候，他人出门我在后面卜个卦，哎呀山泽损，目前无指望所求不成，哎他出门去签，我才哎卜以决疑哈，你不要让他在出门前就卜，他出门前卜完他就去就没心情了，象就没有出现了，懂不懂我意思，你让他走了以后他去签了，一下山泽损我说他不成，哎回来没过啊，我说他没过他很难过，我说没有关系再去，再次求必一定会胜，好了隔了15天再去啊，一签就过了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=44&t=642" target="_blank" rel="noopener">▶ 00:10:42</a>
+<span class="badge">卦41 §2</span><span class="note">cleaned</span></div></div><h2>测字</h2><div class="card"><div class="q">还有些测字论字，字呢也是要按照象来批的，也是按照易经的象来批的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=2&t=3265" target="_blank" rel="noopener">▶ 00:54:25</a>
+<span class="badge">p02 §8</span></div></div><div class="card"><div class="q">按照象批哦，你们如果读书就看到福就是福了嘛，按照象批就不是这样了，我说你你有没有认识警察警界的人，他说为什么，你弟弟可能在牢里你要去看他，喔这个福跟牢有什么关系，对不对这就是象，这个福的部首是一个，加一点变成礻部首都一样，换句话说很多人穿着同样的衣服，口在中间吃饭前面一个铁门，后面一个铁窗你看那不是牢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=2&t=3329" target="_blank" rel="noopener">▶ 00:55:29</a>
+<span class="badge">p02 §8</span></div></div><div class="card"><div class="q">有一个人来找你测字，倪先生你看看我妈妈重病，你看看有没有，有没有活命的希望，我说啊那你写个字来好了，一哎呀糟糕，生的尽头死的开始有没有，是不读一完了，象就出现了，所以诸位看一些事情，1我们可以推演到任何的地方去，所有的东西测字卜卦，或者说周围的事都是一个机一个机啊，一个机锋就已经老天爷在提醒你了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=12&t=1502" target="_blank" rel="noopener">▶ 00:25:02</a>
+<span class="badge">p12 §3</span></div></div><div class="card"><div class="q">可以用到所有的东西解释它，有很多人写咒，我我测字给你看，是哭哭哭字的首，號（号）角的號（号），號（号）的尾巴，是不是这样的，你在那边念咒，我听到是鬼哭神嚎，鬼哭啊神嚎，那我们把易经的易拿出来测，易是日当头，<span class="chip">太阳</span>在正中间，回头重勿了这个勿呢是易之尾，如果你正大刚直刚正光大，你的结尾是的，全天下事情变简单了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=16&t=1761" target="_blank" rel="noopener">▶ 00:29:21</a>
+<span class="badge">p16 §3</span></div></div><div class="card"><div class="q">两个没有相交的交，那天地相交了，有了天有了地以后，人呢是万物之万物之首，所以就看到天人地，所谓的三才，诸位我们介绍的就是三才，算命测字卜卦都是属于天，看阳宅地理位置，还有人间道，待会我会介绍人间道，所以人间道加上地理位置，加起来就是什么2/3，就会大于天命，这是最合理最合逻辑，最合科学解释的一个，那易经的本文呢，叫做否之匪人，这个字就是否之道呢，否的道非人道，不是人君之道不是正道</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=18&t=324" target="_blank" rel="noopener">▶ 00:05:24</a>
+<span class="badge">p18 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">去做事就好了像那个人，她来跟你讲就是示好，你看我多关心你，我把所有事都告诉你，这叫做做人你懂不懂，不是做事，像你的邻居如果她去菜市场，买了很好的青菜，哎陈太太啊我看到你，这青菜我买个送给你，因为我知道你没时间去，讲完就走了这叫做事，做人的人就在搬弄是非，那很多我看过算命，看过非常多的人，都是三人言成虎，就是被人本来泰被被人家害成否，那这种人这个这个功德，功德无量哦，还有测字，你看他写一个金跟一个竟，有没有中间是破裂的，很简单叫做竟金了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=18&t=1442" target="_blank" rel="noopener">▶ 00:24:02</a>
+<span class="badge">p18 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">跟你离多会少有什么关系，会是不是这样子开头的，离这边是不是禽的下面呢，这笔画是不是比较多，会是不是只有两画在上面，所以禽的象出现的时候就是聚少散多，你晚上睡觉老师哎，我为什么昨天晚上做梦，梦到两只脚的鸭子聚少散多，象就出现有远离六亲的象，所以我们测字啊，要读不要读字要读图，懂不懂我意思读图</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=24&t=774" target="_blank" rel="noopener">▶ 00:12:54</a>
+<span class="badge">p24 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">对婚姻非常的不好，所以如果你住在这复卦上面，赶快去搬搬珴，赶快去搬搬哦，赶偰去搬搬哦，要武职大利，但是利发武职，有没有什么疑间，所以诸位看我们解图上面卦，易经上面图的字的时候，测字也是一样的哦，了解我意思吧测字抓机锋，懂不懂我意思抓杌锋啊抓机锋啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=24&t=4152" target="_blank" rel="noopener">▶ 01:09:12</a>
+<span class="badge">p24 §4</span></div></div><div class="card"><div class="q">一人到个天雷无妄，一卜到个天雷无安，会赚钱但是你要小心心，你的合伙人是属什么，一个属老鼠一个属猪，完了你要小心哦，这两个有阴谋在里面，黑心的你不要以为猪是笨的哈，在诸位在易经上面看到，或者是在这个做梦梦到，不管什么事情，甚到至于事情发生的时候，你看到一个外面的象，都是属于机机锋，包括病客人来找你测字，客户来找你写测字啊，或者做什么，都是一个机锋，都是—个机锋，比如说有人来问你事情，哎倪先生这个，我这次到大陆投投投资好不好，刚好你们他在问你的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=26&t=395" target="_blank" rel="noopener">▶ 00:06:35</a>
+<span class="badge">p26 §1</span></div></div><div class="card"><div class="q">像写字就可以看出来，像有的字写字出来一下，你看我一直下来，有没有写勾，那是故意的习惯，里面写个勾，所以如果测字测我们，测不准的懂不懂我意思，当然测不准嘛，什么为什么叫做火风鼎鼎卦，火风鼎前面是泽火革革啊革，革是改变的意思，那世界上革物把物品革开来，就是鼎最大超不过鼎莫如鼎啊，为什么鼎最大，中国人过去把那个鼎呐，食物米啊放在里面，那个鼎的角在下面撑到，这个下面是火上面是水，那水和火本来是不容的，可是这个鼎在中间</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=38&t=1" target="_blank" rel="noopener">▶ 00:00:01</a>
+<span class="badge">p38 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">当然侯姓也是了，如果猴执文书，候待公文呐，等在那边准等待命令，公文候待公文命令至，等到等待命令到来第三个呢官吏执镜，代表清明之大官人，那测字的时候要记得有同音，如果是商机，如果来卜商机啊，这个商机这个镜就变成什么，競（竞）争的競（竞）一样了，变成競（竞）争的競（竞）卜镜，三人那个绳相系缚在一起，就是三个人都受牵累招诉讼，三人受牵累，三人牵连啊，这一定会招到诉讼</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=38&t=2001" target="_blank" rel="noopener">▶ 00:33:21</a>
+<span class="badge">p38 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">有一个人呢，这个来找个测字师测字仙呐，她说你看看我先生呐，这个三年都没有就出门经商了，怎么他到南洋去，人家都回来他怎么没有回来，都没有消息，还是说啊你写个字来，她写一个豐（丰），她写一个豐（丰），哎呀你可以替你先生安葬了，他不会回来为什么，因为这是山嘛，上面有很多树木嘛，一个回在那边一个豆在那口是什么，这个是一个地上面，正面一个香炉，上面一个香炉，上面插着香在上面烧，整个是一个坟墓的象，第三个官人呢着衣，官人着衣裳站在那边</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=40&t=490" target="_blank" rel="noopener">▶ 00:08:10</a>
+<span class="badge">p40 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">六神占断法，诸位上次学到是六壬对不对，六壬我们算子女有六甲，这个很多哎六神这个东西哦，是我们一般来说我们的，在帮人家算命的时候，过去的相师啊，在帮人家算命的时候呢，都是放到肚子里面不讲出来，直接用这个去背断，因为讲出来也是鸡同鸭讲，但是应用的非常的广，但不这个六神占断法，我们可以用应用在堪舆学上面，就是我们看来龙的时候也可以，我们看相的时候也可以，看你的相的时候，还有看你的动作也可以，还看脸上的纹路也可以，看你的手纹也可以，看测字都可以，都逃不了这个六神，哎诸位基本上有一个基基础了以后</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=6" target="_blank" rel="noopener">▶ 00:00:06</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">遇到青龙都是最好的象主大吉，你看那那个包括，如果我们把大到山川河流，一个山势来龙是怎么样，或者是一捺一个捺出去，很有力的一个捺出去没有断落，没有断落都是属于青龙，那朱雀的形呢是交叉的交叉形的，那有时候我们出去青龙自虎的时候，是交叉出去的，就是所谓的朱雀，那你来找我测字，你说哎老师啊我我，你看我今年考试可不可不可以考上，你来说啊你写个叉，交叉有没有朱雀，朱雀你看看朱雀主的是什么，朱雀的背断，朱雀的占断，朱雀交叉多口口香多，令人家肉不安和，若逢水命方无怪，他命逢时有怨疴</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=293" target="_blank" rel="noopener">▶ 00:04:53</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">这种就是所谓真的青龙啊，百世亨通子孙非常的好造福很厚，那比如说我们这个，大到风水小到一件事，比如说有个人来测字，那没有结婚没有小孩啊，他说我我看看我这个将来怎么办，那过去测字的人呢，师傅啊有很多种方法，有的人是把字写好放在你来抽哦，这个对测字家比较好比较方便，因为他的他的字都知道对不对，你放一千个字你三方测，大概字字的肉容字迹都知道，那就给客户抽，那这个是用在以前很好用，为什么以前人不识字嘛，对不对文盲比较多，这样子皇帝比较好管嘛，比比这个不识字，那有个人就来抽啊，他要肯他的婚姻，一抽起来抽到一个孤，孤的最后一尾</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=461" target="_blank" rel="noopener">▶ 00:07:41</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">他老是那么倒霉，那个人就叫做勾陈，看行动也知道勾陈看行动，那如果有个人写字，写的点点点点点下来，都是勾陈呐，什么笔呀来测字啊，他笔一划那断断落落的勾陈，事情停滞不前，那如果我们看到一个山脉，来龙的时候一节断掉，再一节再一节断掉，然后这边又结个脉，你你当时只看这边，啊老师这边很好，你没有看它一节节断掉，就是所谓勾陈勾陈，那我们脸上的纹呢纹路上面，如果纹路上面我们脸上的纹呐，要不就是一条长纹对啊，同样这条纹怎么老是断断落落的，懂不懂我意思，就这个有时候开心，有时候这个变换太快了，这个纹路也不是很顺利，这是所谓勾陈，那主事情停滞不前小祸不断</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=961" target="_blank" rel="noopener">▶ 00:16:01</a>
+<span class="badge">p37 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">所以说我们看字啊看看形，看你如果专是测字，专是拿一个字来把它分析解掉了，那就是属于形，那为什么我们叫六神背断有没有，就是要用神要用神，如果看形的话就完了，每一个老外写出来的字通通是螣蛇，那都都是英文都是螣蛇啊，你说他不就是塍蛇对不对，要看神不能看形，那如果我们遇到这种情形的时候，如何去破它如何去解官，这就要做诸位要因时因地制宜，当然你不葬那边当然没事啊，阴宅上也是这样子的，这是一个我们来断龙的时候可以用，还有断事情的时候也可以，你看这个人呢在马路上走路</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1292" target="_blank" rel="noopener">▶ 00:21:32</a>
+<span class="badge">p37 §3</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">先生我们那个测字，只是为古的一件事情而已呀，那个大的来龙，我们可以哇好几代这样论下去呀，所以大小通通是一样，跑不过这个神呐，所以诸位现在晓得，什么腾蛇纹入口有没有，那如果看到这个人脸上的纹，很整齐的一条下，很有力的是青龙纹呐，青龙纹都是很好的懂不懂我意思，看这个把笔划当成纹路看，都可以看到，那你如果来一个龙，一个龙呢这边很好，这边结穴也很好，哎突然这里弯弯曲曲这样子，有没有曲的曲曲扭扭，变成本身的龙位置即使很好，可是虎的位置这个位置呢，像螣蛇一样，这是不好这就是凶这是凶</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=2362" target="_blank" rel="noopener">▶ 00:39:22</a>
+<span class="badge">p37 §4</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">你懂不懂我意思，硬把它写成螣蛇，这都是协助我们，在事情上的占断上面的重点，所以诸位一定要会用六神会用六神，不然的话万一你测字的时候，他的来个写个草书家对不对，我不是跟你讲不是说最后一点，这个一点是什么勾陈吗，勾成一条线下来还有最后，就一个勾陈有没有一点，好了那有一个人来写门，人家写门都是规规矩矩，都是这样写的对吧，那像我们就这样写门一点呐，有没有这不是摆明的就是，我就是勾除了懂不懂，啊宁先生您只是停滞不前，不会不会有任何进展，您那你说不会有任何进展怎么办，那我们在卦上面不会有任何进展就叫做困，那要如何脱困呢要以悦，处困之时要以悦之道就能处困，懂不懂人间道就进来了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=2698" target="_blank" rel="noopener">▶ 00:44:58</a>
+<span class="badge">p37 §5</span></div></div><div class="card"><div class="q">会不会我这样讲会不会，你们有没有问题啊，听我讲很快哦，你说这事情居然说来了完蛋了，这样子讲了解我意思吧，所以你卦上什么样是，通通就运用在—起了，我教诸位你看起来很凌乱，实际上是一体一体系的，那有人来找你测字啊，那还没开始的时候他就这个，很紧张对不对很紧张，那把香烟一点，刚好剩下最后一支烟，把那烟盒子一折起来一丢，那个烟盒子折成一头，不是叫什么一头乱丝嘛，螣蛇纹就出现了知不知道，螣蛇纹就出现，然后他还在找笔要写，你不必写了我已经，我跟你我跟你讲啊，要灵机要会用，那有时候你在睡觉，门外面有个人敲门敲很急</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=2755" target="_blank" rel="noopener">▶ 00:45:55</a>
+<span class="badge">p37 §5</span></div></div><div class="card"><div class="q">为什么说是会有得财遇险，盒盒是不是先成后破，这是你读测字出来，哎读图出来就不是这样子，读图怎么写呢，有一个人人口一个口在下面人口俱全，中间有个偷偷一个人中一个横纹在那，叫做暗度陈仓偷钱走啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=41&t=1248" target="_blank" rel="noopener">▶ 00:20:48</a>
+<span class="badge">p41 §2</span></div></div><div class="card"><div class="q">那测字的说，那你拿个字来好了心脏的心，测字的一看哦，心呐你老公呢，忽然有没有必变，都是心忽然必变，你先生变心了，所以测字我们不能测啊，测的是我们都是录像的，我们只能帮人家自己没有办法测，诸位看火天大有，诸位不要急，我这个对你们有好处的，这个没抄完你买买买录影带就好了，因为我后面有想如果有空的话，我还跟诸位多讲点六神占，六神占很妤很棒，火天大有卦，如果你的先天卦是火天大有</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=43&t=2048" target="_blank" rel="noopener">▶ 00:34:08</a>
+<span class="badge">p43 §5</span></div></div><div class="card"><div class="q">那玉在石中，玉在石头中间，玉还没有露脸对不对，代表事业尚未成功，同志仍需努力啊，事业还未成的状况未成，所以如果一个人官运，他会升官但是要往下看，千万不要往上看，绝对不要骄一定会升官，那如果卜到这个疾厄是凶，疾厄是凶，那如果卜生男育女呢，这六个六个都是阳，当然是阳了不用讲了，那老师六胞胎不会啊，不要不要那么空想，这些有很多都有根据的，以后我慢慢介绍我们测字的时候，会大概陆续会跟诸位讲到，一个人在琢玉啊，这个动作很重要</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=4&t=942" target="_blank" rel="noopener">▶ 00:15:42</a>
+<span class="badge">卦01 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">是生的最后一条线，死呢是一的之初，死之初呢是一生之末呢是一，所以一代表的是什么啊生的尽头死的开始，所以生死在一线之间，这个死不一定是真死，叫你脱胎换骨，换另外一个人出来了，所以诸位看到很多这个情报局，干完了事情之后，开始改头换面了，或者先去那边美美容一下换个人，生死一念之间，有一个人来找你测字，倪先生你看看我妈妈重病，你看看有没有，有没有活命的希望，我说啊那你写个字来好了，一哎呀糟糕，生的尽头死的开始有没有，是不读一完了，象就出现了，所以诸位看一些事情，我们可以推演到任何的地方去，所有的东西测字卜卦，或者说周围的事都是一个机一个机啊一个机锋</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=8&t=532" target="_blank" rel="noopener">▶ 00:08:52</a>
+<span class="badge">卦05 §2</span></div></div><div class="card"><div class="q">可以用到所有的东西解释它，有很多人写咒，我卜我测字给你看，是哭哭哭字的首，號（号）角的號（号），號（号）的尾巴，是不是这样的，你在那边念咒，我听到是鬼哭神嚎，鬼哭啊神嚎，那我们把易经的易拿出来测，易是日当头，<span class="chip">太阳</span>在正中间，回头重勿了这个勿呢是易之尾，如果你正大刚直，刚正光大，你的结尾是的，全天下事情变简单了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=14&t=743" target="_blank" rel="noopener">▶ 00:12:23</a>
+<span class="badge">卦11 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">两个没有相交的交，那天地相交了，有了天有了地以后，人呢是万物之万物之首，所以就看到天人地，所谓的三才，诸位我们介绍的就是三才，算命测字卜卦都是属于天，看阳宅地理位置，还有人间道，待会我会介绍人间道，所以人间道加上地理位置，加起来就是什么2/3，就会大于天命，这是最合理最合逻辑，最合科学解释的一个，那易经的本文呢，叫做否之匪人，这个字就是否之道呢，否的道非人道，不是人君之道不是正道</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=15&t=323" target="_blank" rel="noopener">▶ 00:05:23</a>
+<span class="badge">卦12 §1</span></div></div><div class="card"><div class="q">买了很好的青菜，哎陈太太啊我看到你，这青菜我买个送给你，因为我知道你没时间去，讲完就走了这叫做事，做人的人就在搬弄是非，那很多我看过算命，看过非常多的人，都是三人言成虎，就是被人本来泰被被人家害成否，那这种人这个这个功德，功德无量哦，还有，测字，你看他写一个金跟一个竟，有没有中间是破裂的，很简单叫做竟金了，如果是有争利则凶，有个人来说倪先生，你看看我现在投资，今天我去买股票好不好，一天地否，那是个大否子不必了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=15&t=1455" target="_blank" rel="noopener">▶ 00:24:15</a>
+<span class="badge">卦12 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">这笔画是不是比较多，会是不是只有两画在上面，所以禽的象出现的时候就是聚少散多，你晚上睡觉老师哎，我为什么昨天晚上做梦，梦到两只脚的鸭子聚少散多，象就出现有远离六亲的象，所以我们测字啊，要读不要读字要读图，不懂不懂我意思读图，阳宅部分呢，二女居长子位成格，你哪天你坐在你朋友的车上，他有两个女儿，哎结果你发现有个女孩子看到你，她就在那里咬很喜欢咬人这噬嗑</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=24&t=781" target="_blank" rel="noopener">▶ 00:13:01</a>
+<span class="badge">卦21 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">有没有什么疑问，所以诸位看我们解图上面卦，易经上面图的字的时候，测字也是一样的哦，了解我意思吧测字抓机锋，懂不懂我意思抓机锋啊抓杌锋啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=27&t=1181" target="_blank" rel="noopener">▶ 00:19:41</a>
+<span class="badge">卦24 §2</span></div></div><div class="card"><div class="q">你不要以为猪是笨的哈，在诸位在易经上面看到，或者是在这个做梦梦到，不管什么事情，甚到至于事情发生的时候，你看到一个外面的象，都是属于机机锋，包括客人来找你测字，客户来找你写测字啊，或者做什么，都是一个机锋，比如说有人来问你事情，哎倪先生这个，我这次到大陆投投投资好不好，刚好你们他在问你的时候，旁边有个人扛了扛了一个鸡啊跑过去，扛只鸡啊一只一只，他去卖鸡啊，拿只鸡或买一只鸡回来，从你面前走过去，所有的动物象里边哈鸡鸭鱼</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=28&t=406" target="_blank" rel="noopener">▶ 00:06:46</a>
+<span class="badge">卦25 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">是不是西南角，堆子上有千里字向西南行向西南走，第五个西南行呢大利，因为千里怎么样封侯，千里封侯的象，西南行大利，还有姓侯姓的也是第六，上面有千里字老师刚刚使，你把它测字给它分开来的，千里也应该看一下对不对，千里呢为重，千里呢力重，千里呢为重，是不是重复的重啊，这不是千里有没有，是不是重啊，所以呢千里为重，第二次方吉重复</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=42&t=861" target="_blank" rel="noopener">▶ 00:14:21</a>
+<span class="badge">卦39 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">像写字就可以看出来，像有的字写字出来一下，你看我一直下来，有没有有没有写勾，那是故意的习惯，里面写个勾，所以如果测字测我们，测不准的懂不懂我意思，当然测不准嘛，什么为什么叫做火风鼎鼎卦，火风鼎前面是泽火革革啊革，革是改变意思，那世界上革物把物品革开来，就是鼎最大超不过鼎莫如鼎啊，为什么鼎最大，中国人过去把那个鼎呐，食物米啊放在里面，那个鼎的角在下面撑到，这个下面是火下上面是水，那水和火本来是不容的，可是这个鼎在中间</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=53&t=1" target="_blank" rel="noopener">▶ 00:00:01</a>
+<span class="badge">卦50 §1</span></div></div><div class="card"><div class="q">诸位呢看艮为山艮山，所以我们随时穿插一些测字的进来</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=54&t=759" target="_blank" rel="noopener">▶ 00:12:39</a>
+<span class="badge">卦51 §2</span></div></div><div class="card"><div class="q">代表清明之大官人，那测字的时候要记得有同音，如果是商机，如果来卜商机啊，这个商机这个镜就变成什么，怀競（竞）争的競（竞）一样了，变成競（竞）争的競（竞）卜镜，三人那个绳相系缚在一起，就是三个人都受牵累，招诉讼三人受牵累，三人牵连啊，这一定会招到诉讼，这一定会招到诉讼，所以如果有个人来找你卜卦，哎倪先生，你看我这个事情的结果是什么，一卜到你们是三个人在一票了，一定三个人一起，连串在一起，那也可以说三人成众，你看这不是众吗</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=55&t=471" target="_blank" rel="noopener">▶ 00:07:51</a>
+<span class="badge">卦52 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">飞龙是正蛇是邪，正邪相争的象，相争有一个人呢，这个来找个测字师测字仙呐，她说你看看我先生呐，这个三年都没有就出门经商了，怎么他到南洋去，人家都回来他怎么没有回来，都没有消息，还是说啊你写个字来，她写一个豐（丰），哎呀你可以替你先生安葬了，他不会回来为什么，因为这是山嘛，上面有很多树木嘛，一个口在那边一个豆在那，这个是一个地上面，正面一个香炉，上面插着香在上面烧，整个是一个坟墓的象</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1q7BZYcEZP?p=58&t=476" target="_blank" rel="noopener">▶ 00:07:56</a>
+<span class="badge">卦55 §2</span><span class="note">cleaned</span></div></div><h2>六神</h2><div class="card"><div class="q">我们再跟介绍诸位介绍，慢慢深入进去，那这个六神呢，还有包括社会上上的动乱六神去看，那我这里给诸位画了个图，我们在脸上面也是一样，一个人的脸，这是耳朵耳朵，这个脸上面这个头发这样，两个眼睛鼻子嘴巴，在上面呢我们叫朱雀，南方呢北方我们叫玄武，东方呢是青龙，西边呢是白虎，西边呢是自虎，西边呢是白虎，东南角这个地方呢，我们就叫螣蛇</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=62" target="_blank" rel="noopener">▶ 00:01:02</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">还有西北角这个地方呢，也可以叫螣蛇，这个呢两边的左上角呢，坤在就坤的位置呢，就是我们所谓的勾陈，这边也是所谓的勾陈，那诸位可以看我们给诸位的讲必里面，书上面有这个东西，当然它各有属性呐，我们把八个卦后天的八卦，然后腾蛇在巽的位置还有乾的位，一个是木一个是金，坤和艮为土坤艮为士，木火土金水，那在诸位要了解这些怎么应用之前，我们先看什么叫青龙</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=123" target="_blank" rel="noopener">▶ 00:02:03</a>
+<span class="badge">p37 §1</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">什么四自虎朱雀玄武，这个六神占断法从汉朝以后，汉朝以后呢大量的在使用，可是这个我们解释呢就各有巧妙，所以说常常我们讲句话叫，祖师留下法要有传法人呐，传法人很难，因为这个讲出去比较比较玄，让你让你要自己要悟，所谓自己悟就是自己能够听了解，才能够真正的吸收为己用，可以用在任何的地方，诸位看我们的第一页，六神的妙曲有没有，它说蚕头燕额是青龙，尖短交加是朱雀，朱雀朱雀神呐，弯弓斜月勾陈象，螣蛇长曲势如行啊，好像弯弯曲曲一样</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=181" target="_blank" rel="noopener">▶ 00:03:01</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">尾尖口阔是白虎，体态方尖呢是玄武，这几个字啊写下来的时候，比较不容易懂，我们用形来看，比如说青龙的形，上面青龙形是，上面青龙移是，上面青龙形是，上面青龙移是，蚕头呢燕额是一一个个捺，如果我们用在风水上面来讲的时候很完整，那甚至于再多一些那个小山枝脚，枝脚就是这个山脉，山的棱线还有一些小的枝脚，而且枝脚非常的整齐，好像龙的须龙的鳞=样，枝脚整齐这是所谓的真正的青龙，真龙啊这种是最好，那这六个六神里面呢，是以青龙最大最吉最好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=236" target="_blank" rel="noopener">▶ 00:03:56</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">这个有怨疴啊，就是说有口香是非很多，那你如果来个朱雀，我们知道这个是口舌是非，主官讼的主官讼，那你说你文章要你考试有没有上，文章科名对不对，那文是不是这样子写，那你上面文字少一点，少了一个少一点，那你考试恐怕没有希望，那考没考试没希望，还还还没关系呢，考不上也没关系，考完试的时候还有官司纠纷还，还无妄之灾进来呢，为什么那个朱雀了解我意思吧，那这是小对一件事情，大对整个山川河流，还有呢你有一天想不开，老师我把房子盖成这个形状好不好，你懂吗想不开嘛，朱雀懂不懂我意思，那朱雀专门指的是官司是非哈</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=349" target="_blank" rel="noopener">▶ 00:05:49</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">那口舌啊很多，诸位看回头看青龙背断，青龙笔动啊喜还生呐爷，谋用营求事事通，人口增添财禄厚，主人日下尽亨通，所有的事情都会亨通那比如说，有人来说老师这个堪舆上上面，堪舆上面真龙脉的时候，来龙的时候，比如说一个是虎一个是龙，龙从这边来，结穴在这边，然后山山龙是这样子，那龙来了很有力，然后有官鬼出去，官鬼出去很很很，官呐出去力量很强</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=404" target="_blank" rel="noopener">▶ 00:06:44</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">这一捺出去就叫做青龙看到没有，那个抽到孤的你让他知道，他抽到孤啊心里就很难过，不是我本来就是孤家寡人，我现在现在我想来问我将来，会不会有婚姻会不会有小孩的，这是不是更难看，那孤你把它分开来，不是瓜子嘛对不对，得瓜又得子最好了，那反过来我们灵机上面在用的时候，灵机上在用的时候，这个这个啊这个倪先生，请间我的婚姻怎么样，那我们正在聊天啊大家喝茶啊吃东西，当然没笔什么的纸都没有，哎我们吃瓜子他就拿个瓜子给你，那你用这个来断，我的意思就是说诸位要员机呀，灵机懂不懂我意思，机要心领神会，那瓜和子放在一起的话不是孤吗，你婚姻也不必了孤</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=517" target="_blank" rel="noopener">▶ 00:08:37</a>
+<span class="badge">p37 §1</span></div></div><div class="card"><div class="q">那这个就是青龙，那白虎呢诸位看，白虎逢之灾孝来，一定白虎是戴孝戴丧服，那这个戴孝可能是你的六亲，父母亲或者是兄弟姐妹戴孝，出门凡事不和谐，更防失窃家财损，足疾忧人百事乖，白虎呢本身主不祥答，专门招病灾，所以有牢狱之灾呢有口香，生病的病灾而且病得很危险，就是所谓的自虎，诸位回头看看白虎的形是什么，它上面写的哦这个爷，尾尖口开口阔，尾尖口阔就是自虎</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=620" target="_blank" rel="noopener">▶ 00:10:20</a>
+<span class="badge">p37 §2</span></div></div><div class="card"><div class="q">如果我们看到一个风水地风水地，山龙来的时候这样子下来，哇这个山好大啊这样子很过瘾，那在来龙结穴的时候两边两边穴，青龙自虎是能弯出去的，了解吧口是阔尾是尖的，开的这种反背，我们那个龙应该这样子抱起来，官刚好反出去的，这种就叫做白虎，比如说有个人他写字，哎呦你看看我这个这个儿子好不好，他写一个儿儿呀，这就是所谓的自虎了解我意思吧，就是口阔上面比较宽，那写个儿子的儿是不是口阔老鼠的，老鼠的鼠是不是口阔尾尾尖，都是一样的意思，风水上面也是这样解释，所以像这种呢这非常的不好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=678" target="_blank" rel="noopener">▶ 00:11:18</a>
+<span class="badge">p37 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">也不会藏风纳气，那你如果看到一个人的相，怎么搞的老师他的嘴巴很大，下巴那么尖，这种人都有犯牢狱之灾，常常在牢里面跑来跑去啊，是非口舌很多了解我意思吧，口阔可以用往相，可以用在风水上面，看龙的时候都可以用到，那这个玄武，诸位看玄武，玄武动时主失脱，家财流离慎慎这个慎方活家财流离慎方活，要谨慎的才能够活到啊，遇到玄武的时候危险，玄武主盗贼失财，所以更防阴小有灾危，又主小人生拮据</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=737" target="_blank" rel="noopener">▶ 00:12:17</a>
+<span class="badge">p37 §2</span></div></div><div class="card"><div class="q">小人介入等等小人介入，这个玄武形呢诸位看，玄武形是什么样的，体态方尖玄武行，所以我们中文字常常有时候么啊，有没有幺啊绞丝边呐，広口啊还有方口啊，方口都是玄武玄武，那你如果看到一个来龙下来，哎这个山势出去又回来，这个山势出去又回来怎么这样子，不够圆滑不够圆润，有尖角尖口，这种我们就呼之为玄武出窃盗，因为这有死角啊好躲啊，所以一种是玄武形出窃盗还有呢，你站在坟墓那边看那个案山</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=793" target="_blank" rel="noopener">▶ 00:13:13</a>
+<span class="badge">p37 §2</span></div></div><div class="card"><div class="q">不敢不敢看你，下巴都缩在那边这样子，看人这样看小偷，然后就跟他说你是小偷不是我，弘懂不懂偷话谁都会说嘛，打死也不招这是玄武，那比较难了解的是勾陈还有腾蛇，诸位看勾陈呢，勾陈逢到勾陈呢事交加，谋事中间哦件件差，做什么事情都不会顺利停，勾陈就是停滯不前延绵呐不断，就是永远是这样子，做做这个小人那个，那一年12个月换13个工作，这就是勾陈呐知不知道变化很多，然后弄了半天还是停在原地，原地不动没有什么进展，所以勾陈是没有大灾，但是小祸不断老是去闯祸，那每次闯了个小祸，淮备叉离开换个公司，到那边又闯祸我再换个公司去</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=905" target="_blank" rel="noopener">▶ 00:15:05</a>
+<span class="badge">p37 §2</span></div></div><div class="card"><div class="q">小祸不断那诸位看勾陈呢，勾陈逢者事交加，我们回头看这个上面的第一页，勾陈的形式呢是在字体上面来说，是直的下来有没有，直的下来或一点一个逗点，还有呢这个都属于勾陈，有没有勾陈，这个这个这尾部往上勾啊，我们中国人很多字的尾部往上勾勾陈，再来呢诸位看螣蛇，螣蛇过者主主虚惊呐螣蛇遇者宝惊虚虚，家宅逢之尽不宁，出入宜谋宜慎取，免教仆这个仆马有灾形呐，就是这个手下你的交通工具，手下旁边有灾，所以螣蛇也主忧虑不堪，梦见不祥之兆</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1019" target="_blank" rel="noopener">▶ 00:16:59</a>
+<span class="badge">p37 §2</span></div></div><div class="card"><div class="q">那腾蛇的形状就是扭扭曲曲的，比如说我们标准上面，这个还不是像勾陈的话比较短，比如说风懂不懂这这种勾陈，那如果是乙有没有，乞有没有这就是螣蛇，勾陈螣蛇很接近，但是勾陈比较快速短速的回龙，那塍蛇呢比较大角度的回来，了解我意思吧，有一个人他爱骚把房子盖成S型闽南语不入流轻浮，你螣蛇对啊有啊有人这样问我，如果我盖成S形怎么办，太好了那就盖S形对吧，不然的话你不知道它如何不好嘛，谁给你住了一个S形呐，对啊就是天才啊，他要我就说太好了你去住好了，你没办法跟他讲不通了嘛，那螣蛇的灾难呢，我如果看风水</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1075" target="_blank" rel="noopener">▶ 00:17:55</a>
+<span class="badge">p37 §2</span></div></div><div class="card"><div class="q">风水来这个来龙这样下来，本来是很好，结果来龙的时候没有在这边，不是左右左右跑，来龙来的时候，变成这样扭扭曲曲有没有，这就是所谓的螣蛇，所以我们在相书上面叫三曲鼻，这个你从侧面看他的时候，奇怪他的鼻子怎么长成这样子，我我画个额头这头发哈，免得你左右看错了，这额头这头发很多这样，这是耳朵这是眉毛眼睛，那结果鼻子长成这个样子，懂不懂我意思，你你知道我意思吧三曲鼻呀，要三曲而二曲就不算哈，三曲懂不懂，哎勾陈的话像鹰钩鼻，有没有那是勾陈，螣蛇是三曲，这个侧面看三曲，还有人呢像某孙叉部长呢，是直曲懂不懂我意思这更不好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1137" target="_blank" rel="noopener">▶ 00:18:57</a>
+<span class="badge">p37 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">那你写个字来好了，哎写一个風（风），写一个風（风），哎你老公啊很快就会回来，你放心好了只不过呢，因为什么这个字，这个字有三神在里面有三个神，我们六神呐它就占了三神，第一划这个划呢叫做青龙是不是，这个划呢是不是叫勾陈，这个绞丝呢是不是玄武啊，来三角形角形嘛玄武嘛，有的人是口在里面有没有，你的居是不是口口在里面，你这个一个字居然有三个神在里面，青龙主百事亨通，那勾陈呢指事情停滞不前，那为什么呢玄武是招小偷，所以你老公一定证件掉了，掉在外地回不来那停滞不前了，但是结果还是会青的青龙主吉，还是会成行还是会回来</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1234" target="_blank" rel="noopener">▶ 00:20:34</a>
+<span class="badge">p37 §2</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">诸位可以推衍到很多事情，所以这个东西六神占断的，不管是你帮他看手相看脸相的时候，通通可以看到了解我意思吧，像今天来他的脸上面呢，那个眼睛鼻子在这边，眼睛下角的纹呢，这样子断断续续的是不是，他就没有把他，他不像我们这个连贯在一起有没有，连贯在一起眼泡很大，这纹怎么断断续续的，这是什么断断续续是什么勾陈，勾陈的时候指事情怎么样，停滞不前对不对，然后他断断的续续代表什么，这个是子女的位置，然后眼角凹下去一块，代表妻子通通散，这边也是两边都一样对不对，相上面就看到有问题了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1404" target="_blank" rel="noopener">▶ 00:23:24</a>
+<span class="badge">p37 §3</span></div></div><div class="card"><div class="q">倪海厦我现在50万要投资，你送我算了送我还好我还，最后我还欠你一个情，我还会帮你嘛对不对，你拿去投资的，这个没有没有钱的嘛，你先问问我嘛对不对，他就听的很高兴他就回去了，所以说我们除了要跟他鼓励以外，有些机锋出来的时候我们看到了，看到了你不要跟他说死你对不对，你完了你毁了对不对，当然过去发生的没办法了，这六神断各位有没有问题，所以诸位以后看到书上，哎朱雀有没有玄武，为什么是勾陈为什么腾蛇，其实在易经八卦上面通通有，你可以把它放到任何地方去看，看到放到字上面看也可以，你不要把字当字，把字当成山形来龙的形状，它就是风水，把官放到脸上面就是相，了解我意思吧</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1574" target="_blank" rel="noopener">▶ 00:26:14</a>
+<span class="badge">p37 §3</span></div></div><div class="card"><div class="q">所以青龙那个纹都是游立下来的，法令纹两条这样游立下来的对不对，你那个法法令纹突然变成，游走了这样下来你看看，那腾蛇纹入口嘛，啊这个人是饿死的天，天就是饿死啊对不对，那你说老师现在人很少人饿死的，那得到喉癌胃癌不是饿死的，要活活给饿死在床上，你有100亿是不是，你得到喉癌胃癌不是饿死在床上，一样懂不懂我意思，这叫腾蛇纹入口了，那看那个纹这样子跑了有没有对不对，当然如果我们要，以商业利益为目的的话，就是哎这个这个中视新闻你在美国，驻美国那个记者那个女的，最好来看看命啊，那腾蛇纹入口啊饿饿死她就来了，那看到录影带她就跑来了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1630" target="_blank" rel="noopener">▶ 00:27:10</a>
+<span class="badge">p37 §3</span></div></div><div class="card"><div class="q">这个现在这个六神哈，还没有其他问题，要灵活运用哈这个六神，那讲六神以后呢，我就要给诸位看这个，我们所谓<span class="chip">天机</span>道，诸位拿到这个今天这个讲必哦，28个天罡星天罡星，这个这上面诸位看，我们笔记六神呢，又称为青龙白虎朱雀玄武勾陈腾蛇，天罡有二十八宿，各宿管各各各每一个，-每一个方位的东南西北方位，每一个管行四，就东南西北四方各有七宿，四七二十八宿，那这个28宿呢，我在我们在课堂上面，可能没有办法跟诸位，细讲这个这个28宿，所以这个给你们当笔记</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=1685" target="_blank" rel="noopener">▶ 00:28:05</a>
+<span class="badge">p37 §3</span></div></div><div class="card"><div class="q">出去是这样子的，这就是交加有没有交加在一起，就是朱雀不好，你就是盖了个盖了形呐打叉叉，所以中国人文字比较有道理，那个外国人文字啊都没有道理，有一个人呢，有一天他太太上街买菜，没回来不见了，没有回来这个人是在在菜，就是自己开个这个这个什么龙门客栈，在做卖卖东西的啊，哎老婆出去买菜不见了，就不晓得老婆跑哪里，到了黄昏还不回来了，就没办法了过去人就找百卜嘛，有什么办法呢找肯卜啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=2469" target="_blank" rel="noopener">▶ 00:41:09</a>
+<span class="badge">p37 §5</span><span class="note">cleaned</span></div></div><div class="card"><div class="q">你看那个人走路突然这样子闪开来，对不对有一天宋叉叉在送机那个，我们讲宋美龄出国的时候，刚好电视机记录她很多人对不对，因为我们蒋夫人在那边她这个，我们有个人头很大对不对，那没关系啊我跟民进党和一下，叫民进党去闹她把她闹走她就走了，那送机场的在机门口的时候，她过去刚好宋叉叉在那边，他们几个在那边列队来送她出国，最后一次了嘛对不对，那宋叉叉看她本来正面的，突然就这样跳开来闪开来，这个动作就叫做勾陈，这一个动作我们就可以读出来了，知道了所以你不要把它当成文字，所有的动作所有的讲话都是一样，那个讲话断断续续，有声无音也是勾陈嘛，像你一根肠子从丹留出来的话，为什么是贵人讲话从丹田出来，很简单嘛他青龙嘛一条对不对</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=2933" target="_blank" rel="noopener">▶ 00:48:53</a>
+<span class="badge">p37 §5</span></div></div><div class="card"><div class="q">讲话言辞闪烁歪歪扭扭的，让你听都听不清楚腾蛇，他要骗他要骗你嘛对不对，想要骗你才会这样子，哎讲话都没有讲话尾音都不往下的，都往上的对不对，都往上那不是玄武嘛，保证他想偷你的东西，所以小偷讲话都这样子啊，我没有那往上走的对不对，那我们说不是我就讲完了，我是尾音呐，不是我他都尾音往上，这听的就是你了，所以不要被人家讲形绑到，要会用神知不知道，所以包括相书上面，所有人通通逃逃不出这六神，所以你也会讲六神很难呐，其实也很简单的，你你现在了解我意思吧，所以这个法很难传，风水上也可以啊对呀，你看老师你看那来龙很好玩</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=2993" target="_blank" rel="noopener">▶ 00:49:53</a>
+<span class="badge">p37 §5</span></div></div><div class="card"><div class="q">这个来龙青龙自虎下来，突然尾巴勾个翘进来对不对，了解我意思吧，那在自虎这个位置上，突然突多高一点出去有没有，比如说山头我们这样山头，这样下来很好看，哎整个突了多一点出去有没有，依此类推了，那来龙如果来龙这样山龙这样下来，结果每一个龙有虎，都有很多脚叉出去有没有，这样子包包的好好的，然后有很多脚出去，那个脚又很枝结很轻微，这个龙一定富贵的大穴，富贵的大位</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=37&t=3049" target="_blank" rel="noopener">▶ 00:50:49</a>
+<span class="badge">p37 §5</span><span class="note">cleaned</span></div></div><h2>六壬</h2><div class="card"><div class="q">我们我们指指算啊掐指一算四六壬法叫六壬法，以前诸葛亮带兵打仗，出兵的时候看看到六方是不是好日子，会不会有事情对不对有六壬法，我们有六丁六壬六甲</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1163" target="_blank" rel="noopener">▶ 00:19:23</a>
+<span class="badge">p25 §6</span></div></div><div class="card"><div class="q">这个宫这叫寅宫，寅宫呢起月令，教诸位如何去记小空大，流速赤抱歉这个速哈最重要的给你写错了，那原来的名字呢空亡，小吉大安流连，20速喜赤口</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1209" target="_blank" rel="noopener">▶ 00:20:09</a>
+<span class="badge">p25 §6</span></div></div><div class="card"><div class="q">在心血来潮的时候，哎突然感觉到今天眼皮怎么在跳，或者上半身心慌慌意乱乱的，不知道发生什么事情，或者是有一件事情，犹豫爱难决定的时候，或者是此行利不利的时候，或者你在机场坐我们那边飞机等的时候，是不是死亡班机啊对不对</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1263" target="_blank" rel="noopener">▶ 00:21:03</a>
+<span class="badge">p25 §6</span></div></div><div class="card"><div class="q">我们从大安开始算起月令，需要的资料呢就是月日时，三个资料就好了，那重点这个用神在哪里呢，重点就是说，当你心血来潮的时候，你就开始想用它的时候，就要以当时为准，比如说我现在有事情了，然后就看看，马上就把桌桌历打，来看看，今天的农历是几月几号，你不要给我算国历哈算农历的，按农历比如说今天是农历是四月五号，那现在呢是戌时，今天现在的时间是点嘛，你就从四月开始，从一月令呐，一二三四四月对不对，然后再从当宫开始走，一二三四五，四月五号啦，然后成时的话，子丑寅卯辰巳午未申酉戌，子丑寅卯辰巳午未申酉戌，子丑寅卯辰巳午未申酉戌有落空亡，那就告诉你，凶此行不利</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1310" target="_blank" rel="noopener">▶ 00:21:50</a>
+<span class="badge">p25 §6</span><span class="note">字幕疑误：成时→戌时；子丑寅卵→子丑寅卯；申西→申酉；辰已→辰巳</span></div></div><div class="card"><div class="q">你刚刚心血来潮是什么事情，比如说你刚刚心血来潮是，我想明天早上买股票，凶空亡已经告诉你空亡了嘛你说不行，我要我要证明我是错的，那你明天去买就完蛋了你不能说，哎老师那现在这个时间空亡，下个时间是这个大安了，我就我就给它弄作大安好了，我在下个时间再去想一下，我跟你讲很好玩的哦，下个时间过去哦，你军那个时间你就不会去想了，忘掉了很奇怪，这就是测心血来潮的时候，所以有的时候你想起来，有时候想不起来，但是算过以后，你不要在同一个念再去起第二次，一定不对的嘛，反而会害到你自己为什么，因为你到时候你会不知所措啊，了解我意思吧</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1372" target="_blank" rel="noopener">▶ 00:22:52</a>
+<span class="badge">p25 §6</span></div></div><div class="card"><div class="q">那可以运用在哪个地方呢，比如说我现在去跟他签约谈生意，走到办公室门口，哎心血来潮看看这玩意会不会成了，因为这个不成的话，对我们影响很大，拿拿手一算哎呀糟糕，现在是流连对不对，你今天的时间，比如说刚好是午时啊，或者怎么样刚好是流连，那流连代表事情停滞不前呐，那你说老师此那此行不利，那在中午点，那别管我点是速喜，我点就进去，不需要下次再去</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1418" target="_blank" rel="noopener">▶ 00:23:38</a>
+<span class="badge">p25 §6</span></div></div><div class="card"><div class="q">所以赤口代表说有第三者介入，代表有小人窃灾是非，有人人为的因素，速喜是立竿见影马上看到，我们在用在失物找寻东西，失落东西啊，或者是找这个这个，你的重要的重要的文件，掉钱啊家里面遭窃啊都可以，流连是事情还停滞未未前，小吉大概两个礼拜以后会看到，大安大概一个礼拜左右，空亡就是你不用看了，你可以断念了，那你用在一件事情上都可以，不要拿来不用它来拿算哦，这个算不出来，就是说只是单一一件事情，尤其测心血来潮的时候哦很准</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1459" target="_blank" rel="noopener">▶ 00:24:19</a>
+<span class="badge">p25 §6</span></div></div><div class="card"><div class="q">手一掐指一算，刚好应那个时间刚好是空亡的时间，那你就要准备跑路了，那诸位要有个信念，要用官就要听它的，既然要问就代表你有疑惑，问了就要听它的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=25&t=1519" target="_blank" rel="noopener">▶ 00:25:19</a>
+<span class="badge">p25 §6</span></div></div>
+<footer>本站内容为倪海厦先生《天纪》课程判语的结构化整理，每条均可回放原视频核对。<br>
+课程内容著作权归倪海厦先生及其权利继承人所有；字幕整理致谢 B 站 UP 主程心学。<br>
+内容属文化研究与学习资料，不构成医疗、投资或人生决策建议。语料 CC BY-NC-SA 4.0。</footer>
+</div><script>
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('chip')){
+    location.href='index.html#s='+encodeURIComponent(e.target.textContent);
+  }
+});
+if(location.hash.startsWith('#s=')){
+  const k=decodeURIComponent(location.hash.slice(3));
+  const q=document.getElementById('q');
+  if(q){const t=setInterval(()=>{if(!q.disabled){q.value=k;q.dispatchEvent(new Event('input'));
+    clearInterval(t);q.scrollIntoView({behavior:'smooth'})}},100)}
+}
+</script></body></html>

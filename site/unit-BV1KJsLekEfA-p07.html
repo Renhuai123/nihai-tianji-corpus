@@ -1,0 +1,336 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>批命顺序与原则 · 天纪</title><style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1a1d21;--muted:#6b7480;--line:#e3ded3;
+--accent:#b04a3e;--accent2:#2e7d5b;--gold:#8a7a63;--chip:#f0ece3}
+@media(prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1c1f23;--ink:#e8e6e1;
+--muted:#9aa3ad;--line:#2c3037;--chip:#24282e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;gap:18px;height:58px}
+.logo{font-weight:700;font-size:17px;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:16px;font-size:14px;color:var(--muted);margin-left:auto;flex-wrap:wrap}
+nav a:hover{color:var(--accent)}
+h1{font-size:26px;margin:28px 0 6px;letter-spacing:.5px}
+h2{font-size:19px;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:22px 0 10px;color:var(--gold);font-weight:600}
+.sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+transition:.15s;display:block}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile .n{font-size:12px;color:var(--muted);letter-spacing:1px}
+.tile .t{font-size:16px;font-weight:600;margin:3px 0 5px}
+.tile .d{font-size:12.5px;color:var(--muted);line-height:1.5}
+.tile .c{font-size:12px;color:var(--accent);margin-top:8px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+border-radius:8px;padding:14px 16px;margin:10px 0}
+.card .q{font-size:15.5px;line-height:1.95;letter-spacing:.2px}
+.card .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:12px}
+.badge{background:var(--chip);color:var(--muted);border-radius:5px;padding:3px 8px}
+.play{background:var(--accent);color:#fff!important;border-radius:5px;padding:3px 10px;font-weight:600}
+.play:hover{opacity:.85}
+.crumb{color:var(--muted);font-size:12px}
+.note{color:var(--accent2);font-size:11.5px;background:var(--chip);border-radius:5px;padding:3px 8px}
+.chip{display:inline-block;background:var(--chip);border-radius:4px;padding:1px 5px;
+font-size:13px;color:var(--accent);cursor:pointer;margin:0 1px}
+.chip:hover{background:var(--accent);color:#fff}
+.seg{border-left:2px solid var(--line);padding:2px 0 2px 16px;margin:22px 0}
+.seg .st{font-size:14px;font-weight:600;margin-bottom:2px}
+.seg .stime{font-size:12px;color:var(--muted)}
+#q{width:100%;padding:11px 14px;font-size:15px;border:1px solid var(--line);border-radius:8px;
+background:var(--card);color:var(--ink);font-family:inherit}
+#q:focus{outline:none;border-color:var(--accent)}
+.stat{display:flex;gap:26px;flex-wrap:wrap;margin:14px 0 6px;font-size:13px;color:var(--muted)}
+.stat b{color:var(--ink);font-size:19px;font-weight:700;display:block}
+footer{margin:60px 0 30px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--muted);font-size:12.5px;line-height:1.9}
+mark{background:#ffe9a8;color:#1a1d21;border-radius:2px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">天<span>纪</span>·倪海厦讲课judgment库</a>
+<nav><a href="index.html">总览</a><a href="index.html#books">十一册</a>
+<a href="index.html#units">课程</a>
+<a href="https://github.com/Renhuai123/nihai-tianji-corpus" target="_blank" rel="noopener">GitHub</a></nav>
+</div></header><div class="wrap"><h1>批命顺序与原则</h1><p class="sub">p07 · 130 条判语 · 13 个语义段 · <a href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7" target="_blank" rel="noopener" style="color:var(--accent)">B 站原片 ↗</a></p><div class="seg"><div class="st">§1 杀破狼：七杀、破军、贪狼</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=0" target="_blank" rel="noopener">▶ 00:00:00</a></div></div><div class="card"><div class="q">那<span class="chip">贪狼</span>星呢，在人事上面呢，这个是属于桃花星，这是主桃花星，像<span class="chip">廉贞</span>星呢是次桃花，<span class="chip">贪狼</span>是主桃花，那这个主桃花<span class="chip">贪狼</span>除了指桃花以外，也指的是酒、财、气，通通在这个酒、色、财、气、赌，通通在<span class="chip">贪狼</span>的里面。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=128" target="_blank" rel="noopener">▶ 00:02:08</a>
+<span class="badge">p07 §1</span><span class="crumb">01 主星 › 贪狼（北斗 · 桃花/财气） › 定性</span></div></div><div class="card"><div class="q"><span class="chip">贪狼</span>的形貌呢，比较魁梧比较大，或者毛发比较多，身上汗毛啊什么比较多，那这三颗星常常会在一起，常常三颗星常常会在一起，那武官拿到这种星最好了，学你看那个张飞那个毛发多不多，那胡子还很多对不对。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=155" target="_blank" rel="noopener">▶ 00:02:35</a>
+<span class="badge">p07 §1</span><span class="crumb">01 主星 › 贪狼（北斗 · 桃花/财气） › 长相</span></div></div><div class="card"><div class="q">都是南斗星系，<span class="chip">七杀</span><span class="chip">破军</span>跟<span class="chip">贪狼</span>，这个这三个，一定会会到，那这三颗呢，全部主的是武官，武官星个性上面会有区别有分别，<span class="chip">七杀</span>入命的人呢，<span class="chip">七杀</span>入命的人，目大做事情性子很急。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=7" target="_blank" rel="noopener">▶ 00:00:07</a>
+<span class="badge">p07 §1</span><span class="note">cleaned</span><span class="crumb">01 主星 › 七杀（南斗 · 杀星） › 定性</span></div></div><div class="card"><div class="q">那如果在事业上面来说的话，这三颗星呢，这两颗星（<span class="chip">七杀</span><span class="chip">破军</span>），主的是耗主的是劳，这颗星呢（<span class="chip">贪狼</span>），主的是财所以它不但有刚刚讲的酒、色财，它主的是财，也就是说如果你的<span class="chip">流年</span>逢到<span class="chip">贪狼</span>很旺，换句话说如果财禄事业很赚钱喽，那很多赚钱的同时，就逃不了这个桃花星，那这两颗星如果遇到<span class="chip">流年</span>，遇到这两颗星的话，主劳辛苦的奔波劳碌，孤单要一个人拼命去做事情，然后呢又耗，有财钱财进来钱财出去又不容易聚财，这是它的星义。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=225" target="_blank" rel="noopener">▶ 00:03:45</a>
+<span class="badge">p07 §1</span><span class="crumb">01 主星 › 七杀（南斗 · 杀星） › 定性</span></div></div><div class="card"><div class="q">如果你娶个太太，<span class="chip">七杀</span>你就差不多毁了一半了，多疑很累啊，草木皆兵<span class="chip">七杀</span>你看这个个性就知道，他性子很急而且很刚，这三个星都很刚，都是很阳刚性的，所以你看有个人个性很刚强，谁的话都不接受，然后一天到晚在自以为是，那都是<span class="chip">七杀</span>、<span class="chip">破军</span>、<span class="chip">贪狼</span>的人。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=48" target="_blank" rel="noopener">▶ 00:00:48</a>
+<span class="badge">p07 §1</span><span class="note">cleaned</span><span class="crumb">01 主星 › 七杀（南斗 · 杀星） › 性情</span></div></div><div class="card"><div class="q">那这几个就是个性会比较刚强比较固执，那遇到这种人批八字的时候，诸位就要记得，我们人物志里面告诉诸位，前面我放在讲义里面，刚愎自用的人呢最容易被人家利用</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=180" target="_blank" rel="noopener">▶ 00:03:00</a>
+<span class="badge">p07 §1</span><span class="note">cleaned</span><span class="crumb">01 主星 › 七杀（南斗 · 杀星） › 性情</span></div></div><div class="card"><div class="q">他有如果有中庸之德，你们如果很懂了以后，你们的相会内敛进去，批八字是看不准的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=203" target="_blank" rel="noopener">▶ 00:03:23</a>
+<span class="badge">p07 §1</span><span class="crumb">01 主星 › 七杀（南斗 · 杀星） › 性情</span></div></div><div class="card"><div class="q">像<span class="chip">破军</span>呢跟<span class="chip">七杀</span>唯一的差别在这，<span class="chip">破军</span>星比较孤僻，你看我们天文地理，我们讲这个比心理学还有用，他个性很孤僻，非常的孤这个一个人啊，也就是孤芳自赏，人呢瘦瘦的，很瘦怎么养都不胖，吃五谷杂粮吃肉啊怎么吃都不胖，那<span class="chip">破军</span>星的人不重利。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=73" target="_blank" rel="noopener">▶ 00:01:13</a>
+<span class="badge">p07 §1</span><span class="crumb">01 主星 › 破军（北斗 · 杀星） › 性情</span></div></div><div class="card"><div class="q">你遇到一个女朋友，结果她的妈妈是一个<span class="chip">破军</span>星，你每天在送你女朋友金银珠宝，她妈妈一定反对的，所以招子放亮点人要看清楚，那你如果你女朋友是<span class="chip">破军</span>星，这种人最好了她不重利，她完全重感觉，嗯感觉不好，钱多不重要，感觉不好这<span class="chip">破军</span>星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=105" target="_blank" rel="noopener">▶ 00:01:45</a>
+<span class="badge">p07 §1</span><span class="crumb">01 主星 › 破军（北斗 · 杀星） › 在夫妻</span></div></div><div class="card"><div class="q">这三颗星完了后面有一组，我们叫六杀，什么叫六杀，叫做羊、陀、火、铃、空、劫这叫六杀，羊呢叫做<span class="chip">擎羊</span>，陀呢叫做<span class="chip">陀罗</span>，<span class="chip">火星</span><span class="chip">铃星</span>，天空地劫，这是我们在算命的时候这个叫做六杀。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=289" target="_blank" rel="noopener">▶ 00:04:49</a>
+<span class="badge">p07 §1</span><span class="note">cleaned</span><span class="crumb">01 主星 › 六杀（羊陀火铃空劫） › 总论</span></div></div><div class="card"><div class="q">诸位用性去领悟它，不用去那个看书，书上里面写的诸位先不要管，先了解我们以后通通，你三个月听完了后，你已经变得很强了，强了以后然后你会开始批，有空再回头看看那些书，否则你不了解时一看书就会被书绑到</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=270" target="_blank" rel="noopener">▶ 00:04:30</a>
+<span class="badge">p07 §1</span><span class="crumb">07 方法论 › 学习方法 › 学而后思</span></div></div><div class="seg"><div class="st">§2 六杀总论：羊陀火铃空劫</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=292" target="_blank" rel="noopener">▶ 00:04:52</a></div></div><div class="card"><div class="q">这个六杀出现的时候，它在你的<span class="chip">命宫</span>在有人的宫，或者在事业宫无人的宫，什么叫有人的宫，比如说<span class="chip">父母宫</span><span class="chip">命宫</span><span class="chip">兄弟宫</span>，<span class="chip">夫妻宫</span><span class="chip">子女宫</span>朋友宫，都是属于有人的宫，那还它的解释都不一样，你如果在没有人的宫，比如财帛官禄啊迁移啊，这些没有人的宫它解释也不一样，但是基本上脱离不了通通是杀星。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=327" target="_blank" rel="noopener">▶ 00:05:27</a>
+<span class="badge">p07 §2</span><span class="crumb">01 主星 › 六杀（羊陀火铃空劫） › 总论</span></div></div><div class="card"><div class="q">我们呢排出来的八字以后哈，都会有庙、旺、利、陷，庙旺利陷我们所有的星辰呢，告诉诸位有这个，这个就是所谓的星辰的亮度，亮度会影响，当然会影响，比如说我们今天白天，<span class="chip">太阳</span>出来应该出来很大，白天的时候<span class="chip">太阳</span>也很亮结果呢，天上乌云密布<span class="chip">太阳</span>光没办法透射，它代表的亮度不太一样，如果是吉星像我们前面有吉星吉星入庙，反正所有的星在庙旺的时候都是最好，在利的时候是平平在陷的时候是最差，那如果你遇到杀星在陷地的话，哇那是差中更差，懂不懂我意思凶中之凶。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=365" target="_blank" rel="noopener">▶ 00:06:05</a>
+<span class="badge">p07 §2</span><span class="crumb">01 主星 › 庙旺利陷 › 亮度</span></div></div><div class="seg"><div class="st">§3 庙旺利陷与吉处藏凶</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=365" target="_blank" rel="noopener">▶ 00:06:05</a></div></div><div class="card"><div class="q">那你如果遇到<span class="chip">陀罗</span>星，结果<span class="chip">火星</span>呢是入庙入庙，而庙旺的话这个杀星呢，反而会变成吉星，杀星会变成吉星怎么解释，杀星会变吉星，我们有两句话，叫做吉处藏凶，还有呢凶处藏吉，凶处藏吉呢，平安避凶，看到都是吉星的时候，里面有一个杀星暗在里面，落陷在里面，叫做吉处藏凶，看到都是杀星可是里面杀星都入庙，有一处有一个是吉星，就是入庙在里面的时候，叫做吉凶处藏吉。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=419" target="_blank" rel="noopener">▶ 00:06:59</a>
+<span class="badge">p07 §3</span><span class="crumb">01 主星 › 庙旺利陷 › 杀星入庙反吉</span></div></div><div class="card"><div class="q">先生您要知道戒，第一个戒有戒有戒的时机，戒之初戒之盛，这个孔子啊，有很多地方是对的，但是也有很多地方是错的，孔子在教我们的时候，是教我们戒慎恐惧，他说是慎请问你，一个最谨慎小心的人坐在飞机上面，结果飞飞机掉下去他就没事了，跟他没关系啊，“予不得已也非予所愿也”对不对真正的戒，要戒戒的时机岁戒之时啊，我讲过决定什么时机的人是智，什么叫做戒之初</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=509" target="_blank" rel="noopener">▶ 00:08:29</a>
+<span class="badge">p07 §3</span><span class="note">cleaned</span><span class="crumb">07 方法论 › 总体观 › 君子事天 / 小人事人 / 时机</span></div></div><div class="card"><div class="q">比如说我们去旅行我们到游览公司，我们先去查这游览公司开车的记录如何，他派给我们的驾驶有没有酗酒的记录啊，有没有怎么样先弄清楚对不对，先以明通过明了以明而动明了再动戒之初，在刚开始跟人家签合约的时候，先把该避免的通通写在里面，先小人了后君子，刚开始我们走马上任，去做一件大事情的时候，刚开始的时候要警戒，要先想好还有什么戒之盛呢，您在最好的时候越要警戒，这戒的时机，你都跑路了，欠人家好几千万躺在路边睡觉，你不必戒的小偷都不会来偷你，你最好的时候才要去戒，越好越要警戒，这是戒的时机。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=565" target="_blank" rel="noopener">▶ 00:09:25</a>
+<span class="badge">p07 §3</span><span class="note">cleaned</span><span class="crumb">07 方法论 › 总体观 › 君子事天 / 小人事人 / 时机</span></div></div><div class="card"><div class="q">刚开始的时候要谨慎</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=562" target="_blank" rel="noopener">▶ 00:09:22</a>
+<span class="badge">p07 §3</span><span class="crumb">07 方法论 › 总体观 › 君子事天 / 小人事人 / 时机</span></div></div><div class="card"><div class="q">很多人出事呢，就是戒的时机不对，好的时候你看我那么好了，我的<span class="chip">流年</span>那么好了有什么好警戒的，闽南语不用担心免惊结果你看他<span class="chip">流年</span>通通是吉，后面有个杀星在后面，暗暗的暗的看不到就出事了，看不到的杀星，这种凶处藏吉，吉处藏凶你就完了，所以要戒你要告诉他，越要这个时候越要警戒，那这个就是杀星的意义</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=617" target="_blank" rel="noopener">▶ 00:10:17</a>
+<span class="badge">p07 §3</span><span class="crumb">07 方法论 › 总体观 › 君子事天 / 小人事人 / 时机</span></div></div><div class="card"><div class="q">叫做吉处藏凶，还有呢凶处藏吉，凶处藏吉呢，平安避凶，看到都是吉星的时候，里面有一个杀星暗在里面，落陷在里面，叫做吉处藏凶，看到都是杀星可是里面杀星都入庙，有一处有一个是吉星，就是入庙在里面的时候，叫做吉凶处藏吉。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=434" target="_blank" rel="noopener">▶ 00:07:14</a>
+<span class="badge">p07 §3</span><span class="crumb">07 方法论 › 关键命理观 › 吉处藏凶 / 凶处藏吉</span></div></div><div class="card"><div class="q">我们大家出国旅游玩是好事情，是吉嘛对不对，我们到横贯公路去毕业旅行，到横贯公路去玩很好啊，结果旅行车一翻通通死掉，死掉一票人，吉处藏凶在劫难逃，那你家隔壁邻居失火了，看到失火火很大，凶处对不对，那我们就已经有知道了危险了，我们就预防了，消防队员去很少消防队员被烧死的，结果都没事为什么，吉处藏凶处藏吉平安。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=478" target="_blank" rel="noopener">▶ 00:07:58</a>
+<span class="badge">p07 §3</span><span class="crumb">07 方法论 › 关键命理观 › 吉处藏凶 / 凶处藏吉</span></div></div><div class="seg"><div class="st">§4 六杀分论：空劫、火铃、羊陀</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=644" target="_blank" rel="noopener">▶ 00:10:44</a></div></div><div class="card"><div class="q">你想想看刚刚讲的天空还有地劫，诸位看这两个字，你不用去管它书上怎么写，望文生义嘛，如果一个人做生意的<span class="chip">流年</span>，做生意的老板，<span class="chip">流年</span>逢到天空地劫你说他会不会赚钱，肯定赔钱了你还要给他赚钱，诸位这是算命。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=646" target="_blank" rel="noopener">▶ 00:10:46</a>
+<span class="badge">p07 §4</span><span class="crumb">01 主星 › 六杀（羊陀火铃空劫） › 天空地劫</span></div></div><div class="card"><div class="q">那如果<span class="chip">流年</span>流到<span class="chip">火星</span><span class="chip">铃星</span>，像火铃进来的时候，除了外面有火厄，代表个性上有冲突，跟朋友合伙代表吵架分手吵架拆伙冲突很大，那这个<span class="chip">火星</span><span class="chip">铃星</span>就刚好会在你<span class="chip">夫妻宫</span>呢，那就夫妻两个人大打出手，还可能如果再逢到刚好逢到<span class="chip">巨门</span>星，<span class="chip">巨门</span>星讲的官司是非对不对，是不是讲过，那逢了还不是大打出手，结果呢跑到法院去互告。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=669" target="_blank" rel="noopener">▶ 00:11:09</a>
+<span class="badge">p07 §4</span><span class="crumb">01 主星 › 六杀（羊陀火铃空劫） › 火星铃星</span></div></div><div class="card"><div class="q"><span class="chip">铃星</span><span class="chip">火星</span>那如果是<span class="chip">陀罗</span><span class="chip">擎羊</span>呢，就是看不到的小人我们有，我们人间有两种看不到的小人，一种是实际上实际上他对你很好，是你的父母亲可能是你的太太，可能是你的兄弟姐妹，可是实际上他因为太关心你了，反而会出事，这就好像我如果拿一块玉给你，我说这个10块钱台币，你放那边十年都不会摔破，我说先生这个玉1000万，我靠近眼睛那么小20秒就摔破了，这是你的念不对，要目所无视看不到，那遇到<span class="chip">擎羊</span><span class="chip">陀罗</span>星进来的时候，往往你的小人就在你身边，如果我不认识你我根本害不到你，越了解你的人才能越才能害得到你，这是一个还有第二个呢，看不到的小人就是你看到外面很健康，里面有癌症，就开刀见血光，都是这两颗星，所以<span class="chip">流年</span>逢到这两颗星，身体病灾就来了，病灾就来了。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=698" target="_blank" rel="noopener">▶ 00:11:38</a>
+<span class="badge">p07 §4</span><span class="note">cleaned</span><span class="crumb">01 主星 › 六杀（羊陀火铃空劫） › 擎羊陀罗</span></div></div><div class="card"><div class="q">那同样的如果是举例，如果<span class="chip">擎羊</span>代表是刃开血光，结果呢它是庙，庙旺庙或旺，代表说这个刀下去平安无事没有事啊，可能是小刀可能没有事，但是没有事还是要警戒啊，有没有什么问题，所以如果你们遇到人事的问题时候，遇到这两个人（星）的问题，遇到它落陷的时候最可怕来阴的。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=761" target="_blank" rel="noopener">▶ 00:12:41</a>
+<span class="badge">p07 §4</span><span class="crumb">01 主星 › 六杀（羊陀火铃空劫） › 擎羊为刃</span></div></div><div class="card"><div class="q">所以<span class="chip">流年</span>逢到这两颗星，身体病灾就来了，病灾就来了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=751" target="_blank" rel="noopener">▶ 00:12:31</a>
+<span class="badge">p07 §4</span><span class="crumb">05 疾厄 › 煞星入疾厄(开刀、血光、致命伤) › 总纲</span></div></div><div class="card"><div class="q">来阴的看相就可以看出来了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=794" target="_blank" rel="noopener">▶ 00:13:14</a>
+<span class="badge">p07 §4</span><span class="crumb">07 方法论 › 气色与相法 › 君子相 vs 小人相(《管辂相法》)</span></div></div><div class="card"><div class="q">左边眉毛上面有一道纹子上去，这是正面讲你好话，转身你不在他马上讲你都是坏话</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=815" target="_blank" rel="noopener">▶ 00:13:35</a>
+<span class="badge">p07 §4</span><span class="crumb">07 方法论 › 气色与相法 › 君子相 vs 小人相(《管辂相法》)</span></div></div><div class="card"><div class="q">甚而至于说我是信什么什么宗教的，我绝对不会骗你，你不要讲这个话，你真的不要骗我，你不用宗教来压，上帝有说你信我的宗教就不会骗，上帝只说真理是对的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=829" target="_blank" rel="noopener">▶ 00:13:49</a>
+<span class="badge">p07 §4</span><span class="crumb">07 方法论 › 给学习者的告诫(原话保留)</span></div></div><div class="seg"><div class="st">§5 总格与羊陀夹命</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=835" target="_blank" rel="noopener">▶ 00:13:55</a></div></div><div class="card"><div class="q"><span class="chip">天魁</span>还有<span class="chip">天钺</span>，这两个是科甲星，科甲星夹到命，<span class="chip">命宫</span>旁边的<span class="chip">天魁</span><span class="chip">天钺</span>夹的时候夹贵</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1114" target="_blank" rel="noopener">▶ 00:18:34</a>
+<span class="badge">p07 §5</span><span class="crumb">01 主星 › 天魁、天钺 › 定性</span></div></div><div class="card"><div class="q">比如说命坐财星或者是<span class="chip">父母宫</span>在财星，或者是<span class="chip">田宅宫</span>有财星，这些都是生有祖业的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=999" target="_blank" rel="noopener">▶ 00:16:39</a>
+<span class="badge">p07 §5</span><span class="crumb">02 十二宫 › 命宫</span></div></div><div class="card"><div class="q">这个看一个八字的时候，第一个我们会面临到，第一个面临的总格的问题</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=933" target="_blank" rel="noopener">▶ 00:15:33</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 总格取舍</span></div></div><div class="card"><div class="q">总格啊一个八字的总格，我们命里面有很多的格，很多的格其他格我尽量给你删掉，什么石中隐玉啊，什么我们不用那么多格，不要经常被不要被形绑到，但是有些特殊的我就要告诉你，就是属于例外</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=979" target="_blank" rel="noopener">▶ 00:16:19</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 总格取舍</span></div></div><div class="card"><div class="q">这是几个总格，后面有些例子，什么<span class="chip">七杀</span>朝斗紫府坐垣，我们尽量不去讲</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1197" target="_blank" rel="noopener">▶ 00:19:57</a>
+<span class="badge">p07 §5</span><span class="note">已按裁决改正：紫府坐桓→紫府坐垣</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 总格取舍</span></div></div><div class="card"><div class="q">比如说命坐财星或者是<span class="chip">父母宫</span>在财星，或者是<span class="chip">田宅宫</span>有财星，这些都是生有祖业的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=999" target="_blank" rel="noopener">▶ 00:16:39</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 日月夹财</span></div></div><div class="card"><div class="q">第一个叫日月夹财，什么叫日月夹财呢比如说这是丑宫，这是子宫这是寅宫，如果有一个人的命在这里结果呢，<span class="chip">太阴</span>在这里，<span class="chip">太阳</span>在这里，这叫<span class="chip">命宫</span>在这里，所以日月刚好是他的什么呀，左右两边夹，叫做日月夹财，夹在命上面，这个人一世财禄很大，包括先天的祖业包括后天的财禄，那即使<span class="chip">命宫</span>里面没有什么主星没有关系</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1011" target="_blank" rel="noopener">▶ 00:16:51</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 日月夹财</span></div></div><div class="card"><div class="q">紫府呢夹权，如果一个人<span class="chip">命宫</span>两边是，<span class="chip">紫微</span><span class="chip">天府</span>来夹掌权</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1069" target="_blank" rel="noopener">▶ 00:17:49</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 紫府夹权</span></div></div><div class="card"><div class="q"><span class="chip">天魁</span>还有<span class="chip">天钺</span>，这两个是科甲星，科甲星夹到命，<span class="chip">命宫</span>旁边的<span class="chip">天魁</span><span class="chip">天钺</span>夹的时候夹贵</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1114" target="_blank" rel="noopener">▶ 00:18:34</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 魁钺夹贵</span></div></div><div class="card"><div class="q">羊陀夹命的人最容易被人家影响，你要告诉他个性上的缺点，然后他领悟了以后，当他了解了以后就这个，这个灾就没有了灾就没有了。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1185" target="_blank" rel="noopener">▶ 00:19:45</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 二、凶格 › 12. 杀夹杀（七杀破军贪狼遇羊陀火铃）</span></div></div><div class="card"><div class="q">那比较惨的呢是羊陀夹，羊陀夹杀这就比较累了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1125" target="_blank" rel="noopener">▶ 00:18:45</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 二、凶格 › 12. 杀夹杀（七杀破军贪狼遇羊陀火铃）</span></div></div><div class="card"><div class="q"><span class="chip">命宫</span>旁边是<span class="chip">擎羊</span><span class="chip">陀罗</span>，刚好两颗星把你夹到了，你呢如果我们光是算命算形，算到形的话就变成说，你这个人生下来，先天就是一辈子跟到小人，你家里面也是一票小人，是外面朋友也是一票小人，你在劫难逃</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1138" target="_blank" rel="noopener">▶ 00:18:58</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 二、凶格 › 12. 杀夹杀（七杀破军贪狼遇羊陀火铃）</span></div></div><div class="card"><div class="q">应该要反过来讲，先生你命中注定小人很多，也换句话说，你容易被人家影响耳根子太软</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1156" target="_blank" rel="noopener">▶ 00:19:16</a>
+<span class="badge">p07 §5</span><span class="crumb">03 格局 › 二、凶格 › 12. 杀夹杀（七杀破军贪狼遇羊陀火铃）</span></div></div><div class="card"><div class="q">总格啊一个八字的总格，我们命里面有很多的格，很多的格其他格我尽量给你删掉，什么石中隐玉啊，什么我们不用那么多格，不要经常被不要被形绑到，但是有些特殊的我就要告诉你，就是属于例外</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=979" target="_blank" rel="noopener">▶ 00:16:19</a>
+<span class="badge">p07 §5</span><span class="crumb">07 方法论 › 总体观 › 神 vs 形(行)</span></div></div><div class="card"><div class="q">（听明和聪明）哪一个是对的，很多的老师说哎呀小孩子啊你好聪明啊，聪明了之后给骗了，先生你要听明啊，这两个字看起来很像，你以为我讲错了，听就能明白这人多厉害啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=959" target="_blank" rel="noopener">▶ 00:15:59</a>
+<span class="badge">p07 §5</span><span class="crumb">07 方法论 › 学习方法 › 学而后思</span></div></div><div class="card"><div class="q">很多人就说我是信什么什么宗教的，你就要相信我，讲这个话的你就不用信了，贵人言简刚中</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=844" target="_blank" rel="noopener">▶ 00:14:04</a>
+<span class="badge">p07 §5</span><span class="crumb">07 方法论 › 气色与相法 › 君子相 vs 小人相(《管辂相法》)</span></div></div><div class="card"><div class="q">越是这样子讲的人越要骗你，那个他纹往上走，表里不一致</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=855" target="_blank" rel="noopener">▶ 00:14:15</a>
+<span class="badge">p07 §5</span><span class="crumb">07 方法论 › 气色与相法 › 君子相 vs 小人相(《管辂相法》)</span></div></div><div class="card"><div class="q">他因为你在的时候他和颜悦色，可是呢纹已经出来了，然后你一走的时候，他开始他背后讲人家小人，讲人家看不起人家，或讲人家坏话的时候，他是越讲越激动，越讲眼睛变这样，然后纹以后一条纹就出来了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=862" target="_blank" rel="noopener">▶ 00:14:22</a>
+<span class="badge">p07 §5</span><span class="crumb">07 方法论 › 气色与相法 › 君子相 vs 小人相(《管辂相法》)</span></div></div><div class="card"><div class="q">然后你一看这个家伙我不要接近，我宁可开始戒之盛嘛，然后就戒之初啊，一开始就把他去掉不必来往</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=879" target="_blank" rel="noopener">▶ 00:14:39</a>
+<span class="badge">p07 §5</span><span class="crumb">07 方法论 › 气色与相法 › 君子相 vs 小人相(《管辂相法》)</span></div></div><div class="card"><div class="q">你要有个观念，真理说的才是对的，爸爸说的妈妈说的老师说的，不见得一定是对的哦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1165" target="_blank" rel="noopener">▶ 00:19:25</a>
+<span class="badge">p07 §5</span><span class="crumb">07 方法论 › 给学习者的告诫(原话保留)</span></div></div><div class="seg"><div class="st">§6 副星：文昌文曲</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1210" target="_blank" rel="noopener">▶ 00:20:10</a></div></div><div class="card"><div class="q">什么叫副星呢，一对一对的，第一个呢曲昌，叫做<span class="chip">文曲</span><span class="chip">文昌</span>星，这些我们都会在你们以后都会看到，我给你们例子很多你们都会看到，何为曲昌呢，<span class="chip">文曲</span><span class="chip">文昌</span>这两颗星呢，<span class="chip">文曲</span>星呢主的是才艺博学，博学多能的人，那<span class="chip">文曲</span>星呢，顾名思义看起来就是比较会比较斯文文绉绉的，<span class="chip">文昌</span>星呢代表的是科甲读书考试。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1216" target="_blank" rel="noopener">▶ 00:20:16</a>
+<span class="badge">p07 §6</span><span class="note">cleaned</span><span class="crumb">01 主星 › 文昌、文曲（六吉星 · 文星） › 定性</span></div></div><div class="card"><div class="q">所以<span class="chip">流年</span>如果，但你的<span class="chip">流年</span>刚好那一个，今年逢到<span class="chip">化科</span>，或者是逢了<span class="chip">文昌</span>星，这就是金榜题名，当然后面还有两个科甲星，我先介绍这个，那这是<span class="chip">文昌</span>星，那如果<span class="chip">文昌</span>星坐命，没有<span class="chip">文曲</span>星来会的话，没有<span class="chip">文曲</span>星来会的话，这个变成书呆子，你知道什么叫书呆子，通通都学了学而不思，学而没有思则罔，孟子说这种人迷惘了一下给人骗走了，学而不思，那如果这两颗星同时会到，那就变得文采风流了，很多或者风流才子，写的诗写的很好，就是文采风流。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1263" target="_blank" rel="noopener">▶ 00:21:03</a>
+<span class="badge">p07 §6</span><span class="note">cleaned</span><span class="crumb">01 主星 › 文昌、文曲（六吉星 · 文星） › 同宫</span></div></div><div class="card"><div class="q">给女孩子不好了，给女孩子会到这两颗星的话，变成女孩子是桃花，在帮女孩子算命的时候，千万不要跟她说哎，小姐你有桃花，你这个你这个桃花命，千万不要这样子讲，就是说你可以用很多方法，哎男孩子可以看到你很喜欢你，或者怎么样子，那诸位听众如果听到这，你找我算过命，我没有很含蓄啊我讲的是实话这个是科。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1306" target="_blank" rel="noopener">▶ 00:21:46</a>
+<span class="badge">p07 §6</span><span class="note">cleaned</span><span class="crumb">01 主星 › 文昌、文曲（六吉星 · 文星） › 女命</span></div></div><div class="card"><div class="q">如果一个人的<span class="chip">流年</span>，他34岁刚好逢了<span class="chip">文昌</span>星，结果<span class="chip">文昌</span>星是遇到<span class="chip">化忌</span>，是不是说代表他有考试，可是呢不中，这样以此类推加减就出来了。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1336" target="_blank" rel="noopener">▶ 00:22:16</a>
+<span class="badge">p07 §6</span><span class="crumb">01 主星 › 文昌、文曲（六吉星 · 文星） › 与化忌</span></div></div><div class="seg"><div class="st">§7 副星：天魁天钺</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1357" target="_blank" rel="noopener">▶ 00:22:37</a></div></div><div class="card"><div class="q">第二个呢<span class="chip">天魁</span><span class="chip">天钺</span>，<span class="chip">天钺</span>这两颗星呢也是主科甲读书星，读书星如果有个人的命里面<span class="chip">文昌</span><span class="chip">文曲</span>也来会，<span class="chip">天魁</span><span class="chip">天钺</span>也来会。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1357" target="_blank" rel="noopener">▶ 00:22:37</a>
+<span class="badge">p07 §7</span><span class="crumb">01 主星 › 天魁、天钺 › 定性</span></div></div><div class="card"><div class="q">他长得再粗鲁再壮，考试就很厉害了，你不要看他根本就不像个读书的，看着像读书的一点都不像了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1379" target="_blank" rel="noopener">▶ 00:22:59</a>
+<span class="badge">p07 §7</span><span class="crumb">01 主星 › 天魁、天钺 › 定性</span></div></div><div class="card"><div class="q">你们不要先去设定，看着这个人斯文文的就一定会读书，小姐你错了真的错了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1391" target="_blank" rel="noopener">▶ 00:23:11</a>
+<span class="badge">p07 §7</span><span class="crumb">01 主星 › 天魁、天钺 › 定性</span></div></div><div class="card"><div class="q">有的人长得很粗鲁讲话很洪亮，讲话很粗鲁，三字经都还不能讲，而考试都是最棒的，都是这样子的哈，千万不要被外形所惑</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1397" target="_blank" rel="noopener">▶ 00:23:17</a>
+<span class="badge">p07 §7</span><span class="crumb">01 主星 › 天魁、天钺 › 定性</span></div></div><div class="card"><div class="q">那你知不知道老师说科甲星很旺，我跟你讲手上有天柱纹，手上男左女右有天柱纹，天柱纹都是科甲很旺的人，这最明显在手上还有呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1410" target="_blank" rel="noopener">▶ 00:23:30</a>
+<span class="badge">p07 §7</span><span class="crumb">04 四化 › 十、四化与相 / 阳宅（跨学科）★ › 天柱纹主科</span></div></div><div class="seg"><div class="st">§8 红鸾天喜</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1435" target="_blank" rel="noopener">▶ 00:23:55</a></div></div><div class="card"><div class="q"><span class="chip">红鸾</span><span class="chip">天喜</span>星，看到这个星呢，顾名思义就是这样<span class="chip">红鸾</span>心动嘛，所以中国人说哎呀，你<span class="chip">红鸾</span>心动这个成语是从斗数里面来的，斗数里面<span class="chip">红鸾</span>星<span class="chip">天喜</span>星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1435" target="_blank" rel="noopener">▶ 00:23:55</a>
+<span class="badge">p07 §8</span><span class="crumb">01 主星 › 红鸾、天喜 › 定性</span></div></div><div class="card"><div class="q">一般的<span class="chip">红鸾</span><span class="chip">天喜</span>星啊，代表喜庆的星</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1449" target="_blank" rel="noopener">▶ 00:24:09</a>
+<span class="badge">p07 §8</span><span class="crumb">01 主星 › 红鸾、天喜 › 定性</span></div></div><div class="card"><div class="q">男人呐命带<span class="chip">红鸾</span>，你的<span class="chip">命宫</span>里面就有<span class="chip">红鸾</span>星，必招美妻女命<span class="chip">红鸾</span>呢，必有贵夫如果你替一个小孩子算命</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1462" target="_blank" rel="noopener">▶ 00:24:22</a>
+<span class="badge">p07 §8</span><span class="crumb">01 主星 › 红鸾、天喜 › 男命</span></div></div><div class="card"><div class="q">那命带<span class="chip">红鸾</span>的男孩子很奇怪，他是看到那个漂亮女孩子，他无法忍耐兽性大发，他不追他不行的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1504" target="_blank" rel="noopener">▶ 00:25:04</a>
+<span class="badge">p07 §8</span><span class="crumb">01 主星 › 红鸾、天喜 › 男命</span></div></div><div class="card"><div class="q">那女孩子呢，命带<span class="chip">红鸾</span><span class="chip">天喜</span>星的人，一般来说长得很漂亮，长得很漂亮</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1512" target="_blank" rel="noopener">▶ 00:25:12</a>
+<span class="badge">p07 §8</span><span class="crumb">01 主星 › 红鸾、天喜 › 女命</span></div></div><div class="card"><div class="q"><span class="chip">红鸾</span><span class="chip">天喜</span>星坐命的女孩子她脑筋很清楚，她看得很清楚，那自然而然知道嫁谁是贵夫啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1519" target="_blank" rel="noopener">▶ 00:25:19</a>
+<span class="badge">p07 §8</span><span class="crumb">01 主星 › 红鸾、天喜 › 女命</span></div></div><div class="card"><div class="q">可是她眼睛不但清楚，而且还可以看到，她嫁他的时候可能现在还没什么，然后嫁给他以后，可能几年以后渐渐才好起来，她都可以看得到</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1524" target="_blank" rel="noopener">▶ 00:25:24</a>
+<span class="badge">p07 §8</span><span class="crumb">01 主星 › 红鸾、天喜 › 女命</span></div></div><div class="card"><div class="q">那这个一般来说我们在一般的算命，外面所有坊间的算命，都是必须要会到<span class="chip">红鸾</span><span class="chip">天喜</span>星才会结婚其实不然</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1550" target="_blank" rel="noopener">▶ 00:25:50</a>
+<span class="badge">p07 §8</span><span class="crumb">02 十二宫 › 夫妻宫</span></div></div><div class="card"><div class="q">有时候会到<span class="chip">夫妻宫</span>，刚好他<span class="chip">流年</span><span class="chip">流年</span>要看<span class="chip">流年</span>，<span class="chip">流年</span>走到<span class="chip">夫妻宫</span>他也会结婚</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1563" target="_blank" rel="noopener">▶ 00:26:03</a>
+<span class="badge">p07 §8</span><span class="crumb">02 十二宫 › 夫妻宫</span></div></div><div class="card"><div class="q">反正走到有人的宫他都会结婚</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1574" target="_blank" rel="noopener">▶ 00:26:14</a>
+<span class="badge">p07 §8</span><span class="crumb">02 十二宫 › 夫妻宫</span></div></div><div class="card"><div class="q">有的女孩子呢走到<span class="chip">财帛宫</span>，她本来她都没有结婚，结果在公司里面做了半天很郁卒闽南语沮丧/不悦，心里面不愉快，然后她出来自己做生意当老板，做生意当老板以后，就跟一个客户第一天签约，那个客户就是她未来的先生，在财帛上面会到也不一定</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1577" target="_blank" rel="noopener">▶ 00:26:17</a>
+<span class="badge">p07 §8</span><span class="crumb">02 十二宫 › 财帛宫</span></div></div><div class="card"><div class="q"><span class="chip">流年</span>走到这个<span class="chip">父母宫</span>也会结婚，媒妁之言呐从父母亲那边来的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1569" target="_blank" rel="noopener">▶ 00:26:09</a>
+<span class="badge">p07 §8</span><span class="crumb">02 十二宫 › 父母宫</span></div></div><div class="card"><div class="q">最重要是那个数，斗数呢和易经完全讲象还有数，所以诸位看我们这一派叫象数宗</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1605" target="_blank" rel="noopener">▶ 00:26:45</a>
+<span class="badge">p07 §8</span><span class="crumb">07 方法论 › 总体观 › 诸术比较（铁板 / 子平 / 紫微）</span></div></div><div class="seg"><div class="st">§9 左辅右弼、三台八座</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1636" target="_blank" rel="noopener">▶ 00:27:16</a></div></div><div class="card"><div class="q">三台八座呢是辅助<span class="chip">天府</span>星来会的，如果<span class="chip">天府</span>星有三台八座，这个是南斗星君的文武两官，如果南斗星君，<span class="chip">紫微</span><span class="chip">天府</span>星，有碰到三台八座来辅弼的时候，这南府星君，南斗星君解厄制化的力量就有了，北斗星君比南斗星君强，因为北斗星君即使不碰到<span class="chip">左辅</span><span class="chip">右弼</span>，它都可以解厄制化这个三台，这个<span class="chip">天府</span>星一定要逢到三台八座，才有解厄制化的功能，否则光是一个<span class="chip">天府</span>星，解厄制化的功能没有。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1676" target="_blank" rel="noopener">▶ 00:27:56</a>
+<span class="badge">p07 §9</span><span class="crumb">01 主星 › 天府（南斗 · 帝星） › 三台八座</span></div></div><div class="card"><div class="q">没有没有没有<span class="chip">左辅</span>和<span class="chip">右弼</span>还没介绍<span class="chip">左辅</span>呢还有<span class="chip">右弼</span>，学第五个呢是三台八座，这个<span class="chip">左辅</span><span class="chip">右弼</span>是辅助<span class="chip">紫微</span>星的，只要是只要看到<span class="chip">紫微</span>星出现的时候，如果有辅弼来会，这<span class="chip">紫微</span>星就变成，君王诸侯君王之相。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1647" target="_blank" rel="noopener">▶ 00:27:27</a>
+<span class="badge">p07 §9</span><span class="crumb">01 主星 › 左辅、右弼（六吉星 · 辅星） › 紫微需辅弼</span></div></div><div class="seg"><div class="st">§10 排盘：闰月、早晚子</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1723" target="_blank" rel="noopener">▶ 00:28:43</a></div></div><div class="card"><div class="q">第二个部分呢刚刚总格，我刚刚举的特殊的格诸位知道就好了，其他很多我们有石中隐玉啊，明珠出海啊，<span class="chip">七杀</span>朝斗紫府坐垣啊，这些格诸位我们都在看例子的时候，慢慢跟诸位讲啊十年大运</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1723" target="_blank" rel="noopener">▶ 00:28:43</a>
+<span class="badge">p07 §10</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 总格取舍</span></div></div><div class="card"><div class="q">排个命的时候这里有个重点第一个闰月生人，作下月论比如说你是农历四月，结果你那个月刚好是闰四月，我们要做排到把它排的时候排到5月去，这闰月生人要注意。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1775" target="_blank" rel="noopener">▶ 00:29:35</a>
+<span class="badge">p07 §10</span><span class="crumb">07 方法论 › 批命顺序与原则 › 闰月生人作下月论</span></div></div><div class="card"><div class="q">第二个子时生人，子时生人的时候子时生的，我们从11点到1点，11点到12点12点到1点，这个是半夜，要注明一下不然有人以为中午呢半夜，如果你刚好是12点11点到12点，这一段时间生的，这一段叫做晚子，晚子时这个是根据前一天来的，就是这前面这一天呢最晚的时间，最晚的子时叫晚子时，过了12点以后，这一段时间，叫做早子时。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1799" target="_blank" rel="noopener">▶ 00:29:59</a>
+<span class="badge">p07 §10</span><span class="crumb">07 方法论 › 批命顺序与原则 › 早晚子时</span></div></div><div class="card"><div class="q">所以后面呢要日子要换，懂不懂我意思，12点换第二天的所以斗数，排斗数的时候我们有早子跟晚子，你是今天晚上，现在今天晚上11点半生的，你叫做今天这一天的晚子时生，那你是今天凌晨1点凌晨12点半生的，代表今天的早子时我们排的时候，时那个日子还是今天懂不懂不要变动，排还是排子时，早子跟晚子的排出来布列八字是一样，过了12点以后才算第二天。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1841" target="_blank" rel="noopener">▶ 00:30:41</a>
+<span class="badge">p07 §10</span><span class="crumb">07 方法论 › 批命顺序与原则 › 早晚子时</span></div></div><div class="seg"><div class="st">§11 流年宫位与男顺女逆</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1879" target="_blank" rel="noopener">▶ 00:31:19</a></div></div><div class="card"><div class="q">我们看<span class="chip">命宫</span>的时候我们要看<span class="chip">三方四正</span>，我们看十年的时候，也要看看他的<span class="chip">三方四正</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2248" target="_blank" rel="noopener">▶ 00:37:28</a>
+<span class="badge">p07 §11</span><span class="crumb">02 十二宫 › 三方四正与对宫借星</span></div></div><div class="card"><div class="q">我们<span class="chip">命宫</span><span class="chip">迁移宫</span><span class="chip">财帛宫</span><span class="chip">官禄宫</span>，<span class="chip">三方四正</span>来会的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1920" target="_blank" rel="noopener">▶ 00:32:00</a>
+<span class="badge">p07 §11</span><span class="crumb">02 十二宫 › 三方四正与对宫借星</span></div></div><div class="card"><div class="q">我们在看子丑寅卯十年大运的时候，我们有一句话，叫做命好不如限好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1879" target="_blank" rel="noopener">▶ 00:31:19</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 命好不如限好</span></div></div><div class="card"><div class="q">比如说你的<span class="chip">命宫</span>里面都是吉星，来了都很多，就代表你先天很好，可是你的限，这个十年大运呢就叫做限，批<span class="chip">流年</span>的时候就叫做限，结果十年十年的时间是不好，这个命好不如限好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1899" target="_blank" rel="noopener">▶ 00:31:39</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 命好不如限好</span></div></div><div class="card"><div class="q">有的人<span class="chip">命宫</span>出来<span class="chip">三方四正</span>会的时候，我们<span class="chip">命宫</span><span class="chip">迁移宫</span><span class="chip">财帛宫</span><span class="chip">官禄宫</span>，<span class="chip">三方四正</span>来会的时候，他的这个宫本身，他本身会到命里面并不是很好，可是你一看他<span class="chip">流年</span>都很好，这叫做限好，限好比命好还重要</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1918" target="_blank" rel="noopener">▶ 00:31:58</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 命好不如限好</span></div></div><div class="card"><div class="q">所以有的人我常常算到啊，八字拿出来哇明珠出海格，石中隐玉格哇那个是那个，那个<span class="chip">七杀</span>朝斗紫府坐垣格，结果我们批的时候夭折，为什么批的时候夭折他命很好，可是限不好，夭折看过很多所以这个能让你误的地方</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1936" target="_blank" rel="noopener">▶ 00:32:16</a>
+<span class="badge">p07 §11</span><span class="note">已按裁决改正：天折→夭折</span><span class="crumb">07 方法论 › 批命顺序与原则 › 命好不如限好</span></div></div><div class="card"><div class="q">从午宫开始起什么，1岁在这边，那1岁往上转的时候男顺女逆，女孩子是逆的，男顺女逆，你千万不要从1岁开始算了，转转转转12个，转转到41岁，那你是不晓得哪里来的，很简单的方法，1+12诸位再回头的时候一定是什么，13再12的话25对不对，再回头是不是，那你如果37在这边的时候37岁在这边，那岁就在这边的，今年的<span class="chip">流年</span>就在这边懂不懂</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2467" target="_blank" rel="noopener">▶ 00:41:07</a>
+<span class="badge">p07 §11</span><span class="note">cleaned</span><span class="crumb">07 方法论 › 批命顺序与原则 › 流年男顺女逆</span></div></div><div class="card"><div class="q">从戌宫开始起子起子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2378" target="_blank" rel="noopener">▶ 00:39:38</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 流年男顺女逆</span></div></div><div class="card"><div class="q">比如说你是43年生的，甲午年那83年跟43年，那今年<span class="chip">流年</span>在哪一个宫，我们怎么算，你83-43+1，所以变成41岁</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2386" target="_blank" rel="noopener">▶ 00:39:46</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 流年男顺女逆</span></div></div><div class="card"><div class="q">为什么我们不要设计在里面，很多外面排的那个电脑程式里面，几岁几岁给他写的那边，写的整个宫看的很乱你懂不懂，不需要我们的<span class="chip">流年</span>一看就好了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2515" target="_blank" rel="noopener">▶ 00:41:55</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 流年男顺女逆</span></div></div><div class="card"><div class="q">我们看<span class="chip">命宫</span>的时候我们要看<span class="chip">三方四正</span>，我们看十年的时候，也要看看他的<span class="chip">三方四正</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2248" target="_blank" rel="noopener">▶ 00:37:28</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 看一个宫一定看三方四正与对面</span></div></div><div class="card"><div class="q">那批八字的时候我们就先批十年，十年呢总运批好十年是最难批的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2271" target="_blank" rel="noopener">▶ 00:37:51</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 十年为主流年为辅</span></div></div><div class="card"><div class="q">十年呢为主啊，小<span class="chip">流年</span>呢一年一年呢，是小<span class="chip">流年</span>呢为辅，为辅弼来辅佐它</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2278" target="_blank" rel="noopener">▶ 00:37:58</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 十年为主流年为辅</span></div></div><div class="card"><div class="q">我们就知道这十年他是赚钱的，但是这一年赔钱懂吗，你十年总和是赚钱，可能七年赚钱三年赔钱</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2300" target="_blank" rel="noopener">▶ 00:38:20</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 十年为主流年为辅</span></div></div><div class="card"><div class="q">那你在还没有走到的时候你要告诉他你小心啊，你今年实在是很好，但是你要记得戒盛啊你这个你太好了，你没有戒心，你认为不可能的事情就会发生，事情会发生都是不可能的，都是你认为不可能才发生的，所以我们随时要警戒</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2310" target="_blank" rel="noopener">▶ 00:38:30</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 十年为主流年为辅</span></div></div><div class="card"><div class="q">这就是十年大运我们要看对面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2326" target="_blank" rel="noopener">▶ 00:38:46</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 十年为主流年为辅</span></div></div><div class="card"><div class="q">那如果我们批小<span class="chip">流年</span>的时候，小<span class="chip">流年</span>呢就不需要看左右夹了，批一年的小<span class="chip">流年</span>的时候，只需要看对宫及本宫，只需要看对宫和本宫怎么讲呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2328" target="_blank" rel="noopener">▶ 00:38:48</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 小流年只看本宫对宫</span></div></div><div class="card"><div class="q">如果我们的命我们命里有很多局水二局木三局，金四局土五局火六局，那这个呢诸位不用去记，为什么排的时候统统会有，我会给诸位排那个东西统统有，这个是二三四五六，这个本身这个水火木金土，这个没有什么意义</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2173" target="_blank" rel="noopener">▶ 00:36:13</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 五行局</span></div></div><div class="card"><div class="q">千万不要说哎呀他是水局的，他就要从水的行业，那水的行业有哪些，像东西经过漂洋过海来的，国际贸易类水果类，冷饮类农业渔业，旅游业观光业畜牧业都属于水</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2203" target="_blank" rel="noopener">▶ 00:36:43</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 五行局</span></div></div><div class="card"><div class="q">你知道它的性就好，千万不要说哎，他是水局你跟他说你这个水最旺你错了，不是这样子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2215" target="_blank" rel="noopener">▶ 00:36:55</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 批命顺序与原则 › 五行局</span></div></div><div class="card"><div class="q">看他是阴男阳女，阳男阴女那只是排列的方法</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2242" target="_blank" rel="noopener">▶ 00:37:22</a>
+<span class="badge">p07 §11</span><span class="note">cleaned</span><span class="crumb">07 方法论 › 批命顺序与原则 › 五行局</span></div></div><div class="card"><div class="q">小儿善知人意，主夭折</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=1974" target="_blank" rel="noopener">▶ 00:32:54</a>
+<span class="badge">p07 §11</span><span class="note">cleaned〕〔已按裁决改正：天折→夭折</span><span class="crumb">07 方法论 › 气色与相法 › 小儿相</span></div></div><div class="card"><div class="q">小孩子呢有大人的样子，主夭折</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2000" target="_blank" rel="noopener">▶ 00:33:20</a>
+<span class="badge">p07 §11</span><span class="note">cleaned〕〔已按裁决改正：天折→夭折</span><span class="crumb">07 方法论 › 气色与相法 › 小儿相</span></div></div><div class="card"><div class="q">这个限差不多在七岁以前，七岁七岁啊，七才七岁以前，发生在七岁以前</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2007" target="_blank" rel="noopener">▶ 00:33:27</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 气色与相法 › 小儿相</span></div></div><div class="card"><div class="q">比如说你拿他的八字一看，哇那么好哇科权禄会命啊什么都很好，再一看这个小孩子，比如说三岁四岁你一看到哎，这孩子动作龙行虎步不苟言笑，坐在那边的时候像将军一样，爸爸快看那边趴了个的小孩子在干嘛，然后没有小孩子的天真活泼这主夭折，你以为很好其实不好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2019" target="_blank" rel="noopener">▶ 00:33:39</a>
+<span class="badge">p07 §11</span><span class="note">已按裁决改正：天折→夭折</span><span class="crumb">07 方法论 › 气色与相法 › 小儿相</span></div></div><div class="card"><div class="q">善知人意你讲什么他都很懂，马上就反应过来了，脑子反应很快，比大人还聪明，善知人意善解人意都主夭折，所以小孩子要童蒙，要有小孩子的天真</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2045" target="_blank" rel="noopener">▶ 00:34:05</a>
+<span class="badge">p07 §11</span><span class="note">已按裁决改正：天折→夭折</span><span class="crumb">07 方法论 › 气色与相法 › 小儿相</span></div></div><div class="card"><div class="q">你们小孩子到学校去学的东西，你不用去教他，你教他的要学校没有的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2064" target="_blank" rel="noopener">▶ 00:34:24</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 给学习者的告诫(原话保留)</span></div></div><div class="card"><div class="q">你要教她中文，教她学校没有的才是妈妈的职责</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2084" target="_blank" rel="noopener">▶ 00:34:44</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 给学习者的告诫(原话保留)</span></div></div><div class="card"><div class="q">你是他妈妈还是他老师，你角色没有扮清楚，带他去玩让他童稚的象要出现，了解吧小孩子尽量让他天真尽量让他活泼，尽量让他去玩</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2120" target="_blank" rel="noopener">▶ 00:35:20</a>
+<span class="badge">p07 §11</span><span class="crumb">07 方法论 › 给学习者的告诫(原话保留)</span></div></div><div class="seg"><div class="st">§12 离日与绝日</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2529" target="_blank" rel="noopener">▶ 00:42:09</a></div></div><div class="card"><div class="q">杀星入庙还好对不对，庙还比较好，那个落陷通通是杀</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2690" target="_blank" rel="noopener">▶ 00:44:50</a>
+<span class="badge">p07 §12</span><span class="crumb">01 主星 › 庙旺利陷 › 杀星入庙反吉</span></div></div><div class="card"><div class="q">那个在天罗地网，天罗就是天上的星君，然后地网的慧刀</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2694" target="_blank" rel="noopener">▶ 00:44:54</a>
+<span class="badge">p07 §12</span><span class="crumb">03 格局 › 二、凶格 › 天罗地网</span></div></div><div class="card"><div class="q">因为春夏秋冬进来的时候，如果是夏季有没有，夏季的时候是很好就秋季的时候凶，那<span class="chip">化忌</span>在这边<span class="chip">化忌</span>啊，就是灾星在这边，结果就发在夏在立秋交秋之前有没有就会出事</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2779" target="_blank" rel="noopener">▶ 00:46:19</a>
+<span class="badge">p07 §12</span><span class="crumb">04 四化 › 六、化忌 · 主劫杀、想不开 › 6.1 核心定性</span></div></div><div class="card"><div class="q">如果你看到一个人，他举例比如说他12月25号是立冬，比如说哦12月25号是立冬，这是举例啊，你刚好在17号的时候，看到这个人已经面目枯槁，然后看他今年的<span class="chip">流年</span>，刚好四杀还不止还六杀，羊陀火铃空劫通通来了，所有的坏星通通在里面等到你了，然后再看到主星进来的时候，<span class="chip">廉贞</span><span class="chip">贪狼</span>这些杀星呢，进来的时候还落陷，杀星入庙还好对不对，庙还比较好，那个落陷通通是杀，那个在天罗地网，天罗就是天上的星君，然后地网的慧刀，再一看这个面容枯槁了，看相看算命他是100%死定了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2657" target="_blank" rel="noopener">▶ 00:44:17</a>
+<span class="badge">p07 §12</span><span class="crumb">05 疾厄 › 望死色 / 枯萎色</span></div></div><div class="card"><div class="q">我们在这个春分夏至秋分冬至，这四个节令的时候，前一日呢为离日，立春立夏立秋，立冬这四个日子呢，前一日呢为绝日，这个春分夏至秋分冬至前一天呢，你看那个黄历上面，之前一天我们都叫做绝日（离日），黄历上面就有哈这叫离日。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2580" target="_blank" rel="noopener">▶ 00:43:00</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 总体观 › 君子事天 / 小人事人 / 时机</span></div></div><div class="card"><div class="q">立春立夏立秋立冬，前一天是绝日代表春夏秋冬，节气要交换的时候，是节令最弱的时候，所以那是大凶的日子。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2647" target="_blank" rel="noopener">▶ 00:44:07</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 总体观 › 君子事天 / 小人事人 / 时机</span></div></div><div class="card"><div class="q">就是木火金水四个节令呢，分离的时候，在气最弱的时候，也就是最危险的那一天的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2636" target="_blank" rel="noopener">▶ 00:43:56</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 总体观 › 离日绝日</span></div></div><div class="card"><div class="q">遇到这种绝日的时候再一看又是绝日，离日和绝日一年呢我们有八天，都是大凶的日子，就是这八天，这八天诸事不宜</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2722" target="_blank" rel="noopener">▶ 00:45:22</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 总体观 › 离日绝日</span></div></div><div class="card"><div class="q">所以千万我们在后面介绍阳宅，搬家或者是入殓或者是什么样，一定要通通避开这八天</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2734" target="_blank" rel="noopener">▶ 00:45:34</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 总体观 › 离日绝日</span></div></div><div class="card"><div class="q">这八天这八天是我们人气最弱的时候，表面上看你是很壮，可是你最容易得到感冒，因为节气是空的真空的状态</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2740" target="_blank" rel="noopener">▶ 00:45:40</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 总体观 › 离日绝日</span></div></div><div class="card"><div class="q">这日子要避掉这些日子，所以如果遇到这个节点，你如果遇到其他的节气还不会，你看我们这写了八个，一共有24个哦，还有12个，雨水啊露水啊这个小雨啊，这些都没有关系，清明啊谷雨啊，有没有这都没有关系，遇到这个前一日通通要小心一点</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2754" target="_blank" rel="noopener">▶ 00:45:54</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 总体观 › 离日绝日</span></div></div><div class="card"><div class="q">刚刚是男孩子顺转女孩子逆转，不要弄错了，左边四个宫呢我们叫春夏秋冬</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2546" target="_blank" rel="noopener">▶ 00:42:26</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 批命顺序与原则 › 流年男顺女逆</span></div></div><div class="card"><div class="q">所以你这边1、25、37、49，61岁也在这边嘛，你加12+12+12它就在这边</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2861" target="_blank" rel="noopener">▶ 00:47:41</a>
+<span class="badge">p07 §12</span><span class="crumb">07 方法论 › 批命顺序与原则 › 流年男顺女逆</span></div></div><div class="card"><div class="q">如果是一个戌年生的怎么办，是不是也在这边，那如果有个丑年生的属牛的呢，丑年生属牛的，1岁就在这里，懂不懂我意思，这四个宫我们把它分三种，一十二我们有12个属生肖的人就这样子</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2868" target="_blank" rel="noopener">▶ 00:47:48</a>
+<span class="badge">p07 §12</span><span class="note">cleaned</span><span class="crumb">07 方法论 › 批命顺序与原则 › 流年男顺女逆</span></div></div><div class="seg"><div class="st">§13 补星：巨门、禄存、天马</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2883" target="_blank" rel="noopener">▶ 00:48:03</a></div></div><div class="card"><div class="q">第一个叫<span class="chip">巨门</span>星，这是主力星<span class="chip">巨门</span>星呢，本身是一个凶星并不是吉星，<span class="chip">巨门</span>星代表的意义呢代表口舌，是非官司牢狱之灾，牢狱之灾如果<span class="chip">巨门</span>星是庙旺，就是我们刚才讲的如果是很亮，星辰亮度是很亮的话，这个灾要去掉大半，这个变成能言善道口才非常好，那如果是<span class="chip">巨门</span>星落陷陷地不亮的话，问题就来了，这个<span class="chip">巨门</span>星诸位看这<span class="chip">巨门</span>就是门很大，你看这个学校的门也很大，如果是庙旺的话，他就是当学校的校长了，如果是落陷的话门是关到了，我们监狱的门也还是大但是是关到的，落陷要坐在牢里，所以同样一颗星它代表意义不一样，那<span class="chip">巨门</span>星是主牢狱之灾，也主官司纠纷口舌。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2887" target="_blank" rel="noopener">▶ 00:48:07</a>
+<span class="badge">p07 §13</span><span class="crumb">01 主星 › 巨门（北斗 · 暗星） › 定性</span></div></div><div class="card"><div class="q">那巨富的人再逢到<span class="chip">巨门</span>星入庙的时候，代表他豪门宅地有没有，那如果生下来就是<span class="chip">巨门</span>星入庙，那个双禄禄马交驰在命，生下来就在豪门世家里面</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3057" target="_blank" rel="noopener">▶ 00:50:57</a>
+<span class="badge">p07 §13</span><span class="crumb">01 主星 › 巨门（北斗 · 暗星） › 定性</span></div></div><div class="card"><div class="q">你千万不要给他批出来，生下来就在牢里，不要批错了哈那入庙嘛，千万不要批错了，所以同一颗星它代表的意义不一样</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3069" target="_blank" rel="noopener">▶ 00:51:09</a>
+<span class="badge">p07 §13</span><span class="crumb">01 主星 › 巨门（北斗 · 暗星） › 定性</span></div></div><div class="card"><div class="q">那<span class="chip">巨门</span>星的人呢，有一种形小个子很小，声音音量很高声音音量声量很大，形小声高量大这种人呢，这个这个是<span class="chip">巨门</span>星，还有一种呢，有的时候看到长绒肥胖，也是<span class="chip">巨门</span>星两种形象，长就毛茸茸的，身体很长身体毛发很多，然后比较肥胖。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2952" target="_blank" rel="noopener">▶ 00:49:12</a>
+<span class="badge">p07 §13</span><span class="crumb">01 主星 › 巨门（北斗 · 暗星） › 长相</span></div></div><div class="card"><div class="q">还有一颗星呢，我们叫<span class="chip">禄存</span>，<span class="chip">禄存</span>呢同于<span class="chip">化禄</span>，那<span class="chip">禄存</span>最重要的是指的是财星，像<span class="chip">禄存</span>星在命，这种人就是标准的小气，如果你的儿子或女儿他命中有<span class="chip">禄存</span>，我告诉你啊你给他压岁钱给他零钱，他通通藏起来。</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=2979" target="_blank" rel="noopener">▶ 00:49:39</a>
+<span class="badge">p07 §13</span><span class="crumb">01 主星 › 禄存 › 定性</span></div></div><div class="card"><div class="q">然后哪天跑出去的时候，他会这个用你的钱，他的钱还是放在袋子里面很小气那<span class="chip">禄存</span>呢本身呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3003" target="_blank" rel="noopener">▶ 00:50:03</a>
+<span class="badge">p07 §13</span><span class="crumb">01 主星 › 禄存 › 定性</span></div></div><div class="card"><div class="q">如果在财帛<span class="chip">流年</span>逢到<span class="chip">禄存</span>的时候，财星都很旺事业上都会大赚钱</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3012" target="_blank" rel="noopener">▶ 00:50:12</a>
+<span class="badge">p07 §13</span><span class="crumb">01 主星 › 禄存 › 定性</span></div></div><div class="card"><div class="q">所以天下没有白吃的午餐，我们在算命的道理也是一样，这个财禄来的时候一定要逢到<span class="chip">天马</span>，一定是很辛苦赚来的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3031" target="_blank" rel="noopener">▶ 00:50:31</a>
+<span class="badge">p07 §13</span><span class="crumb">01 主星 › 禄存 › 禄马交驰</span></div></div><div class="card"><div class="q">但是这两颗星呢，同<span class="chip">化禄</span>的时候通常要逢到<span class="chip">天马</span>，如果逢到<span class="chip">天马</span>的时候，这有个特殊的格叫做禄马交驰，禄都要逢到<span class="chip">天马</span>禄马交驰</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3017" target="_blank" rel="noopener">▶ 00:50:17</a>
+<span class="badge">p07 §13</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 禄马交驰</span></div></div><div class="card"><div class="q">这个所以逢到禄马交驰的时候，都是很进会进很大的财</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3041" target="_blank" rel="noopener">▶ 00:50:41</a>
+<span class="badge">p07 §13</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 禄马交驰</span></div></div><div class="card"><div class="q"><span class="chip">化禄</span><span class="chip">禄存</span><span class="chip">化禄</span>和禄马交驰在同宫，那是巨富巨富</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=7&t=3050" target="_blank" rel="noopener">▶ 00:50:50</a>
+<span class="badge">p07 §13</span><span class="crumb">03 格局 › 一、必定成格（吉格） › 禄马交驰</span></div></div>
+<footer>本站内容为倪海厦先生《天纪》课程判语的结构化整理，每条均可回放原视频核对。<br>
+课程内容著作权归倪海厦先生及其权利继承人所有；字幕整理致谢 B 站 UP 主程心学。<br>
+内容属文化研究与学习资料，不构成医疗、投资或人生决策建议。语料 CC BY-NC-SA 4.0。</footer>
+</div><script>
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('chip')){
+    location.href='index.html#s='+encodeURIComponent(e.target.textContent);
+  }
+});
+if(location.hash.startsWith('#s=')){
+  const k=decodeURIComponent(location.hash.slice(3));
+  const q=document.getElementById('q');
+  if(q){const t=setInterval(()=>{if(!q.disabled){q.value=k;q.dispatchEvent(new Event('input'));
+    clearInterval(t);q.scrollIntoView({behavior:'smooth'})}},100)}
+}
+</script></body></html>

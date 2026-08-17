@@ -1,0 +1,192 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>流年卦 · 天纪</title><style>
+:root{--bg:#faf8f4;--card:#fff;--ink:#1a1d21;--muted:#6b7480;--line:#e3ded3;
+--accent:#b04a3e;--accent2:#2e7d5b;--gold:#8a7a63;--chip:#f0ece3}
+@media(prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1c1f23;--ink:#e8e6e1;
+--muted:#9aa3ad;--line:#2c3037;--chip:#24282e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;
+line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;gap:18px;height:58px}
+.logo{font-weight:700;font-size:17px;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+nav{display:flex;gap:16px;font-size:14px;color:var(--muted);margin-left:auto;flex-wrap:wrap}
+nav a:hover{color:var(--accent)}
+h1{font-size:26px;margin:28px 0 6px;letter-spacing:.5px}
+h2{font-size:19px;margin:32px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:22px 0 10px;color:var(--gold);font-weight:600}
+.sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+transition:.15s;display:block}
+.tile:hover{border-color:var(--accent);transform:translateY(-1px)}
+.tile .n{font-size:12px;color:var(--muted);letter-spacing:1px}
+.tile .t{font-size:16px;font-weight:600;margin:3px 0 5px}
+.tile .d{font-size:12.5px;color:var(--muted);line-height:1.5}
+.tile .c{font-size:12px;color:var(--accent);margin-top:8px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);
+border-radius:8px;padding:14px 16px;margin:10px 0}
+.card .q{font-size:15.5px;line-height:1.95;letter-spacing:.2px}
+.card .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:12px}
+.badge{background:var(--chip);color:var(--muted);border-radius:5px;padding:3px 8px}
+.play{background:var(--accent);color:#fff!important;border-radius:5px;padding:3px 10px;font-weight:600}
+.play:hover{opacity:.85}
+.crumb{color:var(--muted);font-size:12px}
+.note{color:var(--accent2);font-size:11.5px;background:var(--chip);border-radius:5px;padding:3px 8px}
+.chip{display:inline-block;background:var(--chip);border-radius:4px;padding:1px 5px;
+font-size:13px;color:var(--accent);cursor:pointer;margin:0 1px}
+.chip:hover{background:var(--accent);color:#fff}
+.seg{border-left:2px solid var(--line);padding:2px 0 2px 16px;margin:22px 0}
+.seg .st{font-size:14px;font-weight:600;margin-bottom:2px}
+.seg .stime{font-size:12px;color:var(--muted)}
+#q{width:100%;padding:11px 14px;font-size:15px;border:1px solid var(--line);border-radius:8px;
+background:var(--card);color:var(--ink);font-family:inherit}
+#q:focus{outline:none;border-color:var(--accent)}
+.stat{display:flex;gap:26px;flex-wrap:wrap;margin:14px 0 6px;font-size:13px;color:var(--muted)}
+.stat b{color:var(--ink);font-size:19px;font-weight:700;display:block}
+footer{margin:60px 0 30px;padding-top:20px;border-top:1px solid var(--line);
+color:var(--muted);font-size:12.5px;line-height:1.9}
+mark{background:#ffe9a8;color:#1a1d21;border-radius:2px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="index.html">天<span>纪</span>·倪海厦讲课judgment库</a>
+<nav><a href="index.html">总览</a><a href="index.html#books">十一册</a>
+<a href="index.html#units">课程</a>
+<a href="https://github.com/Renhuai123/nihai-tianji-corpus" target="_blank" rel="noopener">GitHub</a></nav>
+</div></header><div class="wrap"><h1>流年卦</h1><p class="sub">p45 · 58 条判语 · 6 个语义段 · <a href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45" target="_blank" rel="noopener" style="color:var(--accent)">B 站原片 ↗</a></p><div class="seg"><div class="st">§1 泽风大过</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=0" target="_blank" rel="noopener">▶ 00:00:00</a></div></div><div class="card"><div class="q">泽风大过，泽风大过，如果你看到的是先天卦，先天卦的时候哦，北人南相主大贵，北人南相主大贵，北方人长得像南方人斯斯文文的，那一人两母为定数，如果你是北人南相，才会有一人两母的现象南人北相，南方人你是台湾人江浙一带的人，那长得怎么孔武有力浓眉大眼，南南人北相呢主大富，不是船长的大副，然后会有这种现象，姐姐妹呢共侍一夫，姐姐妹呢共侍失</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=0" target="_blank" rel="noopener">▶ 00:00:00</a>
+<span class="badge">p45 §1</span><span class="note">cleaned</span><span class="crumb">07 方法论 › 气色与相法 › 南人北相 / 北人南相</span></div></div><div class="card"><div class="q">这是什么啊，那个有一个某健身公司的老板，就这样子啊也是我帮他算的，八牛人呢终成，如果你是先天卦是泽风大过，那你又是八牛人终成空，遇到八牛人的时候这都是有顺序的，八牛人的话先官后商大吉，那泽风大过个性呢，都是外柔内刚仁心之人，非常有仁心的仁心的，八牛是什么朱嘛，后天卦，后天卦那个人的大运，第二个开始的时候，进入后天的时候，如果是泽风大过</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=55" target="_blank" rel="noopener">▶ 00:00:55</a>
+<span class="badge">p45 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 泽风大过（p26） › 卦象 / 卦德</span></div></div><div class="card"><div class="q">他就是在社会上训练出来以后，他成为很有有栋梁之才栋染之才，但是呢无无科甲之时，有的人呢他书读得很好，但他不见得一定会有科甲，但他不见得一定会有科用，但他不见得一定会有科甲，但是泽风大过的后天卦，泽风大过会受到人重用，会受到人家重用但是处事不贞，那某党对以前这种呢这种人呢，就想办法黑官漂官嘛，像马英九啊都赶快给你加本子，一般的加本不懂啊，然后录取你然后从此就不办，了解我意思吧，那但是处事呢不贞，做事情呢不够坚心不坚心，那婚事呢有破</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=111" target="_blank" rel="noopener">▶ 00:01:51</a>
+<span class="badge">p45 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 泽风大过（p26） › 人间道</span></div></div><div class="card"><div class="q">官讼有走又不去告人家，那那那是被告会坐牢啊会怎么样，那个是被告，那那一年的时候，逢了秋冬吉春夏凶</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=534" target="_blank" rel="noopener">▶ 00:08:54</a>
+<span class="badge">p45 §1</span><span class="crumb">09 六十四卦 › 泽风大过（p26） › 人间道</span></div></div><div class="card"><div class="q">先天卦如果是坎为水，出入啊从小到大出入艰险，祸害暗生常常会受到受到灾害，但是一般先天卦祸害生的话，早这个处险哈他会自，他会处于险中乃不知止，因为他不知道节制，所以很多人被人家杀掉或者，自自己在在之前可能乱，乱炫耀自己多有钱多怎么样子，结果他才出现这种，这种凶杀的事情，牢狱官司难逃，这是批他前面30年40年的状況</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=285" target="_blank" rel="noopener">▶ 00:04:45</a>
+<span class="badge">p45 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">这种人坎为水的时候啊，不做官人爵禄显，财禄啊地位爵禄显昭，他不会去当官的，只在绿林称英雄，诸位就知道他在现在冲下闽南语在干什么，外地吉现在的绿林讲的黑社会，外地吉迁向西方，这个会向往西发展，这个有个<span class="chip">天机</span>在这里，逢牛逢鼠可得助会得到助力，贵人呢为一个大头人后天卦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=346" target="_blank" rel="noopener">▶ 00:05:46</a>
+<span class="badge">p45 §1</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">如果是坎为水，也是牢狱之灾有牢狱之灾，牢狱之灾那难免逃不掉，那后天卦如果会到的话，你要特别注意的哈，失却家人家人散失了，又行险叉这个所，我们在上面所谓的行险就是说，做冒险的事情，比如说我开赌场，我搞大家都组头台语给赌场拉客，这是行险得财嘛这个，任劳任苦这是算命我要劝人家，劝人家怎么做，任劳任苦无怨尤啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=415" target="_blank" rel="noopener">▶ 00:06:55</a>
+<span class="badge">p45 §1</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">后天卦泽风大过的话，婚姻会有问题哈不知取舍，不晓得要还是不要，实际上婚姻还是破，你自己取舍已经不能决定知不知道，所以一个官人后面，两个喜字分开来的囍字分开，<span class="chip">流年</span>卦比较重要为什么，因为我们真正在看的时候，最重要看的是<span class="chip">流年</span>卦，因为先天先天卦，我们还要用数据加减，<span class="chip">流年</span>卦的时候不需要，你直接批下去就好了，<span class="chip">流年</span>卦如果你那年是泽风大过，官司有讼，有有的打官司一直在打，然后婚事啊不成，你那年刚好<span class="chip">红鸾</span>星动<span class="chip">化忌</span>，任官有凶，当官的话会有凶，当官先成后破</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=166" target="_blank" rel="noopener">▶ 00:02:46</a>
+<span class="badge">p45 §1</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">那遇到这种算命后天卦是坎为水，知道他后面官司很多，就告诉他你要任劳任苦，不要去怨天尤人了安分守己，安只有安分守己是平安人，平平安安的，如果后天卦那个人，你帮他算了后天卦那个人是虎头人，虎头人遇到后天卦的时候，啊这个卦只有虎头人能够脱险，虎头人脱险，那牛鼠人呢，属牛属老鼠的人呢必陷，一定会陷到后天卦里面去，那就会招区，如果进入<span class="chip">流年</span>卦，如果你那年<span class="chip">流年</span>卦逢了坎为水，必有官讼这个牢狱灾</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=472" target="_blank" rel="noopener">▶ 00:07:52</a>
+<span class="badge">p45 §1</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§2 坎为水</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=548" target="_blank" rel="noopener">▶ 00:09:08</a></div></div><div class="card"><div class="q">他的前半季，那如果是鼠鼠有伤，因为我们12生肖，我们把全人类分12种12生肖，鼠有伤牛牛平安，虎人逢之逢之呢，逢到的话反吉，这里的虎人呢老虎人，除了指肖虎以外，长得像老虎的人以外，姓王的人以外，还有干司法官的干律师的，这种都是反吉啊，学官律师司法官官司对他越多，对他越有利啊这反吉嘛，那不是属虎牛的人以外，其他九个生肖的人，余人呢其他人呢有<span class="chip">大限</span>之虑</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=548" target="_blank" rel="noopener">▶ 00:09:08</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">会有<span class="chip">大限</span>之灾，这个就好像重险重险，重险是什么，重啊是千里千里的险，对啊就有的人到千，本来要去千岛湖游览，结果他是跟着这个旅行团了，结果没去哇好爽啊，还好我逃掉了对不对，然后后面我到这里去旅游，坐名古屋下去还是死掉这重险，知不知道我意思，所以那一年如果你是坎为水，发生了第一个灾你逃掉了，第二个灾第二个马上就过来，因为你认为你没有戒心的，现在严重了哈如果遇到这种事情，你就不要动不动就平安，假如大陆我们不要去我们去日本好了，那你还是名古屋还是死啊，你这个人要注定要买单的，那卜个卦先看看嘛对不对，上飞机前看看气色啊，很多很多方法可以找到</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=611" target="_blank" rel="noopener">▶ 00:10:11</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">但这种人呢往往文章才艺呢，才艺呀非常的出众，比如说他训练一只猴子，帮他走走街卖艺，文章才艺出众但是不聚财，这种人往往都是一辈子，捧个饭碗走天下，像凌那凌峰就这样子，然后婚姻方面呢结而离，然后结了离呢然后离了叉结，婚事呢婚事啊无定局，婚姻呢都不会定守固守在那边，后天卦进入这个的时候</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=736" target="_blank" rel="noopener">▶ 00:12:16</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">诸位啊你要提醒他，他一定很茫然不知所措，你要告诉他虽无方向啊，但是你要记得啊行危不惧不惧呀，以后遇到危险不要怕，你危险还没有到临的时候，当你怕的时候就已经危险了，知不知道怕就是危险嘛，这个去吉止凶，这个去吉止区，这个去吉止凶，遇到危险事的时候哦，要进不能停不能停，不是进就是退，但是绝对不能停止下来，遇到任何危险进来事情来的时候，你一止就是凶，掌那个止的时候就是凶啊，那婚呢有失妻之虑太太会丧失掉</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=792" target="_blank" rel="noopener">▶ 00:13:12</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">那注定呢继子承家业，如果是巳年生的，已年生命呢子已年命的，已年生的命的人呢，子了亦当无，这儿子会有问题，遇到这种卦的时候，这个整个他的命卦，他本身的周围的环境呢财禄日丰，一天一天比一天好，田园呢必增田园一直往上，越增越高，遇到午火午年火年的时候呢，婚事成之时这是时间的，婚事会成功，女有贵女有贵夫男有美妻</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=996" target="_blank" rel="noopener">▶ 00:16:36</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">后天卦逢到的时候，当官的人官至呢，官位会到一方之主，一个地方最大的百里侯，比如说市长县长院长校乐，但是呢一方之主但是孤立无援，就是要靠自己孤立无援，妻呢贤妻啊太太非常好，贤妻对你的助力大，但是呢最好是内助就好了，如果外助的时候得之反为凶</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1053" target="_blank" rel="noopener">▶ 00:17:33</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 坎为水（p28） › 人间道</span></div></div><div class="card"><div class="q">泽山咸呢先天卦，叫做生即啊带财来，生下来就会带财，那注定呢继子承家业</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=967" target="_blank" rel="noopener">▶ 00:16:07</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 泽山咸（p28） › 人间道</span></div></div><div class="card"><div class="q">如果刚刚好那一年这是特例的哈，那一年寅年呢遇虎有大变，不是厕所里的大便大变化财散人离，那一年你刚好<span class="chip">流年</span>卦刚好是寅年，然后你本身又属虎，或者是姓王出现这个，不是每个人都会有这种现象，那进入<span class="chip">流年</span>卦的时候，<span class="chip">流年</span>的时候我们怎么批，心有忧虑方向啊不明，那一年逢到的时候，一样你要劝他</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=853" target="_blank" rel="noopener">▶ 00:14:13</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">行危不惧方是真不要怕听到，那个人呢啊我是当官的，从官的话那一年遇到会逢暗箭，暗箭伤人，然后那一年的<span class="chip">流年</span>，遇到这个<span class="chip">流年</span>的时候，财禄和婚事，就是事业跟家家庭两不吉，两件事情都不会顺利，那你<span class="chip">流年</span>逢了之后<span class="chip">流年</span>你再去投资，买股票啊或投资什么的话，那都是这个自己会招凶，诸位看泽山咸，泽山咸这个卦比较难读，我核对了半天想了半天</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=909" target="_blank" rel="noopener">▶ 00:15:09</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">你太太出来帮你的时候反而是凶事，太太是很好但是出来做事情反而是凶事，所以有时候我们出发点是善意的，可是你有时候害到害到人家，你还不知道，如果是女命逢之女人的命呢，逢到泽山咸后天卦的时候，助夫反害夫，你遇到这个卦拿出来给那个人看，那个那个她她一定看的，心有戚戚焉了哈，所以这个卦比较难读，<span class="chip">流年</span>卦<span class="chip">流年</span>卦逢到的时候，这个就是我们的孙又了，凭空而得权禄位</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1093" target="_blank" rel="noopener">▶ 00:18:13</a>
+<span class="badge">p45 §2</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§3 离为火</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1093" target="_blank" rel="noopener">▶ 00:18:13</a></div></div><div class="card"><div class="q">诸位在我们在讲的时候，包括<span class="chip">紫微</span>斗数子平皇极经世，通通所有的我们易经推命的<span class="chip">流年</span>，全部在只占了加起来才占三分之一哦，你不要把它当全部哦了解我意思吧，像我们遇到了一下，人间道和地那个地脉道，一下就把它改掉了，诸位看天山遯，遯卦出现了，遯卦出现的时候先天卦，父不全母亦半，盖头高耳有</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1490" target="_blank" rel="noopener">▶ 00:24:50</a>
+<span class="badge">p45 §3</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">那先天卦是这种人呢，一定是明心见性，谈法这个说法谈经啊，谈佛经说法谈经，谈佛经说法谈经，这种人呢生俱佛性，生下来就具有佛性，生下来就具有佛性，那遇到这种卦的人呢，到后来啊此身呢不入官家门，如果他不走公职人员的时候，必然必为必然呢为僧林，就是做僧侣去了，就是做僧倡去了，后天卦之，后天卦遇到这种人呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1265" target="_blank" rel="noopener">▶ 00:21:05</a>
+<span class="badge">p45 §3</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 离为火（p28） › 人间道</span></div></div><div class="card"><div class="q">酒楼成酒楼可解，酒楼就是以前的饭馆嘛，那现在就讲的什么呀餐饮，我把它改掉了你这名称不一样嘛，你知道他是到酒酒，你们以前那个酒楼啊青青楼啊餐饮吉餐饮青</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1615" target="_blank" rel="noopener">▶ 00:26:55</a>
+<span class="badge">p45 §3</span><span class="crumb">09 六十四卦 › 离为火（p28） › 人间道</span></div></div><div class="card"><div class="q">都干干到总统去了，对不对一定有到极限的嘛，雷风恒，恒久不变这个恒持久，这个先天卦，如果算到的时候遇到这种哦，肖鼠两口人，肖属鼠的或者是两个口的人木限，早年入空门，早年入空门，为什么会入空空门呢，因无日头看不到<span class="chip">太阳</span></div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1208" target="_blank" rel="noopener">▶ 00:20:08</a>
+<span class="badge">p45 §3</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 雷风恒（p28） › 人间道</span></div></div><div class="card"><div class="q">当官的人他刚好逢到这个卦，他刚好遇到他当时的政局不明，为什么不不政局不清呢，因为君不明，比如说你刚好你是在，这个区公所里面做事情，结果你那一年刚好逢了雷风恒，结果区公所的那个所长呢，就是这样子会遇到这种情形，那比较严重的时候，这个严重的话严重的话的时候，比较严重事情发生的时候，叫做身入空门啊兔招凶，身入空门免招凶，然后那你说那那那倪先生，我们什么时候才会有出头一天呢，待得待得子年呢方出头</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1321" target="_blank" rel="noopener">▶ 00:22:01</a>
+<span class="badge">p45 §3</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 雷风恒（p28） › 人间道</span></div></div><div class="card"><div class="q">那空中有一拳嘛，凭空而得权禄位，凭空而得权禄位，你是商人做生意的人求，商人逢之呢得财，会赚钱赚很多得财，女人呢升职女孩子的升官，如果是官人当官的人逢之呢，须退要赶快退下来了，否则招凶，官人逢到当官的人逢到，官人逢到当官的人逢到，<span class="chip">流年</span>卦泽山咸的时候，这个官位呢一定会这样子，官官位呢到顶，那个人走到山顶上了嘛，山顶的时候到顶了下面就要走下坡，每一个人的命运官位一定会有到顶，不然每一个人干公务员，都干干到总统去了</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1153" target="_blank" rel="noopener">▶ 00:19:13</a>
+<span class="badge">p45 §3</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">要到子年的时候才会出头，子年出现的时候有凤来似，明且明且吉有凤来仪，明且明且吉有凤来仪，你<span class="chip">流年</span>卦逢到它的时候，你让逢到雷风恒，逢到雷风恒，逢到雷风恒，逢到雷风恒，<span class="chip">流年</span>逢到的时候，这年呢婚事成科甲无，婚姻会成但是考试可能不会成，官运变动当官的人呢会变动，那变动呢远方吉，那变动呢远方吉，到远方去会比较好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1378" target="_blank" rel="noopener">▶ 00:22:58</a>
+<span class="badge">p45 §3</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">到远方去会比较好，就像以前连战，20年前跑到外地去做大使，才20年就重新回去对不对，今年机会就有了，那<span class="chip">流年</span>逢到的时候要特别小心，当官的人呢看看似升官实有险，所以你不要在本地升到远方就吉了嘛，两条路我继续待在本地还是到外地去，那你选择外地选择外地，特别提醒他早早脱身呐免招陷，不脱身在恋栈的时候，就会招到陷害，招到陷害招到人家的陷害，这都是定数哦</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1433" target="_blank" rel="noopener">▶ 00:23:53</a>
+<span class="badge">p45 §3</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§4 泽山咸</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1636" target="_blank" rel="noopener">▶ 00:27:16</a></div></div><div class="card"><div class="q">干辞官归隐辞官归隐无所事啊，那如果他无所事事的时候哈，你看到那个人毛笔写的很好，或者中华文化的才艺很好，你要小心了，中华文化的精神很好没有关系，文王卦国画都属于中华这化的才艺很好，这就麻烦了，这个卦还有呢求财遇险，做生意的人哈遇到这个，后天卦遇到这个的时候，求财遇险了以后，我们说啊你要防人呐，防人不成防人照样不成，渔业平安打个框框在后面，如果他刚刚好是捕鱼人，我养鱼翁我养什么东西</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1697" target="_blank" rel="noopener">▶ 00:28:17</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 泽山咸（p28） › 人间道</span></div></div><div class="card"><div class="q">四海扬名然后呢文武双全官比父大，官老当官比他爸爸还大，那马英九就这样子啊，当的官比他爸还大啊，他爸有在当科长哦，人家去当部长去了对啊他当了赶快逃走了，不好意思啊对不对赶快退休位至三公</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1903" target="_blank" rel="noopener">▶ 00:31:43</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 泽山咸（p28） › 人间道</span></div></div><div class="card"><div class="q">这个后天卦有有八个字哦，这个是最早的时候这个，我们老祖宗呢，给这个后天卦的时候八字，给君儿八字不是这个，你的算命的八字哈，是八字真言，人遇到这个卦要怎么做，争时宜远和时宜近，这个到时候诸位就会用到，因为这个没有办法解释，因为我们也不知道，等到事情来的时候，它自然而然就会现出来，那一念之间呢天地反覆</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1964" target="_blank" rel="noopener">▶ 00:32:44</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 泽山咸（p28） › 人间道</span></div></div><div class="card"><div class="q">完全不一样你一念之错的话，那后天卦遇到这种的，猴属猴属羊属犬的加贵口误（图为猴兔犬），还要更好还要更好</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2022" target="_blank" rel="noopener">▶ 00:33:42</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 泽山咸（p28） › 人间道</span></div></div><div class="card"><div class="q">女命逢到的时候，后天卦逢到的话，这个女孩子的命逢到的时候，当官呢比她的老公还大，现现在很多人，看她的官比先生大这样，但是女人逢到的时候哈官比夫大，如果如果哈后天卦还有一个，如果你受天子天子的禄命的时候，所谓受天子禄命直接总统，来任用你的时候，得人心呢却背利，这个背利呢背后你能够得到人心</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2051" target="_blank" rel="noopener">▶ 00:34:11</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 泽山咸（p28） › 人间道</span></div></div><div class="card"><div class="q">升的非常的好，那男人逢到的时候，妻太太妻子有重病，但是无无灾，这个病灾会有解会平安的</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2180" target="_blank" rel="noopener">▶ 00:36:20</a>
+<span class="badge">p45 §4</span><span class="crumb">09 六十四卦 › 雷风恒（p28） › 人间道</span></div></div><div class="card"><div class="q">餐饮青餐饮吉，女命逢之啊，女人命逢到的时候特别注意哈中年丧偶后天卦，这个中年丧偶诸位知道什么样子的嘛哈，女孩子的命逢了后天卦了，后天卦天山遯的时候，女命呢夫先失丈夫先走，辛劳成家就变她一个人了，就不会再有不会再有婚姻了哦，外阻肉险外有阻力内有险，外阻肉险外有阻力内有险，外阻内险外有阻力内有险，外阻肉险外有阻力肉有险，如果是男命呢，男人命逢了这个后天卦的话，辞官归隐辞官归隐无所事啊</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1636" target="_blank" rel="noopener">▶ 00:27:16</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 天山遯（p28） › 卦象 / 卦德</span></div></div><div class="card"><div class="q">什么叫大壮啊，如果先天卦逢到大壮卦的时候哦，口误（图为猴兔犬）猴羊犬成格成一个格，如果他刚好说哎倪先生，我刚好是长男我是大儿子，长男呢更壮，女呢不成女人得到雷天大壮的话会招凶，会招凶为什么招凶呢过刚，女孩子太刚猛不好，那成格的人呢，凡是成格的人哈成格的人呢，逢凶每个人都会有凶事的，逢凶呢不为凶名（扬四海）</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1847" target="_blank" rel="noopener">▶ 00:30:47</a>
+<span class="badge">p45 §4</span><span class="crumb">09 六十四卦 › 雷天大壮（p30） › 人间道</span></div></div><div class="card"><div class="q">那个没有事平安，<span class="chip">流年</span>卦<span class="chip">流年</span>卦逢到了，<span class="chip">流年</span>卦逢到天山遯的话，特别要小心哦这是有父凶之年，官运呢停滞停滞在那边，当官的要特别小心，财禄钱财了没有财禄没有</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1753" target="_blank" rel="noopener">▶ 00:29:13</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">这个我们推背图里面有个，南山有罗北山雀北山雀南山有雀北山罗，这个险在什么南山险在南山，女命呢女人的命逢到的话，碰到这个的时候夫凶先生不好，事业不明就是不晓得做什么了，在遇到这种灾的时候险中有险，我们遇到险事的时候哈，遇到<span class="chip">流年</span>不好的时候，停滞的时候咍，停滞的时候哈，不管他的命卦是什么，不管他的八字是什么哈，诸位永远记得，你去学东西学习呀，学习任何东西通通是平安的学习东西</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=1791" target="_blank" rel="noopener">▶ 00:29:51</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">但是背后还是这个，这个利本身并不是得利的利哈，背利就是说有种被利用，被利用的被利用的现象，<span class="chip">流年</span>卦逢到的时候，贵人贵人来助啊，贵人来助呢得快快利财，那过去我们讲的快利财，就好像现在讲的赌钱，或者是你拉把一拉拉到台语老虎机把手下注，或者是这样乐乐透也中奖，那<span class="chip">流年</span>逢到逢到猴羊犬口误（图为猴兔犬），逢到猴羊犬呢加吉加更責</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2107" target="_blank" rel="noopener">▶ 00:35:07</a>
+<span class="badge">p45 §4</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">那官的当官的人呢，官的人当官的人逢到呢升迁，<span class="chip">流年</span>逢到升迁，他升迁的时候还求之不得呢，就原来想想求都求不到</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2166" target="_blank" rel="noopener">▶ 00:36:06</a>
+<span class="badge">p45 §4</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§5 雷风恒</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2180" target="_blank" rel="noopener">▶ 00:36:20</a></div></div><div class="card"><div class="q">流浪在外无家可归，流浪在外无家可归，八七父不全母散，母母亲离散，母母亲离散，永远要记得切记哈，永远要记得切记哈，赌不兴家，历史到现在从来没有看到人，赌会兴家的哈，赌绝对不要兴家不会，遇到这个卦唯酉人，你属鸡的怎么样酉酉人呢，下称心如意，称心如意，只有鸡的人平安非常好，那其他十一生肖的人</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2236" target="_blank" rel="noopener">▶ 00:37:16</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 雷风恒（p28） › 人间道</span></div></div><div class="card"><div class="q">婚凶婚姻凶手下犯上，这个手下包括子女，这个手下包括子女，然后呢会有三度梅的现象三度梅开</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2356" target="_blank" rel="noopener">▶ 00:39:16</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 雷风恒（p28） › 人间道</span></div></div><div class="card"><div class="q">人财人和身体和钱财呢，都人财损伤都都会有损，都会有损那男命逢到的话妻先招凶，可能凶在太太身上，那这一年中间呢，如果后天卦逢到的话，慎防虎人老虎的，那虎在这只老虎在虎视，旁边在虎视眈眈在看回禄之灾</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2667" target="_blank" rel="noopener">▶ 00:44:27</a>
+<span class="badge">p45 §5</span><span class="crumb">09 六十四卦 › 雷风恒（p28） › 人间道</span></div></div><div class="card"><div class="q">官事啊当官就当公务员了，官事阻会有阻，官事阻会有限，官事阻会有阻，结果呢反求于下只有向下求，前下中年以后大吉，这个卦一定要在中年以后才会好，所以先天卦如果是火地晋的时候，富贵晚来，过去有句话叫做富贵呢，这个催人老啊，就是说富贵来得很晚，如果是后天卦，遇到这个晋卦，婚凶婚姻凶手下犯上</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2296" target="_blank" rel="noopener">▶ 00:38:16</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 火地晋（p30） › 人间道</span></div></div><div class="card"><div class="q">明夷卦出现的时候，明夷卦很重要，如果先天卦是明夷卦，会有这种现象，父不全母全，生逢呢家业没落时，如果再逢寅年，你的先天的四十几罗中间，再逢又中间又逢到寅年的时候哈，会有雪上加霜的现象，会比较会有更严重，而那年呢母又区，申猴结果你一看他，来帮他排的时候一看，整个人长了动作讲话</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2499" target="_blank" rel="noopener">▶ 00:41:39</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地火明夷（p30） › 人间道</span></div></div><div class="card"><div class="q">叫做回天乏力，叫做回天乏力，<span class="chip">大限</span>呢数终在寅，这个有颈之戒，包括你被吊死勒死，或者是得到淋巴癌，有颈之戒都是这个非常的不好明夷卦，那你说老师可不可以把明夷擦掉，我们不要排这个，那就好像把<span class="chip">化忌</span>拿掉一样，如果你是后天卦算到这个，这也是先天卦没有，就后天卦是地火明夷记得啊，在算命的力量无力回天，当然我们还有算命只有三分之一啊，我们还有人和地</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2611" target="_blank" rel="noopener">▶ 00:43:31</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地火明夷（p30） › 人间道</span></div></div><div class="card"><div class="q">遇到这种卦不管是先天卦后天卦，你逢了地火明夷的时候哈，只有一件事情可以解決，守成正财为人工作，就是安安分分找人家找份工作，帮人家做领固定的薪水</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2707" target="_blank" rel="noopener">▶ 00:45:07</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地火明夷（p30） › 人间道</span></div></div><div class="card"><div class="q">然后呢要谨言慎行方可无忧，所以我们常常说讲话，每一个人都会讲话，讲话不要乱讲懂不懂你讲讲错的话，结果自己会招凶如果是，你说老师我刚好今年逢到地火明夷，啊我今年就逢到地火明夷，怎么办呢，在易经推的时候，易经在轮回循环的时候呢，就是<span class="chip">大限</span>数已终，那遇到这一年的话，不逢血光也有火厄，你不不是死在刀光剑影下，也是被火烧死</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2726" target="_blank" rel="noopener">▶ 00:45:26</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 地火明夷（p30） › 人间道</span></div></div><div class="card"><div class="q">逢鸡呢必成，只有逢鸡的时候非常的好从商大吉，这个鸡呢除了是鸡人以外，人长得像鸡说还有鸡年都算，这个从商大吉，不必呢留连，不要留连在什么呀官，不要再留连在官府中，当官的人这个时候可以去官离官，自己去到外地去发展，<span class="chip">流年</span>那年逢到火地晋，诸位要记得哦，诸侐要记得哦，婚事凶婚事破</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2372" target="_blank" rel="noopener">▶ 00:39:32</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="card"><div class="q">升迁无望升迁没有希望了，升迁无望没有希望了，升迁无望升迁没有希望了，然后失权位权位丧失掉，然后失权位权位丧失掉，这个时候呢他的<span class="chip">流年</span>呢，反求手下求于手下，如果是恰逢刚刚好那一年呢，又是酉年或是鸡人，或者逢到鸡人，只有这种人呢反过来，必可称心如意，必可称心如意，必可称心如意，必可称心如意，财禄呢大进逢鸡的人，遇到这个<span class="chip">流年</span>卦的时候是最好，诸位看地火明夷</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2431" target="_blank" rel="noopener">▶ 00:40:31</a>
+<span class="badge">p45 §5</span><span class="note">cleaned</span><span class="crumb">12 铁板神数 › 流年卦</span></div></div><div class="seg"><div class="st">§6 天山遯</div><div class="stime"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2726" target="_blank" rel="noopener">▶ 00:45:26</a></div></div><div class="card"><div class="q">山医命卜相，他是一家的对吧，像山像我们练九阳神功对不对，你看我头发都黑黑的，连个自发都找不到一根精神很好，医对不对你们现在学的，是后面三个了解我意思吧，这个不知道你们可要，因为你今天要去，人间道要去帮忙人家的时候，当你去帮人家卜卦或者怎么样，你站那边他一看到你两眼发黑，全身发黄有讲话有气无力对不对，然后还哦你等一下，然后拿个喷药喷一下，他想你给自己算算命好了，还给我算命了对不对，你如果是医生那他更惨对不对，医生跑出来要精气神都要有啊对不对，那医生跑出来满头都是白，白布包到然后一个眼睛黑的，然后对不对这什么医生嘛，所以一定要有山医，那自己要把身体练的很好，练的很好以外才有能力帮人家，那这山医部分</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2843" target="_blank" rel="noopener">▶ 00:47:23</a>
+<span class="badge">p45 §6</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">全部是属于人间道的部分，都属于人间道的部分，所以我们在算命算出来如果有灾，有什么灾的时候，我们用医学上的技术人事上的技术，地理位置上的技术帮他改，那人古了1/3地理上占1/3，2/3就会大于天命，那有的人呢，如果你没有人事上的技术，你光是算命是天，然后地理位置去改的时候，这个1/3这个1/3这两个就在抗争，懂不懂我意思，这两个就在抗都会相抗，那如果你没有地理上的位置，你天命算上你有病灾，然后你用医学上的技术，人事上医学上的技术跟它抗，也是在人与天争懂不懂我意思，所以现在医学就在这边懂了嘛，那如果我们加上地脉道，把它改到位置上，改到身体很好的位置上，就会人和地加在一起就会大于上天，这就是我们所谓的人与天争，这是中国从古到今一直传下来的，天人地三才的观念</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2900" target="_blank" rel="noopener">▶ 00:48:20</a>
+<span class="badge">p45 §6</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">诸位不觉得这个比较合理吗，可是你说你知道现在外面怎么做，啊遇到危险了，然后一个怎么样去去那个，这个这个画符念咒啊，然后再怎么样在家里面怎么弄啊，弄了半天啊都不对，通通弄到形都没有弄到神，都没有弄到神，所以说诸位这一段这个部分呢，人间道的部分哈，运用的很娴熟，把易经简化成几个很简单的规则，简单讲很简单的规律，那我们人一一辈子啊有限，你说你说你有多少岁好了，你有120岁好不好我就给你120岁，然后你这120岁中间都没有意外车祸，你也没有蒙古痴呆，也晚年也没有什么老人障碍，我们要易经呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2955" target="_blank" rel="noopener">▶ 00:49:15</a>
+<span class="badge">p45 §6</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">这就给大家要地雷复，什么叫复要始复，什么叫复要始复，刚开始就回头，对不对就是我刚刚讲的，千万不要不复懂不懂为什么不复，很多人到了八九十岁以后，还不知道这一辈子他要做什么，因为他一直是迷复，到到了后来复到极限到第六爻的话，然后人一生不晓得在做什么，所以我们算命的目的，弄了半天就是告诉你，当你遇到<span class="chip">流年</span>不好的时候，你看自己<span class="chip">流年</span>不好，你在工作环境上真的也不好的时候，当你有了这种认命的观念以后，你应该很愉快为什么命，不是我不行不是我不行，啊命中大运<span class="chip">流年</span>对我不利，我们认了命以后这是消极的，还有更好的怎么样，我们要如何来怎么样用命如何用它，所以<span class="chip">流年</span>逢到山地剥，你如果你遇到剥的时候，我们不要讲地理位置，你<span class="chip">流年</span>遇到剝卦，我们要人事上人间道，人间道的方法一样可以让你赚到钱哦，那大家都在剥你一个人还在赚</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=3012" target="_blank" rel="noopener">▶ 00:50:12</a>
+<span class="badge">p45 §6</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">你<span class="chip">流年</span>遇到天地香，遇到地火明夷的时候，人家都在家里面做头七的，你还在还在外面滑滑溜冰的，骑摩托车还好得很，这是人间道上走，那要运用的很娴熟，那切记的一点就是，你跟他讲了很多人间道，然后你让你的客户或朋友，讲人人间道，然后讲完人家都听进去了，结果你自己知行不合一知行不合一，所以当你们去教人家帮人家，以后去帮人家的时候哦，要记得一个观念，这个孟子说的孟子说什么，人之患莫过于为师，一个人的最大的忧患了，就是去当家的老师最惠，最最大的忧患，你今天钱丢了你再赚回来，什么东西都不优患，当家的老师最忧患为什么，因为真正当老师</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=3070" target="_blank" rel="noopener">▶ 00:51:10</a>
+<span class="badge">p45 §6</span><span class="note">cleaned</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">这一我们现在一堂课就要九个，诸位在明夷卦出现的时候，记得哈算命都是1/3，我们最好拿去核对八字，八字斗数呢我们排出来，<span class="chip">三方四正</span>排出来我看看斗数，走在那个宫是什么，诸位千万要以要以斗数为主，这个呢只能为辅，然后斗数加上这个加上我们所有看相，我们去测字算命下卦，全部只有三分之一哦了解我意思吧，所有的在命在，现在外面都是在算而已，所有的化解之道全部在人间道，人间道还有地脉道地脉道，那你们现在所有的人间道都学了，就是人事上都学了，唯一你们没有学到的是医学上的技术，医学上技术因为病我们要医啊，所以以前中国古人呢</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=2786" target="_blank" rel="noopener">▶ 00:46:26</a>
+<span class="badge">p45 §6</span><span class="crumb">08 易理总纲 › 四、三道：天机道 / 人间道 / 地脉道 › 定义与分工</span></div></div><div class="card"><div class="q">学生和老师还是面对面，老师还是上上课啊对不对，他们在做每天在花人民的钱，浪费人民的钱在讨论无意必的事情，一个制度我们天火同人就解决掉了，对不对他还在讨论制度你看，你说我们当台湾百姓很可怜了，那易经里面没有易经里面这样子写啊，圣经没有这样子写啊对不对，所以他们按照圣经的方法，我们都很惨牧羊人嘛，去找羊去带老虎对不对都不好，我们休息一下</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=3238" target="_blank" rel="noopener">▶ 00:53:58</a>
+<span class="badge">p45 §6</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 天火同人（p18） › 人间道</span></div></div><div class="card"><div class="q">老师可以不要进步吗，老师就是到顶了，老师就是无敔的吗，你错了上帝没有这样子说啊，所以外面很多老师哈，现在立法院在在讨论教育制度的问题呀，个人认为说应该讨论，制度还是其次制度很简单，要讨论老师师资如何重新认定，叫老师到立法院来，跟立法院谈话，你看你去教小学，你凭什么资格教小学对不对，现在外面出车祸死掉了都是有驾照的，你有考上老师资格不见得，你一定可以当很好的老师呀对不对，你是师大毕业的，不见得你是最好的老师，现在社会上都是被形绑到，所以现在还在立法院，还在解決形的问题，还在谈制度的问题，这人都没有用了制度制度怎么样，你如果人很有用，那制度随便他怎么拟无所谓啊，对不对制度不管怎么变，每天早上你看到了，外面还是学生去上课，老师在那边教，制度再怎么变老师还</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=3182" target="_blank" rel="noopener">▶ 00:53:02</a>
+<span class="badge">p45 §6</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 天山遯（p28） › 人间道</span></div></div><div class="card"><div class="q">真的是把当把老师当成一种，一种认为说责任很重的时候，他们希望每一个人都很棒，每一个人都很强，那他用的方法很多都不一样，那现在很多老师呢，他们的患就变成表面啊，当了老师以后就旧井了懂不懂，易经不是水风井吗，那老师就当旧井了，你去给他上课十年前的讲，还在拿出来跟你讲，旧他没有旧井之戒，他他患在这里，所以每个老师担心的都不一样，那些老师每次在旧井的老师，他没有新的他永远是旧的，那我们担心的是在担心在日新月异，所以诸位将来不管是，我们要出去做什么，你要当人家老师或者怎么样，一定要日新月异，让学生三个月碰不到你，你又不一样了，三年碰不到你的话吓死了，那在两年碰五年碰不到你的话，重新拜你为师，才这个才老师才是好的嘛，老师要进步啊上上帝有说</div>
+<div class="meta"><a class="play" href="https://www.bilibili.com/video/BV1KJsLekEfA?p=45&t=3126" target="_blank" rel="noopener">▶ 00:52:06</a>
+<span class="badge">p45 §6</span><span class="note">cleaned</span><span class="crumb">09 六十四卦 › 水风井（p36） › 人间道</span></div></div>
+<footer>本站内容为倪海厦先生《天纪》课程判语的结构化整理，每条均可回放原视频核对。<br>
+课程内容著作权归倪海厦先生及其权利继承人所有；字幕整理致谢 B 站 UP 主程心学。<br>
+内容属文化研究与学习资料，不构成医疗、投资或人生决策建议。语料 CC BY-NC-SA 4.0。</footer>
+</div><script>
+document.addEventListener('click',e=>{
+  if(e.target.classList.contains('chip')){
+    location.href='index.html#s='+encodeURIComponent(e.target.textContent);
+  }
+});
+if(location.hash.startsWith('#s=')){
+  const k=decodeURIComponent(location.hash.slice(3));
+  const q=document.getElementById('q');
+  if(q){const t=setInterval(()=>{if(!q.disabled){q.value=k;q.dispatchEvent(new Event('input'));
+    clearInterval(t);q.scrollIntoView({behavior:'smooth'})}},100)}
+}
+</script></body></html>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624 756" font-family="PingFang SC, Noto Sans SC, sans-serif">
+<rect width="624" height="756" fill="#faf8f4"/>
+<line x1="87.0" y1="87.0" x2="537.0" y2="237.0" stroke="#8a7a63" stroke-width="2.0" stroke-dasharray="7 5" opacity="0.5"/>
+<rect x="12" y="12" width="150" height="150" fill="#f3ddc4" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="21" y="34" font-size="14" fill="#8a7a63">巳</text>
+<text x="87.0" y="68" font-size="25" text-anchor="middle" fill="#1a1d21" font-weight="bold">太阴</text>
+<rect x="162" y="12" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="171" y="34" font-size="14" fill="#8a7a63">午</text>
+<rect x="312" y="12" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="321" y="34" font-size="14" fill="#8a7a63">未</text>
+<rect x="462" y="12" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="471" y="34" font-size="14" fill="#8a7a63">申</text>
+<rect x="12" y="162" width="150" height="150" fill="#f7f2e8" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="21" y="184" font-size="14" fill="#8a7a63">辰</text>
+<text x="87.0" y="218" font-size="19" text-anchor="middle" fill="#1a1d21" font-weight="bold">太阴</text>
+<rect x="462" y="162" width="150" height="150" fill="#f3ddc4" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="471" y="184" font-size="14" fill="#8a7a63">酉</text>
+<text x="537.0" y="218" font-size="25" text-anchor="middle" fill="#1a1d21" font-weight="bold">太阳</text>
+<rect x="12" y="312" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="21" y="334" font-size="14" fill="#8a7a63">卯</text>
+<rect x="462" y="312" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="471" y="334" font-size="14" fill="#8a7a63">戌</text>
+<rect x="12" y="462" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="21" y="484" font-size="14" fill="#8a7a63">寅</text>
+<rect x="162" y="462" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="171" y="484" font-size="14" fill="#8a7a63">丑</text>
+<rect x="312" y="462" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="321" y="484" font-size="14" fill="#8a7a63">子</text>
+<rect x="462" y="462" width="150" height="150" fill="#ffffff" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.92"/>
+<text x="471" y="484" font-size="14" fill="#8a7a63">亥</text>
+<rect x="162" y="162" width="300" height="300" fill="#faf8f4" stroke="#8a7a63" stroke-width="1.3" fill-opacity="0.9"/>
+<text x="312.0" y="290.0" font-size="27" text-anchor="middle" fill="#1a1d21" font-weight="bold">日月反背</text>
+<text x="312.0" y="322.0" font-size="17" text-anchor="middle" fill="#2e7d5b">吉格</text>
+<text x="312.0" y="354.0" font-size="12" text-anchor="middle" fill="#6b7480">连线：三合</text>
+<text x="14" y="648" font-size="13.5" fill="#1a1d21">日月俱落陷、出没颠倒：太阳酉时下山、太阴巳时出，主披星戴月、六亲不靠</text>
+<text x="14" y="670" font-size="13.5" fill="#1a1d21">、离祖。</text>
+<text x="14" y="700" font-size="11.5" fill="#6b7480">—— 倪海厦《天纪》p15 §6 @00:20:22</text>
+<text x="14" y="720" font-size="11" fill="#a8b0ba">本图依判语数据重绘（非原板书复制）· nihai-tianji-corpus · MIT</text>
+</svg>
