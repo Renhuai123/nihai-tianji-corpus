@@ -4,5 +4,5 @@
   https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
 - `tools/` 中的代码：**MIT License**
 
-原课程内容著作权归倪海厦先生及其权利继承人所有；校正字幕致谢 B 站 UP 主程心学。
+原课程内容著作权归倪海厦先生及其权利继承人所有。
 本仓库为学习研究目的的短引文结构化整理，收到权利方异议将立即下架相应内容。

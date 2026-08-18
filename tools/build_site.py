@@ -191,7 +191,7 @@ def page(title, body, depth=0, extra_js=""):
 <a href="https://github.com/Renhuai123/nihai-tianji-corpus" target="_blank" rel="noopener">GitHub</a></nav>
 </div></header><div class="wrap">{body}
 <footer>本站内容为倪海厦先生《天纪》课程判语的结构化整理，每条均可回放原视频核对。<br>
-课程内容著作权归倪海厦先生及其权利继承人所有；字幕整理致谢 B 站 UP 主程心学。<br>
+课程内容著作权归倪海厦先生及其权利继承人所有。<br>
 内容属文化研究与学习资料，不构成医疗、投资或人生决策建议。语料 CC BY-NC-SA 4.0。</footer>
 </div><script>{JS_CHIP}{extra_js}</script></body></html>"""
 
