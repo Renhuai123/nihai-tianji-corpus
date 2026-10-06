@@ -8,10 +8,10 @@
 
 **天纪全量**：紫微斗数 / 易经（序卦 + 六十四卦）/ 堪舆 / 铁板神数，四学科全覆盖。
 
-> 🎉 **天纪板块已上线 [metisziwei.com](https://metisziwei.com/tianji)** —— 本库的 4886 条判语
+> 🎉 **天纪板块已上线 [metisziwei.com](https://metisziwei.com/tianji?from=gh-corpus)** —— 本库的 4886 条判语
 > 已接入线上平台，现在就能按体系检索、按课程跟读，每一句都可一键回放倪师原视频。欢迎体验、欢迎指正。
 
-线上体验：[排盘与 AI 解读](https://metisziwei.com) · [天纪知识库](https://metisziwei.com/tianji)
+线上体验：[排盘与 AI 解读](https://metisziwei.com/?from=gh-corpus) · [天纪知识库](https://metisziwei.com/tianji?from=gh-corpus)
 
 ## 数字总览
 
@@ -139,7 +139,7 @@ def url(e):
 
 ## 线上平台 · metisziwei.com
 
-本库是 [metisziwei.com](https://metisziwei.com) 的知识层。平台已上线排盘、AI 解读、命盘历史等功能，
+本库是 [metisziwei.com](https://metisziwei.com/?from=gh-corpus) 的知识层。平台已上线排盘、AI 解读、命盘历史等功能，
 **天纪板块现已开放**：这 4886 条判语已接成可检索、可回放的学习产品——按十一册体系查，
 或按 112 个课程单元跟读，点任一条出处直达 B 站原视频的那一秒。
 
@@ -157,7 +157,7 @@ def url(e):
 这份语料同样如此：倪师讲的话本就属于所有想学的人。我们做的是把它整理成
 每句可回放、可溯源、可检索的形态，然后开源出来。
 
-想自己搭？数据和管线都在这里，拿去用。嫌麻烦？来 [metisziwei.com](https://metisziwei.com) 直接用。
+想自己搭？数据和管线都在这里，拿去用。嫌麻烦？来 [metisziwei.com](https://metisziwei.com/?from=gh-corpus) 直接用。
 
 ## 关联项目
 
@@ -183,7 +183,7 @@ def url(e):
 
 ## 相关链接
 
-- 线上平台：[metisziwei.com](https://metisziwei.com)
+- 线上平台：[metisziwei.com](https://metisziwei.com/?from=gh-corpus)
 - 姊妹库：[nihai-renji-corpus](https://github.com/Renhuai123/nihai-renji-corpus)（人纪 · 六部中医经典）
 - 排盘引擎：[ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)
 - 本仓库：[nihai-tianji-corpus](https://github.com/Renhuai123/nihai-tianji-corpus)
